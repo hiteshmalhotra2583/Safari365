@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>First consultation email for Repeat/Referral ( instructions to the Members Club included)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>1.02 STAGE = LEAD DE</name>
+    <style>freeForm</style>
+    <subject>Safari365: Planning Your Safari to Africa</subject>
+    <textOnly>Dear {!Lead.FirstName},
+
+Excellent to hear from you and thank you once again for contacting Safari365.
+
+I would love to be of assistance for your upcoming trip to Africa,
+
+XX
+XX
+XX
+
+Lastly, we are the only company to produce a personal photobook for all clients who travel with us (we will create this free of charge and courier it to you after travel, please see your Members Club for more)
+
+Looking forward to hearing from you,
+{!Lead.OwnerFullName}
+{!Lead.OwnerTitle}
+
+Other Useful Information
+Your Members Club link: https://www.safari365.com/members/login/{!Lead.Members_Club_ID__c}
+{!Lead.OwnerFirstName}&apos;s Consultant Profile: {!Lead.Consultant_Profile_Link__c}
+{!Lead.OwnerFirstName}&apos;s direct phone number: {!Lead.OwnerPhone}
+{!Lead.OwnerFirstName}&apos;s email address: {!Lead.OwnerEmail}
+
+Get to know us better! Read our Blog
+
+_______________________________________________________________________________________________
+
+Safari365
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Toll Free: UK  080 823 44485  USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325  Fax: 086 658 1713
+www.safari365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

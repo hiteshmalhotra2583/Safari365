@@ -1,0 +1,37 @@
+<apex:page showHeader="false" sidebar="false" standardController="Quotations__c" extensions="MultiSelectCheckboxPassengerController" docType="html-5.0" >
+    <apex:pageMessages ></apex:pageMessages>
+    <apex:form html-novalidate="novalidate">
+        <table>
+            <tr><td></td></tr>
+            <tr>
+            <td>Opportunity: </td><td style="padding-left: 17px;"><apex:inputField value="{!newQuotation.Opportunity__c}" label="Opportunity"  /></td>
+            </tr>
+            <tr>
+            <td>Quotation Name: </td><td style="padding-left: 17px;"><apex:inputField value="{!newQuotation.Quotation_Name__c}"  /></td>
+            </tr>
+            <tr>
+            <td>Quotation Start Date: </td><td style="padding-left: 17px;"><apex:input type="date" value="{!TravelStartDate}"/> </td>
+            </tr>
+            <tr>
+            <td>Quotation End Date: </td><td style="padding-left: 17px;"><apex:input type="date"  value="{!TravelEndDate}"/> </td>
+            </tr>
+            <!--<tr>
+                <td> Confirmed:  </td><td style="padding-left: 15px;"><apex:inputField value="{!newQuotation.Confirmed__c}"  label="Confirmed"/></td>
+            </tr>-->
+            <tr>
+            <td>Passengers: </td><td ><apex:selectCheckboxes value="{!SelectedPassengers}" layout="pageDirection" >
+            <apex:selectoptions value="{!PassengerSelectOptions}"></apex:selectoptions>
+                </apex:selectCheckboxes></td>
+            </tr>
+            <tr>
+                <td style="width:200px;align:center" align="right">
+                    <apex:commandButton title="Save" value="Save" action="{!Save}"/>
+                    <!-- &nbsp;&nbsp;&nbsp;
+                    <apex:commandButton title="Save & New" value="Save & New" action="{!SaveAndNew}"/>-->
+                    &nbsp;&nbsp;&nbsp;
+                    <apex:commandButton title="Cancel" value="Cancel" action="{!Cancel}"/>
+                </td>
+            </tr>
+        </table>
+    </apex:form> 
+</apex:page>

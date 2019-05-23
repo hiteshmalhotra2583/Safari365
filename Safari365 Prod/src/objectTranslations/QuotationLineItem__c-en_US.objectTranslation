@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Quotation Line Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Quotation Line Items</value>
+    </caseValues>
+    <fields>
+        <label><!-- AllServiceLineItemCount --></label>
+        <name>AllServiceLineItemCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- All SLI Cancelled --></label>
+        <name>All_SLI_Cancelled__c</name>
+    </fields>
+    <fields>
+        <label><!-- All SLI Confirmed --></label>
+        <name>All_SLI_Confirmed__c</name>
+    </fields>
+    <fields>
+        <label><!-- All SLI Raised Invoice --></label>
+        <name>All_SLI_Raised_Invoice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancelled Count --></label>
+        <name>Cancelled_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Confirmed Status --></label>
+        <name>Confirmed_Status__c</name>
+        <picklistValues>
+            <masterLabel>Confirmed</masterLabel>
+            <translation><!-- Confirmed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation><!-- Processing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Confirmed ServiceLineItems --></label>
+        <name>Confirmed_serviceLineItems__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day --></label>
+        <name>Day__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Count --></label>
+        <name>Display_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Format Date --></label>
+        <name>Format_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance COS in USD --></label>
+        <name>Insurance_COS_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance COS in ZAR --></label>
+        <name>Insurance_COS_in_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance  Sale in USD --></label>
+        <name>Insurance_Sale_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance  Sale in ZAR --></label>
+        <name>Insurance_Sale_in_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Line_Item_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Markup in Eur --></label>
+        <name>MarkupEur__c</name>
+    </fields>
+    <fields>
+        <label><!-- Markup in USD --></label>
+        <name>MarkupUSD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Markup in Zar --></label>
+        <name>Markup_in_Zar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Cost in Zar --></label>
+        <name>Net_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nett Cost in EUR --></label>
+        <name>Nett_Cost_in_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nett Cost in USD --></label>
+        <name>Nett_Cost_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photobooks COS in USD --></label>
+        <name>Photobooks_COS_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photobooks COS in ZAR --></label>
+        <name>Photobooks_COS_in_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photobooks Sale in USD --></label>
+        <name>Photobooks_Sale_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photobooks Sale in ZAR --></label>
+        <name>Photobooks_Sale_in_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- QLI with SLI --></label>
+        <name>QLI_with_SLI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation --></label>
+        <name>Quotation__c</name>
+        <relationshipLabel><!-- Quotation Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Raised Invoice ServiceLineItems --></label>
+        <name>RaisedInvoice_ServiceLineItems_c__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raised Invoice Status --></label>
+        <name>Raised_Invoice_Status__c</name>
+        <picklistValues>
+            <masterLabel>Confirmed</masterLabel>
+            <translation><!-- Confirmed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UnConfirmed</masterLabel>
+            <translation><!-- UnConfirmed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Related Services Count --></label>
+        <name>Related_Services_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLI Confirmed --></label>
+        <name>SLI_Confirmed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sale in Zar --></label>
+        <name>Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sale in Eur --></label>
+        <name>Sale_in_Eur__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sale in USD --></label>
+        <name>Sale_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceLineItem Count For Raised Invoice --></label>
+        <name>ServiceLineItem_Count_For_Raised_Invoice__c</name>
+    </fields>
+    <layouts>
+        <layout>Quotation Line Item Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Service Line --></label>
+        <name>New_Service_Line</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

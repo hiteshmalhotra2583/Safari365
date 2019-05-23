@@ -1,0 +1,17 @@
+Hi {!Opportunity.OwnerFirstName}, 
+
+{!Opportunity.Name} has confirmed their safari, and {!Opportunity.Referring_Client_Name__c} referred this client to Safari365
+
+NB - TO DO:
+
+1: Please send {!Opportunity.Referring_Client_Name__c} an email thanking them and requesting their physical address. Find out which gift they want ( wine or coffee table book) NB - Send the thank you email from the account page here https://eu1.salesforce.com/{!Opportunity.Referring_Client_NameId__c} and use use template 6.5 in the consulting template folder as the base ( but personalize it first) 
+
+2: Once you have received the address and which gift - go back to {!Opportunity.Referring_Client_Name__c}'s account page here https://eu1.salesforce.com/{!Opportunity.Referring_Client_NameId__c} and enter their full address in the 'Shipping Address' field. Add delivery notes for the courier company as applicable. Make sure the address is perfect.
+
+3: Now, go to the MITB opportunity for {!Opportunity.Name} here https://eu1.salesforce.com/{!Opportunity.Id} :
+ - Change the status of the drop down for Gift Send Status to "Address Provided/Updated  - Send Gift". 
+ - Let us know what gift to send (wine or coffee table book in the field  " Which Gift Sent/To Be Sent?"
+ - If you have elected not to send the client a gift, make the Gift Send Status "Do Not Send Gift". 
+ - Save all.
+
+4: Admin will handle the gift sending on your behalf.

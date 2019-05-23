@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>TZ Serengeti + TZ Safari and Beach Tour</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2017 July Newsletter English</name>
+    <style>none</style>
+    <subject>The Serengeti: Tanzania&apos;s Safari Icon</subject>
+    <textOnly>The Serengeti: Tanzania&apos;s Safari Icon
+
+Dear [fname],
+
+The first sight of the Serengeti is unforgettable. Brilliant blue skies stretch out above seemingly endless rolling plains. Acacia trees are spread across the savanna grasslands and diverse wildlife wonders through the landscape.  The Serengeti National Park is arguably the world’s best safari destination and wildlife sanctuary. It is renowned for its wildlife population, especially the Great Wildebeest Migration which journeys around the landscape for the majority of the year, and the always present resultant predators.
+
+This month we feature the Serengeti and all of its appeal.
+
+Experiencing this celebrated destination, either by land, by air or while exploring the plains on a mobile tented safari, is unforgettable. Conservationist George Schaller once said; “No one can return from the Serengeti unchanged, for tawny lions will forever prowl our memory and great herds throng our imagination,” and we couldn’t agree more.
+
+Yours in Safari,
+
+Safari365 Founder</textOnly>
+    <type>custom</type>
+</EmailTemplate>

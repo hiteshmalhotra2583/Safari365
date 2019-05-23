@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Assign lead to dedicated consultant</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>External: Meet Your Consultant</name>
+    <style>freeForm</style>
+    <subject>Safari365: Bem-vindo!</subject>
+    <textOnly>Olá {!Lead.FirstName},
+
+Agradecemos a escolha pelos nossos serviços.
+
+Para iniciarmos o planejamento da sua viagem, gostaríamos de apresentar sua consultora, {!Lead.OwnerFullName}.
+
+{!Lead.OwnerFirstName} possui ampla experiência na montagem de roteiros sob medida na África e entrará em contato com você em breve. Você está em ótimas mãos e caso tenha dúvidas, entre em contato conosco através dos telefones abaixo.
+
+Como você deve saber, somos uma operadora de viagens líder na África preparada para fornecer as melhores experiências neste mágico continente. Nossa sede localiza-se na Cidade do Cabo, África do Sul, e temos consultores no Brasil prontos para atender o mercado local.
+
+Além disso, somos a única operadora que fornece como cortesia um photobook da sua jornada africana.
+
+Estamos ansiosos para receber você do outro lado do Atlântico.
+
+Atenciosamente,
+Marcus Brain
+Fundador Safari365
+
+{!Lead.Intro_Video__c}
+
+Informações adicionais:
+Telefone de contato {!Lead.OwnerFirstName}: {!Lead.OwnerPhone}
+Email {!Lead.OwnerFirstName}: {!Lead.OwnerEmail}
+
+{!Lead.Consultant_Image__c}
+__________________________________________________________________________
+
+www.safari365.com/pt
+
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

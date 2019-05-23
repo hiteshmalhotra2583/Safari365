@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Competition_10_Year_Giveaway_Win_a_Safari_to_Africa_Thank_You</letterhead>
+    <name>Competition: Acocunt 10 Year Thank you for entering PT 3</name>
+    <style>freeForm</style>
+    <subject>Agradecemos a inscrição &quot;Ganhe uma viagem dos sonhos na África - Safari365&quot;</subject>
+    <textOnly>Olá {!Account.FirstName},
+
+Agradecemos a inscrição no sorteio &quot;Ganhe uma viagem dos sonhos na África - Safari365&quot;.
+
+O vencedor será anunciado no dia 21 de Novembro de 2016.
+
+Boa sorte!!!
+Safari365</textOnly>
+    <type>html</type>
+</EmailTemplate>

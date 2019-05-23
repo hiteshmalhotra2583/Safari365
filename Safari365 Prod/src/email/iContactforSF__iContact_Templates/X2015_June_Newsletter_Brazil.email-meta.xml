@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 June Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Safari365: Viajar é contar histórias</subject>
+    <textOnly>Viajar é contar histórias
+
+Olá {!Lead.FirstName},
+
+Escrevo diretamente da ensolarada Tanzânia. Acabei de publicar fotos fresquinhas da nossa viagem no Instagram. Estamos muito felizes em fazer parte desta rede social e de poder compartilhar fotos instantâneas com vocês.
+
+Viajar é muito mais do que apreciar paisagens; é a oportunidade de contar novas histórias de lugares distantes. E nenhum lugar é mais perfeito do que a África para isso. Um continente repleto de regiões intocadas pelo homem e locais a serem descobertos e explorados. Sem contar a magia por trás de toda a natureza e do povo africano. O dia a dia aqui sempre surpreende - até mesmo viajantes experientes como eu. Outro dia cruzei com um homem que consegue escalar o Monte Kilimanjaro em 8 horas – subir e descer! Também experimentei diferentes cervejas da região do Serengeti, as quais recomendo para quem se aventurar por aqui. Ando colhendo muitas experiências novas desta jornada pela Tanzânia.
+
+Independente de sorrisos ou lágrimas, viajar nos faz mais humano. Por isso, este mês convidamos vocês a sentirem as mesmas emoções que estamos sentindo por aqui através do nosso blog, das nossas publicações nas redes socias e das nossas ofertas especiais de viagem. Tudo o que você precisa saber sobre a África está aqui!
+
+~  Marcus Brain, fundador da Safari365  ~
+
+
+Safari365
+Old Marine Dr Foreshore,
+Cape Town, 8000, South Africa
+Safari365.com/pt</textOnly>
+    <type>custom</type>
+</EmailTemplate>

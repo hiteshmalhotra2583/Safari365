@@ -1,0 +1,438 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html style="overflow: visible hidden;" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible" />
+    <style type="text/css">
+      @media only screen and (max-width: 620px) {
+      [id=topMessageWrapper] img {
+      height: auto !important;
+      max-width: 100%;
+      width: auto;
+      }
+      [id=topMessageWrapper],
+      [id=topMessageWrapperMainTable] {
+      width: 100% !important;
+      table-layout: fixed;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      }
+      }@media only screen and (max-width: 450px) {
+      [id=topMessageWrapper] {
+      padding: 0 10px;
+      }
+      td[class=responsiveColumn] {
+      width: 100% !important;
+      height: auto !important;
+      display:block;
+      padding: 0;
+      clear:both;
+      height:auto;
+      }
+      }    </style>
+  </head>
+  <body style="margin: 0; padding: 0;">
+    <p>
+      &nbsp;</p>
+    <table bgcolor="#f2f2f2" cellpadding="0" cellspacing="0" style="background-color:#f2f2f2" width="100%">
+      <tbody>
+        <tr>
+          <td align="center" style="text-align:left">
+            <table align="center" bgcolor="#f2f2f2" cellpadding="0" cellspacing="0" id="topMessageWrapper" style="background-color: #f2f2f2; color: #333333; font-family: 'Georgia'; font-size: 12px; width: 590px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top: 5px solid #ffffff; border-right: 5px solid #ffffff; border-bottom: 5px solid #ffffff; border-left: 5px solid #ffffff; margin: 0 auto;" width="590">
+              <tbody>
+                <tr>
+                  <td>
+                    <!-- DESIGNER TEMPLATE: Grid --><!-- BASIC TEMPLATE: unknown derivation -->
+                    <table border="0" cellpadding="0" cellspacing="0" id="topMessageWrapperMainTable" width="590">
+                      <tbody>
+                        <tr>
+                          <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;" width="100%">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td bgcolor="#ffffff" class="responsiveColumn" style="background-color: #ffffff; border-width: 0px; border-style: none; border-color: transparent; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top" width="390">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top">
+                                            <div style="border-color: #c2d9e7;">
+                                              <table cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                  <td bgcolor="#ffffff" class="responsiveColumn" style="background-color: #ffffff; border-width: 0px; border-style: none; border-color: transparent; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top" width="200">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top">
+                                            <div style="border-color: #c2d9e7;">
+                                              <table cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td bgcolor="#ffffff" class="responsiveColumn" style="background-color: #ffffff; border-width: 0px; border-style: none; border-color: transparent; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top" width="100%">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td style="padding-top: 15px; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top">
+                                    <div style="border-color: #c2d9e7;">
+                                      <table cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <img src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/0e81aee22d1ed8dbc6273eb1b0dd7a32/image/jpeg" style="width: 590px;" width="590" /></p>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div style="border-color: #c2d9e7;">
+                                      <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td style="border-bottom: 2px solid #a8afb2; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                              <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="font-size: 27px;"><font color="#374850" style=""><b style=""><i style="">Kruger's Private Game Reserves: </i></b></font></span></p>
+                                              <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="font-size: 27px;"><font color="#374850" style=""><b style=""><i style="">An Exclusive Safari Experience</i></b></font></span></p>
+                                              <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="font-size: 15px;"><span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="color: #666666;">Dear [fname],</span></span></span><br />
+                                                &nbsp;</p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="color: #666666;"><span style="font-size: 15px;"><span style="font-family: trebuchet ms,helvetica,sans-serif;">What makes a Kruger National Park safari exceptional?&nbsp;</span></span></span><span style="color: #666666; font-family: &quot;trebuchet ms&quot;, helvetica, sans-serif; font-size: 15px;">Is it the thrill of Big 5 sightings, the picturesque landscapes, the lodges, the hospitality or the expert guiding?</span></p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="color: #666666;"><span style="font-size: 15px;"><span style="font-family: trebuchet ms,helvetica,sans-serif;">The answer? All of the above.</span></span></span></p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="color: #666666;"><span style="font-size: 15px;"><span style="font-family: trebuchet ms,helvetica,sans-serif;">At Safari365, we have over a decade of experience in creating spectacular Kruger safaris. Over the years, we have learned that an unforgettable safari is shaped by an exceptional overall experience enjoyed at&nbsp;</span></span></span><span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="font-size: 15px;"><span style="color: #666666;">one of Kruger’s private game reserves.</span></span></span></p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="font-size: 15px;"><span style="color: #666666;">Destinations such as&nbsp;</span><a href="https://www.safari365.com/travel-destinations/south-africa/kruger-park/sabi-sands" style="color: #55aadd!important;"><span style="color: #ff6600;"><u>Sabi Sands</u></span></a><span style="color: #666666;">,&nbsp;</span><a href="https://www.safari365.com/travel-destinations/south-africa/kruger-park/timbavati" style="color: #55aadd!important;"><span style="color: #ff6600;"><u>Timbavati</u></span></a><span style="color: #666666;">,&nbsp;</span><a href="https://www.safari365.com/travel-destinations/south-africa/kruger-park/thornybush" style="color: #55aadd!important;"><span style="color: #ff6600;"><u>Thornybush</u></span></a><span style="color: #666666;">&nbsp;and&nbsp;</span><a href="https://www.safari365.com/travel-destinations/south-africa/kruger-park/kapama" style="color: #55aadd!important;"><span style="color: #ff6600;"><u>Kapama</u></span></a><span style="color: #666666;">, are home to an array of lodges and camps which offer&nbsp;some of the most exclusive and luxurious safari experiences in Southern Africa. </span></span></span></p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="font-size: 15px;"><span style="color: #666666;">During a stay at a private game reserve, travelers can look forward to top quality accommodation and warm South African hospitality. Out in the scenic African bush, unparalleled safari adventures await. From tracking the Big 5 with expert rangers, to guided bush walks and sunset game drives; excitement is everywhere.</span></span></span></p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="color: #666666;"><span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="font-size: 15px;">This month, we have an exclusive last minute Kruger and Mozambique combo special offer for our travelers. Enjoy the best of a private Kruger safari and a relaxing Mozambique beach getaway with our <strong>Untamed Luxury: From Kruger to the Coast </strong>special<strong>. </strong>Book now and travel between 1 November and 19 December 2018 for an unforgettable African adventure.</span></span></span></p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <br />
+                                                <span style="font-size: 15px;"><span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="color: #666666;">Yours in Safari,</span></span></span></p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="color: #374850;"><strong><span style="font-size: 22px;"><span style="font-family: georgia,serif;"><em>The Safari365 Team</em></span></span></strong></span></p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="font-size: 15px;"><span style="font-size: 16px;"><span style="font-size: 15px;"><span style="font-family: trebuchet ms,helvetica,sans-serif;"><a href="https://www.safari365.com/meet-the-team" style="color: #55aadd!important;"><span style="color: #ff6600;"><u>Find out more about our team here</u></span></a></span></span></span></span></p>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div style="">
+                                      <table cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <br />
+                                                &nbsp;&nbsp;</p>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="responsiveColumn" style="color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top" width="100%">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top">
+                                    <div>
+                                      <table cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                              &nbsp;</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;" width="100%">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td bgcolor="#ffffff" class="responsiveColumn" style="background-color: #ffffff; border-width: 0px; border-style: none; border-color: transparent; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top" width="50%">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding-bottom: 10px; padding-right: 10px; padding-top: 10px; padding-left: 10px; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top">
+                                            <div style="border-color: #c2d9e7;">
+                                              <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top: 0px none transparent; border-right: 0px none transparent; border-bottom: 0px none transparent; border-left: 0px none transparent; color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <a href="https://www.safari365.com/travel-destinations/south-africa/kruger-park" style="color: #55aadd!important;"><img src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/6946ddf14c7239a24eafaab382b10b52/image/jpeg" style="" /></a></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <font color="#374850" face="trebuchet ms, helvetica, sans-serif"><span style="font-size: 18px;"><b>Get to Know Greater Kruger's Private Game Reserves</b></span></font></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <span style="color: #666666;"><span style="font-size: 15px;"><span style="font-family: trebuchet ms,helvetica,sans-serif;">South Africa’s largest national park is home to a number of private game reserves. We have listed a few that top our list as prime Kruger destinations including&nbsp;</span></span></span><a href="https://www.safari365.com/travel-destinations/south-africa/kruger-park/sabi-sands" style="color: #55aadd!important;"><span style="color: #ff6600;"><span style="font-family: &quot;trebuchet ms&quot;, helvetica, sans-serif; font-size: 15px;"><u>Sabi</u></span></span><span style="color: #ff6600;"><span style="font-family: &quot;trebuchet ms&quot;, helvetica, sans-serif; font-size: 15px;"><u>&nbsp;</u></span></span><span style="font-family: &quot;trebuchet ms&quot;, helvetica, sans-serif; font-size: 15px; color: #ff6600;"><u>Sands</u></span></a><span style="font-family: &quot;trebuchet ms&quot;, helvetica, sans-serif; font-size: 15px; color: #666666;">,&nbsp;</span><a href="https://www.safari365.com/travel-destinations/south-africa/kruger-park/timbavati" style="font-family: &quot;trebuchet ms&quot;, helvetica, sans-serif; font-size: 15px; color: #55aadd!important;"><span style="color: #ff6600;"><u>Timbavati</u></span></a><span style="font-family: &quot;trebuchet ms&quot;, helvetica, sans-serif; font-size: 15px; color: #666666;">,&nbsp;</span><a href="https://www.safari365.com/travel-destinations/south-africa/kruger-park/thornybush" style="font-family: &quot;trebuchet ms&quot;, helvetica, sans-serif; font-size: 15px; color: #55aadd!important;"><span style="color: #ff6600;"><u>Thornybush</u></span></a><span style="font-family: &quot;trebuchet ms&quot;, helvetica, sans-serif; font-size: 15px; color: #666666;"> and </span><a href="https://www.safari365.com/travel-destinations/south-africa/kruger-park/kapama" style="font-family: &quot;trebuchet ms&quot;, helvetica, sans-serif; font-size: 15px; color: #55aadd!important;"><span style="color: #ff6600;"><u>Kapama</u></span></a><span style="font-family: &quot;trebuchet ms&quot;, helvetica, sans-serif; font-size: 15px; color: #666666;">. All offer world-class safari experiences.</span></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <a href="https://www.safari365.com/travel-destinations/south-africa/kruger-park" style="color: #55aadd!important;"><span style="color: #ff6600;"><u><span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="font-size: 15px;">Read more on our website &gt;&gt;</span></span></u></span></a></p>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                  <td bgcolor="#ffffff" class="responsiveColumn" style="background-color: #ffffff; border-width: 0px; border-style: none; border-color: transparent; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top" width="50%">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding-bottom: 10px; padding-left: 10px; padding-top: 10px; padding-right: 10px; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top">
+                                            <div style="border-color: #c2d9e7;">
+                                              <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <a href="https://www.safari365.com/specials/special-simbavati-machangulo" style="color: #55aadd!important;"><span style="font-family: tahoma,geneva,sans-serif;"><img src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/bdcdfa6d98365475fddc3363cd4deed8/image/jpeg" style="margin: 0px; border: 0px solid #55aadd;" /></span></a></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <span style="color: #374850;"><strong><span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="font-size: 18px;">Last Minute Safari Special: Kruger and Mozambique&nbsp;</span></span></strong></span></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <span style="color: #666666;"><span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="font-size: 15px;">Spend six nights enjoying a luxurious safari and beach getaway. Book now and travel between 1 November and 19 December 2018.</span></span></span><span style="font-size: 15px; font-family: &quot;trebuchet ms&quot;, helvetica, sans-serif; color: rgb(102, 102, 102);">&nbsp;</span></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <span style="color:#666666;"><span style="font-size:15px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><strong>Prices starting from $2119 per person sharing. </strong>Includes all meals and transfers.</span></span></span></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <a href="https://www.safari365.com/specials/special-simbavati-machangulo" style="color: #55aadd!important;"><span style="color: #ff6600;"><u><span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="font-size: 15px;">More information here &gt;&gt;&nbsp;</span></span></u></span></a></p>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td bgcolor="#ffffff" class="responsiveColumn" style="border-width: 0px; border-style: none; border-color: transparent; background-color: #ffffff; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top" width="50%">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding-bottom: 10px; padding-right: 10px; padding-top: 10px; padding-left: 10px; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top">
+                                            <div style="border-color: #c2d9e7;">
+                                              <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <a href="https://www.safari365.com/blog/kruger-private-game-reserves" style="color: #55aadd!important;"><img src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/23fa0abddb9962178ae49961d3f4ee72/image/jpeg" style="width: auto;" width="auto" /></a></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <br />
+                                                        <span style="color: #374850;"><strong><span style="font-size: 18px;"><span style="font-family: trebuchet ms,helvetica,sans-serif;">Why Choose a Private Game Reserve?</span></span></strong></span></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <span style="color: #666666;"><span style="font-size: 15px;"><span style="font-family: trebuchet ms,helvetica,sans-serif;">Kruger is one of the world’s premier wildlife watching destinations. One of the best ways to experience it is by visiting a private game reserve. Read about our top reasons why.</span></span></span></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <a href="https://www.safari365.com/blog/kruger-private-game-reserves" style="color: #55aadd!important;"><span style="color: #ff6600;"><u><span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="font-size: 15px;">Read more on our blog &gt;&gt;</span></span></u></span></a></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                  <td bgcolor="#ffffff" class="responsiveColumn" style="border-width: 0px; border-style: none; border-color: transparent; background-color: #ffffff; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top" width="50%">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding-bottom: 10px; padding-left: 10px; padding-top: 10px; padding-right: 10px; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top">
+                                            <div style="border-color: #c2d9e7;">
+                                              <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <a href="https://www.safari365.com/blog/review-june2018" style="color: #55aadd!important;"><span style="font-family: tahoma,geneva,sans-serif;"><img alt="" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/f5e85b55f23c8c51495edef01199fe02/image/jpeg" style="margin: 0px; border: 0px solid #55aadd;" /></span></a></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="color: #374850;"><strong><span style="font-size: 18px;">Review: Bucket List Experience - Ticked!&nbsp;</span></strong></span></span></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="font-size: 15px;"><span style="color: #666666;">From Cape Town to Kruger National Park and the beautiful Victoria Falls, Eugene and Pam saw vibrant cities and thrilling wildlife on their Southern African trip. They shared their highlights with us.</span></span></span></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <a href="https://www.safari365.com/blog/review-june2018" style="color: #55aadd!important;"><span style="color: #ff6600;"><u><span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="font-size: 15px;">Read more on our blog &gt;&gt;</span></span></u></span></a></p>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td bgcolor="#ffffff" class="responsiveColumn" style="background-color: #ffffff; border-width: 0px; border-style: none; border-color: transparent; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top" width="100%">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top">
+                                    <div style="border-color: #c2d9e7;">
+                                      <table cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div style="border-color: #c2d9e7;">
+                                      <table cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <br />
+                                                <img height="38" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/a35f0c7e602ad6c55aae8a2129ee1874/image/jpeg" style="width: 590px; display: inline; height: 38px;" width="590" /></p>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div style="border-color: #c2d9e7;">
+                                      <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td bgcolor="#374850" style="border-top: 0px none #999999; padding-top: 9px; background-color: #374850; padding-right: 9px; padding-bottom: 9px; padding-left: 9px; color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                              <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="font-size: 14px;"><span style="color: #a8afb2;"><span style="font-family: verdana,geneva,sans-serif;"><em>“The World is a book, and those who do not travel read only a page.”<br />
+                                                  <strong>Saint Augustine</strong></em></span></span></span><br />
+                                                &nbsp;</p>
+                                              <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <img alt="Logo Safari Sm" height="auto" src="https://www.safari365.com/images/logo_safari_sm.png" style="box-sizing: inherit; border: 0px none; max-width: 100%; height: auto; display: inline-block; vertical-align: middle; margin-right: 20px; color: #a8afb2; font-family: Roboto,Arial,sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #37484f;" title="Logo Safari Sm" width="52" /><span style="color: #a8afb2; font-family: Roboto, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #37484f; display: inline !important; float: none;"><span>&nbsp;</span></span><span style="box-sizing: inherit; color: #a8afb2; font-family: Roboto, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #37484f;">Copyright © 2018 Safari365. All rights reserved</span></p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      &nbsp;</p>
+  </body>
+</html>

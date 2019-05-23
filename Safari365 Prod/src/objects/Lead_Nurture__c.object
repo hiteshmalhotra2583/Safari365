@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Active_and_outdoor_adventure__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Active and outdoor adventure</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Beach_relaxation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Beach relaxation</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Botswana__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Botswana</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Lead Nurturing</relationshipLabel>
+        <relationshipName>Lead_Nurturing</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Converted_to_Lead__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Converted to Lead</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Country_of_residence__c</fullName>
+        <externalId>false</externalId>
+        <label>Country of residence</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Argentina</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Australia</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Austria</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Barbados</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Belgium</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Botswana</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Brazil</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Canada</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>China</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Croatia</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Czech Republic</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Denmark</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Djibouti</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Dominica</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>France</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Germany</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Ghana</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gibraltar</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Greenland</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>India</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Ireland</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Italy</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Jordan</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Korea, Republic of</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Latvia</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Liberia</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Madagascar</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Mali</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Malta</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Namibia</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>New Zealand</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Nigeria</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Norway</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Pakistan</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Portugal</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Quatar</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Rwanda</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Scotland</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Singapore</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>South Africa</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Tanzania</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Thailand</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Turkey</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>United Arab Emirates</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>United Kingdom</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>USA</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Zimbabwe</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Email_Log_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Email Log Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <externalId>true</externalId>
+        <label>Email</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Escalation_Speed__c</fullName>
+        <externalId>false</externalId>
+        <label>Escalation Speed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Normal</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Slow</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Family_safaris__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Family safaris</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>First_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>First Name</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Food_and_Wine__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Food and Wine</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>History_and_culture__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>History and culture</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Honeymoons_and_romance__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Honeymoons and romance</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Kenya__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Kenya</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Last_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Nurture__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Lead Nurture</label>
+        <referenceTo>Lead_Nurture__c</referenceTo>
+        <relationshipLabel>Lead Nurturing</relationshipLabel>
+        <relationshipName>Lead_Nurturing</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Lead__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Exists as Lead</label>
+        <referenceTo>Lead</referenceTo>
+        <relationshipLabel>Lead Nurturing</relationshipLabel>
+        <relationshipName>Lead_Nurturing</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Mozambique__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Mozambique</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Namibia__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Namibia</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NewsLetterSent__c</fullName>
+        <externalId>false</externalId>
+        <label>NewsLetterSent</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Newsletter__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Newsletter</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Next_NewsLetter_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Next NewsLetter Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Other_Brochures__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Brochures</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Other_Interests__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Interests</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Phone</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Brochure__c</fullName>
+        <externalId>false</externalId>
+        <label>Primary Brochure</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rwanda__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Rwanda</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Source</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>South_Africa__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>South Africa</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>INTRO</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>EARLY</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MID</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LATE</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tanzania__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Tanzania</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Uganda__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Uganda</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Victoria_Falls__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Victoria Falls</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Walking_safaris__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Walking safaris</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Website_origin__c</fullName>
+        <externalId>false</externalId>
+        <label>Website origin</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Web: safari365.com</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Web: safari365.com.au</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Web: southafrica365.com</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Web:safari365.com.tur.br</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Web: top5africa.com</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Wildlife_and_safari_experiences__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Wildlife and safari experiences</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Zambia__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Zambia</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Zanzibar_and_Pemba__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Zanzibar and Pemba</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Lead Nurture</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>First_Name__c</columns>
+        <columns>Last_Name__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <columns>Wildlife_and_safari_experiences__c</columns>
+        <columns>Honeymoons_and_romance__c</columns>
+        <columns>Family_safaris__c</columns>
+        <columns>Food_and_Wine__c</columns>
+        <columns>History_and_culture__c</columns>
+        <columns>Walking_safaris__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Nurtured Leads</label>
+    </listViews>
+    <nameField>
+        <displayFormat>LN-{00000}</displayFormat>
+        <label>Lead Nurture Id</label>
+        <trackHistory>true</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Lead Nurturing</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <webLinks>
+        <fullName>Convert_To_Lead</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Convert To Lead</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/24.0/connection.js&quot;)}
+
+var urlSplit = document.URL.split(&quot;/&quot;);
+//alert(urlSplit[3])
+//alert(urlSplit.length)
+if(urlSplit.length &gt;= 4){
+	result = sforce.connection.query(&quot;Select Id, Name, Email__c, First_Name__c, Last_Name__c, Phone__c, Source__c, Wildlife_and_safari_experiences__c, Beach_relaxation__c, Honeymoons_and_romance__c, Walking_safaris__c, Food_and_Wine__c, Active_and_outdoor_adventure__c, History_and_culture__c, Family_safaris__c, Lead_Nurture__c, Escalation_Speed__c, Newsletter__c, Other_Interests__c, South_Africa__c, Tanzania__c, Kenya__c, Victoria_Falls__c, Botswana__c, Namibia__c, Mozambique__c, Zambia__c, Zanzibar_and_Pemba__c, Rwanda__c, Uganda__c FROM Lead_Nurture__c where Id=&apos;&quot; +urlSplit [3] + &quot;&apos;&quot;);
+	records = result.getArray(&quot;records&quot;);
+	//alert(records.length)
+	if(records.length &gt;= 1 ){
+		var leadNuture= records[0];
+                var email =leadNuture[&quot;Email__c&quot;];
+		//alert(email);
+		result = sforce.connection.query(&quot;Select Id,Email from Lead where Email=&apos;&quot; +email + &quot;&apos;&quot;);
+		//alert(&apos;lead resullt&gt;&gt;&gt;&apos;+result);
+		records = result.getArray(&quot;records&quot;);
+              // alert(&quot;lead record&quot;+ records);
+           //  alert(&quot;record length &quot;+records.length);
+            //  alert(leadNuture[&quot;Countries_of_Interest__c&quot;]);
+	    
+              if(records.length == 0 ){
+		var leads = [];
+		var lead = new sforce.SObject(&quot;Lead&quot;);
+		lead.FirstName = leadNuture[&quot;First_Name__c&quot;] ;
+                lead.LastName = leadNuture[&quot;Last_Name__c&quot;] ;
+            //  lead.Name =leadNuture[&quot;First_Name__c&quot;] + leadNuture[&quot;Last_Name__c&quot;] ;;
+		lead.Email=leadNuture[&quot;Email__c&quot;];
+		//lead.LeadSource =leadNuture[&quot;Source__c&quot;];
+                 lead.LeadSource =&apos;LeadNuture&apos;;
+                lead.Active_and_adventure_tours__c=leadNuture[&quot;Active_and_outdoor_adventure__c&quot;];
+                lead.Beach_relaxation__c=leadNuture[&quot;Beach_relaxation__c&quot;];
+            //    lead.Culture_and_history__c=leadNuture[&quot;Culture_and_history__c&quot;];
+                lead.Family_safaris__c=leadNuture[&quot;Family_safaris__c&quot;];
+               lead.History_and_culture__c=leadNuture[&quot;History_and_culture__c&quot;];
+                lead.Honeymoons_and_Romance__c=leadNuture[&quot;Honeymoons_and_romance__c&quot;];
+                lead.Phone=leadNuture[&quot;Phone__c&quot;];
+                lead.Walking_Safaris__c=leadNuture[&quot;Walking_safaris__c&quot;];
+                lead.Newsletter__c=leadNuture[&quot;Newsletter__c&quot;];
+                lead.Countries_of_Interest__c=leadNuture[&quot;Countries_of_Interest__c&quot;];
+                lead.Wildlife_Safaris__c=leadNuture[&quot;Wildlife_and_safari_experiences__c&quot;];
+
+         lead.South_Africa__c=leadNuture[&quot;South_Africa__c&quot;];
+       lead.Tanzania__c=leadNuture[&quot;Tanzania__c&quot;];
+       lead.Kenya__c=leadNuture[&quot;Kenya__c&quot;];
+      lead.Victoria_Falls__c=leadNuture[&quot;Victoria_Falls__c&quot;];
+      lead.Botswana__c=leadNuture[&quot;Botswana__c&quot;];
+     lead.Namibia__c=leadNuture[&quot;Namibia__c&quot;];
+     lead.Mozambique__c=leadNuture[&quot;Mozambique__c&quot;];
+   lead.Zambia__c=leadNuture[&quot;Zambia__c&quot;];
+   lead.Zanzibar_and_Pemba__c=leadNuture[&quot;Zanzibar_and_Pemba__c&quot;];
+    lead.Rwanda__c=leadNuture[&quot;Rwanda__c&quot;];
+       lead.Uganda__c =leadNuture[&quot;Uganda__c &quot;];
+    lead.Food_and_Wine__c=leadNuture[&quot;Food_and_Wine__c&quot;];
+		//alert(lead)
+		leads.push(lead );
+		var result = sforce.connection.create(leads);
+               //alert(&quot;result &gt;&gt;&gt;&gt;&quot;+result[0]);
+                var sb = &quot;&quot;;
+		if (result[0].getBoolean(&quot;success&quot;)) {
+		sb =  result[0].id;
+		//alert(sb);
+		var params = sb ;
+		window.open(&apos;/&apos; + params ,&apos;_self&apos;);
+	   }
+      }
+   else{
+    var lead = records[0] ;
+   //alert(&apos;lead in else block&apos;+lead);
+       var leads = [];
+	
+		lead.FirstName = leadNuture[&quot;First_Name__c&quot;] ;
+                lead.LastName = leadNuture[&quot;Last_Name__c&quot;] ;
+            //  lead.Name =leadNuture[&quot;First_Name__c&quot;] + leadNuture[&quot;Last_Name__c&quot;] ;;
+		lead.Email=leadNuture[&quot;Email__c&quot;];
+		lead.LeadSource =&apos;Lead Nuture&apos;;
+                lead.Active_and_adventure_tours__c=leadNuture[&quot;Active_and_outdoor_adventure__c&quot;];
+                lead.Beach_relaxation__c=leadNuture[&quot;Beach_relaxation__c&quot;];
+            //    lead.Culture_and_history__c=leadNuture[&quot;Culture_and_history__c&quot;];
+                lead.Family_safaris__c=leadNuture[&quot;Family_safaris__c&quot;];
+                lead.History_and_culture__c=leadNuture[&quot;History_and_culture__c &quot;];
+                lead.Honeymoons_and_Romance__c=leadNuture[&quot;Honeymoons_and_romance__c&quot;];
+                lead.Phone=leadNuture[&quot;Phone__c&quot;];
+                lead.Walking_Safaris__c=leadNuture[&quot;Walking_safaris__c&quot;];
+                lead.Newsletter__c=leadNuture[&quot;Newsletter__c&quot;];
+                lead.Countries_of_Interest__c=leadNuture[&quot;Countries_of_Interest__c&quot;];
+                lead.Wildlife_Safaris__c=leadNuture[&quot;Wildlife_and_safari_experiences__c&quot;];
+                 
+         lead.South_Africa__c=leadNuture[&quot;South_Africa__c&quot;];
+       lead.Tanzania__c=leadNuture[&quot;Tanzania__c&quot;];
+       lead.Kenya__c=leadNuture[&quot;Kenya__c&quot;];
+      lead.Victoria_Falls__c=leadNuture[&quot;Victoria_Falls__c&quot;];
+      lead.Botswana__c=leadNuture[&quot;Botswana__c&quot;];
+     lead.Namibia__c=leadNuture[&quot;Namibia__c&quot;];
+     lead.Mozambique__c=leadNuture[&quot;Mozambique__c&quot;];
+     lead.Zambia__c=leadNuture[&quot;Zambia__c&quot;];
+     lead.Zanzibar_and_Pemba__c=leadNuture[&quot;Zanzibar_and_Pemba__c&quot;];
+     lead.Rwanda__c=leadNuture[&quot;Rwanda__c&quot;];
+      lead.Uganda__c =leadNuture[&quot;Uganda__c&quot;];
+       lead.Food_and_Wine__c=leadNuture[&quot;Food_and_Wine__c&quot;];
+		//alert(lead)
+		leads.push(lead );
+               var results = sforce.connection.upsert(&quot;Id&quot;,leads);
+	      // alert(&quot;result in upsert&gt;&gt;&gt;&gt;&quot;+results[0]);
+                var sbs = &quot;&quot;;
+		if (results[0].getBoolean(&quot;success&quot;)) {
+		sbs =  results[0].id;
+		//alert(sbs);
+		var params = sbs ;
+		window.open(&apos;/&apos; + params ,&apos;_self&apos;);
+	   }
+       //alert(&quot;Its already Converted!!!!!!&quot;);
+     }
+	
+	} 	
+     else{
+     alert(&quot;Its already Converted!!!!!!&quot;);
+     }	  
+}</url>
+    </webLinks>
+</CustomObject>

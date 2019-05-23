@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>IntegrationLog</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>IntegrationLogs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Callout Time --></label>
+        <name>Callout_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Class --></label>
+        <name>Error_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Description --></label>
+        <name>Error_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Request --></label>
+        <name>Service_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Response --></label>
+        <name>Service_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- IntegrationLogs --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

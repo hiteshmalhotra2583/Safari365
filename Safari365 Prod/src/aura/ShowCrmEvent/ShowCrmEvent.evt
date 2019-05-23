@@ -1,0 +1,3 @@
+<aura:event type="COMPONENT" description="Event thrown when a CRM link is clicked">
+    <aura:attribute name="selection" type="Object" access="global" description="Data associated with the selected tree node/leaf"/>
+</aura:event>

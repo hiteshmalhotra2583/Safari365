@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>*** REMINDER: YOUR CLIENT STARTS TRAVELLING IN 60 DAYS BALANCE DUE ***</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Client Arrival in 60 Days - Balance Due</name>
+    <style>none</style>
+    <subject>{!Account.Name} - Starts Travelling in 60 Days Full Balance Due</subject>
+    <type>text</type>
+</EmailTemplate>

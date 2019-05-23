@@ -1,0 +1,3 @@
+<aura:event type="COMPONENT" description="Event thrown when an item value is updated">
+    <aura:attribute name="updatedItem" type="Object" access="global" description="Updated Data associated with the selected tree node/leaf"/>
+</aura:event>

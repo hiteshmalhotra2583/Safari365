@@ -1,0 +1,2975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <fields>
+        <fullName>Absolute_Luxury__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Absolute Luxury</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Active_and_adventure_tours__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Active and adventure tours</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activities__c</fullName>
+        <externalId>false</externalId>
+        <label>Activities</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Family Friendly</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Romance</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>The Great Migration</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Climbing Kilimanjaro</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Wildlife Safaris</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gorilla Trekking</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Beach Holiday</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Adventure</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Food and wine</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>History and culture</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Golf combination holidays</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Luxury and Pampering</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Adventure__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Adventure</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Adventure_activities__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Adventure activities</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Agent_c__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Agent</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Ages_of_Children__c</fullName>
+        <externalId>false</externalId>
+        <label>Ages of Children</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Amount</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Approval_Status__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Used for the Finance Closed Won Deal approval process</inlineHelpText>
+        <label>Approval Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Not Approved</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Arrival_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Travel Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Basket_Information__c</fullName>
+        <externalId>false</externalId>
+        <label>Basket Information</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Beach_and_bush_safaris__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Beach and bush safaris</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Beach_relaxation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Beach relaxation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Botswana__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Botswana</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Budget_Currency__c</fullName>
+        <externalId>false</externalId>
+        <label>Budget Currency</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Budget_Total__c</fullName>
+        <externalId>false</externalId>
+        <label>Budget Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Budget_or_Star_Rating__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Do you have a budget we should work within ( please specify currency excluding international airfare) or should we send you options for a 3,4 or 5 star level?</inlineHelpText>
+        <label>Budget or Star Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Budget_safaris__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Budget safaris</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Canoe_safari__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Canoe safari</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Cape_Town_SA__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Cape Town (SA)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Client_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Comments</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Client_Currency_Locked__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Client Currency Locked</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Client_Display_Currency__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose the most likely Currency your client will want to pay in (based on their Country of Residence) The client can change this in the MembersClub if they desire, but will be unable to change once the Quotation goes to stage &quot;Raised Booking Confirmation&quot;</inlineHelpText>
+        <label>Client Display Currency</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Exchange_Currency</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Client_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Client Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Climbing_Kilimanjaro__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Climbing Kilimanjaro</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CloseDate</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Close_Date_Month__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(MONTH(CloseDate))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Close Date Month</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Close_Date_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR(CloseDate))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Close Date Year</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Closed_Lost_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Closed Lost Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No response</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Price</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Client already booked</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Lost to another agent</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Client changed their destination</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Client cancelled their travel plans</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Client not contactable</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Not our market</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Postponed trip</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Availablity Constraints</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Parked - to contact later</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CoS__c</fullName>
+        <externalId>false</externalId>
+        <label>CoS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Confirmed_Booking_Approved_by_Manager__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Your line manager needs to re-check final booking details and approve this booking before it can be changed to &quot;Closed Won Deal&quot;</inlineHelpText>
+        <label>Final Booking Detail Approved by Manager</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Confirmed_Quotation_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Confirmed Quotation Count</label>
+        <summaryFilterItems>
+            <field>Quotations__c.Confirmed__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Quotations__c.Opportunity__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Confirmed_Quote_is_in_Travelogic__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Workaround for migration accross from TL to go Closed Won Deal</inlineHelpText>
+        <label>Confirmed Quote is in Travelogic</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Consultant_Target_Monthly__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Consultant Target Monthly</label>
+        <referenceTo>Consultant_Target_Monthly__c</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Method</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Phone</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ContractId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Conversion_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>CloseDate - DATEVALUE(CreatedDate)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This is the number of days from when the Opportunity was Created to the Closed Date ( ie how lonk it did take or will take to close)</inlineHelpText>
+        <label>Conversion Date (days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Country_of_Residence__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Account.Country_of_Residence__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Country of Residence (Master)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Culture_and_history__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Culture and history</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>DA_AdGroup__c</fullName>
+        <externalId>false</externalId>
+        <label>DA AdGroup</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DA_Campaign__c</fullName>
+        <externalId>false</externalId>
+        <label>DA Campaign</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DA_Keyword__c</fullName>
+        <externalId>false</externalId>
+        <label>DA Keyword</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Data_Quality_Score__c =100,&quot;All Opportunity Details Captured&quot;, &quot;Missing: &quot;&amp;IF( ISPICKVAL( Type ,&quot;&quot;),&quot;Type, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(LEN( TEXT(MONTH(CloseDate))) = 0, &quot;Close Date, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( Amount &lt;= 0, &quot;Amount, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( ISPICKVAL( LeadSource,&quot;&quot;), &quot;Lead Source, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( LEN(NextStep)=0, &quot;Next Steps&quot;,&quot;&quot;))</formula>
+        <label>Data Quality Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL(Type,&quot;&quot;), 0,20) + IF( LEN( TEXT(MONTH(CloseDate))) = 0, 0,20) + IF( Amount &lt;= 0, 0,20) + IF( ISPICKVAL( LeadSource,&quot;&quot;), 0,20) + IF( LEN(NextStep)=0, 0,20)</formula>
+        <label>Data Quality Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Destinations__c</fullName>
+        <externalId>false</externalId>
+        <label>Destinations</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cape Town (South Africa)</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cape Winelands (South Africa)</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Garden Route (South Africa)</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Kwa-Zulu Natal (South Africa)</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Kruger National Park (South Africa)</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Madikwe</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sun City (South Africa)</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Botswana</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Mozambique</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Namibia</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Victoria Falls</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Zambia</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Masai Mara</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Serengeti National Park</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Ngorongoro Crater</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Kenya Beaches</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Mt Kilimanjaro</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Zanzibar and Pemba</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Rwanda</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Uganda</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other Tanzania National Parks</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other Kenya National Reserve</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Do_Not_Send_Phptpbook_Offer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Tick this if the client must not receive an email offering the free photobook</inlineHelpText>
+        <label>Do Not Send Photobook Offer</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Duration__c</fullName>
+        <externalId>false</externalId>
+        <label>Duration</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Emergency_Mobile_Phone_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Emergency Mobile Phone Number</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Enquiry_Ref_No__c</fullName>
+        <displayFormat>SD-{000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Enquiry Ref No</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Enquiry_item__c</fullName>
+        <externalId>false</externalId>
+        <label>Enquiry item</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ExpectedRevenue</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Family_Friendly__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Family Friendly</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Family_safaris__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Family safaris</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Fishing_adventures__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Fishing adventures</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Fly_In_safaris__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Fly-In safaris</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Food_and_Wine__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Food and Wine</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>GCLID__c</fullName>
+        <externalId>false</externalId>
+        <label>Google click ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GP__c</fullName>
+        <externalId>false</externalId>
+        <formula>(  Gross_Profit__c  /Amount)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>GP %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Garden_Route_SA__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Garden Route (SA)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Gift_Sent_to_this_Opportunity_Referrer__c</fullName>
+        <description>Only tick when you have sent the gift to the person who referred this opportunity to Safari365</description>
+        <externalId>false</externalId>
+        <label>Gift Send Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Address Yet To Be Provided</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Address Provided/Updated -  Send Gift</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gift Sent</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Do Not Send Gift</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Gift_Tracking_Order_Details__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Recort this accurately, it will be automatically emailed to the Client once we update the &quot;Gift Send Status&quot; to &quot;Gift Sent&quot;</inlineHelpText>
+        <label>Courier Company &amp; Tracking#</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Golf_combination_holidays__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Golf combination holidays</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>GoogleOppFolderId__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Stores the Google Fiolder ID so system can reference file location</inlineHelpText>
+        <label>GoogleOppFolderId</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Gorilla_Trekking__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Gorilla Trekking</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Gross_Profit__c</fullName>
+        <externalId>false</externalId>
+        <label>Gross Profit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Has_Confirmed_Quotation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If there is a confirmed quotation linked to this Opportunity, it looks at this for the rollup</inlineHelpText>
+        <label>Opportunity Has a Confirmed Quotation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hide_All_Pricing_in_the_Members_Club__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Please use this field ONLY if you are selling to 1) Agents who might want to markup themselves. 2) Clients want to share the Quote with Family/Friends (but wants to hide the pricing). ONLY in these cases do you not upload the Client Facing Documentation.</inlineHelpText>
+        <label>Hide All Pricing in the Members Club</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hiking__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Hiking</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>History_and_culture__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>History and culture</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Honeymoons_and_Romance__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Honeymoons and Romance</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hot_air_ballooning__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Hot-air ballooning</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>How_can_Safari365_improve__c</fullName>
+        <externalId>false</externalId>
+        <label>How can Safari365 improve</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>IP_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>IP Address</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Improvements__c</fullName>
+        <externalId>false</externalId>
+        <label>Improvements</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Include_Travel_Insurance__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Exclude Emergency medical evacuation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Internal_Comments__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The &quot;Internal Comments&quot; are never shown to the Client, record all NB details of correspondence with the client here for future reference</inlineHelpText>
+        <label>Internal Comments</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Internal_Company__c</fullName>
+        <externalId>false</externalId>
+        <label>Internal Company</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Safari 365</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>South Africa 365</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>International_Flight_Arrival_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>International Flight Arrival Details</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>International_Flight_Departure_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>International Flight Departure Details</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>International_Flight_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>International Flight Required?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Invoice_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(Arrival_Date__c -60 &lt;  CloseDate ,  CloseDate ,
+
+Arrival_Date__c -60
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Invoice Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>IqScore</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsPrivate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Kenyan_beaches__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Kenyan beaches</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Kruger_National_Park_SA__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Kruger National Park (SA)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Kwa_Zulu_Natal_SA__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Kwa-Zulu Natal (SA)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Last_Activity_Flag__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE( 
+IF( 
+OR(LastActivityDate &lt; Today() - 7, LastActivityDate &lt;&gt; NULL) , 
+&quot;/img/samples/flag_red.gif&quot;, 
+&quot;/img/samples/flag_green.gif&quot;) , 
+&quot;/s.gif&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Last Activity Flag</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LeadComments__c</fullName>
+        <externalId>false</externalId>
+        <formula>Lead_History__r.Comments__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Additional Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_First_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead First Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_History__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Lead History</label>
+        <referenceTo>Lead_History__c</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Last_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Last Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Mobile__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Mobile</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Lead_First_Name__c &amp; &quot; &quot; &amp; Lead_Last_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Level_of_Accommodation__c</fullName>
+        <externalId>false</externalId>
+        <label>Level of Accommodation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Luxury: 5-star, exclusive, top-end service and facilities</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Standard: 4-star, good quality, good location, mid-range</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Value: 3-star, budget orientated, clean and comfortable</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Luxury__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Luxury</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Luxury_and_Pamperting__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Luxury and Pamperting</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Luxury_rail_travel__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Luxury rail travel</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Madikwe_SA__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Madikwe (SA)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Malaria_free_safaris__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Malaria free safaris</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Masai_Mara_National_Reserve__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Masai Mara National Reserve</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>May_we_use_your_photographs__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The client has agreed to Safari365 usining their images in marketing initiatives.</inlineHelpText>
+        <label>May we use your photographs</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Members_Club_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Members_Club_ID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Members Club ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Members_Club__c</fullName>
+        <externalId>false</externalId>
+        <formula>&apos;https://www.safari365.com/mc/?opp=&apos; + OpportunityId__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Members Club Link</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mid_range_accommodation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Mid-range accommodation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mozambique__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Mozambique</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mt_Kilimanjaro__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Mt Kilimanjaro</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Namibia__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Namibia</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NewImportedOpp__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>NewImportedOpp</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Newsletter_Subscription__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Newsletter Subscription</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Newsletter__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Newsletter</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NextStep</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Ngorongoro_Crater__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Ngorongoro Crater</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Adults__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Adults</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Children__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Children</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Photo_Books_Owed__c</fullName>
+        <description>How many Photo books do we Print? NB - Check Travelogic</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How many Photo books do we Print? NB - Check Travelogic</inlineHelpText>
+        <label>Number of Photo Books Owed</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OpportunityId__c</fullName>
+        <externalId>false</externalId>
+        <formula>Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_Kenyan_National_Reserves__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Other Kenyan National Reserves</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Other_Tanzania_National_Parks__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Other Tanzania National Parks</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Other__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Other</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Overall_Impressions__c</fullName>
+        <externalId>false</externalId>
+        <label>Overall Impressions</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Overall_client_safari_experience__c</fullName>
+        <externalId>false</externalId>
+        <label>Overall client safari experience</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>15</visibleLines>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>This is used for linking Passenger child Opportunities to the original Parent Opportunity (of the Primary Passenger)</inlineHelpText>
+        <label>Parent Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PartnerAccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Passenger_Details_Form__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;https://www.safari365.com/mc/passengers/?id=&quot; + &quot;&amp;opp=&quot;+OpportunityId__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Use this link to request passenger details from your clients</inlineHelpText>
+        <label>Passenger Details Form</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Phone</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PhotoBook_Tracking_Number__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter this from DHL (courrier) service as it will be automatically emailed to the client</inlineHelpText>
+        <label>PhotoBook Tracking Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PhotoBook__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>PhotoBook</label>
+        <referenceTo>PhotoBook__c</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Photobook_Missing_Images__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This flag is set when not all images were uploaded.</description>
+        <externalId>false</externalId>
+        <label>Photobook Missing Images</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Photobook_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Photobook Stage</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Loaded</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Started Loading</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Uploaded</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Ready to be Printed</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>At Printers</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sent</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Client No Longer Interested</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Photobook_Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Photobook Title</label>
+        <length>256</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Photos_have_been_moved_to_X_Drive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Photos have been moved to X-Drive</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pricebook2Id</fullName>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Primary_TL_Quotation__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Primary TL Quotation</label>
+        <referenceTo>TL_Quotation__c</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Print_extra_photo_Filename__c</fullName>
+        <description>Filename of photo shared on Facebook</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Filename of photo shared on Facebook</inlineHelpText>
+        <label>Print extra photo Filename</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Print_extra_photo_Shared_on_FB__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>This client has shared his best photograph on Facebook with us, print him an extra photo to be sent with the courier</inlineHelpText>
+        <label>Print extra photo ( Shared on FB)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Probability</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Quotation_count_stage_raiseinvoice__c</fullName>
+        <externalId>false</externalId>
+        <label>Quotation count stage raiseinvoice</label>
+        <summaryFilterItems>
+            <field>Quotations__c.Quotation_Stage__c</field>
+            <operation>equals</operation>
+            <value>Raised Invoice</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Quotations__c.Opportunity__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>ROE__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Legacy field, not part of the Ferret system</inlineHelpText>
+        <label>ROE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Rating_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Rating 1</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Rating_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Rating 2</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Rating_3__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Rating 3</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Rating_4__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Rating 4</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Rating_5__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Rating 5</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Referring_Client_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Referring Client Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NB to accurately capture - who was the client that referred this booking to Safari365? (Search their name in Salesforce. Create the client first in Salesforce if they do not exist)</inlineHelpText>
+        <label>Referring Client Name</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Review_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Review Stage</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Loaded</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>De -Active</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Roughing_it__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Roughing it</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Rwanda__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Rwanda</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Scheduled_escorted_tours__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Scheduled escorted tours</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Self_drive_tours__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Self drive tours</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Send_Email_Asking_For_Passengers_Details__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Send Email Asking For Passengers Details</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Serengeti_National_Park__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Serengeti National Park</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Service_Level_Severity__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Accurately record how severe the incident was (managers will be alerted accordingly)</inlineHelpText>
+        <label>Incident Severity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low (Easily resolved issue, no need for followup)</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Medium (Client agitated and marginally upset, Consultant to followup with client, Team Leader to be aware)</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>High (Client very upset, Team Leader to contact client to appease or escalate to management)</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Shark_cage_diving__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Shark cage diving</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Spa_and_rejuvenation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Spa and rejuvenation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Special_Itinerary_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Special Itinerary Notes</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>StageName</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Standard__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>4-star, good quality, good location mid-range accommodation.</inlineHelpText>
+        <label>Standard</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Star_Rating__c</fullName>
+        <externalId>false</externalId>
+        <label>Star Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supplier__c</fullName>
+        <externalId>false</externalId>
+        <label>Supplier</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Southern Destinations</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>African Safaris</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Support_Aservice_Description__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If you have had ANY Client Incident whilst travelling, it must be recorded here (especially if you are managing the emergency phone) Date the incident, give an accurate description and ensure you update the &quot;Incident Severity&quot; drop-down.</inlineHelpText>
+        <label>Travelling Client Incident Description</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TR_No__c</fullName>
+        <externalId>false</externalId>
+        <label>TR No</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>The_Great_Migration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>The Great Migration</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TotalOpportunityQuantity</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Total_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>TravelEndDate__c - Arrival_Date__c+1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Nights__c</fullName>
+        <externalId>false</externalId>
+        <formula>TravelEndDate__c -  Arrival_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Nights</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TravelEndDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Travel End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Travel_Date_Options__c</fullName>
+        <externalId>false</externalId>
+        <label>Travel Date Options</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Exact</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Assigned dynamically</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Flexible within 2 weeks</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Travel_Insurance_Policy_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Travel Insurance Policy Number</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Travel_Insurance_Policy_Provider__c</fullName>
+        <externalId>false</externalId>
+        <label>Travel Insurance Policy Provider</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Travel_Insurance_c__c</fullName>
+        <externalId>false</externalId>
+        <label>Travel Insurance</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Travel_Logic_UserName__c</fullName>
+        <externalId>false</externalId>
+        <formula>$User.Travel_Logic_Username__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Travel Logic UserName</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Uganda__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Uganda</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Value__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>3-star, budget orientated clean and comfortable accommodation.</inlineHelpText>
+        <label>Value</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Victoria_Falls__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Victoria Falls</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WETU_1__c</fullName>
+        <externalId>false</externalId>
+        <label>WETU 1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>WETU_2__c</fullName>
+        <externalId>false</externalId>
+        <label>WETU 2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>WETU_3__c</fullName>
+        <externalId>false</externalId>
+        <label>WETU 3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>WETU_4__c</fullName>
+        <externalId>false</externalId>
+        <label>WETU 4</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>WETU_5__c</fullName>
+        <externalId>false</externalId>
+        <label>WETU 5</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Waiver_Of_Liability_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Waiver Of Liability Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Waiver_Of_Liability_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Waiver Of Liability Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Waiver_Of_Liability__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Waiver Of Liability</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Walking_Safaris__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Walking Safaris</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Website_origin_2__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.AccountNumber</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Website Origin</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Website_origin__c</fullName>
+        <externalId>false</externalId>
+        <label>Website originOLD</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Web: safari365.com</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Web: safari365.com.au</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Web: southafrica365.com</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Web:safari365.com.tur.br</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Web: top5africa.com</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Whale_watching__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Whale watching</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Which_Gift_was_Sent__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>@Consultant, tell us what gift the client wants? @Admin, once the gift is sent, record accurately exactly which gift was sent (so that we dont sent the same gift when they refer another client)</inlineHelpText>
+        <label>Which Gift Sent/To Be Sent?</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Wildlife_Safaris__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Wildlife Safaris</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WorkflowRun2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>WorkflowRun2</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WorkflowRun3__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>WorkflowRun3</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WorkflowRun4__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>WorkflowRun4</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WorkflowRun__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>WorkflowRun</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Zambia__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Zambia</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Zanzibar_and_Pemba__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Zanzibar and Pemba</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>hCreatedinTL__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>hCreatedinTL</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <listViews>
+        <fullName>AllOpportunities</fullName>
+        <columns>OPPORTUNITY.CREATED_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>Arrival_Date__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Gross_Profit__c</columns>
+        <columns>GP__c</columns>
+        <columns>Country_of_Residence__c</columns>
+        <columns>OPPORTUNITY.LEAD_SOURCE</columns>
+        <columns>OPPORTUNITY.LAST_UPDATE</columns>
+        <columns>Internal_Comments__c</columns>
+        <columns>Email__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.PROBABILITY</field>
+            <operation>lessThan</operation>
+            <value>100</value>
+        </filters>
+        <label>All Opportunities (Managers View)</label>
+        <sharedTo>
+            <role>Finance</role>
+            <role>Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Closed_Lost_Opportunities</fullName>
+        <columns>Arrival_Date__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.LAST_UPDATE</columns>
+        <columns>Closed_Lost_Reason__c</columns>
+        <columns>Internal_Comments__c</columns>
+        <columns>Client_Comments__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Country_of_Residence__c</columns>
+        <columns>Members_Club__c</columns>
+        <columns>OPPORTUNITY.LEAD_SOURCE</columns>
+        <columns>OPPORTUNITY.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Closed Lost</value>
+        </filters>
+        <label>My &quot;Closed Lost&quot; Opportunities</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Closed_Won_Deal_Opportunities</fullName>
+        <columns>OPPORTUNITY.CREATED_DATE</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>Arrival_Date__c</columns>
+        <columns>TravelEndDate__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Country_of_Residence__c</columns>
+        <columns>Phone__c</columns>
+        <columns>Members_Club__c</columns>
+        <columns>OPPORTUNITY.LAST_UPDATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Closed Won Deal,Closed Won - Cancelled</value>
+        </filters>
+        <label>My &quot;Closed Won Deal&quot; Opportunities</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Opportunities</fullName>
+        <columns>OPPORTUNITY.CREATED_DATE</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>Arrival_Date__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Gross_Profit__c</columns>
+        <columns>GP__c</columns>
+        <columns>Country_of_Residence__c</columns>
+        <columns>Phone__c</columns>
+        <columns>Members_Club__c</columns>
+        <columns>OPPORTUNITY.LAST_UPDATE</columns>
+        <columns>OPPORTUNITY.LEAD_SOURCE</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Quotation,TL Quotation</value>
+        </filters>
+        <label>My &quot;Active Quoting&quot; Opportunities</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.CLOSE_DATE</customTabListAdditionalFields>
+        <listViewButtons>Mass_Edit</listViewButtons>
+        <listViewButtons>Mass_Update</listViewButtons>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OPPORTUNITY.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Emergency_Mobile_Phone_Number__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.STAGE_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.CLOSE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>Arrival_Date_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( NOT($User.ByPassValidation__c),ISPICKVAL( StageName , &apos;Closed Won Deal&apos;), ISBLANK( Arrival_Date__c ))</errorConditionFormula>
+        <errorDisplayField>Arrival_Date__c</errorDisplayField>
+        <errorMessage>Travel Dates are required if this is a confirmed traveling client.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Change_Currency_On_Client_Currency_Locke</fullName>
+        <active>true</active>
+        <description>The client currency can only be changed in Sales Force if the &apos;Client Currency Locked&apos; field is = False.</description>
+        <errorConditionFormula>AND(ISCHANGED(Client_Display_Currency__c),Client_Currency_Locked__c == true,NOT($User.ByPassValidation__c))</errorConditionFormula>
+        <errorMessage>The Client Currency cannot be changed as it is locked, please get approval from FX Manager.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Closed_Lost_Reason_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISPICKVAL( StageName  , &quot;Closed Lost&quot;),
+OR( 
+ISPICKVAL( Closed_Lost_Reason__c , &quot;&quot;)))</errorConditionFormula>
+        <errorMessage>Please insert a closed lost reason ( and additional internal comments if possible)</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Customer_Service_Support_Description</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+NOT($User.ByPassValidation__c),
+ISPICKVAL(Service_Level_Severity__c ,&quot;Low (Easily resolved issue, no need for followup)&quot;),
+OR( 
+ISBLANK(Support_Aservice_Description__c)))</errorConditionFormula>
+        <errorDisplayField>Service_Level_Severity__c</errorDisplayField>
+        <errorMessage>Please detail the nature of the incident</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Customer_Service_Support_Description_2</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+NOT($User.ByPassValidation__c),
+ISPICKVAL(Service_Level_Severity__c ,&quot;Medium (Client agitated and marginally upset, Consultant to followup with client, Team Leader to be aware)&quot;),
+OR( 
+ISBLANK(Support_Aservice_Description__c)))</errorConditionFormula>
+        <errorMessage>Error To be Written</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>GP_Required</fullName>
+        <active>true</active>
+        <description>Need GP figures entered before MITB</description>
+        <errorConditionFormula>AND( NOT($User.ByPassValidation__c),ISPICKVAL( StageName , &apos;Closed Won Deal&apos;), ISBLANK(Gross_Profit__c))</errorConditionFormula>
+        <errorDisplayField>Gross_Profit__c</errorDisplayField>
+        <errorMessage>Need GP figures entered before MITB</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Opportunity_Client_Currency</fullName>
+        <active>true</active>
+        <description>The Client Currency cannot be changed as this has been locked, please get approval from FX Manager.</description>
+        <errorConditionFormula>AND(
+NOT($User.ByPassValidation__c),
+ Client_Currency_Locked__c == TRUE,
+ISCHANGED(Client_Display_Currency__c),
+OR(
+ISPICKVAL(PRIORVALUE(Client_Display_Currency__c) , &quot;AUD&quot;),
+ISPICKVAL(PRIORVALUE(Client_Display_Currency__c) , &quot;GBP&quot;),
+ISPICKVAL(PRIORVALUE(Client_Display_Currency__c) , &quot;USD&quot;),
+ISPICKVAL(PRIORVALUE(Client_Display_Currency__c) , &quot;EUR&quot;)
+))</errorConditionFormula>
+        <errorMessage>The Client Currency cannot be changed as this has been locked, please get approval from FX Manager.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Opportunity_Stage_ClosedWonDeal_Confirm</fullName>
+        <active>true</active>
+        <description>The opportunity Stage &quot;Closed Won Deal&quot; can only set when one of the Quotation is confirmed</description>
+        <errorConditionFormula>AND( 
+NOT($User.ByPassValidation__c), 
+ISCHANGED(StageName), 
+ISPICKVAL(StageName,&quot;Closed Won Deal&quot;), 
+Confirmed_Quote_is_in_Travelogic__c = False, 
+Confirmed_Quotation_Count__c &lt;1 
+
+)</errorConditionFormula>
+        <errorMessage>The opportunity Stage &quot;Closed Won Deal&quot; can only set when one of the Quotation is confirmed or the field &quot;Confirmed Quote in TL&quot; is checked.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Opportunity_Stage_MIB</fullName>
+        <active>false</active>
+        <description>The opportunity Stage MIB can only set when one of the Quotation is confirmed</description>
+        <errorConditionFormula>AND(NOT($User.ByPassValidation__c),ISCHANGED(StageName), ISPICKVAL(StageName,&quot;Money in the Bank&quot;), Confirmed_Quotation_Count__c &lt;1 )</errorConditionFormula>
+        <errorMessage>The Opportunity Stage &quot; Money in the bank&quot; can only set when one of the Quotation  is confirmed</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PhotoBook_Sent_stage_Tracking_Number</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+NOT($User.ByPassValidation__c),
+ISPICKVAL(Photobook_Stage__c  , &quot;Sent&quot;),
+OR( 
+ISBLANK(PhotoBook_Tracking_Number__c)))</errorConditionFormula>
+        <errorDisplayField>PhotoBook_Tracking_Number__c</errorDisplayField>
+        <errorMessage>Please insert Tracking Number before you change the photo book stage to &apos;sent&apos;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Referral_Order_Tracking_Details_Included</fullName>
+        <active>true</active>
+        <description>&apos;Tracking number&apos; and &apos;which gift was sent&apos; must be included</description>
+        <errorConditionFormula>AND(NOT($User.ByPassValidation__c),
+ISPICKVAL(Gift_Sent_to_this_Opportunity_Referrer__c , &quot;Gift Sent&quot;),
+OR(
+ISBLANK(Gift_Tracking_Order_Details__c),
+OR(
+ISBLANK( Which_Gift_was_Sent__c ))))</errorConditionFormula>
+        <errorDisplayField>Gift_Tracking_Order_Details__c</errorDisplayField>
+        <errorMessage>Tracking number or delivery details must be included before confirming</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Sale_Required</fullName>
+        <active>true</active>
+        <description>Need Sale figures entered before MITB</description>
+        <errorConditionFormula>AND( NOT($User.ByPassValidation__c),ISPICKVAL( StageName , &apos;Closed Won Deal&apos;), ISBLANK(  Amount))</errorConditionFormula>
+        <errorDisplayField>Amount</errorDisplayField>
+        <errorMessage>Need Sale figures entered before MITB</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Service_Request_Comments_Require</fullName>
+        <active>false</active>
+        <description>Add Date and Comments to the Support Service Description</description>
+        <errorConditionFormula>AND(
+NOT(ISPICKVAL( Service_Level_Severity__c , &quot; ISBLANK(expression)&quot;)),(
+ISBLANK(Support_Aservice_Description__c)))</errorConditionFormula>
+        <errorDisplayField>Support_Aservice_Description__c</errorDisplayField>
+        <errorMessage>Add Date and Comments to the Support Service Description</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TravelEndDateShouldBeGreaterThanStartDat</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( NOT($User.ByPassValidation__c),TravelEndDate__c &lt;  Arrival_Date__c )</errorConditionFormula>
+        <errorDisplayField>TravelEndDate__c</errorDisplayField>
+        <errorMessage>Travel End Date should be greater than Travel Start Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TravelStartDateShouldBeLessThanEndDate</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( NOT($User.ByPassValidation__c),Arrival_Date__c &gt;   TravelEndDate__c  )</errorConditionFormula>
+        <errorDisplayField>Arrival_Date__c</errorDisplayField>
+        <errorMessage>Travel Start Date should be before Travel End Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>cos_Required</fullName>
+        <active>true</active>
+        <description>Need COST figures entered before MITB</description>
+        <errorConditionFormula>AND( NOT($User.ByPassValidation__c),ISPICKVAL( StageName , &apos;Closed Won Deal&apos;), ISBLANK(  CoS__c))</errorConditionFormula>
+        <errorDisplayField>CoS__c</errorDisplayField>
+        <errorMessage>Need COST figures entered before MITB</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Mass_Edit</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Edit</masterLabel>
+        <openType>sidebar</openType>
+        <page>MassEditOpp</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Mass_Update</fullName>
+        <availability>online</availability>
+        <description>Mass update</description>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Update</masterLabel>
+        <openType>sidebar</openType>
+        <page>MassUpdateOpportunity</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Request_Passenger_Details</fullName>
+        <availability>online</availability>
+        <description>Email to Request Passenger Details</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Request Passenger Details via Email</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/_ui/core/email/author/EmailAuthor?
+retURL=/{!Opportunity.OpportunityId__c}&amp;
+p3_lkid={!Opportunity.OpportunityId__c}&amp;
+rtype=003&amp;
+p2_lkid={!Contact.Id}&amp;
+template_id=00X0C000000Rn9d&amp;
+p24={!Opportunity.OwnerEmail}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>WETU_send_email_additional_maps</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>WETU send email (additional maps)</masterLabel>
+        <openType>noSidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>location.replace(&apos;/email/author/emailauthor.jsp?retURL=/{!Opportunity.Id}&amp;p3_lkid={!Opportunity.Id}&amp;rtype=003&amp;p2_lkid={!Opportunity.Lead_Email__c}&amp;template_id=&lt;00XD0000001Pm5V
+&gt;&apos;);</url>
+    </webLinks>
+</CustomObject>

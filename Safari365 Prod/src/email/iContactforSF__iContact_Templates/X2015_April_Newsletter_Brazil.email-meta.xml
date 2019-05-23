@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>2015 April Newsletter (Brazil)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 April Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Boletim informativo Safari365: novidades, promoções e lançamentos!</subject>
+    <textOnly>Olá {!Lead.FirstName},
+
+Estamos felizes em anunciar o lançamento de mais um destino africano que aguarda pela sua visita, o magnífico Zimbábue! Nós viajamos por todo o país – do misterioso Lago Kariba e savanas do Parque Nacional Hwange à selvagem Mana Pools –, a fim de oferecer aos nossos clientes as melhores dicas, sugestões, experiências e memórias africanas.
+
+Confira aqui tudo o que você precisa saber sobre
+este surpreendente destino.
+
+Abaixo você também encontrará o relato inspirador da nossa consultora australiana de viagens sobre sua jornada no Zimbábue; nossas promoções especiais; nossa foto do mês; e nosso mais novo vídeo.
+
+~  Marcus Brain, Safari365 founder  ~
+
+www.safari365.com/pt
+
+Safari365
+Old Marine Dr Foreshore,
+Cape Town, 8000, South Africa</textOnly>
+    <type>custom</type>
+</EmailTemplate>

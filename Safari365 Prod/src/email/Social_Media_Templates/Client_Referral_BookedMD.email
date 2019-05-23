@@ -1,0 +1,7 @@
+Hi Sales Manager/MD,
+
+{!Opportunity.OwnerFirstName} client booked and you must send a thank you letter from MD. 
+
+{!Opportunity.Name} confirmed their safari
+
+{!Opportunity.Referring_Client_Name__c} referred this client to Safari365 ( please send thank you using template to this person)

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Individual Cons. GP Rollup (Annual)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Individual Cons. GP Rollup (Annual)</value>
+    </caseValues>
+    <fields>
+        <label><!-- Achieved Conversion Ratio (Annual) --></label>
+        <name>Average_Achieved_Conversion_Ratio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Conversion Ratio (Annual) --></label>
+        <name>Average_of_Conversion_Ratio__c</name>
+    </fields>
+    <fields>
+        <label><!-- ConsultantIdKeyYear --></label>
+        <name>ConsultantIdKeyYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant --></label>
+        <name>Consultant__c</name>
+        <relationshipLabel><!-- Individual Cons. GP Rollup (Annual) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Conversion Ratio Target Surplus/Deficit --></label>
+        <name>Conversion_Ratio_Target_Surplus_Deficit__c</name>
+    </fields>
+    <fields>
+        <label><!-- CounsltantIdAndYearKey --></label>
+        <name>CounsltantIdAndYearKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Rollup (Annual) --></label>
+        <name>Lead_Rollup_Annual__c</name>
+        <relationshipLabel><!-- GP Rollup (Annual) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Gross Profit Target Surplus/Deficit --></label>
+        <name>Target_To_Be_Achieved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Converted Opportunity --></label>
+        <name>Total_Converted_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Lead --></label>
+        <name>Total_Lead1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Lead --></label>
+        <name>Total_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Annual Gross Profit Achieved --></label>
+        <name>Total_Target_Achieved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Annual Gross Profit Target --></label>
+        <name>Total_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- % of GP Target Achieved (Annual) --></label>
+        <name>of_GP_Target_Achieved_Annual__c</name>
+    </fields>
+    <layouts>
+        <layout>Consultant Target Yearly Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

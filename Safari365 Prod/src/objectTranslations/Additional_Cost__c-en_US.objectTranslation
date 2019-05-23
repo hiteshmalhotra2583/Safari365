@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Additional Cost</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Additional Cost</value>
+    </caseValues>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value In USD --></label>
+        <name>Value_In_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value In ZAR --></label>
+        <name>Value_In_ZAR__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

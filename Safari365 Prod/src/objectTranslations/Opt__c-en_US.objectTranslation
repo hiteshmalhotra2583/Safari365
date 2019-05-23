@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OPT</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Opts</value>
+    </caseValues>
+    <fields>
+        <label><!-- AC --></label>
+        <name>AC__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANALYSIS1 --></label>
+        <name>ANALYSIS1__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANALYSIS2 --></label>
+        <name>ANALYSIS2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANALYSIS3 --></label>
+        <name>ANALYSIS3__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANALYSIS4 --></label>
+        <name>ANALYSIS4__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHGEX1 --></label>
+        <name>CHGEX1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHGEX2 --></label>
+        <name>CHGEX2__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHGEX3 --></label>
+        <name>CHGEX3__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHGEX4 --></label>
+        <name>CHGEX4__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHGEX5 --></label>
+        <name>CHGEX5__c</name>
+    </fields>
+    <fields>
+        <label><!-- CLASS --></label>
+        <name>CLASS__c</name>
+    </fields>
+    <fields>
+        <label><!-- CRM Code --></label>
+        <name>CRM_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- CRM Currency --></label>
+        <name>CRM_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- CRM --></label>
+        <name>CRM_Lookup__c</name>
+        <relationshipLabel><!-- Opts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CRM Name --></label>
+        <name>CRM_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB2 Description --></label>
+        <name>DB2_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB2 --></label>
+        <name>DB2_Lookup__c</name>
+        <relationshipLabel><!-- Opts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DB4 DESCRIPTION --></label>
+        <name>DB4_DESCRIPTION__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB4 --></label>
+        <name>DB4_Lookup__c</name>
+        <relationshipLabel><!-- Opts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DELETED --></label>
+        <name>DELETED__c</name>
+    </fields>
+    <fields>
+        <label><!-- DURATION_HRS --></label>
+        <name>DURATION_HRS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- EX1 --></label>
+        <name>EX1__c</name>
+    </fields>
+    <fields>
+        <label><!-- EX2 --></label>
+        <name>EX2__c</name>
+    </fields>
+    <fields>
+        <label><!-- EX3 --></label>
+        <name>EX3__c</name>
+    </fields>
+    <fields>
+        <label><!-- EX4 --></label>
+        <name>EX4__c</name>
+    </fields>
+    <fields>
+        <label><!-- EX5 --></label>
+        <name>EX5__c</name>
+    </fields>
+    <fields>
+        <label><!-- FCU --></label>
+        <name>FCU__c</name>
+    </fields>
+    <fields>
+        <label><!-- FOCEX1 --></label>
+        <name>FOCEX1__c</name>
+    </fields>
+    <fields>
+        <label><!-- FOCEX2 --></label>
+        <name>FOCEX2__c</name>
+    </fields>
+    <fields>
+        <label><!-- FOCEX3 --></label>
+        <name>FOCEX3__c</name>
+    </fields>
+    <fields>
+        <label><!-- FOCEX4 --></label>
+        <name>FOCEX4__c</name>
+    </fields>
+    <fields>
+        <label><!-- FOCEX5 --></label>
+        <name>FOCEX5__c</name>
+    </fields>
+    <fields>
+        <label><!-- INVOICE TEXT1 --></label>
+        <name>INVOICE_TEXT1__c</name>
+    </fields>
+    <fields>
+        <label><!-- INVOICE TEXT2 --></label>
+        <name>INVOICE_TEXT2__c</name>
+    </fields>
+    <fields>
+        <label><!-- LCL --></label>
+        <name>LCL_Lookup__c</name>
+        <relationshipLabel><!-- Opts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- LOCALITY --></label>
+        <name>LOCALITY__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOC Name --></label>
+        <name>LOC_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- MPFCU --></label>
+        <name>MPFCU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opt_Id --></label>
+        <name>Opt_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- PBX1 --></label>
+        <name>PBX1__c</name>
+    </fields>
+    <fields>
+        <label><!-- PBX2 --></label>
+        <name>PBX2__c</name>
+    </fields>
+    <fields>
+        <label><!-- PBX3 --></label>
+        <name>PBX3__c</name>
+    </fields>
+    <fields>
+        <label><!-- PBX4 --></label>
+        <name>PBX4__c</name>
+    </fields>
+    <fields>
+        <label><!-- PBX5 --></label>
+        <name>PBX5__c</name>
+    </fields>
+    <fields>
+        <label><!-- PBX6 --></label>
+        <name>PBX6__c</name>
+    </fields>
+    <fields>
+        <label><!-- PBX7 --></label>
+        <name>PBX7__c</name>
+    </fields>
+    <fields>
+        <label><!-- PCODE --></label>
+        <name>PCODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- PERIODS BASE --></label>
+        <name>PERIODS_BASE__c</name>
+    </fields>
+    <fields>
+        <label><!-- PERIODS --></label>
+        <name>PERIODS__c</name>
+    </fields>
+    <fields>
+        <label><!-- SCU --></label>
+        <name>SCU__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOD_ID --></label>
+        <name>SOD_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOD --></label>
+        <name>SOD_Lookup__c</name>
+        <relationshipLabel><!-- Opts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SRV --></label>
+        <name>SRV_Lookup__c</name>
+        <relationshipLabel><!-- Opts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SRV Markup Value --></label>
+        <name>SRV_Markup_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- SRV Name --></label>
+        <name>SRV_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service --></label>
+        <name>Service__c</name>
+    </fields>
+    <fields>
+        <label><!-- SupplierMarkup --></label>
+        <name>SupplierMarkup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>Supplier__c</name>
+    </fields>
+    <fields>
+        <label><!-- TAX --></label>
+        <name>TAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- VADD1 --></label>
+        <name>VADD1__c</name>
+    </fields>
+    <fields>
+        <label><!-- VADD2 --></label>
+        <name>VADD2__c</name>
+    </fields>
+    <fields>
+        <label><!-- VADD3 --></label>
+        <name>VADD3__c</name>
+    </fields>
+    <fields>
+        <label><!-- VADD4 --></label>
+        <name>VADD4__c</name>
+    </fields>
+    <fields>
+        <label><!-- VADD5 --></label>
+        <name>VADD5__c</name>
+    </fields>
+    <fields>
+        <label><!-- VNAME --></label>
+        <name>VNAME__c</name>
+    </fields>
+    <layouts>
+        <layout>Consultant Layout</layout>
+        <sections>
+            <label><!-- Cost Details --></label>
+            <section>Cost Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Service --></label>
+            <section>Service</section>
+        </sections>
+        <sections>
+            <label><!-- Supplier Contacts --></label>
+            <section>Supplier Contacts</section>
+        </sections>
+        <sections>
+            <label><!-- Voucher Details --></label>
+            <section>Voucher Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opt Layout</layout>
+        <sections>
+            <label><!-- Cost Details --></label>
+            <section>Cost Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Service --></label>
+            <section>Service</section>
+        </sections>
+        <sections>
+            <label><!-- Supplier Contacts --></label>
+            <section>Supplier Contacts</section>
+        </sections>
+        <sections>
+            <label><!-- Voucher Details --></label>
+            <section>Voucher Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Repeart and referral template to be sent 1 year after travel</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>1 Year After Travel Reminder</name>
+    <style>none</style>
+    <subject>{!Account.Name} Travelled 1 Year Ago</subject>
+    <type>text</type>
+</EmailTemplate>

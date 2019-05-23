@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>User Story</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>User Stories</value>
+    </caseValues>
+    <fields>
+        <label><!-- Accepatance Criteria --></label>
+        <name>Accepatance_Criteria__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Bug are closed --></label>
+        <name>All_Bug_are_closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Related bugs Closed --></label>
+        <name>All_Related_bugs_Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deployed to Production --></label>
+        <name>Deployed_to_Production__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deployed to QA --></label>
+        <name>Deployed_to_QA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <relationshipLabel><!-- User Stories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quoted Hours --></label>
+        <name>Quoted_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Require Extra Effort --></label>
+        <name>Require_Extra_Effort__c</name>
+    </fields>
+    <fields>
+        <label><!-- Significance --></label>
+        <name>Significance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technical Description --></label>
+        <name>Technical_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tested In Live --></label>
+        <name>Tested_In_Live__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The User story can be set to complete when all related bugs are set to  complete status --></errorMessage>
+        <name>User_Story_Closed</name>
+    </validationRules>
+</CustomObjectTranslation>

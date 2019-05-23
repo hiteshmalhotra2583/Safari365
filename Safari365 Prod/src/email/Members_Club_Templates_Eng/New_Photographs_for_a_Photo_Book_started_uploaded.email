@@ -1,0 +1,5 @@
+New photographs for {!Opportunity.Account} have started to be uploaded -  check that the full process has been completed and contact the client of upload incomplete
+
+Opportunity Owner: {!Opportunity.OwnerFullName}
+Link: {!Opportunity.Link}
+Website Origin: {!Opportunity.Website_origin__c}

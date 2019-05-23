@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Comparative quote</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>4.3. STAGE = CLOSED LOST</name>
+    <style>freeForm</style>
+    <subject>{!User.Division} - {!Account.Name} : 优惠的价格保证</subject>
+    <type>html</type>
+</EmailTemplate>

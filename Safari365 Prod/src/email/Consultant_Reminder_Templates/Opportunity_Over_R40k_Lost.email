@@ -1,0 +1,11 @@
+*** ALERT: AN OPPORTUNITY OVER R40K HAS BEEN LOST ***
+
+Opportunity: {!Opportunity.Name}
+Opportunity Value: {!Opportunity.Amount}
+
+Client Name: {!Account.Name}
+Client Email: {!Account.PersonEmail}
+
+Owner: {!Opportunity.OwnerFullName}
+
+Click on the link to access the opportunity directly: {!Opportunity.Link}

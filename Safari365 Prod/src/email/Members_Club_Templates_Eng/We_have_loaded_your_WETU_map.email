@@ -1,0 +1,9 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="Arial, sans-serif" size="2" style="color: rgb(0, 0, 0);">Dear {!Opportunity.Lead_First_Name__c},&nbsp;</font><div style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br>We trust that you are excited for your upcoming trip to Africa and that your itinerary planning with {!Account.OwnerFirstName} is proceeding well. <br><br>So
+ as to get a better idea of your routing, we have built a 'virtual 
+itinerary map' for your proposed trip. This map allows you to drill down
+ in detail to the exact areas you will be visiting, so you can <span style="font-weight: bold;">explore activities and attractions</span> before you go!<br><br>We have loaded this itinerary map of your safari in your <b>Members Club</b>. Please click on the following link and proceed to the map section:&nbsp;</font></div><div style=""><span style="background-color: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: small;">https://www.safari365.com/mc/?opp={!Opportunity.Id}</span></div><div style=""><span style="background-color: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: small;"><br></span></div><div style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">Yours in safari,&nbsp;</font></div><div style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br></font></div><div style="color: rgb(0, 0, 0);"><b style="background-color: rgb(255, 255, 255);"><font face="Arial, sans-serif" style="" size="2">Marcus Brain<br>Managing Director</font></b></div>]]></td>
+</tr>
+</table>

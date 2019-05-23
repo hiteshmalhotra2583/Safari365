@@ -1,0 +1,9 @@
+REMINDER: YOUR CLIENT STARTS TRAVELLING IN 30 DAYS, PLEASE:
+
+- Send Vouchers
+- Send Pre-Departure Guides ( in Dropbox)
+
+{!Opportunity.Name}
+{!Account.PersonEmail}
+Client Name: {!Account.Name}
+Click on the link to access the opportunity directly: {!Opportunity.Link}

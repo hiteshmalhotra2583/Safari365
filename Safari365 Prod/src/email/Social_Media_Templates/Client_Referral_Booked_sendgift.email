@@ -1,0 +1,9 @@
+Hi Admin,
+
+{!Opportunity.OwnerFullName}'s client {!Opportunity.Referring_Client_Name__c} has referred us a booking and needs a thank you gift. 
+
+Please get {!Opportunity.OwnerFullName} to write a personal note and then send the gift. {!Opportunity.Referring_Client_Name__c} address is in Salesforce here https://eu1.salesforce.com/{!Opportunity.Referring_Client_NameId__c} 
+
+Once you have sent the gift, go here https://eu1.salesforce.com/{!Opportunity.Id} and change the status of the drop down for Gift Send Status to "Gift Sent". Record the tracking number and what gift was sent. Save all. 
+
+many thanks

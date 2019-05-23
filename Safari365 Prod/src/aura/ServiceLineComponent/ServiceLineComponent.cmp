@@ -1,0 +1,352 @@
+<aura:component controller="ServiceLineItemController" implements="flexipage:availableForAllPageTypes,force:hasRecordId,force:lightningQuickAction,force:appHostable"  access="global">
+    
+    <aura:attribute Name="currentServiceLineItem" type="ServiceLineItem__c"  access="public" /> 
+    <aura:attribute Name="selItem" type="object"  access="public" /> 
+    <aura:attribute Name="selWetuStartLocation" type="object"  access="public" /> 
+    <aura:attribute Name="selWetuEndLocation" type="object"  access="public" /> 
+    <aura:attribute name="Mode" type="String" access="global"/>
+    <aura:attribute name="quotationLineId" type="String"/>
+    <aura:attribute name="quotationId" type="String"/>
+    <aura:attribute name="quotationLineItemName" type="String"/>
+    <aura:attribute name="date" type="Date" access="global"/>
+    <aura:attribute name="servicedate" type="Date" access="global"/>
+    <aura:attribute name="Quotation" type="Quotations__c" access="global"/>
+    <aura:attribute name="Passengers" type="ServiceLinePassengerWrapper[]" access="global"/>
+    <aura:attribute name="checkedPassengers" type="String[]" />
+    <aura:attribute name="selectedServiceType" type="String"/>
+    <aura:attribute name="selectedServiceLocation" type="String"/>
+    <aura:attribute name="preferredSupplier" type="Boolean"/>
+    <aura:attribute name="ErrorMessages" type="String" />
+    <aura:attribute name="ShowPopup" type="Boolean" />
+    <aura:attribute name="ShowWetuFields" type="Boolean" />
+    <aura:attribute name="ShowRoomConfiguration" type="Boolean" />
+    <aura:attribute name="ShowTicketsInformation" type="Boolean" />
+    <aura:attribute name="SaveAndSetNewClicked" type="Boolean" />
+    <aura:attribute name="SelectedPassenger" type="String" access="global"/>
+    <aura:attribute name="CrmCode" type="String" />    
+    
+   <!-- <aura:handler name="change" value="{!v.date}" action="{!c.dateChange}"/>  --> 
+    <aura:handler name="change" value="{!v.servicedate}" action="{!c.dateChange}"/> 
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" /> 
+    
+    <aura:handler name="selectLookupItemEvent" event="c:SelectLookupItemEvent" action="{!c.handleSelectLookupItemEvent}"/>
+    <aura:handler name="cancelLookupSelectionEvent" event="c:CancelLookupSelectionEvent" action="{!c.handleCancelLookupSelectionEvent}"/>
+    
+    <aura:handler name="selectLookupWetuStartLocationEvent" event="c:SelectLookupWetuStartLocationEvent" action="{!c.handleSelectLookupWetuStartLocationEvent}"/>
+    <aura:handler name="cancelLookupWetuStartLocationEvent" event="c:CancelLookupWetuStartLocationEvent" action="{!c.handleCancelLookupWetuStartLocationEvent}"/>
+    
+    <aura:handler name="selectLookupWetuEndLocationEvent" event="c:SelectLookupWetuEndLocationEvent" action="{!c.handleSelectLookupWetuEndLocationEvent}"/>
+    <aura:handler name="cancelLookupWetuEndLocationEvent" event="c:CancelLookupWetuEndLocationEvent" action="{!c.handleCancelLookupWetuEndLocationEvent}"/>
+    
+    <aura:handler event="c:ItemDateChangeEvent" action="{!c.setSelectedLineItemDate}"/>
+    
+    <aura:if isTrue="{!v.ShowPopup}">
+        
+        <!--###### MODAL BOX Start From Here ######--> 
+        <div role="dialog" tabindex="-1" aria-labelledby="header99" class="slds-modal slds-fade-in-open ">
+            <div class="slds-modal__container">
+                <!-- ###### MODAL BOX HEADER Part Start From Here ######-->
+                <div class="slds-modal__header">
+                    <button class="slds-button slds-modal__close slds-button--icon-inverse" title="Close" onclick="{!c.closeModel}">
+                        <span class="slds-assistive-text">Close</span>
+                    </button>
+                    <h2 id="header99" class="slds-text-heading--medium">Update Passenger age</h2>
+                </div>
+                <!--###### MODAL BOX BODY Part Start From Here ######-->
+                <div class="slds-modal__content slds-p-around--medium">
+                    <table style="width: 400px; line-height:30px;">
+                        <tr >
+                            <td style="padding-left: 17px;">Given Age: </td>
+                            <td style="padding-left: 17px;"> 
+                                <ui:inputSelect class="dynamic" aura:id="InputSelectPassengerAge"/>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!--###### MODAL BOX FOOTER Part Start From Here ######-->
+                <div class="slds-modal__footer">
+                    <button class="slds-button slds-button--neutral" onclick="{!c.closeModel}" >Cancel</button>
+                    <button class="slds-button slds-button--brand" onclick="{!c.updatePassengerAge}">Save</button>
+                </div>
+            </div>
+        </div>
+        <div class="slds-backdrop slds-backdrop--open"></div>
+        <!--###### MODAL BOX Part END Here ######-->
+        
+        
+        <aura:set attribute="else">
+            <div  style="margin: 10px;10px;50px;50px;float:left;overflow-y: auto;max-height:1;" class="slds-modal slds-modal--large slds-fade-in-open">
+                
+                <div style="margin: 8px;">
+                    <div class="slds-modal__header slds-theme--info">
+                        <h2 class="slds-text-heading--medium">{!v.Mode} Service Line Item</h2>
+                        <h1 class="slds-text-heading--small">Quotation Line Item Name: {!v.quotationLineItemName}</h1>
+                    </div>
+                    
+                    <div style="border:1px solid black;">
+                        <div class="slds-text-align_left slds-m-around_x-small">Step 1</div>
+                        <div class="demo-only demo-only--sizing slds-grid slds-wrap">
+                            <div class="slds-size_1-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small">Supplier Name</div>
+                                
+                            </div>
+                            <div class="slds-size_2-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small"><c:Lookup objectName="CRM__c"
+                                                                                                  field_API_text="NAME__c"
+                                                                                                  field_API_val="Id"
+                                                                                                  limit="100" 
+                                                                                                  field_API_search="NAME__c"
+                                                                                                  lookupIcon="standard:account" 
+                                                                                                  selItem="{!v.selItem}"
+                                                                                                  selectedServiceType="{!V.selectedServiceType}"         
+                                                                                                  selectedServiceLocation="{!V.selectedServiceLocation}"  
+                                                                                                  preferredSupplier="{!V.preferredSupplier}"  
+                                                                                                  placeholder="Enter space after text to search"/></div>
+                            </div>
+                            
+                            <div class="slds-size_1-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small">Override Supplier and Service Name</div>
+                            </div>
+                            <div class="slds-size_2-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small">
+                                <ui:inputText class="dynamic" aura:id="InputServiceLineItemName" />
+                               
+                                </div>
+                            </div> 
+                            <div class="slds-size_1-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small">Service Type</div>
+                            </div>
+                            <div class="slds-size_2-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small"><ui:inputSelect class="dynamic" aura:id="InputSelectServiceType" change="{!c.onServiceTypeChange}"/> </div>
+                            </div>
+                            <div class="slds-size_1-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small">Override Supplier Details
+                                 </div>
+                            </div>
+                            <div class="slds-size_2-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small"><ui:inputCheckbox class="dynamic" aura:id="CheckboxOverrideDetails"/> </div>
+                            </div>      
+                            
+                            
+                            <div class="slds-size_1-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small">Service Location</div>
+                            </div>
+                            <div class="slds-size_2-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small"><ui:inputSelect class="dynamic" aura:id="InputSelectLocation" change="{!c.onLocationChange}"/></div>
+                            </div>
+                            <div class="slds-size_1-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small">Only Show Preferred Suppliers</div>
+                            </div>
+                            <div class="slds-size_2-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small"><ui:inputCheckbox class="dynamic" aura:id="InputPreferredSupplier" change="{!c.onPreferredSupplierChange}" /></div>
+                            </div>
+                            
+                            <div class="slds-size_1-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small">Service Detail</div>
+                            </div>
+                            <div class="slds-size_5-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small"><ui:inputSelect class="dynamic" aura:id="InputSelectServiceDetail"/> </div>
+                            </div>
+                            <div class="slds-size_1-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small">Service Start Date</div>
+                            </div>
+                            <div class="slds-size_5-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small">
+                                    <!--  <ui:inputDate disabled="false"  value="{!v.servicedate}"  change="{!c.serviceDateChange}" aura:id="InputServiceDate" displayDatePicker="false" format="DD/MM/YYYY"/>-->
+                                 <ui:inputDate disabled="false"  value="{!v.servicedate}"  change="{!c.serviceDateChange}" aura:id="InputServiceDate" displayDatePicker="false" format="DD/MM/YYYY"/>
+                                </div>
+                            </div> 
+                            
+                            <div class="slds-size_1-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small">Service Duration</div>
+                            </div>
+                            <div class="slds-size_5-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small"><ui:inputSelect class="dynamic" aura:id="InputNumberOfDays"/></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="height:30px;"></div>
+                    <div style="border:1px solid black;"><div class="slds-text-align_left slds-m-around_x-small"> Step 2</div>
+                        
+                        <div class="demo-only demo-only--sizing slds-grid slds-wrap">
+                            <aura:if isTrue="{!v.ShowRoomConfiguration}">
+                                <div class="slds-size_1-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small">Room Configuration</div>
+                                </div>
+                                <div class="slds-size_5-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small"><ui:inputSelect class="dynamic" aura:id="InputRoomConfiguration"/></div>
+                                </div>
+                            </aura:if>
+                            
+                            <aura:if isTrue="{!v.ShowWetuFields}">
+                                <div class="slds-size_1-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small">Start Location</div>
+                                </div>
+                                <div class="slds-size_2-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small"><c:LookupWetuStartLocation objectName="WetuLocation__c"
+                                                                                                                       field_API_text="Location_Name__c"
+                                                                                                                       field_API_val="Location_Id__c"
+                                                                                                                       limit="20" 
+                                                                                                                       field_API_search="Location_Name__c"
+                                                                                                                       lookupIcon="standard:account" 
+                                                                                                                       selItem="{!v.selWetuStartLocation}"
+                                                                                                                       placeholder="Enter space after text to search"/>
+                                    </div>
+                                </div>
+                                <div class="slds-size_1-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small">Start Time</div>
+                                </div>
+                                <div class="slds-size_2-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small"><ui:inputSelect class="dynamic" aura:id="InputWetuStartTime"/></div>
+                                </div> 
+                                
+                                <div class="slds-size_1-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small">End Location</div>
+                                </div>
+                                <div class="slds-size_2-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small"><c:LookupWetuEndLocation objectName="WetuLocation__c"
+                                                                                                                     field_API_text="Location_Name__c"
+                                                                                                                     field_API_val="Location_Id__c"
+                                                                                                                     limit="20" 
+                                                                                                                     field_API_search="Location_Name__c"
+                                                                                                                     lookupIcon="standard:account" 
+                                                                                                                     selItem="{!v.selWetuEndLocation}"
+                                                                                                                     placeholder="Enter space after text to search"/>  </div>
+                                </div>
+                                <div class="slds-size_1-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small">End Time</div>
+                                </div>
+                                <div class="slds-size_2-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small"><ui:inputSelect class="dynamic" aura:id="InputWetuEndTime"   /></div>
+                                </div> 
+                            </aura:if>
+                            <aura:if isTrue="{!v.ShowTicketsInformation}">     
+                                <div class="slds-size_1-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small">Start Terminal</div>
+                                </div>
+                                <div class="slds-size_1-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small"><ui:inputText class="dynamic" aura:id="InputStartTerminal"/></div>
+                                </div>
+                                <div class="slds-size_1-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small"></div>
+                                </div>      
+                                <div class="slds-size_1-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small">Duration</div>
+                                </div>
+                                <div class="slds-size_2-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small"><ui:inputText class="dynamic" aura:id="InputDuration" /></div>
+                                </div> 
+                                
+                                <div class="slds-size_1-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small">End Terminal</div>
+                                </div>
+                                <div class="slds-size_1-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small"><ui:inputText class="dynamic" aura:id="InputEndTerminal" /></div>
+                                </div>
+                                <div class="slds-size_1-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small"></div>
+                                </div>       
+                                <div class="slds-size_1-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small">Checkin Time</div>
+                                </div>
+                                <div class="slds-size_2-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small"><ui:inputSelect class="dynamic" aura:id="InputCheckInTime"/></div>
+                                </div> 
+                                <div class="slds-size_1-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small">Ticket Class</div>
+                                </div>
+                                <div class="slds-size_5-of-6">
+                                    <div class="slds-text-align_left slds-m-around_x-small"><ui:inputText class="dynamic" aura:id="InputTicketClass" /></div>
+                                </div>
+                            </aura:if>
+                            
+                        </div>
+                    </div>
+                    <div style="height:30px;"></div>
+                    <div style="border:1px solid black;"> <div class="slds-text-align_left slds-m-around_x-small">Step 3</div>
+                        <div class="demo-only demo-only--sizing slds-grid slds-wrap">
+                            
+                            <div class="slds-size_1-of-1">
+                                <div class="slds-text-align_left slds-m-around_x-small"><aura:iteration items="{!v.Passengers}" var="p">
+                                    
+                                    <aura:if isTrue="{!(p.Passenger.PassengerType__c=='Adult'|| p.Passenger.Given_Age__c >= 0)}">
+                                        
+                                        <span style="padding-right:10px;"><ui:inputCheckbox class="dynamic" value="{!p.IsSelected}" aura:id="PassengerCheckbox" text="{!p.Passenger.Id}" change="{!c.onUpdateCheckboxes}"/></span>
+                                        <span >{!p.Passenger.PassengerName__c}</span><BR/>
+                                        
+                                        
+                                        <aura:set attribute="else">
+                                            <span style="padding-right:10px;"><ui:inputCheckbox class="dynamic" aura:id="PassengerCheckbox" text="{!p.Passenger.Id}" disabled="true"/></span>
+                                            <span id="url" onclick="{!c.openModel}" data-value="{!p.Passenger.Id}"  style="padding-right:40px;"><a >{!p.Passenger.PassengerName__c}</a></span><BR/>
+                                        </aura:set>
+                                    </aura:if>
+                                    
+                                    </aura:iteration></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="height:30px;"></div>
+                    <div style="border:1px solid black;"> <div class="slds-text-align_left slds-m-around_x-small">Step 4</div>
+                        <div class="demo-only demo-only--sizing slds-grid slds-wrap">
+                            <div class="slds-size_1-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small">Do Not Override Nett Cost</div>
+                            </div>
+                            <div class="slds-size_5-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small"><ui:inputCheckbox class="dynamic" aura:id="CheckboxNotOverrideNetCost"/> </div>
+                            </div> 
+                            <div class="slds-size_1-of-6">
+                                <div class="slds-text-align_center slds-m-around_x-medium">Service Status</div>
+                            </div>
+                            <div class="slds-size_1-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-medium"><ui:inputSelect class="dynamic" aura:id="InputSelectServiceStatus"/></div>
+                            </div>
+                            <div class="slds-size_1-of-6">
+                                <div class="slds-text-align_center slds-m-around_x-medium">Reservation Number</div>
+                            </div>
+                            <div class="slds-size_1-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-medium"><ui:inputText class="dynamic" aura:id="InputReservationNumber" />  </div>
+                            </div>
+                            <div class="slds-size_2-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small"></div>
+                            </div>
+                            <div class="slds-size_2-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small"></div>
+                            </div>
+                            <div class="slds-size_1-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small">Provisional Booking Expiry Date</div>
+                            </div>
+                            <div class="slds-size_3-of-6">
+                                <div class="slds-text-align_left slds-m-around_x-small">
+                                    <ui:inputDate value="{!v.date}"  change="{!c.dateChange}" aura:id="InputExpiryDate" displayDatePicker="true" format="MM/DD/YYYY"/>
+                                </div>
+                            </div> 
+                            
+                            <div class="slds-size_1-of-2">
+                                <div class="slds-text-align_left slds-m-around_x-small">Client Itinerary and Voucher Notes: </div>
+                            </div>
+                            <div class="slds-size_1-of-2">
+                                <div class="slds-text-align_left slds-m-around_x-small">Notes and Instructions to Supplier: </div>
+                            </div>       
+                            <div class="slds-size_1-of-2">
+                                <div class="slds-text-align_left slds-m-around_x-small"><ui:inputTextArea rows="4" cols="50" class="dynamic" aura:id="InputClientNotes" /> </div>
+                            </div>
+                            <div class="slds-size_1-of-2">
+                                <div class="slds-text-align_left slds-m-around_x-small"><ui:inputTextArea rows="4" cols="50"  class="dynamic" aura:id="InputSupplierNotes" /></div>
+                            </div>
+                            
+                        </div>
+                    </div> 
+                    <div style="height:30px;"></div>
+                    
+                    <div style="margin-left:auto; margin-right: auto;width:50%;">  
+                        <lightning:button label="Save" class="slds-button slds-button--neutral"   onclick="{!c.saveServiceLine}"/> 
+                        <lightning:button label="Save and New" class="slds-button slds-button--neutral"   onclick="{!c.saveAndNewServiceLine}"/> 
+                        <lightning:button label="Cancel" class="slds-button slds-button--neutral"   onclick="{!c.doCancel}"/>   
+                    </div>
+                    <div style="float:left;overflow-y: auto;" aura:id="div1"/>  
+                </div> 
+            </div>
+        </aura:set>
+    </aura:if>
+</aura:component>

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Accepatance_Criteria__c</fullName>
+        <externalId>false</externalId>
+        <label>Accepatance Criteria</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>All_Bug_are_closed__c</fullName>
+        <externalId>false</externalId>
+        <label>All Bug are closed</label>
+        <summaryFilterItems>
+            <field>Bug__c.Status__c</field>
+            <operation>notEqual</operation>
+            <value>Complete</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Bug__c.User_Story__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>All_Related_bugs_Closed__c</fullName>
+        <externalId>false</externalId>
+        <label>All Related bugs Closed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deployed_to_Production__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Deployed to Production</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Deployed_to_QA__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Deployed to QA</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Project__c</fullName>
+        <externalId>false</externalId>
+        <label>Project</label>
+        <referenceTo>Project__c</referenceTo>
+        <relationshipLabel>User Stories</relationshipLabel>
+        <relationshipName>User_Stories</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Quoted_Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Quoted Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Require_Extra_Effort__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Require Extra Effort</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Significance__c</fullName>
+        <externalId>false</externalId>
+        <label>Significance</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Project_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Technical_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Technical Description</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Tested_In_Live__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Tested In Live</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>User Story</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Project__c</columns>
+        <columns>NAME</columns>
+        <columns>Description__c</columns>
+        <columns>Accepatance_Criteria__c</columns>
+        <columns>Status__c</columns>
+        <columns>Significance__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Go_Live</fullName>
+        <columns>NAME</columns>
+        <columns>Project__c</columns>
+        <columns>Description__c</columns>
+        <columns>Status__c</columns>
+        <columns>Accepatance_Criteria__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Project__c</field>
+            <operation>equals</operation>
+            <value>Go Live Phase 1</value>
+        </filters>
+        <label>Go Live</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>In_Progress</fullName>
+        <columns>NAME</columns>
+        <columns>Project__c</columns>
+        <columns>Status__c</columns>
+        <columns>Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>In Progress</value>
+        </filters>
+        <label>In Progress</label>
+    </listViews>
+    <listViews>
+        <fullName>New</fullName>
+        <columns>NAME</columns>
+        <columns>Project__c</columns>
+        <columns>Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </filters>
+        <label>New</label>
+    </listViews>
+    <listViews>
+        <fullName>Passenger_Setup</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Project__c</columns>
+        <columns>Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Project__c</field>
+            <operation>contains</operation>
+            <value>Passenger</value>
+        </filters>
+        <label>2.Passenger Setup</label>
+    </listViews>
+    <listViews>
+        <fullName>QuotationObject</fullName>
+        <columns>NAME</columns>
+        <columns>Project__c</columns>
+        <columns>Description__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Project__c</field>
+            <operation>equals</operation>
+            <value>Quotation Object</value>
+        </filters>
+        <label>4.QuotationObject</label>
+    </listViews>
+    <listViews>
+        <fullName>REST_API</fullName>
+        <columns>NAME</columns>
+        <columns>Description__c</columns>
+        <columns>Status__c</columns>
+        <columns>Technical_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>equals</operation>
+            <value>Jason New</value>
+        </filters>
+        <label>REST API</label>
+    </listViews>
+    <listViews>
+        <fullName>Ready_For_Test</fullName>
+        <columns>NAME</columns>
+        <columns>Project__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Ready for Test</value>
+        </filters>
+        <label>Ready For Test</label>
+    </listViews>
+    <listViews>
+        <fullName>Setting_Markup_ROE_Custom_Object</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Project__c</field>
+            <operation>equals</operation>
+            <value>Setting Markup &amp; ROE Custom Object</value>
+        </filters>
+        <label>3.Setting Markup &amp; ROE Custom Object</label>
+    </listViews>
+    <listViews>
+        <fullName>Tour_Plan_Data_Sync</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Description__c</columns>
+        <columns>Deployed_to_QA__c</columns>
+        <columns>Deployed_to_Production__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Project__c</field>
+            <operation>equals</operation>
+            <value>Tour Plan Data Sync</value>
+        </filters>
+        <label>1.Tour Plan Data Sync</label>
+    </listViews>
+    <listViews>
+        <fullName>WETU_Integration</fullName>
+        <columns>NAME</columns>
+        <columns>Project__c</columns>
+        <columns>Status__c</columns>
+        <columns>Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Project__c</field>
+            <operation>equals</operation>
+            <value>WETU Integration</value>
+        </filters>
+        <label>5.WETU Integration</label>
+    </listViews>
+    <listViews>
+        <fullName>X6_Itenary_Document</fullName>
+        <columns>NAME</columns>
+        <columns>Project__c</columns>
+        <columns>Description__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Project__c</field>
+            <operation>equals</operation>
+            <value>Itinerary Document</value>
+        </filters>
+        <label>6.Itineray Document</label>
+    </listViews>
+    <nameField>
+        <displayFormat>U-{00000000}</displayFormat>
+        <label>User Story Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>User Stories</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>User_Story_Closed</fullName>
+        <active>true</active>
+        <description>User Story can be closed when all bugs is set to
+ complete stage</description>
+        <errorConditionFormula>AND(ISCHANGED(Status__c), ISPICKVAL(Status__c,&quot;Complete&quot;), All_Bug_are_closed__c &gt;0 )</errorConditionFormula>
+        <errorMessage>The User story can be set to complete when all related bugs are set to  complete status</errorMessage>
+    </validationRules>
+</CustomObject>

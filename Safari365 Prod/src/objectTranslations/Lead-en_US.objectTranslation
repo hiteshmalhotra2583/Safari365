@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Group Name</value>
+        </caseValues>
+        <name>company_lead</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Budget Currency</value>
+        </caseValues>
+        <name>lead_currency</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Absolute luxury --></label>
+        <name>Absolute_luxury__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activate Workflow --></label>
+        <name>Activate_Workflow__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active and adventure tours --></label>
+        <name>Active_and_adventure_tours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activities --></label>
+        <name>Activities__c</name>
+        <picklistValues>
+            <masterLabel>Adventure</masterLabel>
+            <translation><!-- Adventure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beach Holiday</masterLabel>
+            <translation><!-- Beach Holiday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climbing Kilimanjaro</masterLabel>
+            <translation><!-- Climbing Kilimanjaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family Friendly</masterLabel>
+            <translation><!-- Family Friendly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food and wine</masterLabel>
+            <translation><!-- Food and wine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gorilla Trekking</masterLabel>
+            <translation><!-- Gorilla Trekking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>History and culture</masterLabel>
+            <translation><!-- History and culture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romance</masterLabel>
+            <translation><!-- Romance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Great Migration</masterLabel>
+            <translation><!-- The Great Migration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wildlife Safaris</masterLabel>
+            <translation><!-- Wildlife Safaris --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Adventure --></label>
+        <name>Adventure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adventure activities --></label>
+        <name>Adventure_activities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agent --></label>
+        <name>Agent__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ages of Children --></label>
+        <name>Ages_of_Children__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival Date --></label>
+        <name>Arrival_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- These are items the Client chose/wanted when checking out of the Safari365 website --></help>
+        <label><!-- Basket Information --></label>
+        <name>Basket_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beach and bush safaris --></label>
+        <name>Beach_and_bush_safaris__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beach relaxation --></label>
+        <name>Beach_relaxation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Botswana --></label>
+        <name>Botswana__c</name>
+    </fields>
+    <fields>
+        <label><!-- Browser Trial --></label>
+        <name>Browser_Trial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget Total --></label>
+        <name>Budget_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget or Star Rating --></label>
+        <name>Budget_or_Star_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget safaris --></label>
+        <name>Budget_safaris__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancel Workflow --></label>
+        <name>Cancel_Workflow__c</name>
+    </fields>
+    <fields>
+        <label><!-- Canoe Safari --></label>
+        <name>Canoe_Safari__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cape Town (SA) --></label>
+        <name>Cape_Town_SA__c</name>
+    </fields>
+    <fields>
+        <help><!-- Additional comments the Client has told Safari365. Note these and make it personal (respond to these accurately) --></help>
+        <label><!-- Client Comments --></label>
+        <name>Client_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Climbing Kilimanjaro --></label>
+        <name>Climbing_Kilimanjaro__c</name>
+    </fields>
+    <fields>
+        <help><!-- I f International Flight are required fill in details such as: Where from, Dates, Duration, and Class, etc --></help>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competition Name --></label>
+        <name>Competition_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competition Shared on FB --></label>
+        <name>Competition_Shared_on_FB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Image --></label>
+        <name>Consultant_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Profile Link Brazil --></label>
+        <name>Consultant_Profile_Link_Brazil__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Profile Link --></label>
+        <name>Consultant_Profile_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Profile --></label>
+        <name>Consultant_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Working Since --></label>
+        <name>Consultant_Working_Since__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant has replied --></label>
+        <name>Consultanthasreplied__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Method --></label>
+        <name>Contact_Method__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ConvertMe --></label>
+        <name>ConvertMe__c</name>
+    </fields>
+    <fields>
+        <label><!-- Culture and history --></label>
+        <name>Culture_and_history__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>Currency__c</name>
+    </fields>
+    <fields>
+        <help><!-- When a customer respond to an email please tick this box. --></help>
+        <label><!-- Customer has Replied --></label>
+        <name>Customer_has_Replied__c</name>
+    </fields>
+    <fields>
+        <label><!-- DA Campaign Content --></label>
+        <name>DaddyAnalytics__DA_Campaign_Content__c</name>
+    </fields>
+    <fields>
+        <label><!-- DA Campaign Medium --></label>
+        <name>DaddyAnalytics__DA_Campaign_Medium__c</name>
+    </fields>
+    <fields>
+        <label><!-- DA Campaign Name --></label>
+        <name>DaddyAnalytics__DA_Campaign_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- DA Campaign Source --></label>
+        <name>DaddyAnalytics__DA_Campaign_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- DA Campaign Term --></label>
+        <name>DaddyAnalytics__DA_Campaign_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- DA Searched For --></label>
+        <name>DaddyAnalytics__DA_Referrer_Search__c</name>
+    </fields>
+    <fields>
+        <label><!-- DA Came From --></label>
+        <name>DaddyAnalytics__DA_Referrer_Website__c</name>
+    </fields>
+    <fields>
+        <label><!-- DA Session ID --></label>
+        <name>DaddyAnalytics__DA_Session_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- DA Token --></label>
+        <name>DaddyAnalytics__DA_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- DA User ID --></label>
+        <name>DaddyAnalytics__DA_User_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- DA Visit Time --></label>
+        <name>DaddyAnalytics__DA_Visit_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- DA Visitor Geolocation --></label>
+        <name>DaddyAnalytics__DA_Visitor_Geolocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- DA Landed On --></label>
+        <name>DaddyAnalytics__DA_Visitor_Landing_Page__c</name>
+    </fields>
+    <fields>
+        <label><!-- DA ISP Listed As --></label>
+        <name>DaddyAnalytics__DA_Visitor_Organisation__c</name>
+    </fields>
+    <fields>
+        <label><!-- DA Form Submitted --></label>
+        <name>DaddyAnalytics__DA_Web_to_Lead_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date Status Changed --></help>
+        <label><!-- Date Status Changed --></label>
+        <name>Date_Status_Changed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destinations --></label>
+        <name>Destinations__c</name>
+        <picklistValues>
+            <masterLabel>Botswana</masterLabel>
+            <translation><!-- Botswana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape Town (South Africa)</masterLabel>
+            <translation><!-- Cape Town (South Africa) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape Winelands (South Africa)</masterLabel>
+            <translation><!-- Cape Winelands (South Africa) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garden Route (South Africa)</masterLabel>
+            <translation><!-- Garden Route (South Africa) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kenya Beaches</masterLabel>
+            <translation><!-- Kenya Beaches --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kruger National Park (South Africa)</masterLabel>
+            <translation><!-- Kruger National Park (South Africa) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kwa-Zulu Natal (South Africa)</masterLabel>
+            <translation><!-- Kwa-Zulu Natal (South Africa) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madikwe</masterLabel>
+            <translation><!-- Madikwe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Masai Mara</masterLabel>
+            <translation><!-- Masai Mara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mozambique</masterLabel>
+            <translation><!-- Mozambique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mt Kilimanjaro</masterLabel>
+            <translation><!-- Mt Kilimanjaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Namibia</masterLabel>
+            <translation><!-- Namibia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ngorongoro Crater</masterLabel>
+            <translation><!-- Ngorongoro Crater --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Kenya National Reserve</masterLabel>
+            <translation><!-- Other Kenya National Reserve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Tanzania National Parks</masterLabel>
+            <translation><!-- Other Tanzania National Parks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rwanda</masterLabel>
+            <translation><!-- Rwanda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serengeti National Park</masterLabel>
+            <translation><!-- Serengeti National Park --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sun City (South Africa)</masterLabel>
+            <translation><!-- Sun City (South Africa) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uganda</masterLabel>
+            <translation><!-- Uganda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Victoria Falls</masterLabel>
+            <translation><!-- Victoria Falls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zambia</masterLabel>
+            <translation><!-- Zambia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zanzibar and Pemba</masterLabel>
+            <translation><!-- Zanzibar and Pemba --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Click this if assighning a lead to a Consultant and you do not want to company &quot;Meet your Consultant&quot; email from MD to send. --></help>
+        <label><!-- Do Not Send Auto Intro Email on Assign --></label>
+        <name>Do_Not_Send_Auto_Intro_Email_on_Assign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Send Photobook Offer --></label>
+        <name>Do_Not_Send_Photobook_Offer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do not remind me --></label>
+        <name>Do_not_remind_me__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration --></label>
+        <name>Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sales Cycle Email Notify a New Consultant has been Assigned --></help>
+        <label><!-- Email Notified --></label>
+        <name>Email_Notified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enquiry Ref No --></label>
+        <name>Enquiry_Ref_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enquiry item --></label>
+        <name>Enquiry_item__c</name>
+    </fields>
+    <fields>
+        <label><!-- Family Friendly --></label>
+        <name>Family_Friendly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Family safaris --></label>
+        <name>Family_safaris__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fishing adventures --></label>
+        <name>Fishing_adventures__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fly-In safaris --></label>
+        <name>Fly_In_safaris__c</name>
+    </fields>
+    <fields>
+        <label><!-- Food and Wine --></label>
+        <name>Food_and_Wine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Footer Image --></label>
+        <name>Footer_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Form Calculator --></label>
+        <name>Form_Calculator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Google click ID --></label>
+        <name>GCLID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Garden Route (SA) --></label>
+        <name>Garden_Route_SA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Golf combination holidays --></label>
+        <name>Golf_combination_holidays__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gorilla Trekking --></label>
+        <name>Gorilla_Trekking__c</name>
+    </fields>
+    <fields>
+        <label><!-- HasWonOpportunity --></label>
+        <name>HasWonOpportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hiking --></label>
+        <name>Hiking__c</name>
+    </fields>
+    <fields>
+        <label><!-- History and culture --></label>
+        <name>History_and_culture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Honeymoons and Romance --></label>
+        <name>Honeymoons_and_Romance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hot-air ballooning --></label>
+        <name>Hot_air_ballooning__c</name>
+    </fields>
+    <fields>
+        <label><!-- IP Address --></label>
+        <name>IP_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- The &quot;Internal Comments&apos; are never shown to the Client (and will be carried through to the Opportunity) Record all NB info here to reference into the future (ie Phone calls/dates made, overview of conversations, your opinion, client likes/dislikes etc) --></help>
+        <label><!-- Internal Comments --></label>
+        <name>Internal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Company --></label>
+        <name>Internal_Company__c</name>
+        <picklistValues>
+            <masterLabel>Safari 365</masterLabel>
+            <translation><!-- Safari 365 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa 365</masterLabel>
+            <translation><!-- South Africa 365 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- International Flight Required? --></label>
+        <name>International_Flight_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Intro Video Image --></label>
+        <name>Intro_Video__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kenya --></label>
+        <name>Kenya__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kenyan beaches --></label>
+        <name>Kenyan_beaches__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kruger National Park (SA) --></label>
+        <name>Kruger_National_Park_SA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kwa-Zulu Natal (SA) --></label>
+        <name>Kwa_Zulu_Natal_SA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Landing Page --></label>
+        <name>Landing_Page_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Activity Flag --></label>
+        <name>Last_Activity_Flag__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is recorded in days from the date the Lead was Created ( Note: the quicker we respond to the initial lead the better chance we have of beating our competition (within 6 hours (0.25 of a day) is best!!) --></help>
+        <label><!-- Lead Age (days) --></label>
+        <name>LeadAge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Cost --></label>
+        <name>Lead_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Month --></label>
+        <name>Lead_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exists as Lead Nurture --></label>
+        <name>Lead_Nurture__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lead Year --></label>
+        <name>Lead_Year__c</name>
+    </fields>
+    <fields>
+        <help><!-- Always ensure the &quot;Lead Progress&apos; is kept up to date as the lead moves along the sales cycle. You can change the Lead Progress using the quicksteps above. Note -  you can view all of your leads and where they are in the process using the &quot;Kanban&quot; display --></help>
+        <label><!-- Lead Progress (in Sales Cycle) --></label>
+        <name>Leads_Process__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level of Accommodation --></label>
+        <name>Level_of_Accommodation__c</name>
+        <picklistValues>
+            <masterLabel>Luxury: 5-star, exclusive, top-end service and facilities</masterLabel>
+            <translation><!-- Luxury: 5-star, exclusive, top-end service and facilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard: 4-star, good quality, good location, mid-range</masterLabel>
+            <translation><!-- Standard: 4-star, good quality, good location, mid-range --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value: 3-star, budget orientated, clean and comfortable</masterLabel>
+            <translation><!-- Value: 3-star, budget orientated, clean and comfortable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- 5-star, exclusive accommodation, top-end service and facilities. --></help>
+        <label><!-- Luxury --></label>
+        <name>Luxury__c</name>
+    </fields>
+    <fields>
+        <label><!-- Luxury and Pamperting --></label>
+        <name>Luxury_and_Pamperting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Luxury rail travel --></label>
+        <name>Luxury_rail_travel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Madikwe (SA) --></label>
+        <name>Madikwe_SA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Malaria free safaris --></label>
+        <name>Malaria_free_safaris__c</name>
+    </fields>
+    <fields>
+        <label><!-- Masai Mara National Reserve --></label>
+        <name>Masai_Mara_National_Reserve__c</name>
+    </fields>
+    <fields>
+        <label><!-- Members Club ID --></label>
+        <name>Members_Club_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mid-range accommodation --></label>
+        <name>Mid_range_accommodation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mozambique --></label>
+        <name>Mozambique__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mt Kilimanjaro --></label>
+        <name>Mt_Kilimanjaro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Namibia --></label>
+        <name>Namibia__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewImportedLeads --></label>
+        <name>NewImportedLeads__c</name>
+    </fields>
+    <fields>
+        <help><!-- NB to record this accurately (do not guess as we will market according to this in the future) --></help>
+        <label><!-- Country of Residence (Master) --></label>
+        <name>New_Country_of_Residence__c</name>
+    </fields>
+    <fields>
+        <help><!-- Did the Client agree to receive the Safari365 Newsletter or not? --></help>
+        <label><!-- Newsletter --></label>
+        <name>Newsletter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Newsletter for opportunity --></label>
+        <name>Newsletter_for_opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ngorongoro Crater --></label>
+        <name>Ngorongoro_Crater__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Adults --></label>
+        <name>Number_of_Adults__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Children --></label>
+        <name>Number_of_Children__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opp Email --></label>
+        <name>Opp_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opp First Name --></label>
+        <name>Opp_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opp Last Name --></label>
+        <name>Opp_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opp Mobile --></label>
+        <name>Opp_Mobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity_Ammount --></label>
+        <name>Opportunity_Ammount__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other Kenyan National Reserves --></label>
+        <name>Other_Kenyan_National_Reserves__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Tanzania National Parks --></label>
+        <name>Other_Tanzania_National_Parks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other --></label>
+        <name>Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- OwnerImageId --></label>
+        <name>OwnerImageId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Referral Client Email --></help>
+        <label><!-- Referral Client Email --></label>
+        <name>Referral_Client_Email__c</name>
+        <relationshipLabel><!-- Leads (Referral Client Email) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Who Referred this Client to Safari365? Very NB to capture accurately when &quot;Lead Source&quot; is a Client Referral. Do this correctly so that we can thank your Referring Client when this booking confirms. --></help>
+        <label><!-- Referral Client Name --></label>
+        <name>Referral_Client_Name__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referral Client&apos;s Name --></label>
+        <name>Referral_Client_s_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referral Competition Lead Name --></label>
+        <name>Referral_Competition_Lead_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Roughing it --></label>
+        <name>Roughing_it__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rwanda --></label>
+        <name>Rwanda__c</name>
+    </fields>
+    <fields>
+        <label><!-- CorrelationID --></label>
+        <name>SFGA__CorrelationID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Correlation Data --></label>
+        <name>SFGA__Correlation_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web Source --></label>
+        <name>SFGA__Web_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Override DupeCatcher --></label>
+        <name>SFSSDupeCatcher__Override_DupeCatcher__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled escorted tours --></label>
+        <name>Scheduled_escorted_tours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Self drive tours --></label>
+        <name>Self_drive_tours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serengeti National Park --></label>
+        <name>Serengeti_National_Park__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shark cage diving --></label>
+        <name>Shark_cage_diving__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- South Africa --></label>
+        <name>South_Africa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spa and rejuvenation --></label>
+        <name>Spa_and_rejuvenation__c</name>
+    </fields>
+    <fields>
+        <help><!-- 4-star, good quality, good location mid-range accommodation. --></help>
+        <label><!-- Standard --></label>
+        <name>Standard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitter IP --></label>
+        <name>SubmitterIP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>Supplier__c</name>
+        <picklistValues>
+            <masterLabel>Safari 365</masterLabel>
+            <translation><!-- Safari 365 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa 365</masterLabel>
+            <translation><!-- South Africa 365 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tanzania --></label>
+        <name>Tanzania__c</name>
+    </fields>
+    <fields>
+        <label><!-- The Great Migration --></label>
+        <name>The_Great_Migration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Participants --></label>
+        <name>Total_Participents__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel Date Options --></label>
+        <name>Travel_Date_Options__c</name>
+        <picklistValues>
+            <masterLabel>Exact</masterLabel>
+            <translation><!-- Exact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flexible within 2 weeks</masterLabel>
+            <translation><!-- Flexible within 2 weeks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flexible within 3 days</masterLabel>
+            <translation><!-- Flexible within 3 days --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Uganda --></label>
+        <name>Uganda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unbounce Page ID --></label>
+        <name>UnbouncePageID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unbounce Page Variant --></label>
+        <name>UnbouncePageVariant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unbounce Submission Date --></label>
+        <name>UnbounceSubmissionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unbounce Submission Time --></label>
+        <name>UnbounceSubmissionTime__c</name>
+    </fields>
+    <fields>
+        <help><!-- It is NB to get this accurate as allows Safari365 to interrogate where to improve. Record any additional information in the &quot;Internal Comments&quot; Set a &quot;New Task&quot; reminder in Salesforce if you are to contact this Client again in the future. --></help>
+        <label><!-- Unqualified Reason --></label>
+        <name>Unqualified_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Client Booked directly with the hotel/lodge (Detail which hotel/lodge in Internal Comments)</masterLabel>
+            <translation><!-- Client Booked directly with the hotel/lodge (Detail which hotel/lodge in Internal Comments) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Booked with OTA (Detail which OTA in Internal Comments (ie Booking.com, Hotels.com AirB&amp;B etc)</masterLabel>
+            <translation><!-- Client Booked with OTA (Detail which OTA in Internal Comments (ie Booking.com, Hotels.com AirB&amp;B etc) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Booked with competing Agent (Detail which Agent in Internal Comments)</masterLabel>
+            <translation><!-- Client Booked with competing Agent (Detail which Agent in Internal Comments) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Delayed their Travel Plans (Set reminder to contact them in future in SF)</masterLabel>
+            <translation><!-- Client Delayed their Travel Plans (Set reminder to contact them in future in SF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client cancelled their travel plans (send to Lead Nurture)</masterLabel>
+            <translation><!-- Client cancelled their travel plans (send to Lead Nurture) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client changed the travel destination (Detail which country they are traveling to?)</masterLabel>
+            <translation><!-- Client changed the travel destination (Detail which country they are traveling to?) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client has Insufficient Budget (Detail what their Budget was in Internal Comments)</masterLabel>
+            <translation><!-- Client has Insufficient Budget (Detail what their Budget was in Internal Comments) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client making own arrangements (Detail which country they are traveling to?)</masterLabel>
+            <translation><!-- Client making own arrangements (Detail which country they are traveling to?) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Response (All lead process steps have been completed)</masterLabel>
+            <translation><!-- No Response (All lead process steps have been completed) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Thanks response to Quote Calculator</masterLabel>
+            <translation><!-- No Thanks response to Quote Calculator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Reason (Please detail in Internal Comments)</masterLabel>
+            <translation><!-- Other Reason (Please detail in Internal Comments) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- 3-star, budget orientated clean and comfortable accommodation. --></help>
+        <label><!-- Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Victoria Falls --></label>
+        <name>Victoria_Falls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Walking Safaris --></label>
+        <name>Walking_Safaris__c</name>
+    </fields>
+    <fields>
+        <help><!-- To be Deleted --></help>
+        <label><!-- Web Source Debug --></label>
+        <name>Web_Source_Debug__c</name>
+    </fields>
+    <fields>
+        <help><!-- Which Safari365 website did the client use to find us? (This will drive the Language used to communicate with the client) If unsure, choose &apos;Web: Safari365.com&apos; --></help>
+        <label><!-- Website Origin --></label>
+        <name>Website_origin__c</name>
+        <picklistValues>
+            <masterLabel>Web: goodsafariguide.com</masterLabel>
+            <translation><!-- Web: goodsafariguide.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web: safari365.com</masterLabel>
+            <translation><!-- Web: safari365.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web: safari365.com.au</masterLabel>
+            <translation><!-- Web: safari365.com.au --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web: safari365.com.cn</masterLabel>
+            <translation><!-- Web: safari365.com.cn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web: safari365.de</masterLabel>
+            <translation><!-- Web: safari365.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web: safari365.es</masterLabel>
+            <translation><!-- Web: safari365.es --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web: southafrica365.com</masterLabel>
+            <translation><!-- Web: southafrica365.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web: top5africa.com</masterLabel>
+            <translation><!-- Web: top5africa.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web:safari365.com.tur.br</masterLabel>
+            <translation><!-- Web:safari365.com.tur.br --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Whale watching --></label>
+        <name>Whale_watching__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wildlife Safaris --></label>
+        <name>Wildlife_Safaris__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zambia --></label>
+        <name>Zambia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zanzibar and Pemba --></label>
+        <name>Zanzibar_and_Pemba__c</name>
+    </fields>
+    <fields>
+        <label><!-- iContact Contact Id --></label>
+        <name>iContactforSF__iContact_Contact_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- triggerAutoResponseEmail --></label>
+        <name>triggerAutoResponseEmail__c</name>
+    </fields>
+    <layouts>
+        <layout>Administrator Lead View</layout>
+        <sections>
+            <label><!-- Client and Internal Comments --></label>
+            <section>Client and Internal Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Origination --></label>
+            <section>Lead Origination</section>
+        </sections>
+        <sections>
+            <label><!-- Website Tracking and Geolocation --></label>
+            <section>Website Tracking and Geolocation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Consultant Lead View</layout>
+        <sections>
+            <label><!-- Client and Internal Comments --></label>
+            <section>Client and Internal Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Origination --></label>
+            <section>Lead Origination</section>
+        </sections>
+        <sections>
+            <label><!-- Website Tracking and Geolocation --></label>
+            <section>Website Tracking and Geolocation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Daddy Analytics --></label>
+            <section>Daddy Analytics</section>
+        </sections>
+        <sections>
+            <label><!-- Daddy Analytics VF Page --></label>
+            <section>Daddy Analytics VF Page</section>
+        </sections>
+        <sections>
+            <label><!-- Data Source --></label>
+            <section>Data Source</section>
+        </sections>
+        <sections>
+            <label><!-- Detaill --></label>
+            <section>Detaill</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Ref Info --></label>
+            <section>Lead Ref Info</section>
+        </sections>
+        <sections>
+            <label><!-- Level of Accommodation --></label>
+            <section>Level of Accommodation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manager Lead View</layout>
+        <sections>
+            <label><!-- Additional Lead Detaill --></label>
+            <section>Additional Lead Detaill</section>
+        </sections>
+        <sections>
+            <label><!-- Analytics --></label>
+            <section>Analytics</section>
+        </sections>
+        <sections>
+            <label><!-- Client and Internal Comments --></label>
+            <section>Client and Internal Comments</section>
+        </sections>
+        <sections>
+            <label><!-- DA Information --></label>
+            <section>DA Information</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Origination --></label>
+            <section>Lead Origination</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Convert --></label>
+        <name>ConvertLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Personal --></label>
+        <name>Personal</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please provide the clients name as per Salesforce that referred this client (a grift will be sent to him/her should booking occur) --></errorMessage>
+        <name>Referral_Client_Name</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide an Unqualified reason. --></errorMessage>
+        <name>Unqualified_Lead</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure a Country value is included, if unknown, choose &quot;Other&quot;. --></errorMessage>
+        <name>Validate_country_on_convert</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure correct a Website Origin value is included. --></errorMessage>
+        <name>Validate_website_origin_on_convert</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert --></label>
+        <name>Convert</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert_To_Lead_Nurture --></label>
+        <name>Convert_To_Lead_Nurture</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Daddy_Analytics_Update --></label>
+        <name>DaddyAnalytics__Daddy_Analytics_Update</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Delete --></label>
+        <name>Mass_Delete</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Edit --></label>
+        <name>Mass_Edit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update --></label>
+        <name>Mass_Update</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <workflowTasks>
+        <name>Email_Current_Specials_English_SA365</name>
+        <subject><!-- Email: Current Specials Photo Book (English Safari 365) --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>Email_Current_Specials_Photo_Book_English_Safari_365</name>
+        <subject><!-- Email: Current Specials Photo Book (English Safari 365) --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- A new Lead has been assigned to you. --></description>
+        <name>New_Lead_Assigned_to_you</name>
+        <subject><!-- New Lead Assigned to you --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Reminder to contact Non Response leads!! --></description>
+        <name>Non_Response_Lead</name>
+        <subject><!-- Non Response Lead --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Reminder to contact Non Response leads!! --></description>
+        <name>Non_Response_Lead2</name>
+        <subject><!-- Non Response Lead2 --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

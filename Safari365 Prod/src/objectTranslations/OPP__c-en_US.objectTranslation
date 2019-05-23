@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OPP</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OPPs</value>
+    </caseValues>
+    <fields>
+        <label><!-- OPD_ID --></label>
+        <name>OPD_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- OPT_ID --></label>
+        <name>OPT_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB10 --></label>
+        <name>PRICE_PXB10__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB11 --></label>
+        <name>PRICE_PXB11__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB12 --></label>
+        <name>PRICE_PXB12__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB13 --></label>
+        <name>PRICE_PXB13__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB14 --></label>
+        <name>PRICE_PXB14__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB15 --></label>
+        <name>PRICE_PXB15__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB16 --></label>
+        <name>PRICE_PXB16__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB17 --></label>
+        <name>PRICE_PXB17__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB18 --></label>
+        <name>PRICE_PXB18__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB19 --></label>
+        <name>PRICE_PXB19__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB20 --></label>
+        <name>PRICE_PXB20__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB21 --></label>
+        <name>PRICE_PXB21__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB22 --></label>
+        <name>PRICE_PXB22__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB23 --></label>
+        <name>PRICE_PXB23__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB24 --></label>
+        <name>PRICE_PXB24__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB8 --></label>
+        <name>PRICE_PXB8__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE_PXB9 --></label>
+        <name>PRICE_PXB9__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

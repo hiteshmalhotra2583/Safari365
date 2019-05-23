@@ -1,0 +1,33 @@
+New photographs for {!Opportunity.Account} have been uploaded 
+
+Opportunity Owner: {!Opportunity.OwnerFullName}
+Link: {!Opportunity.Link}
+May we use clients photos Y/N: {!Opportunity.May_we_use_your_photographs__c}
+Photobook is missing images due to error (contact client for more photos) Y/N: {!Opportunity.Photobook_Missing_Images__c}
+
+'Photobook Administrator' please do the following:
+
+1 -  Enter the storage server and download photographs to the X-drive ( Folder = 365 Photobook Client Files)
+2 -  Ensure naming conventions are correct when storing files and photographs
+3 -  On a weekly basis, process all new photobooks through creating print ready files, delivery/pick-up from printers, packaging and sending the finished photobooks to the client
+ NB -  choose the right language or template type. This client originated from {!Opportunity.Website_origin__c}  
+5 -  Enter the tracking number in SF per photobook
+6 -  Once a photobook has been sent to the client, change the 'photobook stage' from 'Uploaded' to 'Sent' in SF
+
+'Social Media Administrator' please do the following:
+
+May we use your photographs = {!Opportunity.May_we_use_your_photographs__c}
+
+If = 0 (Permission NOT granted, do not use the photos on social media/websites/other)
+if = 1(Permission  granted, you may use the photos on social media/websites/other)
+
+Only if the above = 1, then proceed
+
+1 - Choose the best photographs ( there is not a need to upload all 40 client photographs)
+2 - Upload web-friendly photographs to the CMS
+3 - Associate all photographs with the owners review ( so that website visitors can see the clients actual photographs of the review they are
+reading)
+4 - Associate applicable photographs with the correct CMS country, region, accommodation and theme page ( this will show in the 'client photograph'
+gallery on that page)
+5 - Wherever possible, upload the best photographs to social sharing websites ( Facebook, Piniterest, Google + and other) and 'tag/friend' the client with their own photographs on our platforms ( this will build communities and get our clients friends to see/like our brand)
+6 - on an ad-hoc basis, use the best trip reviews and photographs for a blog creation

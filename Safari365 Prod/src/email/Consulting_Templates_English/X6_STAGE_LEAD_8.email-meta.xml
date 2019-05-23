@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Managers reply to &quot;No Thanks&quot;</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>1.9.4 STAGE = LEAD</name>
+    <style>formalLetter</style>
+    <subject>{!User.Division} - {!Lead.FirstName} {!Lead.LastName}&apos;s Safari to Africa</subject>
+    <textOnly>Dear {!Lead.FirstName},
+Greetings from sunny Cape Town.
+
+Thank you for your online enquiry, we have noted that you do not wish to pursue your enquiry at this stage. Safari365 specialise in Southern Africa (including South Africa, Botswana, Namibia, Zambia, Zimbabwe and Mozambique),  East Africa (Tanzania, Kenya, Rwanda and Uganda) as well as the Indian Ocean Islands (Madagascar, Mauritius and Seychelles).
+
+We tailor-make our holidays, safaris and experiences to exceed the clients expectations and deliver a holiday of a life time.  This can be tailor-made from a midrange level to a luxury level offering our clients the best rates (10-15% less than booking direct) due to our large buying power and brand.
+
+Should you at any time want to review your request or contact us for a quote please feel free to do so.
+
+We would love to be able to assist you and hope to hear from you again sometime in the near future.
+
+Best regards,
+Natalie
+
+NATALIE FARNELL
+SALES MANAGER
+
+
+
+Get to know us better! Read our blog
+_______________________________________________________________________________________________
+
+Safari365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK 080 823 44485 USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325 Fax: 086 658 1713
+www.safari365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

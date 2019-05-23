@@ -1,0 +1,59 @@
+Please note {!Passenger__c.FirstName__c} has completed passenger details in the Members Club. 
+
+
+* Please action any important details to suppliers and double-check the international flight arrival and departure details against your itinerary first and last services booked.
+
+* Please note you cannot send all passenger details to your suppliers due to privacy laws (i.e. you can't just forward this email). ONLY send relevant details and remove personal contact information, emergency contact information and other information that is not critical for suppliers to know. 
+
+BOOKING OVERVIEW
+Passenger Name: {!Passenger__c.FirstName__c} {!Passenger__c.Last_Name__c}
+Travelling with Primary Passenger: {!Passenger__c.Account__c} 
+Opportunity Name: {!Passenger__c.Opportunity_Name__c} 
+Arrival Date: {!Passenger__c.Arrival_Date__c} 
+
+PASSPORT INFORMATION
+First Name (Passport): {!Passenger__c.FirstName__c} 
+Middle Name(s): {!Passenger__c.Middle_Name_s__c}
+Surname (Passport): {!Passenger__c.Last_Name__c}
+Passport Number: {!Passenger__c.Passport_Number__c}
+Nationality: {!Passenger__c.Nationality__c}
+Passport Expiry Date: {!Passenger__c.Passport_Expiry_Date__c}
+Passenger Birth Date: {!Passenger__c.Celebrating_Birthday__c}
+
+CLIENT CONTACT INFORMATION 
+Email: {!Passenger__c.Email__c}
+Mobile Phone: {!Passenger__c.Mobile_Phone__c}
+Home Phone: {!Passenger__c.Home_Phone__c}
+
+FLIGHT INFORMATION
+International Flight Arrival Details:
+{!Passenger__c.International_Flight_Arrival_Details__c}
+
+International Flight Departure Details:
+{!Passenger__c.International_Flight_Departure_Details__c}
+
+DIETARY RESTRICTIONS AND MEDICAL INFORMATION
+Dietary Requirements: {!Passenger__c.DietaryRequirements_Text__c}
+Existing Medical Condition: {!Passenger__c.Medical_Conditions__c}
+Existing Mobility Issue: {!Passenger__c.Mobility_Issues__c}
+
+TRAVEL INSURANCE
+Travel Insurance: {!Passenger__c.Travel_Insurance__c}
+Travel Insurance Policy Number: {!Passenger__c.Travel_Insurance_Policy_Number__c}
+Travel Insurance Policy Provider: {!Passenger__c.Travel_Insurance_Policy_Provider__c}
+Policy Emergency Phone Number: {!Passenger__c.Policy_Emergency_Phone_Number__c}
+
+EMERGENCY CONTACT INFORMATION
+Emergency First Name: {!Passenger__c.Emergency_First_Name__c}
+Emergency Last Name: {!Passenger__c.Emergency_Last_Name__c}
+Emergency Mobile Phone Number: {!Passenger__c.Emergency_Mobile_Phone_Number__c}
+
+THE FUN STUFF
+Client is celebrating a birthday whist travelling: Y/N  (date if yes){!Passenger__c.Celebrating_Birthday__c}
+Client is celebrating a special occasion whilst travelling: {!Passenger__c.Other_Occasion__c}
+Celebration Date: {!Passenger__c.Celebrating_a_wedding_anniversary__c}
+
+WAIVERS AND T&C's
+Waiver Of Liability: {!Passenger__c.Waiver_Of_Liability__c}
+Waiver Of Liability Name: {!Passenger__c.Waiver_Of_Liability_Name__c}
+Waiver Of Liability Date: {!Passenger__c.Waiver_Of_Liability_Date__c}

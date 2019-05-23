@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification sent to client a few days before their balance payment is due</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>External: Client Balance Payment Due</name>
+    <style>freeForm</style>
+    <subject>Your Safari365 balance payment</subject>
+    <textOnly>Dear {!Quotations__c.Primary_Client_First_Name__c},
+
+This is a system generated reminder that the balance payment for your holiday, {!Quotations__c.Opportunity__c}-{!Quotations__c.Quotation_Name__c}, is due on {!Quotations__c.Balance_Due_Date__c}.
+
+Please see your payments summary below:
+
+Booking Total
+
+{!Quotations__c.Currency__c} {!Quotations__c.Quotation_Sale_Total_in_Selected_CC__c}
+
+Funds Received
+
+{!Quotations__c.Currency__c} {!Quotations__c.Funds_Received_To_Date__c}
+
+Balance Due
+
+{!Quotations__c.Currency__c} {!Quotations__c.Total_Funds_Outstanding__c}
+
+Due Date
+
+{!Quotations__c.Balance_Due_Date__c}
+
+
+Payment can be made via the following link: {!Quotations__c.Payment_Link__c}
+
+If paying by bank transfer, please do so 3 days before the due date to allow time for your funds to transfer.
+
+If you are in communication with your consultant, {!Opportunity.OwnerFullName}, to make last minute adjustments, or if you have already made payment, this reminder can be ignored.
+
+Kind regards,
+Safari365 Payments.</textOnly>
+    <type>html</type>
+</EmailTemplate>

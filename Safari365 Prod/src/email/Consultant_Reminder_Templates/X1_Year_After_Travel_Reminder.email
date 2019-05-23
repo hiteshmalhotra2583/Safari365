@@ -1,0 +1,14 @@
+REMINDER: YOUR CLIENT TRAVELLED 1 YEAR AGO, PLEASE:
+
+- Make friendly contact, touching base, make it personal (Template 6.3)
+- See if they ( or friends) are considering to travel to Africa 
+- This is the chance to cross sell a new Southern or East Africa travel opportunity ( or withing either region), something exciting that adds value to their travel experiences!! (as we now know them and their preferences)
+ - Alert them to 365 news, product updates or specials that may be of interest
+- Use SF consulting template as a base (but keep the personal relationship)
+
+Note: Repeat business closes 6X better than new business!!
+
+{!Account.PersonEmail}
+{!Opportunity.Name} spent {!Opportunity.Amount}
+Client Name: {!Account.Name}
+Click on the link to access the opportunity directly: {!Opportunity.Link}

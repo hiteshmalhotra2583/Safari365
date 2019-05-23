@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>LCL</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>LCLs</value>
+    </caseValues>
+    <fields>
+        <label><!-- CODE --></label>
+        <name>CODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- DESCR --></label>
+        <name>DESCR__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

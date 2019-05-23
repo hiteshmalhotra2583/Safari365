@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2017 July Newsletter Brazil</name>
+    <style>none</style>
+    <subject>Bem-vindos ao Serengeti</subject>
+    <textOnly>Serengeti, um destino icônico da Tanzânia
+
+[fname],
+
+A primeira visão do Serengeti é inesquecível. Céu azul, acácias e savanas intermináveis. O cenário perfeito para um safári africano. Não é à toa que tantos viajantes se apaixonam pela África após conhecer esta região.
+
+Segundo George Schaller, zoólogo americano, ninguém retorna do Serengeti sem ser tocado pela natureza selvagem daquele lugar; os incríveis leões rugem para sempre na sua memória e as enormes manadas de animais continuam a cruzar sua imaginação.
+
+O Serengeti National Park é sem dúvida um dos melhores destinos para experiências de safári no Leste Africano. Famoso pela abundância de vida selvagem e por ser corredor de passagem da Grande Migração - um espetáculo da natureza que acontece anualmente no continente.
+
+São inúmeras as combinações de roteiro que podem ser feitas na Tanzânia, combinando safári e praia, e nossos consultores estão prontos para proporcionar a você a experiência africana perfeita.
+
+Aguardamos você do outro lado do Atlântico.
+
+Fundador Safari365</textOnly>
+    <type>custom</type>
+</EmailTemplate>

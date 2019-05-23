@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Lead Nurture</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Lead Nurturing</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active and outdoor adventure --></label>
+        <name>Active_and_outdoor_adventure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beach relaxation --></label>
+        <name>Beach_relaxation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Botswana --></label>
+        <name>Botswana__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Lead Nurturing --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Converted to Lead --></label>
+        <name>Converted_to_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of residence --></label>
+        <name>Country_of_residence__c</name>
+        <picklistValues>
+            <masterLabel>Argentina</masterLabel>
+            <translation><!-- Argentina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austria</masterLabel>
+            <translation><!-- Austria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barbados</masterLabel>
+            <translation><!-- Barbados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belgium</masterLabel>
+            <translation><!-- Belgium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Botswana</masterLabel>
+            <translation><!-- Botswana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation><!-- Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation><!-- China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatia</masterLabel>
+            <translation><!-- Croatia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech Republic</masterLabel>
+            <translation><!-- Czech Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denmark</masterLabel>
+            <translation><!-- Denmark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djibouti</masterLabel>
+            <translation><!-- Djibouti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominica</masterLabel>
+            <translation><!-- Dominica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation><!-- Germany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ghana</masterLabel>
+            <translation><!-- Ghana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gibraltar</masterLabel>
+            <translation><!-- Gibraltar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenland</masterLabel>
+            <translation><!-- Greenland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ireland</masterLabel>
+            <translation><!-- Ireland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation><!-- Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jordan</masterLabel>
+            <translation><!-- Jordan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea, Republic of</masterLabel>
+            <translation><!-- Korea, Republic of --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvia</masterLabel>
+            <translation><!-- Latvia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liberia</masterLabel>
+            <translation><!-- Liberia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madagascar</masterLabel>
+            <translation><!-- Madagascar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mali</masterLabel>
+            <translation><!-- Mali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malta</masterLabel>
+            <translation><!-- Malta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Namibia</masterLabel>
+            <translation><!-- Namibia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand</masterLabel>
+            <translation><!-- New Zealand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nigeria</masterLabel>
+            <translation><!-- Nigeria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norway</masterLabel>
+            <translation><!-- Norway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pakistan</masterLabel>
+            <translation><!-- Pakistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal</masterLabel>
+            <translation><!-- Portugal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quatar</masterLabel>
+            <translation><!-- Quatar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rwanda</masterLabel>
+            <translation><!-- Rwanda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scotland</masterLabel>
+            <translation><!-- Scotland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore</masterLabel>
+            <translation><!-- Singapore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation><!-- South Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanzania</masterLabel>
+            <translation><!-- Tanzania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thailand</masterLabel>
+            <translation><!-- Thailand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation><!-- Turkey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Arab Emirates</masterLabel>
+            <translation><!-- United Arab Emirates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Kingdom</masterLabel>
+            <translation><!-- United Kingdom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zimbabwe</masterLabel>
+            <translation><!-- Zimbabwe --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email Log Date --></label>
+        <name>Email_Log_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Escalation Speed --></label>
+        <name>Escalation_Speed__c</name>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation><!-- Normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slow</masterLabel>
+            <translation><!-- Slow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Family safaris --></label>
+        <name>Family_safaris__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Food and Wine --></label>
+        <name>Food_and_Wine__c</name>
+    </fields>
+    <fields>
+        <label><!-- History and culture --></label>
+        <name>History_and_culture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Honeymoons and romance --></label>
+        <name>Honeymoons_and_romance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kenya --></label>
+        <name>Kenya__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Nurture --></label>
+        <name>Lead_Nurture__c</name>
+        <relationshipLabel><!-- Lead Nurturing --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Exists as Lead --></label>
+        <name>Lead__c</name>
+        <relationshipLabel><!-- Lead Nurturing --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Mozambique --></label>
+        <name>Mozambique__c</name>
+    </fields>
+    <fields>
+        <label><!-- Namibia --></label>
+        <name>Namibia__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewsLetterSent --></label>
+        <name>NewsLetterSent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Newsletter --></label>
+        <name>Newsletter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next NewsLetter Date --></label>
+        <name>Next_NewsLetter_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Brochures --></label>
+        <name>Other_Brochures__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Interests --></label>
+        <name>Other_Interests__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Brochure --></label>
+        <name>Primary_Brochure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rwanda --></label>
+        <name>Rwanda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- South Africa --></label>
+        <name>South_Africa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>EARLY</masterLabel>
+            <translation><!-- EARLY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INTRO</masterLabel>
+            <translation><!-- INTRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LATE</masterLabel>
+            <translation><!-- LATE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MID</masterLabel>
+            <translation><!-- MID --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tanzania --></label>
+        <name>Tanzania__c</name>
+    </fields>
+    <fields>
+        <label><!-- Uganda --></label>
+        <name>Uganda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Victoria Falls --></label>
+        <name>Victoria_Falls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Walking safaris --></label>
+        <name>Walking_safaris__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website origin --></label>
+        <name>Website_origin__c</name>
+        <picklistValues>
+            <masterLabel>Web: safari365.com</masterLabel>
+            <translation><!-- Web: safari365.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web: safari365.com.au</masterLabel>
+            <translation><!-- Web: safari365.com.au --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web: southafrica365.com</masterLabel>
+            <translation><!-- Web: southafrica365.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web: top5africa.com</masterLabel>
+            <translation><!-- Web: top5africa.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web:safari365.com.tur.br</masterLabel>
+            <translation><!-- Web:safari365.com.tur.br --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Wildlife and safari experiences --></label>
+        <name>Wildlife_and_safari_experiences__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zambia --></label>
+        <name>Zambia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zanzibar and Pemba --></label>
+        <name>Zanzibar_and_Pemba__c</name>
+    </fields>
+    <layouts>
+        <layout>Lead Nurture Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Interests --></label>
+            <section>Interests</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Convert_To_Lead --></label>
+        <name>Convert_To_Lead</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>General (East Africa, from management)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>4.2. STAGE = CLOSED LOST</name>
+    <style>formalLetter</style>
+    <subject>{!User.Division} - {!Account.Name} : Your Booking with Safari 365</subject>
+    <textOnly>Dear {!Account.Name},
+Thank you for the opportunity you have afforded Safari 365 thus far on quoting on your holiday requirements. I have discussed your booking in full with {!Account.OwnerFullName} and overseen your file progress from original contact.
+
+I realise that you are potentially at a crossroads in your decision making, and assure you that we remain committed obtaining your business and providing you with top class travel services.
+
+We are an African based operator specialising in selling ONLY Africa. Our team members have travelled to every corner of Africa, and some have lived in more than one African country. We are small enough to care, yet big enough to count.
+
+As our track record shows, over 1500 happy clients travel with us annually due to the superior rates and service they receive. We have been in the game long enough to have developed a thorough understanding of how our clients can get the best from their East African safari experience, and have the facilities in place to manage your vacation when you are actually travelling in Africa. .
+
+When it comes to value for money, we carefully select out suppliers to ensure you always get the most bang for your buck. As we are based on the internet we cut out the middleman to pass these discounts directly on to you (Note: when comparing apples with apples, we should be significantly cheaper than other alternatives) In addition, we have the right affiliations and credibility in place to ensure your peace of mind.
+
+We pride ourselves on taking the time to hear what our clients have to say – it’s how we ensure that our service is always up to scratch. Any concerns you may have can be addressed directly with me, and I will endeavour to put them to rest.
+
+We look forward to making this trip a reality for you.
+
+
+Kind regards,
+
+{!User.Name}
+{!User.Title}
+{!User.Email}
+
+Visit Your Members Club: www.safari365.com/members/login/{!Opportunity.Members_Club_ID__c}
+
+Get to know us better! Read our blog
+_______________________________________________________________________________________________
+
+Safari365.com &amp; South Africa 365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK 080 823 44485 USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325 Fax: 086 658 1713
+www.safari365.com &amp; www.southafrica365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

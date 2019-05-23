@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Vic Falls + CPT to Zim Tour</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2017 October Newsletter (English)</name>
+    <style>none</style>
+    <subject>Visit Victoria Falls: the Smoke that Thunders</subject>
+    <textOnly>Karibu Kenya: The Quintessential Safari Destination
+
+Visit Victoria Falls: the Smoke that Thunders
+
+Dear [fname],
+
+Before explorer David Livingstone first viewed the mighty Victoria Falls and named it in honour of his Queen, the famous natural wonder was known only as Mosi-oa-Tunya – the Smoke that Thunders.
+
+Clouds of spray visible from up to 40km away barrel into the air and hang above the roaring Zambezi River. The rushing river waters crash into a gorge below creating thunderous smoke. Those who have seen the falls in person will know that they definitely live up to the original name.
+
+This month we celebrate the magnificent Victoria Falls.
+
+Along with being breathtaking to behold, Victoria Falls also delivers as a destination. From white water rafting to swimming in Devil’s Pool, there is no shortage of adrenaline pumping activities to enjoy. Victoria Falls is not only for the daredevils. There are many ways to make the most of your time at the falls.  Wander through downtown Victoria Falls and soak up the local culture, enjoy a relaxing sunset river cruise on the Zambezi or take a trip through the nearby beautiful national parks.The best way to experience Victoria Falls is from above; scenic helicopter flights offer travellers a unique perspective of the spectacular falls.
+
+Witnessing the Smoke that Thunders is now easier than ever with daily direct flights from Cape Town and Johannesburg.
+
+Yours in Safari,
+
+
+Safari365 Founder</textOnly>
+    <type>custom</type>
+</EmailTemplate>

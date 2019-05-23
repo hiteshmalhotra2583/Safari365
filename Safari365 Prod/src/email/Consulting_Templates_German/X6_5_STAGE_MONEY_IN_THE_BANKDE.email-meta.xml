@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Repeart and referral template  - Thank You Gift for Referral, Address Request</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>6.5 STAGE = MONEY IN THE BANK DE</name>
+    <style>freeForm</style>
+    <subject>Eine Dankeschön von Safari365</subject>
+    <textOnly>Liebe/r Herr/Frau  {!Account.LastName},
+
+Ich wollte Ihnen nur kurz schreiben und mich für Ihre Empfählung von Herr/Frau XXXXX bedanken. Ich arbeite an einer Traumhaften Reise die wundervolle Erinnerungen hinterlassen wird.
+
+Als kleines Dankeschön, möchten wir Ihnen ein kleines Geschenk schicken. Sie können eines von den zwei Optionen auswählen:
+
+1.    Ein Fotobuch mit den schönsten afrikanischen Fotos.
+2.    Eine feine Flasche Wein.
+
+Bitte lassen Sie mich wissen für welches Geschenk Sie sich entscheiden und schicken Sie mir bitte auch Ihre Postanschrift mit Ihren Zustellanweisungen für den Kurier.
+
+Alles Gute aus Kapstadt,
+
+{!User.Name}
+
+{!User.Title}
+
+{!User.Email}
+
+_______________________________________________________________________________________________
+
+Safari365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK 080 823 44485 USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325 Fax: 086 658 1713
+www.safari365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

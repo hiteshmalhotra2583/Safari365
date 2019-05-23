@@ -1,0 +1,8 @@
+REMINDER: YOUR CLIENT STARTS TRAVELLING IN 60 DAYS, PLEASE:
+
+- Check with accounts if invoice is fully paid.   
+
+{!Opportunity.Name}
+{!Account.PersonEmail}
+Client Name: {!Account.Name}
+Click on the link to access the opportunity directly: {!Opportunity.Link}

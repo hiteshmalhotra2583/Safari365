@@ -1,0 +1,7 @@
+Hi {!Opportunity.OwnerFirstName},
+
+Your client {!Opportunity.Account} has reviewed your service and their African safari experience and rated it 1 or 2 (1 = Very poor, avoid at all costs 2 = Poor, I wouldn’t recommend it)
+
+Click here for the opportunity: {!Opportunity.Link} 
+
+Please look into and advise what has driven this dissatisfaction

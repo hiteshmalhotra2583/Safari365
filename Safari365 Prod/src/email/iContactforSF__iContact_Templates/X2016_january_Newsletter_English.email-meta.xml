@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2016 January Newsletter (English)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2016 January Newsletter (English)</name>
+    <style>none</style>
+    <subject>Celebrating a month of love</subject>
+    <textOnly>We&apos;re celebrating a month of love
+
+Dear [fname],
+
+Few things go together quite like Africa and romance – it’s a priceless combination that’s been enjoyed and remembered by many of our guests.
+
+For February we’re celebrating all things love and African. As always, you can find the best offers below. Have a browse, we have no doubt you’ll find the perfect Valentine’s Day gift or romantic idea. This month we also reveal the best of Botswana and what we cherished the most from last year.
+
+
+We look forward to taking you to new places and creating unforgettable memories in 2016 – whether it’s a honeymoon, family getaway or just because Africa is calling.
+
+On that note, we have a big announcement coming soon. We can’t wait to show you! Here’s to new journeys.
+
+P.S. Not that romance should be equated with bargain hunting, but due the weakening exchange rate South Africa and Namibia are currently high value destinations.
+
+
+~  Marcus Brain, Safari365 founder  ~
+
+Safari365
+Old Marine Dr Foreshore,
+Cape Town, 8000, South Africa
+
+Safari365.com</textOnly>
+    <type>custom</type>
+</EmailTemplate>

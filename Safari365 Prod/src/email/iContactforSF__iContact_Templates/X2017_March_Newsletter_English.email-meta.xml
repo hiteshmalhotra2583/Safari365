@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Constantia Winelands + Best of Botswana Special</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2017 March Newsletter (English)</name>
+    <style>none</style>
+    <subject>Harvest Season in Cape Town&apos;s Vineyard | Safari 365</subject>
+    <textOnly>Harvest Season in Cape Town&apos;s Vineyard
+
+Dear [fname],
+
+It’s officially the beginning of autumn in the Southern Hemisphere and Cape Town is experiencing shorter days and cooler nights with the arrival of the new season.
+
+Autumn also signals the end of harvest season in the award-winning Cape Winelands. Wine farms across the region are bustling with late harvest time activity.
+
+This month, we feature the Constantia Winelands – South Africa’s oldest wine producing region.
+
+The Constantia Winelands area is the whole package: history, scenic views, and highly esteemed wines. With the area being a short 20-minute journey from Cape Town’s City Center, the nine Constantia wine farms and estates are a hugely popular destination for visitors to the city year round.
+
+In other travel related accolades, South Africa now boasts four lodges on National Geographic&apos;s esteemed &apos;Unique Lodges of the World&apos; list. Each lodge is deeply vetted for its authentic and responsible travel experiences before being added, see the full list here.
+
+Yours in Safari,</textOnly>
+    <type>custom</type>
+</EmailTemplate>

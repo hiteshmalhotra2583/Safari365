@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OPC</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OPCs</value>
+    </caseValues>
+    <fields>
+        <label><!-- CODE --></label>
+        <name>CODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission --></label>
+        <name>Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- FB_Markup --></label>
+        <name>FB_Markup__c</name>
+    </fields>
+    <fields>
+        <label><!-- GB_Markup --></label>
+        <name>GB_Markup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sale_From --></label>
+        <name>Sale_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sale_To --></label>
+        <name>Sale_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sell_Round --></label>
+        <name>Sell_Round__c</name>
+    </fields>
+    <layouts>
+        <layout>OPC Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

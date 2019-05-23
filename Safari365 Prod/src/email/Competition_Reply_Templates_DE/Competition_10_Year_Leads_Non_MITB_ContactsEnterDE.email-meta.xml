@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Competition: 10 Year -  Would You Like to Enter -  Leads</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Competition_10_Year_Giveaway_Wina_a_Safari_to_Africa</letterhead>
+    <name>Competition: 10 Year  -  Would You Like to Enter - LeadsDE</name>
+    <style>freeForm</style>
+    <subject>Gewinnen Sie eine afrikanische Safari Ihres Lebens mit Safari365</subject>
+    <textOnly>Sehr geehrter Herr / Sehr geehrte Frau {!Lead.FirstName},
+
+Seit einem Jahrzehnt erstellen wir Safaris in Afrika und haben seitdem unvergessliche Erinnerungen geschaffen, daher vergibt Safari365 eine unglaubliche 10-tägige Safari im Wert von über $10.000 (USD).
+
+Wie man teilnehmen kann:
+
+Teilen Sie mit uns einfach Ihre afrikanischen Lieblingsziele und Erfahrungen und empfehlen Sie einen Freund oder einen Bekannten der an einer Reise nach Afrika interessiert sein könnte und Sie werden danach automatisch in das Preisausschreiben einbezogen. Verwiesene Personen erhalten ein Einleitungsschreiben und haben selbstverständlich auch die Wahl aus dem Preisausschreiben auszutreten.
+
+HIER MITMACHEN
+
+Der Gewinner wird am 21. November 2016 bekannt gegeben.
+
+Viel Glück!!
+Safari365
+
+Der Preis
+
+3 Nächte im luxuriösen More Quarter Hotel in Kapstadt.
+Einen 15-minütigen Helikopterflug über Kapstadt.
+1 Nacht in der spektakulären Weinregion von Kapstadt
+3 Nächte auf Safari in der Simbavati River Lodge im Krüger Nationalpark
+2 Nächte in der Ilala Lodge bei den Victoria Fällen(inklusive einer
+Bootsfahrt bei Sonnenuntergang und einer Tour der Fälle).
+Alle internen Flüge und 4 Tage Mietwagen in Kapstadt.</textOnly>
+    <type>html</type>
+</EmailTemplate>

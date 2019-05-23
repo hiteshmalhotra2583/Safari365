@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Repeart and referral template - Introducing new consultant and touching base</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>6.4 STAGE = MONEY IN THE BANK</name>
+    <style>freeForm</style>
+    <subject>来自Safari365的问候</subject>
+    <type>html</type>
+</EmailTemplate>

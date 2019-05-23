@@ -1,0 +1,10 @@
+Hi {!Opportunity.OwnerFirstName},
+
+NB NB!! Send an email to {!Opportunity.Referring_Client_Name__c} to let them know we have sent the thank you gift to them for referring {!Opportunity.Account} to us (or call them for a catch-up and a thank you) 
+
+This is the best for your referral database!! If you don't send an email to the client, they will not know it comes from Safari365.
+
+Tell them that the gift we sent is {!Opportunity.Which_Gift_was_Sent__c} 
+Courier Company and Tracking Number: {!Opportunity.Gift_Tracking_Order_Details__c}
+
+Please advise your Sales Manager when you have had feedback from the client after they received the gift.

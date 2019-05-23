@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Consultant Level Setup Ferret</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Consultant Level Setup Ferret</value>
+    </caseValues>
+    <fields>
+        <label><!-- BHAG (Monthly) --></label>
+        <name>BHAG_Monthly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Level --></label>
+        <name>Consultant_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion Ratio Target (Annual) --></label>
+        <name>Conversion_Ratio_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Profit Target (Monthly) --></label>
+        <name>Gross_Profit_Taget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Leads Required (Monthly) --></label>
+        <name>Number_of_Leads__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>Year__c</name>
+    </fields>
+    <layouts>
+        <layout>Consultant Target Schema Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

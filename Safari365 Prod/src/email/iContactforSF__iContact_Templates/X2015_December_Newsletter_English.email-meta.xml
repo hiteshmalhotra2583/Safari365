@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>2015 December Newsletter  (Brazil)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 December Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Safari365: Boas Festas e Feliz Ano Novo!</subject>
+    <textOnly>Olá [fname],
+
+Mais um ano chega ao fim e como todo final de ano, gostaria de agradecer nossos clientes, amigos e familiares por terem dividido conosco nossa paixão pela África.
+
+O continente africano é realmente um lugar único e especial. Apenas este ano tivemos Botsuana nomeada como destino número 1 em 2016 pela Lonely Planet; a Cidade do Cabo nomeada a segunda melhor cidade de praia do mundo pela National Geographic; e o fóssil humano de 2.5 milhões de anos, Homo Naledi, descoberto na África do Sul - e acreditem, ainda há muito a ser descoberto e compartilhado por aqui.
+
+Tivemos momentos desafiadores também, como as incertezas dos mercados nacionais que levou à desvalorização do Rand (moeda local) e as tristes notícias sobre a caça ilegal que continua ocorrendo no continente (lentamente combatida pela Rhinos without Borders e TUSK).
+
+No entanto, continuamos firmes na estrada, sempre buscando novas inciativas. Masikhule foi uma delas e vem trazendo muita alegria ao nosso trabalho diário por aqui (confira o blog abaixo). Somos todos África, por isso é de grande importância que nosso caminho como empresa possua impactos positivos e duradouros sobre as pessoas do continente.
+
+Por fim, nosso pequeno negócio cresceu para uma família com mais de 20 fucionários – atendendo 40% de clientes antigos e provenientes de recomendações (a prova de que trabalhar com seriedade vale a pena).
+
+2016 chegará já com novidades, dentre elas, um novo website acompanhado de um relançamento de marca.
+
+Desejo a todos ótimas festas e um próspero 2016.
+
+~  Marcus Brain, fundador Safari365  ~</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,39 @@
+A new review has been uploaded for {!Opportunity.Account}, it is currently deactive 
+
+Opportunity Owner: {!Opportunity.OwnerFullName}
+Link: {!Opportunity.Link}
+
+OVERALL RATING:
+{!Opportunity.Rating_1__c} (Poor)
+{!Opportunity.Rating_2__c} (Could be better)
+{!Opportunity.Rating_3__c} (Average)
+{!Opportunity.Rating_4__c} (Good)
+{!Opportunity.Rating_5__c} (Great)
+
+OVERALL CLIENT EXPERIENCE:
+{!Opportunity.Overall_client_safari_experience__c}
+
+WE COULD DO BETTER (PLEASE ADDRESS THIS INTERNALLY/WITH THE SUPPLIER AS NECESSARY):
+{!Opportunity.How_can_Safari365_improve__c}
+
+'Review Administrator' to please do the following: 
+
+1 - Enter the Safari365 CMS
+2 - Moderate the review taking note of the points below
+3 - Associate the client photographs (from the photo book) with this review if client permission has been granted
+4 - Activate the review to live
+
+IMPORTANT FOR UPLOADING REVIEWS
+
+General Review Notes:								
+- Take time to do the review well - they are very NB					
+- Make sure you link the exact property (if the client has left the property as 'other')		
+- Seek management judgement in removing content where it is inaccurate or too brash 
+- Add SEO revevance to URL and keyword density as required ( seek SEO advice as necessary)
+- Ensure each review is associated with at least 1 'country' level in CMS
+- Spread reviews between tours, destinations and theme pages ( seek SEO advice as necessary)
+- Separate reviews by language
+	
+Accommodation Portion Reviews Notes:						
+- Remove any mention of Safari365/South Africa 365 or consultant name (as this info will  be 'farmed' out to other websites (like ASE)
+- Increase keyword density of the accommodation name ( seek SEO advice as necessary)

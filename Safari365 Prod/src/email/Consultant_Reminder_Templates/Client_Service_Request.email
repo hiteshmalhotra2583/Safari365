@@ -1,0 +1,7 @@
+Client Service Request 
+
+Opportunity: {!Opportunity.Name}
+Consultant: {!Opportunity.OwnerFullName}
+Severity: {!Opportunity.Service_Level_Severity__c}
+
+Service Request: {!Opportunity.Support_Aservice_Description__c}

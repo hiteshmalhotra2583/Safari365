@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Ask client to login and upload review and photobook</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Photobook_Offer_Letterhead_Safari365</letterhead>
+    <name>External: Request client to upload photographs and reviews DE</name>
+    <style>freeForm</style>
+    <subject>Review your Safari and Receive your Complimentary Photo Book</subject>
+    <textOnly>Dear {!Account.FirstName},
+
+Thank you once again for choosing to travel with Safari365 and becoming a part of our traveller community. We would love to hear your feedback as well as create your complimentary photobook.
+
+Please follow the instructions in your Members Club to review your experience in Africa, as well as upload your best 40 to 60 photographs for us to get to work in creating your personal photobook.
+
+Click below to visit your Members Club and proceed with your Review and Photobook: https://www.safari365.com/members/login/{!Opportunity.Members_Club_ID__c}
+
+We hope to welcome you back to Africa soon,
+Safari365</textOnly>
+    <type>html</type>
+</EmailTemplate>

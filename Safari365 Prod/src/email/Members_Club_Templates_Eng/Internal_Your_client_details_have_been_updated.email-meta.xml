@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Your client has updated their Members Club details.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Internal: Your client details have been updated</name>
+    <style>none</style>
+    <subject>Your client has updated their Members Club details.</subject>
+    <type>text</type>
+</EmailTemplate>

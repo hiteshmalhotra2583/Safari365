@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ExchangeRate</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ExchangeRates</value>
+    </caseValues>
+    <fields>
+        <label><!-- AED --></label>
+        <name>AED__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANG --></label>
+        <name>ANG__c</name>
+    </fields>
+    <fields>
+        <label><!-- ARS --></label>
+        <name>ARS__c</name>
+    </fields>
+    <fields>
+        <label><!-- AUD --></label>
+        <name>AUD__c</name>
+    </fields>
+    <fields>
+        <label><!-- BRL Credit Card Markup --></label>
+        <name>BRL_Credit_Card_Markup__c</name>
+    </fields>
+    <fields>
+        <label><!-- BRL --></label>
+        <name>BRL__c</name>
+    </fields>
+    <fields>
+        <label><!-- BaseCurrency --></label>
+        <name>BaseCurrency__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAD --></label>
+        <name>CAD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHF --></label>
+        <name>CHF__c</name>
+    </fields>
+    <fields>
+        <label><!-- CLP --></label>
+        <name>CLP__c</name>
+    </fields>
+    <fields>
+        <label><!-- CNY --></label>
+        <name>CNY__c</name>
+    </fields>
+    <fields>
+        <label><!-- DKK --></label>
+        <name>DKK__c</name>
+    </fields>
+    <fields>
+        <label><!-- EUR --></label>
+        <name>EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExchangeRateDate --></label>
+        <name>ExchangeRateDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- GBP --></label>
+        <name>GBP__c</name>
+    </fields>
+    <fields>
+        <label><!-- HKD --></label>
+        <name>HKD__c</name>
+    </fields>
+    <fields>
+        <label><!-- ILS --></label>
+        <name>ILS__c</name>
+    </fields>
+    <fields>
+        <label><!-- MYR --></label>
+        <name>MYR__c</name>
+    </fields>
+    <fields>
+        <label><!-- NZD --></label>
+        <name>NZD__c</name>
+    </fields>
+    <fields>
+        <label><!-- PEN --></label>
+        <name>PEN__c</name>
+    </fields>
+    <fields>
+        <label><!-- RUB --></label>
+        <name>RUB__c</name>
+    </fields>
+    <fields>
+        <label><!-- SEK --></label>
+        <name>SEK__c</name>
+    </fields>
+    <fields>
+        <label><!-- SGD --></label>
+        <name>SGD__c</name>
+    </fields>
+    <fields>
+        <label><!-- USD --></label>
+        <name>USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZAR --></label>
+        <name>ZAR__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

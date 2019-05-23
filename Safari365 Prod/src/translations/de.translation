@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Consultant Targets Setup --></label>
+        <name>Consultant_Targets_Setup</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- FX Ferret --></label>
+        <name>FX_Ferret</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Finance Ferret --></label>
+        <name>Finance_Ferret</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Mass Update And Mass Edit --></label>
+        <name>Mass_Update_And_Mass_Edit</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- 365 Force --></label>
+        <name>SA_365_Force</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Sales Ferret --></label>
+        <name>Sales_Ferret</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- TourPlan Database --></label>
+        <name>TourPlan_Database</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- A_Quotation_has_Unlocked --></label>
+        <name>A_Quotation_has_Unlocked</name>
+    </customLabels>
+    <customLabels>
+        <label>Diese Lieferantenrichtlinie verhindert, dass Sie die ausgewählte Anzahl an Erwachsenen hinzufügen. 
+Bitte überprüfen Sie die Anzahl der ausgewählten Erwachsenen oder wählen Sie &quot;Lieferantendetails außer Kraft setzen&quot;, wodurch alle Richtlinien und Einschränkungen außer Kraft gesetzt werden und eine Service-Linie ohne Raten erstellt wird.</label>
+        <name>Adult_Count</name>
+    </customLabels>
+    <customLabels>
+        <label>Diese Lieferantenrichtlinie verhindert, dass Sie den ausgewählten Passagier hinzufügen, da das Alter nicht den Alterskriterien der Unterkunft entspricht. Bitte überprüfen Sie die Alterskriterien oder wählen Sie &quot;Lieferantendetails außer Kraft setzen&quot;, wodurch alle Richtlinien und Einschränkungen außer Kraft gesetzt werden und eine Servicezeile ohne Raten erstellt wird.</label>
+        <name>Age_Criteria_Total_Pax</name>
+    </customLabels>
+    <customLabels>
+        <label>Fälliger Betrag</label>
+        <name>Balance_Due_Amount</name>
+    </customLabels>
+    <customLabels>
+        <label>https://365force--365dev.cs89.my.salesforce.com/</label>
+        <name>CRM_Id_Label</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte rufen Sie zuerst den Wetu-Service an, bevor Sie den Reiseplan erstellen</label>
+        <name>Call_Wetu_Service</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte wählen Sie die Reiseroute aus</label>
+        <name>Check_Iternary_Language</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Client Balance Due Date --></label>
+        <name>Client_Balance_Due_Date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Client ‘Booking Confirmation’ Requested --></label>
+        <name>Client_Booking_Confirmation_Requested</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Client_Booking_Confirmation_Requested-1 --></label>
+        <name>Client_Booking_Confirmation_Requested1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Client Deposit Due Date --></label>
+        <name>Client_Deposit_Due_Date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Client Quotation Expires in 2 Days --></label>
+        <name>Client_Quotation_Expires_in_2_Days</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Deposit Due Date --></label>
+        <name>Deposit_Due_Date</name>
+    </customLabels>
+    <customLabels>
+        <label>Diese Lieferantenrichtlinie verhindert, dass Sie die ausgewählte Dauer hinzufügen, da die Dauer zu lang ist. Überprüfen Sie die Dauer oder wählen Sie &quot;Lieferantendetails überschreiben&quot;, wodurch alle Richtlinien und Einschränkungen außer Kraft gesetzt werden und eine Service-Linie ohne Raten erstellt wird.</label>
+        <name>Duration_Check</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte geben Sie eine Wetu Intro Kundennummer an</label>
+        <name>ETU_Intro_Customer_Note</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- curEUR --></label>
+        <name>EUR_Euro</name>
+    </customLabels>
+    <customLabels>
+        <label>e51dbb28dc1c4380b30af6b07edfaffa</label>
+        <name>ExchangeRateApp_id</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Exposure Threshold --></label>
+        <name>Exposure_Threshold</name>
+    </customLabels>
+    <customLabels>
+        <label>Diese Lieferantenrichtlinie verhindert, dass Sie die ausgewählten Tage hinzufügen, da bestimmte Tage fehlen. Bitte überprüfen Sie die ausgewählten Tage oder wählen Sie &quot;Lieferantendetails überschreiben&quot;, wodurch alle Richtlinien und Einschränkungen außer Kraft gesetzt werden und eine Service-Linie ohne Raten erstellt wird.</label>
+        <name>Included_Day_Match</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Initial Client Payment Received --></label>
+        <name>Initial_Client_Payment_Received</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Initial Client Payment Received-1 --></label>
+        <name>Initial_Client_Payment_Received_1</name>
+    </customLabels>
+    <customLabels>
+        <label>Berater</label>
+        <name>IternaryConsultantName</name>
+    </customLabels>
+    <customLabels>
+        <label>Diese Lieferantenrichtlinie verhindert, dass Sie ein Kind hinzufügen, da es keine Richtlinie für Kinder gibt. Überprüfen Sie die ausgewählten Passagiere oder wählen Sie &quot;Lieferantendetails überschreiben&quot; aus, wodurch alle Richtlinien und Einschränkungen außer Kraft gesetzt werden und eine Serviceleitung ohne Gebühren erstellt wird</label>
+        <name>Kids_Not_Allowed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Maximum Quote Exposure Days --></label>
+        <name>Maximum_Quote_Exposure_Days</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NextNewsLetterDay --></label>
+        <name>NextNewsLetterDay</name>
+    </customLabels>
+    <customLabels>
+        <label>Für die ausgewählte Eigenschaft wurden keine Tarife geladen.</label>
+        <name>No_OPD_available_for_selected_OSR</name>
+    </customLabels>
+    <customLabels>
+        <label>Für den ausgewählten Zeitraum sind keine Tarife verfügbar.</label>
+        <name>No_OSR_available</name>
+    </customLabels>
+    <customLabels>
+        <label>Diese Option ist bei der ausgewählten Eigenschaft nicht verfügbar. Bitte kreuzen Sie die Option an oder wählen Sie &quot;Lieferantendetails außer Kraft setzen&quot;, wodurch alle Richtlinien und Einschränkungen außer Kraft gesetzt werden und eine Servicezeile ohne Gebühren erstellt wird.</label>
+        <name>OPT_Not_Available</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opportunity Close Day --></label>
+        <name>Opportunity_Close_Day</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Passenger Celebrates Birthday in 3 Days --></label>
+        <name>Passenger_Celebrates_Birthday_in_3_Days</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Passenger Celebrates Special Occasion in 3 Days --></label>
+        <name>Passenger_Celebrates_Special_Occasion_in_3_Days</name>
+    </customLabels>
+    <customLabels>
+        <label>Bevor Sie eine digitale Reiseroute erstellen können, müssen Sie auswählen, ob Sie die Fotobücher und Versicherungen in USD oder ZAR aufladen möchten. Wenn der Großteil dieses Angebots in USD angegeben ist, berechnen Sie bitte die Extras in USD und umgekehrt.</label>
+        <name>Passenger_Insurance_not_included_for_wetu</name>
+    </customLabels>
+    <customLabels>
+        <label>http://365dev-safari365.cs89.force.com/passengerdetails?Id=</label>
+        <name>Passenger_Site_URL_Label</name>
+    </customLabels>
+    <customLabels>
+        <label>Der Fahrgasttyp ist nicht definiert. Bitte geben Sie an, ob der Passagier ein Erwachsener, ein Kind oder ein Kleinkind ist.</label>
+        <name>Passenger_Type_Not_Defined</name>
+    </customLabels>
+    <customLabels>
+        <label>Bevor Sie eine digitale Reiseroute erstellen können, müssen Sie auswählen, ob Sie die Fotobücher und Versicherungen in USD oder ZAR aufladen möchten. Wenn der Großteil dieses Angebots in ZAR ist, bitte die Extras in ZAR und umgekehrt.</label>
+        <name>Photobooks_not_included_for_wetu</name>
+    </customLabels>
+    <customLabels>
+        <label>Zitat</label>
+        <name>Quotation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quotation Approval Requested --></label>
+        <name>Quotation_Approval_Requested</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quotation Re-Quote Requested --></label>
+        <name>Quotation_Re_Quote_Requested</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quotation Submission for Approval Approved --></label>
+        <name>Quotation_Submission_for_Approval_Approved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quotation Submission for Approval Approved 1 --></label>
+        <name>Quotation_Submission_for_Approval_Approved1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quotation Submission for Approval Rejected --></label>
+        <name>Quotation_Submission_for_Approval_Rejected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Raised Booking Confirmation Tolearance --></label>
+        <name>Raised_Booking_Confirmation_Tolearance</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Raised_Client_Confirmation_Tolearance --></label>
+        <name>Raised_Client_Confirmation_Tolearance</name>
+    </customLabels>
+    <customLabels>
+        <label>Diese Lieferantenrichtlinie verhindert, dass Sie diese Zimmerkonfiguration auswählen, da sie nicht mit der ausgewählten Anzahl von Passagieren übereinstimmt. Bitte überprüfen Sie die Raumkonfiguration oder wählen Sie &quot;Lieferantendetails außer Kraft setzen&quot;, wodurch alle Richtlinien und Einschränkungen außer Kraft gesetzt werden und eine Service-Linie ohne Gebühren erstellt wird.</label>
+        <name>Room_Configuration_Match</name>
+    </customLabels>
+    <customLabels>
+        <label>Diese Lieferantenrichtlinie verhindert, dass Sie die ausgewählte Anzahl von Nächten hinzufügen, da dieser Service nur für eine bestimmte Anzahl von Nächten gebucht werden kann. Bitte überprüfen Sie die Anzahl der Nächte oder wählen Sie &quot;Lieferantendetails überschreiben&quot;, wodurch alle Richtlinien und Einschränkungen außer Kraft gesetzt werden und eine Service-Linie ohne Gebühren erstellt wird.</label>
+        <name>SCU_Range_Check</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SafariLogoForDocument --></label>
+        <name>SafariLogoForDocument</name>
+    </customLabels>
+    <customLabels>
+        <label>Es ist zu spät, um das ausgewählte Datum zu buchen. Bitte kontaktieren Sie den Anbieter direkt, um eine Buchung vorzunehmen.</label>
+        <name>Service_Date_Check</name>
+    </customLabels>
+    <customLabels>
+        <label>Die Servicedaten sind im ausgewählten Bereich nicht verfügbar. Überprüfen Sie die ausgewählten Servicedaten oder wählen Sie &quot;Lieferantendetails außer Kraft setzen&quot;, wodurch alle Richtlinien und Einschränkungen außer Kraft gesetzt werden und eine Serviceleitung ohne Gebühren erstellt wird.</label>
+        <name>Service_Date_Range</name>
+    </customLabels>
+    <customLabels>
+        <label>Dieser Service ist an bestimmten Tagen nicht verfügbar. Bitte überprüfen Sie die ausgewählten Tage oder wählen Sie &quot;Lieferantendetails überschreiben&quot;, wodurch alle Richtlinien und Einschränkungen außer Kraft gesetzt werden und eine Service-Linie ohne Raten erstellt wird.</label>
+        <name>Service_Day_Check</name>
+    </customLabels>
+    <customLabels>
+        <label>Diese Lieferantenrichtlinie verhindert, dass Sie diese Servicedauer auswählen, da für diesen Zeitraum oder diese Paketdauer ein Mindestaufenthalt gilt. Überprüfen Sie die Servicedauer oder wählen Sie &quot;Lieferantendetails überschreiben&quot;, wodurch alle Richtlinien und Einschränkungen außer Kraft gesetzt werden und eine Serviceleitung ohne Gebühren erstellt wird.</label>
+        <name>Service_Duration_Check</name>
+    </customLabels>
+    <customLabels>
+        <label>Das ausgewählte Datum fällt nicht in den Bereich für gebührenpflichtige Zahlungen. Bitte überprüfen Sie das ausgewählte Datum.</label>
+        <name>Stay_Pay_Not_Valid</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Triggered to Consultant: A Quotation has ‘Unlocked” --></label>
+        <name>Triggered_to_Consultant_A_Quotation_has_Unlocked</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Triggered to Consultant: A Quotation has ‘Unlocked”1 --></label>
+        <name>Triggered_to_Consultant_A_Quotation_has_Unlocked_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Triggered to FX: A Quotation has ‘Unlocked” --></label>
+        <name>Triggered_to_FX_A_Quotation_has_Unlocked</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Valid Until Days --></label>
+        <name>Valid_Until_Days</name>
+    </customLabels>
+    <customLabels>
+        <label>Diese Lieferantenrichtlinie verhindert, dass Sie die ausgewählten Tage hinzufügen, da bestimmte Wochentage fehlen. Bitte überprüfen Sie die ausgewählten Tage oder wählen Sie &quot;Lieferantendetails überschreiben&quot;, wodurch alle Richtlinien und Einschränkungen außer Kraft gesetzt werden und eine Service-Linie ohne Raten erstellt wird.</label>
+        <name>WeekDay_Match</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- WetuAPI --></label>
+        <name>WetuAPI</name>
+    </customLabels>
+    <customLabels>
+        <label>Angebots Intro Hinweis für den Kunden, ist auf eine Mindestanforderung von 150 Zeichen (einschließlich Leerzeichen) beschränkt, das sind etwa 50 Wörter. Dies ermöglicht Ihnen nicht abzuschicken, wenn Sie die Mindestanforderungen nicht erreichen. Die maximal empfohlene Länge beträgt 200 Wörter.</label>
+        <name>WetuQuotation_Intro_Note_to_Customer_Length</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Your Client Celebrates their Birthday Tomorrow --></label>
+        <name>Your_Client_Celebrates_their_Birthday_Tomorrow</name>
+    </customLabels>
+    <customLabels>
+        <label>Bestätigt</label>
+        <name>confirmed</name>
+    </customLabels>
+    <customLabels>
+        <label>Australischer Dollar - AUD</label>
+        <name>curAUD</name>
+    </customLabels>
+    <customLabels>
+        <label>Euro - EUR</label>
+        <name>curEUR</name>
+    </customLabels>
+    <customLabels>
+        <label>Britischer Pfund - GBP</label>
+        <name>curGBP</name>
+    </customLabels>
+    <customLabels>
+        <label>US Dollar - USD</label>
+        <name>curUSD</name>
+    </customLabels>
+    <customLabels>
+        <label>Betrag der Anzahlung</label>
+        <name>deposit_note1</name>
+    </customLabels>
+    <customLabels>
+        <label>Fälligkeitsdatum</label>
+        <name>deposit_note2</name>
+    </customLabels>
+    <customLabels>
+        <label>Fälligkeitsdatum der Anzahlung</label>
+        <name>depositnote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_insertable --></label>
+        <name>dlrs__fflib_security_error_field_not_insertable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_readable --></label>
+        <name>dlrs__fflib_security_error_field_not_readable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_updateable --></label>
+        <name>dlrs__fflib_security_error_field_not_updateable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_deletable --></label>
+        <name>dlrs__fflib_security_error_object_not_deletable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_insertable --></label>
+        <name>dlrs__fflib_security_error_object_not_insertable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_readable --></label>
+        <name>dlrs__fflib_security_error_object_not_readable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_updateable --></label>
+        <name>dlrs__fflib_security_error_object_not_updateable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Credentials not set --></label>
+        <name>ffhttp_AbstractClientCredentialsNotSet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AbstractClient not set --></label>
+        <name>ffhttp_AbstractClientNotSet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error for invalid request --></label>
+        <name>ffhttp_InvalidStateAddingProtectedHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error for invalid request --></label>
+        <name>ffhttp_InvalidStateJsonAndRequestBody</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccessToken cannot be null --></label>
+        <name>ffhttp_NullAccessToken</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Blob cannot be null --></label>
+        <name>ffhttp_NullBlob</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ContentType cannot be null --></label>
+        <name>ffhttp_NullContentType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Named Credential Name cannot be null --></label>
+        <name>ffhttp_NullNamedCredentialName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TokenType cannot be null --></label>
+        <name>ffhttp_NullTokenType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error for unhandled redirection --></label>
+        <name>ffhttp_UnhandledRedirection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Comment cannot be null --></label>
+        <name>ffhttp_gdrive_NullComment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Comment ID cannot be null --></label>
+        <name>ffhttp_gdrive_NullCommentId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File cannot be null --></label>
+        <name>ffhttp_gdrive_NullFile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File ID cannot be null --></label>
+        <name>ffhttp_gdrive_NullFileId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NamespacePrefix --></label>
+        <name>iContactforSF__NamespacePrefix</name>
+    </customLabels>
+    <customLabels>
+        <label>Ihre Buchung: Die nächsten Schritte</label>
+        <name>itinerarybookingsteps</name>
+    </customLabels>
+    <customLabels>
+        <label>Dieser Reiseplan ist derzeit nicht gebucht. Um diesen Reiseplan zu bestätigen, besuchen Sie bitte den Members Club.</label>
+        <name>itinerarybookingstepsnote</name>
+    </customLabels>
+    <customLabels>
+        <label>Sollten Sie eine Änderung dieses Reiseplans wünschen, senden Sie bitte eine E-Mail</label>
+        <name>itinerarybookingstepsnote2</name>
+    </customLabels>
+    <customLabels>
+        <label>Kostenlose Safari365-Dienste</label>
+        <name>itinerarycomplimentaryservices</name>
+    </customLabels>
+    <customLabels>
+        <label>Als einzigartiges Angebot für unsere Gäste werden wir Ihnen erstellen und senden</label>
+        <name>itinerarycomplimentaryservicesnote</name>
+    </customLabels>
+    <customLabels>
+        <label>Ihr kostenloses Fotobuch:</label>
+        <name>itinerarycomplimentaryservicesnote13</name>
+    </customLabels>
+    <customLabels>
+        <label>Notfall-Evakuierungsversicherung:</label>
+        <name>itinerarycomplimentaryservicesnote14</name>
+    </customLabels>
+    <customLabels>
+        <label>24-Stunden-Notfallzentrum:</label>
+        <name>itinerarycomplimentaryservicesnote15</name>
+    </customLabels>
+    <customLabels>
+        <label>Gratis Fotobuch mit Fotos von Ihrer Reise, nachdem Sie mit uns gereist sind. Alles, was Sie tun müssen, ist die Fotos auszuwählen und wir werden den Rest erledigen.</label>
+        <name>itinerarycomplimentaryservicesnote2</name>
+    </customLabels>
+    <customLabels>
+        <label>Als Teil unserer Verpflichtung zu Ihrer Sicherheit, Notfall - Evakuierungsversicherung für</label>
+        <name>itinerarycomplimentaryservicesnote3</name>
+    </customLabels>
+    <customLabels>
+        <label>Personen wurden in dieses Angebot aufgenommen. Diese Notfall-Evakuierungspolitik wurde speziell für Reisen in Afrika konzipiert und wird von einem Team afrikanischer Spezialisten durchgeführt, die im Bedarfsfall eine sichere Evakuierung in ein geeignetes Krankenhaus sicherstellen. Diese Versicherung ist kein Ersatz für eine umfassende Kranken- und Reiseversicherung, die dringend empfohlen wird, um sie vor der Reise zu erhalten. Weitere Einzelheiten zu unserer Notfall-Evakuierungsversicherung finden Sie in den Richtlinien im Abschnitt &quot;Ihre Dokumente&quot; Ihres Mitgliederclubs.</label>
+        <name>itinerarycomplimentaryservicesnote4</name>
+    </customLabels>
+    <customLabels>
+        <label>Sie haben Zugang zu unserem 24/7 Notfall-Support-Center, wärend Sie in Afrika reisen.</label>
+        <name>itinerarycomplimentaryservicesnote5</name>
+    </customLabels>
+    <customLabels>
+        <label>(1) Bezahlen Sie für Ihre Buchung</label>
+        <name>itineraryconfirmationbooking</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte klicken Sie auf den folgenden Link, um zu unserem Payment Gateway zu gelangen. Bitte zahlen Sie streng nach den Fälligkeitsterminen der Zahlung.</label>
+        <name>itineraryconfirmationbooking1</name>
+    </customLabels>
+    <customLabels>
+        <label>(2) Geben Sie Ihre Passagierdaten ein</label>
+        <name>itineraryconfirmationbooking2</name>
+    </customLabels>
+    <customLabels>
+        <label>Um eine reibungslose Reise zu gewährleisten, müssen alle Gäste ihre Passagierdaten vor der Reise ausfüllen. Bitte füllen Sie diesen Abschnitt innerhalb von 7 Tagen nach Bestätigung Ihrer Buchung in Ihrem Mitgliederclub aus.</label>
+        <name>itineraryconfirmationbooking3</name>
+    </customLabels>
+    <customLabels>
+        <label>Stornierungsbedingungen</label>
+        <name>itineraryconfirmationcancerlation</name>
+    </customLabels>
+    <customLabels>
+        <label>In dem unglücklichen Fall, dass Sie Ihre Reiseroute stornieren müssen, müssen Stornierungen schriftlich erfolgen und unterliegen den folgenden Stornierungsbedingungen:
+• Stornierung mehr als 60 Tage vor dem Ankunftsdatum, Stornogebühr entspricht dem Einzahlungswert der Buchung.
+• Stornierung zwischen 59 - 30 Tagen ab Ankunftsdatum, Stornogebühr in Höhe von 50% (50%) oder Anzahlung für die Buchung.
+• Stornierung weniger als 30 Tage vor dem Ankunftsdatum, die vollen Gesamtkosten der Buchung verfallen und keine Rückerstattung möglich sein wird.
+• Änderungen der Reiseroute nach der Bestätigung werden mit USD 100 pro Änderung berechnet, wobei alle von Drittlieferanten erhobenen Kosten unberücksichtigt bleiben
+• Safari365 empfiehlt dringend, vor der Reise eine umfassende Kranken- und Reiseversicherung abzuschließen.</label>
+        <name>itineraryconfirmationcancerlation2</name>
+    </customLabels>
+    <customLabels>
+        <label>• Kostenlose(s) Fotobuch/bücher</label>
+        <name>itineraryconfirmationcompservices</name>
+    </customLabels>
+    <customLabels>
+        <label>Umfassende Notfall - Evakuierungsversicherung für</label>
+        <name>itineraryconfirmationcompservices2</name>
+    </customLabels>
+    <customLabels>
+        <label>Passagiere</label>
+        <name>itineraryconfirmationcompservices3</name>
+    </customLabels>
+    <customLabels>
+        <label>Buchungsbestätigung für</label>
+        <name>itineraryconfirmationheading</name>
+    </customLabels>
+    <customLabels>
+        <label>Zahlungsübersicht</label>
+        <name>itineraryconfirmationpayment</name>
+    </customLabels>
+    <customLabels>
+        <label>Einzahlungen und vollständiger Zahlungsplan</label>
+        <name>itineraryconfirmationpayment2</name>
+    </customLabels>
+    <customLabels>
+        <label>Passagieraufschlüsselung</label>
+        <name>itineraryconfirmationpayment3</name>
+    </customLabels>
+    <customLabels>
+        <label>Geschäftsbedingungen</label>
+        <name>itineraryconfirmationterms</name>
+    </customLabels>
+    <customLabels>
+        <label>Eine Zahlung in Höhe Ihres Reiseplans (Anzahlung oder Guthaben) gilt als Annahme der Allgemeinen Geschäftsbedingungen von Safari365. Eine vollständige Version der Allgemeinen Geschäftsbedingungen von Safari365 ist online verfügbar.</label>
+        <name>itineraryconfirmationterms2</name>
+    </customLabels>
+    <customLabels>
+        <label>https://www.safari365.com/terms</label>
+        <name>itineraryconfirmationterms3</name>
+    </customLabels>
+    <customLabels>
+        <label>Berater:</label>
+        <name>itineraryconsultant</name>
+    </customLabels>
+    <customLabels>
+        <label>Kontaktdaten des Beraters</label>
+        <name>itineraryconsultantcd</name>
+    </customLabels>
+    <customLabels>
+        <label>Datum</label>
+        <name>itinerarydate</name>
+    </customLabels>
+    <customLabels>
+        <label>Beschreibung</label>
+        <name>itinerarydescription</name>
+    </customLabels>
+    <customLabels>
+        <label>Destination</label>
+        <name>itinerarydestination</name>
+    </customLabels>
+    <customLabels>
+        <label>Detaillierte Ein- und Ausschlüsse für alle Dienstleistungen der Anbieter</label>
+        <name>itinerarydetailedinclusions</name>
+    </customLabels>
+    <customLabels>
+        <label>Ihr digitaler Reiseplan</label>
+        <name>itinerarydigitalitinerary</name>
+    </customLabels>
+    <customLabels>
+        <label>Sehen Sie Ihren vollständigen digitalen Reiseplan im Safari365 Members Club:</label>
+        <name>itinerarydigitalitinerarynote</name>
+    </customLabels>
+    <customLabels>
+        <label>Email:</label>
+        <name>itineraryemail</name>
+    </customLabels>
+    <customLabels>
+        <label>Ausgeschlossen:</label>
+        <name>itineraryexcluded</name>
+    </customLabels>
+    <customLabels>
+        <label>Allgemeine Reiserotizen:</label>
+        <name>itinerarygeneralnote</name>
+    </customLabels>
+    <customLabels>
+        <label>Nicht gebuchte Leistungen: Zu diesem Zeitpunkt wurden keine Leistungen auf dieser Strecke bestätigt und unterliegen daher der Verfügbarkeit zum Zeitpunkt der Bestätigung.</label>
+        <name>itinerarygeneralnote1</name>
+    </customLabels>
+    <customLabels>
+        <label>Reiseversicherung:</label>
+        <name>itinerarygeneralnote10</name>
+    </customLabels>
+    <customLabels>
+        <label>Gesundheitsvorsorge:</label>
+        <name>itinerarygeneralnote11</name>
+    </customLabels>
+    <customLabels>
+        <label>Visum und Pässe:</label>
+        <name>itinerarygeneralnote12</name>
+    </customLabels>
+    <customLabels>
+        <label>Allgemeine Ausschlüsse:</label>
+        <name>itinerarygeneralnote14</name>
+    </customLabels>
+    <customLabels>
+        <label>Südafrikanisches Einwanderungsgesetz:</label>
+        <name>itinerarygeneralnote15</name>
+    </customLabels>
+    <customLabels>
+        <label>Flugpreise:</label>
+        <name>itinerarygeneralnote16</name>
+    </customLabels>
+    <customLabels>
+        <label>Leichtflugzeug Einschränkungen:</label>
+        <name>itinerarygeneralnote17</name>
+    </customLabels>
+    <customLabels>
+        <label>Wir empfehlen dringend, vor Reiseantritt eine umfassende Reiserücktritts-, Kranken- und Reiseversicherung abzuschließen.</label>
+        <name>itinerarygeneralnote2</name>
+    </customLabels>
+    <customLabels>
+        <label>Aufgrund unserer verhandelten Raten sparen wir unseren Kunden routinemäßig bis zu 15% gegenüber der Buchung über andere Kanäle. Im unwahrscheinlichen Fall, dass Sie einen besseren Preis für die gleiche Reiseroute erhalten haben, senden Sie uns diese bitte für einen unverbindlichen Vergleich zu. Bitte lesen Sie hier, warum Sie mit Safari365 buchen sollten.</label>
+        <name>itinerarygeneralnote21</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte konsultieren Sie Ihren Arzt für notwendige Impfungen, Impfungen oder Medikamente vor der Reise (einschließlich Gelbfieber und Malaria-Anforderungen).</label>
+        <name>itinerarygeneralnote3</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte vergewissern Sie sich, dass Ihr Reisepass drei aufeinanderfolgende leere Seiten enthält und mindestens sechs Monate ab dem Rückreisedatum gültig ist. Aufgrund veränderter Visa-Anforderungen können wir die Richtigkeit unserer bereitgestellten Visa-Informationen nicht garantieren. Bitte kontaktieren Sie die entsprechenden Konsulate und Botschaften vor der Reise, um die Visabestimmungen zu erhalten.</label>
+        <name>itinerarygeneralnote4</name>
+    </customLabels>
+    <customLabels>
+        <label>Preise schließen persönliche Gegenstände (Telefongespräche, Wäsche, Visa usw.), Mahlzeiten und Getränke (außer wo angegeben), Trinkgelder und Gepäckträger aus.</label>
+        <name>itinerarygeneralnote5</name>
+    </customLabels>
+    <customLabels>
+        <label>Ab dem 1. Juni 2015 müssen alle Minderjährigen unter 18 Jahren zusätzlich zu ihrem Reisepass eine ungekürzte Geburtsurkunde (mit den Angaben beider Elternteile) bei der Einreise in südafrikanische Einreisehäfen vorlegen. Weitere Details und relevante Formulare finden Sie hier: http://www.dha.gov.za/files/Brochures/Immigrationleaflet.pdf.</label>
+        <name>itinerarygeneralnote6</name>
+    </customLabels>
+    <customLabels>
+        <label>Flugpreise können sich ändern, bis die letzte Zahlung für diesen Teil vollständig von Safari365 erhalten wurde.</label>
+        <name>itinerarygeneralnote7</name>
+    </customLabels>
+    <customLabels>
+        <label>Leichtflugzeugflüge (Charterflüge) unterliegen einem Gepäcklimit von 15 kg pro Person in Taschen mit weichen Seiten. Charterflüge haben ein Passagiergewicht von 100 kg pro Person. Bitte besprechen Sie diese Gewichtsbeschränkungen gegebenenfalls mit Ihrem Reiseberater. Diese Einschränkungen gelten nicht für Linienflüge (kommerzielle Flüge).</label>
+        <name>itinerarygeneralnote8</name>
+    </customLabels>
+    <customLabels>
+        <label>Personalisierter afrikanischer Safari Vorschlag für</label>
+        <name>itineraryheading</name>
+    </customLabels>
+    <customLabels>
+        <label>Inbegriffen</label>
+        <name>itineraryincluded</name>
+    </customLabels>
+    <customLabels>
+        <label>Passagiere:
+Erw/Kind/NG</label>
+        <name>itinerarypassengers</name>
+    </customLabels>
+    <customLabels>
+        <label>Telefon</label>
+        <name>itineraryphone</name>
+    </customLabels>
+    <customLabels>
+        <label>Reisepreis- und Zahlungsübersicht</label>
+        <name>itinerarypricing</name>
+    </customLabels>
+    <customLabels>
+        <label>Wir können unsere Preise in einer der vier großen globalen Währungen (Britisches Pfund (GBP), US-Dollar (USD), Euro (EUR) und Australischer Dollar (AUD)) garantieren, so dass unsere Kunden nicht dem finanziellen Wechselkursrisiko ausgesetzt sind Kursschwankungen.</label>
+        <name>itinerarypricingnote1</name>
+    </customLabels>
+    <customLabels>
+        <label>Globale Währungen:</label>
+        <name>itinerarypricingnote10</name>
+    </customLabels>
+    <customLabels>
+        <label>Bester Preis Garantiert</label>
+        <name>itinerarypricingnote11</name>
+    </customLabels>
+    <customLabels>
+        <label>Zahlungsarten:</label>
+        <name>itinerarypricingnote12</name>
+    </customLabels>
+    <customLabels>
+        <label>Bestätigungsprozess:</label>
+        <name>itinerarypricingnote13</name>
+    </customLabels>
+    <customLabels>
+        <label>Aufgrund unserer verhandelten Raten sparen wir unseren Kunden routinemäßig bis zu 15% gegenüber der Buchung über andere Kanäle. Im unwahrscheinlichen Fall, dass Sie einen besseren Preis für die gleiche Reiseroute erhalten haben, senden Sie uns diese bitte für einen unverbindlichen Vergleich zu. Bitte lesen Sie hier, warum Sie mit Safari365 buchen sollten: https://www.safari365.com/about-us</label>
+        <name>itinerarypricingnote2</name>
+    </customLabels>
+    <customLabels>
+        <label>Wir akzeptieren Banküberweisungen in unterstützte Konten mit Währungsbeträgen. Wir akzeptieren alle gängigen internationalen Kreditkarten (mit einer Bearbeitungsgebühr von 2,9%).</label>
+        <name>itinerarypricingnote3</name>
+    </customLabels>
+    <customLabels>
+        <label>Sobald Sie mit Ihren Reisevorbereitungen zufrieden sind, ist eine nicht rückzahlbare Anzahlung von 30% des Gesamtbuchungswertes erforderlich, um Ihren Reiseplan zu sichern. Der Restbetrag ist 60 Tage vor Anreise fällig. Falls eine Buchung innerhalb von 60 Tagen vor der Ankunft abgeschlossen wird, ist der Gesamtbuchungsbetrag sofort fällig. Safari365 kann größere nicht rückzahlbare Einzahlungen verlangen, wenn Flüge oder Objekte mit begrenzter Verfügbarkeit in Ihrer Reiseroute enthalten sind.</label>
+        <name>itinerarypricingnote4</name>
+    </customLabels>
+    <customLabels>
+        <label>Angebotsname</label>
+        <name>itineraryquotationname</name>
+    </customLabels>
+    <customLabels>
+        <label>Angebotsnummer:</label>
+        <name>itineraryquotationnumber</name>
+    </customLabels>
+    <customLabels>
+        <label>Angebot gültig bis:</label>
+        <name>itineraryquotationvaliduntil</name>
+    </customLabels>
+    <customLabels>
+        <label>Reservierungsdetails</label>
+        <name>itineraryreservationdetails</name>
+    </customLabels>
+    <customLabels>
+        <label>Reservierungsstatus</label>
+        <name>itineraryreservationstatus</name>
+    </customLabels>
+    <customLabels>
+        <label>Dienstleistung</label>
+        <name>itineraryservice</name>
+    </customLabels>
+    <customLabels>
+        <label>Angebotssumme</label>
+        <name>itinerarytotal</name>
+    </customLabels>
+    <customLabels>
+        <label>Dieses Angebot ist garantiert in</label>
+        <name>itinerarytotal1</name>
+    </customLabels>
+    <customLabels>
+        <label>bis</label>
+        <name>itinerarytotal2</name>
+    </customLabels>
+    <customLabels>
+        <label>Reisedetails und zusätzliche Dienstleistungen</label>
+        <name>itinerarytraveldetails</name>
+    </customLabels>
+    <customLabels>
+        <label>Ankunftsdatum</label>
+        <name>itineraryvoucherarrival</name>
+    </customLabels>
+    <customLabels>
+        <label>Safari365 Notfallkontaktdetails</label>
+        <name>itineraryvouchercontact</name>
+    </customLabels>
+    <customLabels>
+        <label>Telefon: +27 (0) 21 418 1325</label>
+        <name>itineraryvouchercontact2</name>
+    </customLabels>
+    <customLabels>
+        <label>Notfallnummer nach Arbeitszeiten: +27 (0) 76 4246310</label>
+        <name>itineraryvouchercontact3</name>
+    </customLabels>
+    <customLabels>
+        <label>Notfall-E-Mail außerhalb der Öffnungszeiten : Emergency@safari365.com</label>
+        <name>itineraryvouchercontact4</name>
+    </customLabels>
+    <customLabels>
+        <label>Ihr Safari365-Berater:</label>
+        <name>itineraryvouchercontact5</name>
+    </customLabels>
+    <customLabels>
+        <label>Abreisedatum:</label>
+        <name>itineraryvoucherdepart</name>
+    </customLabels>
+    <customLabels>
+        <label>Reisende</label>
+        <name>itineraryvoucherguests</name>
+    </customLabels>
+    <customLabels>
+        <label>Safari365 Reisegutscheine</label>
+        <name>itineraryvoucherheading</name>
+    </customLabels>
+    <customLabels>
+        <label>Anmerkungen</label>
+        <name>itineraryvouchernotes</name>
+    </customLabels>
+    <customLabels>
+        <label>Dienstleister</label>
+        <name>itineraryvoucherprovider</name>
+    </customLabels>
+    <customLabels>
+        <label>Reservierungen Nr</label>
+        <name>itineraryvoucherresno</name>
+    </customLabels>
+    <customLabels>
+        <label>Reisedienstleistungen</label>
+        <name>itineraryvoucherservices</name>
+    </customLabels>
+    <customLabels>
+        <label>Preisaufschlüsselung pro Person</label>
+        <name>paxbreakdown</name>
+    </customLabels>
+    <customLabels>
+        <label>Telefon</label>
+        <name>phone</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- About Mass Update and Mass Edit --></label>
+        <name>About_Mass_Update_and_Mass_Edit_1</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Payments --></label>
+        <name>Payments</name>
+    </customTabs>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Accounts with opp information --></description>
+        <label><!-- Accounts with opp information --></label>
+        <name>Accounts_with_opp_information</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts with opp information --></description>
+        <label><!-- Contacts with opp information --></label>
+        <name>Contacts_with_opp_information</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Leads with Opps --></description>
+        <label><!-- Leads with Opps --></label>
+        <name>Leads_with_Opps</name>
+        <sections>
+            <label><!-- Leads --></label>
+            <name>Leads</name>
+        </sections>
+    </reportTypes>
+</Translations>

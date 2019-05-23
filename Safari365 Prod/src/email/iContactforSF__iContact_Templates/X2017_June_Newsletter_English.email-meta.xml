@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>TZ Ngorongoro Crater + TZ Calving Migration Tour</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2017 June Newsletter (English)</name>
+    <style>none</style>
+    <subject>Ngorongoro Crater: Tanzania&apos;s Natural Wonder</subject>
+    <textOnly>Ngorongoro Crater: Tanzania&apos;s Natural Wonder
+
+Dear [fname],
+
+Tucked away on Tanzania’s Northern Safari Circuit is one of the most beautiful and abundant wildlife havens on the planet.
+
+The Ngorongoro Crater is the world’s largest intact volcanic caldera (a collapsed ancient volcano) which forms the backdrop for a spectacular and incredibly popular safari destination. This month, we explore the crater and discover why it has been nicknamed Tanzania’s “Garden of Eden”.
+
+Steep slopes are formed by the crater walls, which surround the hive of animal activity below; thousands upon thousands of predator and prey interact across adjoining wetlands, grasslands and woodlands. The density of wildlife makes the Ngorongoro Crater a fantastic destination for a first time safari. It’s never the same day twice in the crater also making it great for seasoned travelers returning for new, impressive safari experiences.
+
+In addition to the epic wildlife encounters in the crater, the Ngorongoro Conservation Area and Southern Serengeti host the Great Migration from December to March before the million-strong herds begin the trek north. Read our guide below for updates on the migration.
+
+Yours in Safari,
+
+Safari365 Founder</textOnly>
+    <type>custom</type>
+</EmailTemplate>

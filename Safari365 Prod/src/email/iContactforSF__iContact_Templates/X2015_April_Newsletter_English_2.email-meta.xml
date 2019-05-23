@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>2015 April Newsletter (English)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 April Newsletter (English)</name>
+    <style>none</style>
+    <subject>We&apos;ve launched a new African destination!</subject>
+    <textOnly>Let us welcome you to Zimbabwe!
+
+Hello {!Contact.FirstName},
+
+We’ve proudly launched a new African destination for you to discover, Zimbabwe! We traveled far and wide – from the expansive Lake Kariba, to the iconic Hwange National Park, to the truly wild Mana Pools – in order to bring you the best advice, experiences and African memories.
+
+Find everything you need to know about this
+awe-inspiring destination here.
+
+Below you’ll also find a feature from our Australian based travel expert Karen Peasley wrote about her great Zim journey, a wanderlust inducing travel special, our brand new video and much more!
+
+~  Marcus Brain, Safari365 founder  ~
+
+
+www.safari365.com
+
+Safari365
+Old Marine Dr Foreshore,
+Cape Town, 8000, South Africa</textOnly>
+    <type>custom</type>
+</EmailTemplate>

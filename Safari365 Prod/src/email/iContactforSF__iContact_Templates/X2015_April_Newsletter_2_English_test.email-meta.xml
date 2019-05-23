@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>2015 April Newsletter (English) 2nd Newsletter</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 April Newsletter 2nd (English to Contacts)</name>
+    <style>none</style>
+    <subject>Africa&apos;s Iconic Safari Destination, Tanzania</subject>
+    <textOnly>Africa&apos;s greatest icon,Tanzania
+
+
+Hello {!Lead.FirstName},
+
+I’m writing to you from our buzzing Cape Town offices, next to me are my packed bags. This month I&apos;ll be heading out to Tanzania. Joining me will be a specially selected group from our team. Together we’ll be exploring all the must-see sights, lodges and surrounds. We do this every year so we can provide you with priceless insight.
+
+You can look forward to several exciting announcements
+
+
+In the meantime have a peek at what we’ve been up to below. You’ll also find 2 Tanzania tours, hand-crafted by yours truly. I look forward to welcoming you to Africa soon.
+
+~  Marcus Brain, Safari365 founder  ~
+
+
+You can view it online by clicking here &gt;&gt;&gt;[webversionurl]
+
+Safari365
+Old Marine Dr Foreshore,
+Cape Town, 8000, South Africa
+www.safari365.com</textOnly>
+    <type>custom</type>
+</EmailTemplate>

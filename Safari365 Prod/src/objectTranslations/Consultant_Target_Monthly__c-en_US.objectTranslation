@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Individual Cons. GP Setup (Monthly)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Individual Cons. GP Setup (Monthly)</value>
+    </caseValues>
+    <fields>
+        <label><!-- Consultant Gross Profit Achieved --></label>
+        <name>Consultant_Gross_Profit_Target_Achieved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Convsersion Ratio Target --></label>
+        <name>Consultant_Gross_Profit_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Level --></label>
+        <name>Consultant_Role__c</name>
+        <relationshipLabel><!-- Individual Cons. GP Setup (Monthly) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Consultant GP Target (Annual) --></label>
+        <name>Consultant_Target_Yearly__c</name>
+        <relationshipLabel><!-- Individual Cons. GP Setup (Monthly) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Consultant Name --></label>
+        <name>Consultant__c</name>
+        <relationshipLabel><!-- Individual Cons. GP Setup (Monthly) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Consultant Gross Profit Target --></label>
+        <name>Gross_Profit_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Month --></label>
+        <name>Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monthly Target To Be Achieved --></label>
+        <name>Monthly_Target_To_Be_Achieved__c</name>
+    </fields>
+    <fields>
+        <label><!-- No of Opportunity Count --></label>
+        <name>No_of_Opportunity__c</name>
+    </fields>
+    <fields>
+        <help><!-- If a consultant has just started with Safari365 (or is a trainee in forst 3 months) this allows for a staggered ( 25%, 50%, 75% etc) lead-in of the normal monthly target for the initial 3 months. --></help>
+        <label><!-- Override Monthly GP Required (Lead-In) --></label>
+        <name>Override__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- consultantIdAndYearKey --></label>
+        <name>consultantIdAndYearKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- % of GP Target Achieved (Monthly) --></label>
+        <name>of_GP_Target_Achieved_Monthly__c</name>
+    </fields>
+    <layouts>
+        <layout>Consultant Target Monthly Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

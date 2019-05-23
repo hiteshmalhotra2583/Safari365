@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Okavango Delta + Chobe River Cruise Tour</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2017 May Newsletter (English)</name>
+    <style>none</style>
+    <subject>Into the Heart of the Okavango | Safari 365</subject>
+    <textOnly>Into the Okavango
+
+Dear [fname],
+
+“Peaceful, remote and starkly beautiful”; “At one with nature”; “Incredible wildlife and exquisite lodges” These are some of the responses received when we asked recent Safari365 clients to describe their experiences of the Okavango Delta.
+The Okavango Delta attracts guests seeking staggering natural beauty as well as low-impact safari experiences. From getting up-close to elephant and hippo during a mokoro (traditional dugout-canoe) excursion through the delta’s winding waterways, to encountering animals on foot during a walking safari, to experiencing the delta from above in a hot air balloon. This month’s newsletter features this iconic attraction; see our video from a recent staff exploration trip.
+As a further travel incentive, it is now easier than ever to combine the Okavango Delta and Cape Town, with direct flights linking these destinations five times a week.
+Yours in Safari,
+
+Safari365 Founder</textOnly>
+    <type>custom</type>
+</EmailTemplate>

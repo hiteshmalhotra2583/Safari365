@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Cape Town + Cape Town 7 Nights Package</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2018 April Newsletter (English)</name>
+    <style>none</style>
+    <subject>Find Adventure in Cape Town with Safari365</subject>
+    <textOnly>Dear [fname],
+
+
+Cape Town is a city bursting with natural beauty, vibrancy and adventure.
+
+
+Nestled at the base of the magnificent Table Mountain and affectionately known as the “Mother City”, Cape Town is surrounded by golden beaches, bustling neighborhoods and sun-drenched vineyards.
+
+
+This month we are sharing the highlights of this cosmopolitan South African city.
+
+
+Cape Town is an effortless blend of stunning scenery, dynamic culture and thrilling activities. From experiencing the vibrant city and tasting award-winning wines, to exploring the outdoors and getting your adrenaline pumping with hikes, paragliding, helicopter flips and more. No matter your interests, there is something to delight every kind of visitor to Cape Town.
+
+
+Along with the myriad of attractions in the city itself, Cape Town also acts as great combination destination. Combine Cape Town with trips to Kruger National Park, the Garden Route, or the majestic Victoria Falls – just to name a few – and you are set for an unforgettable African getaway.
+
+
+The 27th of April is Freedom Day in South Africa. The annual public holiday celebrates the country’s first democratic elections in 1994. This year marks 24 years of freedom and our South African offices will be celebrating over the long weekend. We will be back and ready to plan your dream trip to Africa from next week.
+
+
+Yours in Safari,
+The Safari365 Team</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>First consultation email (use if you havent spoken to the client)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>1.01 STAGE = LEAD</name>
+    <style>formalLetter</style>
+    <subject>Safari365: Planning {!Lead.FirstName} {!Lead.LastName}&apos;s Safari to Africa</subject>
+    <textOnly>Dear {!Lead.FirstName},
+I hope you are well and thank you for enquiring with Safari365. I have been appointed as your dedicated travel expert for your upcoming trip to Africa.
+
+By way of introduction, my name is {!User.FirstName} {!User.LastName} and I am based in {!User.Location__c}. I have been working in tourism since {!User.Working_Since__c} and am a true Africa travel specialist. For your interest, please view my profile here {!User.ProfileUrl__c} (together with feedback from many of the international travellers I have assisted in the past)
+
+Travelling in Africa is like no other destination, and for this reason I tailor-make all of my clients travel arrangements from scratch. My job is to ensure you get the best possible experience on your holiday and save money by booking through Safari365.
+
+On your initial enquiry, we were provided details as follows:
+{!Lead.Basket_Information__c}
+
+Arrival date: {!Lead.Arrival_Date__c}
+Number of adults: {!Lead.Number_of_Adults__c}
+Number of children: {!Lead.Number_of_Children__c}
+Duration: {!Lead.Duration__c}
+Travel date options: {!Lead.Travel_Date_Options__c}
+Level of accommodation: {!Lead.Level_of_Accommodation__c}
+Budget or star rating: {!Lead.Budget_or_Star_Rating__c}
+Total budget: {!Lead.Budget_Total__c}
+
+{!Lead.Client_Comments__c}
+
+I just need a few additional details before I can create your personalised quotation:
+
+ADD VALUE TO THEIR EXPERIENCE -  THE SMALL TOUCHES WINS THE CLIENT
+GOOD QUESTIONS  -SHOW YOU HAVE READ THEIR COMMENTS
+TOUR OPTION URL/WEBSITE PAGE URL/YOUTUBE CLIP URL?
+FEEL OUT THE PRICE QUESTION (I notice the initial rough price estimation was USD XX. Is this around the price range you were considering or should we look at more affordable or luxurious options?)
+What else is important to you on his holiday? If I have missed anything, please let me know
+
+Ideally, I would like chat to you on the phone about your request. If this is convenient for you, please advise the best time for me to call you or give me a call on {!User.Phone} or our toll-free numbers.
+
+I look forward to hearing from you to start making this journey a reality
+
+Kind regards,
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+{!User.Email}
+{!Lead.Consultant_Image__c}
+
+Get to know us better! Read our blog
+_______________________________________________________________________________________________
+
+Safari365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK 080 823 44485 USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325 Fax: 086 658 1713
+www.safari365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

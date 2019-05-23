@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2016 August Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Explore o Leste Africano - Safari365</subject>
+    <textOnly>Olá [fname],
+
+
+A pedido dos nossos seguidores nas redes sociais, este mês voltamos a focar no Leste Africano - tarefa nada difícil para nós que amamos a região.
+
+
+Há uma magia especial nessa parte do continente que mistura um povo extremamente acolhedor com experiências de safáris capazes de tocar a alma. Não é à toa que é um dos nossos lugares preferidos para safáris na África.
+
+
+Parques como o Masai Mara, Liakipia e Amboseli continuam na lista dos melhores destinos no Quênia. Enquanto o Serengeti, a Cratera Ngorongoro e o Grande Vale Rift, cada dia mais surpreendem nossos clientes.
+
+
+Este ano, tivemos a oportunidade de visitar ambos os países acima em viagens educacionais e para vistorias. Compartilhamos abaixo o último blog escrito pela nossa consultora sul-africana, Dee, sobre sua aventura no Quênia. Confira também nosso video da Grande Migração e uma oferta especial no Lemala, Serengeti.
+
+
+Aguardo por vocês desse lado.
+
+
+Abraços,
+
+
+Marcus Brain,
+
+Fundador Safari365</textOnly>
+    <type>custom</type>
+</EmailTemplate>

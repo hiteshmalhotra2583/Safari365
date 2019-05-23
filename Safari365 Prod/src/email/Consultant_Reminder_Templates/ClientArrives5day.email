@@ -1,0 +1,12 @@
+REMINDER: YOUR CLIENT STARTS TRAVELLING IN 5 DAYS, PLEASE:
+
+- Make a phone call/email wishing them a safe trip
+- Check the file
+- Send a welcome note to first accommodation
+
+NB!! repeat clients are the best way of building your business. Meet the clients (or speak to Sales Manager) if they are coming to Cape Town.
+
+{!Opportunity.Name}
+{!Account.PersonEmail}
+Client Name: {!Account.Name}
+Click on the link to access the opportunity directly: {!Opportunity.Link}

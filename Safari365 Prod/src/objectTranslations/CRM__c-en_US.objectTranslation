@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CRM</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CRMs</value>
+    </caseValues>
+    <fields>
+        <label><!-- ADDRESS1 --></label>
+        <name>ADDRESS1__c</name>
+    </fields>
+    <fields>
+        <label><!-- ADDRESS2 --></label>
+        <name>ADDRESS2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ADDRESS3 --></label>
+        <name>ADDRESS3__c</name>
+    </fields>
+    <fields>
+        <label><!-- ADDRESS4 --></label>
+        <name>ADDRESS4__c</name>
+    </fields>
+    <fields>
+        <label><!-- ADDRESS5 --></label>
+        <name>ADDRESS5__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANALYSIS MASTER1 --></label>
+        <name>ANALYSIS_MASTER1__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANALYSIS MASTER2 --></label>
+        <name>ANALYSIS_MASTER2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANALYSIS MASTER3 --></label>
+        <name>ANALYSIS_MASTER3__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANALYSIS MASTER4 --></label>
+        <name>ANALYSIS_MASTER4__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANALYSIS MASTER5 --></label>
+        <name>ANALYSIS_MASTER5__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANALYSIS MASTER6 --></label>
+        <name>ANALYSIS_MASTER6__c</name>
+    </fields>
+    <fields>
+        <label><!-- CODE --></label>
+        <name>CODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- COMMISSION --></label>
+        <name>COMMISSION__c</name>
+    </fields>
+    <fields>
+        <label><!-- CREATED BY --></label>
+        <name>CREATED_BY__c</name>
+    </fields>
+    <fields>
+        <label><!-- CREATED --></label>
+        <name>CREATED__c</name>
+    </fields>
+    <fields>
+        <label><!-- CRM ID --></label>
+        <name>CRM_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- DEFAULT CURRENCY --></label>
+        <name>DEFAULT_CURRENCY__c</name>
+    </fields>
+    <fields>
+        <label><!-- DELETED --></label>
+        <name>DELETED__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDITED BY --></label>
+        <name>EDITED_BY__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDITED DATE --></label>
+        <name>EDITED_DATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- IMPORT FILE LOCATION --></label>
+        <name>IMPORT_FILE_LOCATION__c</name>
+    </fields>
+    <fields>
+        <label><!-- IMPORT FORMAT --></label>
+        <name>IMPORT_FORMAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- INT ACCESS --></label>
+        <name>INT_ACCESS__c</name>
+    </fields>
+    <fields>
+        <label><!-- INT LOGIN --></label>
+        <name>INT_LOGIN__c</name>
+    </fields>
+    <fields>
+        <label><!-- INT PASSWORD --></label>
+        <name>INT_PASSWORD__c</name>
+    </fields>
+    <fields>
+        <label><!-- LANGUAGE --></label>
+        <name>LANGUAGE__c</name>
+    </fields>
+    <fields>
+        <label><!-- MAILING ADDRESS1 --></label>
+        <name>MAILING_ADDRESS1__c</name>
+    </fields>
+    <fields>
+        <label><!-- MAILING ADDRESS2 --></label>
+        <name>MAILING_ADDRESS2__c</name>
+    </fields>
+    <fields>
+        <label><!-- MAILING ADDRESS3 --></label>
+        <name>MAILING_ADDRESS3__c</name>
+    </fields>
+    <fields>
+        <label><!-- MAILING ADDRESS4 --></label>
+        <name>MAILING_ADDRESS4__c</name>
+    </fields>
+    <fields>
+        <label><!-- MAILING ADDRESS5 --></label>
+        <name>MAILING_ADDRESS5__c</name>
+    </fields>
+    <fields>
+        <label><!-- MAILING NAME --></label>
+        <name>MAILING_NAME__c</name>
+    </fields>
+    <fields>
+        <label><!-- MAILING PCODE --></label>
+        <name>MAILING_PCODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- MARKUP --></label>
+        <name>MARKUP__c</name>
+    </fields>
+    <fields>
+        <label><!-- NAME --></label>
+        <name>NAME__c</name>
+    </fields>
+    <fields>
+        <label><!-- PCODE --></label>
+        <name>PCODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- PREFER --></label>
+        <name>PREFER__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOD ID --></label>
+        <name>SOD_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SUPPLIERCHAIN --></label>
+        <name>SUPPLIERCHAIN__c</name>
+    </fields>
+    <fields>
+        <label><!-- SUPPLIERMASTER --></label>
+        <name>SUPPLIERMASTER__c</name>
+    </fields>
+    <fields>
+        <label><!-- TAXINDICATOR --></label>
+        <name>TAXINDICATOR__c</name>
+    </fields>
+    <fields>
+        <label><!-- UDTEXT1 --></label>
+        <name>UDTEXT1__c</name>
+    </fields>
+    <fields>
+        <label><!-- UDTEXT2 --></label>
+        <name>UDTEXT2__c</name>
+    </fields>
+    <fields>
+        <label><!-- UDTEXT3 --></label>
+        <name>UDTEXT3__c</name>
+    </fields>
+    <fields>
+        <label><!-- UDTEXT4 --></label>
+        <name>UDTEXT4__c</name>
+    </fields>
+    <fields>
+        <label><!-- UDTEXT5 --></label>
+        <name>UDTEXT5__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOUCHER UPDATE --></label>
+        <name>VOUCHER_UPDATE__c</name>
+    </fields>
+    <layouts>
+        <layout>CRM Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Consultant Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Cape Town + Kruger and KZN beach special</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2017 February Newsletter (English)</name>
+    <style>none</style>
+    <subject>Celebrating Cape Town this month | Safari 365</subject>
+    <textOnly>*|MC:SUBJECT|*
+
+WRAPPING UP SUMMER IN CAPE TOWN
+
+Dear [First Name]
+
+Cape Town is the city that everybody loves.  It has it all: the people, the culture, the food and the scenery.
+
+The city is nestled beneath the natural wonder of Table Mountain, and incredible beaches, fine dining, and world-class wineries are within easy reach. It’s no wonder that Cape Town was voted number two on Lonely Planet’s Top Ten Cities for World Travelers to visit in 2017.
+
+In the Southern Hemisphere, March signifies summer slowly coming to an end. But that doesn’t mean there are any less exciting events happening this month.
+
+Cape Town is abuzz. The International Design Indaba is currently being hosted in the city’s ArtsCape Theater, and the new luxury Silo Hotel has recently opened. More notably, Cape Town is busy completing work on the Zietz Museum of Contemporary African Art, opening in September 2017. This new development in the art world is said to rival London’s Tate Modern, the MoMA in New York and the Museo Nacional del Prado in Madrid.
+
+Yours in Safari
+
+Safari365 Founder
+
+The V&amp;A Waterfront, Cape Town
+
+Sun, sea, world-class shopping and amazing culture. All found at Cape Town&apos;s V&amp;A Waterfront; a must see for any visitor to the Mother City
+
+Watch the video here &gt;&gt;
+
+Atlantic Seaboard, Cape Town
+
+Cape Town summer is too good to miss out on. So great in fact that the Safari365 team went out to enjoy the sun in Camps Bay with some beach volleyball.
+
+Watch the video here &gt;&gt;
+
+Cape Town gets contemporary
+
+South Africa’s art scene is set for an exciting new addition that is said to rival the likes of the Tate Modern and New York’s MoMA.
+
+Read more on our blog &gt;&gt;
+
+Useful Links
+
+Read our Blog
+Meet the Team
+Getting the most of your Safari
+Health &amp; Safety On Safari
+
+Contact Details
+
+Address:
+3 Old Marine Drive,Foreshore,
+Cape Town,8000
+South Africa
+Email: info@safari365.com
+
+“The World is a book, and those who do not travel read only a page.”
+Saint Augustine</textOnly>
+    <type>custom</type>
+</EmailTemplate>

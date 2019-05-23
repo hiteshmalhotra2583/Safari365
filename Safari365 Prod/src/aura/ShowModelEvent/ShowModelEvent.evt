@@ -1,0 +1,5 @@
+<aura:event type="COMPONENT" description="Event thrown when a Add item is clicked">
+    <aura:attribute name="selection" type="Object" access="global" description="Data associated with the selected tree node/leaf"/>
+    <aura:attribute name="isSelected" type="Boolean" access="global" description="Tree noded is added or removed status"/>
+    <aura:attribute name="mode" type="String" access="global" description="Event mode, Add or Edit"/>
+</aura:event>

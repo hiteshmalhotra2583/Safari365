@@ -1,0 +1,9 @@
+*** REMINDER: WELCOME HOME LETTER TO BE SENT  ***
+
+ - Please use the SF template for this (and PERSONALISE as required)
+ - Welcome home template is in the Members Club folder (called 'External: Welcome Home')
+
+Client Name: {!Account.Name} {!Opportunity.Account} 
+Click on the link to access the opportunity directly: {!Opportunity.Link}
+
+(It has been 3 weeks since arrival date, send from Salesforce templates)

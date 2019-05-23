@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Gorilla Trekking + Gorilla Trekking in Rwanda and DRC Tour</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2018 February Newsletter (English)</name>
+    <style>none</style>
+    <subject>Meet the Mountain Gorillas with Safari365</subject>
+    <textOnly>Dear [fname],
+
+Africa is home to a number of unforgettable wildlife experiences. One of the most memorable is embarking on a gorilla trekking safari.
+
+The Virunga Mountains stretching across the borders of Uganda, Rwanda and the Democratic Republic of the Congo (DRC) and Bwindi Impenetrable National Park in Uganda are the only two areas in the world that the rare mountain gorillas call home.
+
+While travelers can expect to venture through mud, jungles and bamboo forests during a gorilla trek, this incredibly moving and unique experience is definitely worth the effort! After the journey to meet the mountain gorillas of Uganda, our consultant Karen Peasley shared: “Looking deep into the expressive brown eyes of the gentle giants of the Bwindi Impenetrable National Park is the most exciting and poignant wildlife encounter that I have experienced in Africa.”
+
+Today, mountain gorillas are critically endangered but conservation efforts are helping to protect and raise awareness for this rare sub-species.
+
+In addition to being home to the mountain gorillas, Uganda and Rwanda are fantastic for big game viewing, primate safaris, birding, and local culture - making for awe-inspiring African destinations.
+
+
+Yours in Safari,
+The Safari365 Team</textOnly>
+    <type>custom</type>
+</EmailTemplate>

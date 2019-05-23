@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Send a LEAD their Members Club login details</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>External: Send a LEAD a reminder for their Members Club login</name>
+    <style>freeForm</style>
+    <subject>Safari365: Your Members Club Login Details</subject>
+    <textOnly>Dear {!Lead.FirstName},
+
+Please click on the following link to access your Members Club directly:
+
+https://www.safari365.com/members/login/{!Lead.Members_Club_ID__c}
+
+Kind regards,
+{!User.Name}</textOnly>
+    <type>html</type>
+</EmailTemplate>

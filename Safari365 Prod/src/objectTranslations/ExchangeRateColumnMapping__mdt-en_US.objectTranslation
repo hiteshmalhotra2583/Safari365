@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ExchangeRateColumnMapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ExchangeRateColumnMappings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Base Currency --></label>
+        <name>Base_Currency__c</name>
+        <picklistValues>
+            <masterLabel>EUR</masterLabel>
+            <translation><!-- EUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USD</masterLabel>
+            <translation><!-- USD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZAR</masterLabel>
+            <translation><!-- ZAR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Markup Value --></label>
+        <name>Markup_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- SourceField --></label>
+        <name>SourceField__c</name>
+    </fields>
+    <fields>
+        <label><!-- TargetField --></label>
+        <name>TargetField__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Complimentary photo book for top clients</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>External: Top 100 clients our way of saying thank you</name>
+    <style>freeForm</style>
+    <subject>Safari365: Our way of saying Thank You</subject>
+    <textOnly>Dear {!Account.FirstName},
+
+I trust that this email finds you well and you fondly recall the African safari that we planned for you in DATE AND CUSTOMISE!!!.
+
+As one of our top 100 clients, we have a very special offer for you. We would like to print you a complimentary, personalized photo book of the safari you took with us, and post it to your home. No cost, no strings attached, no hidden clauses, this is just our way of saying, thank you!
+
+Should you want to receive this photo book, please proceed to the ‘photo book’ section on this website www.safari365.com/members/login/{!Opportunity.Members_Club_ID__c}.
+
+You will need to upload your best photographs and provide your postal address, and we will do the rest
+
+Yours in Safari,
+
+{!User.Name}
+{!User.Title}
+
+Your Members Club: https://www.safari365.com/members/login/{!Opportunity.Members_Club_ID__c}</textOnly>
+    <type>html</type>
+</EmailTemplate>

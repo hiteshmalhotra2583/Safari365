@@ -1,0 +1,47 @@
+<aura:component >
+    <aura:attribute name="header" type="String" access="global" default="" description="An optional text header"/>
+    <aura:attribute name="items" type="List" access="global" required="true" description="The tree data"/>
+    <aura:attribute name="config" type="Object" access="global" default="{}" description="An optional tree configuration, see 'configuration' under component description for more details."/>
+    <aura:attribute name="refreshItem" type="String" access="global" default=""/>
+    <aura:attribute name="columnsLoaded" type="Boolean" access="global" default="false"/>
+    <aura:attribute name="resetFilter" type="Boolean" access="global" default="false"/>
+    
+    <aura:attribute name="columnsMap" type="Map" access="private"/>
+    <aura:attribute name="columns" type="List" access="private"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler name="change" value="{!v.columnsLoaded}" action="{!c.doInit}"/>
+    <aura:handler name="change" value="{!v.resetFilter}" action="{!c.doInit}"/>
+
+    <!--<aura:handler name="change" value="{!v.refreshItem}" action="{!c.itemsChange}"/>-->
+
+        <table class="slds-table slds-table--bordered  slds-tree slds-table--tree" role="treegrid" aria-owns="tree0-node0 tree0-node1 tree0-node2 tree0-node3" aria-readonly="true">
+            <thead>
+            <tr class="slds-text-title--caps">
+                <th scope="col">
+                </th>
+                
+                <aura:iteration items="{!v.columns}" var="column" >
+                    <th scope="col">
+                        <div class="slds-text-align_center" title="{!column.Name}">
+                            {!column.Name}
+                                <aura:renderIf isTrue="{!column.hasFilter}">
+                                    <c:DropdownMenu values="{!column.filterFields}" key="{!column.field}" selected="{!column.filterIndex}" />
+                                </aura:renderIf>
+                        </div>
+                    </th>
+                </aura:iteration>
+            </tr>
+            </thead>
+            <tbody>
+            <aura:iteration items="{!v.items}" var="childItem" indexVar="pos">
+                <c:GridTreeNode item="{!childItem}" 
+                                level="1" 
+                                config="{!v.config}" 
+                                itemPosition="{!pos}" 
+                                refreshItem="{!v.refreshItem}" 
+                                showLink="true"/>
+            </aura:iteration>
+            </tbody>
+        </table>
+</aura:component>

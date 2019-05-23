@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2015 May Newsletter (Brazil)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 May Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Safari365: O maior evento do calendário Africano!</subject>
+    <textOnly>O maior evento do calendário Africano
+
+Olá [fname],
+
+A Grande Migração... e eu ainda espero por ver uma foto que faça justiça completa ao que realmente é este evento. Imagine sentir o chão tremer com mais de dois milhões de gnus, zebras e elands cruzando as planícies do Serengeti enquanto o sol brilha no horizonte, tornando o cenário ainda mais perfeito e inspirador - uma visão tão icônica quanto teatral.
+
+
+Se você se arrepia com isso como eu, então ficará ainda mais feliz em saber que o mês de Junho será inteiro focado neste magnífico evento da natureza. Estou ansioso para dividir com você todas as novidades!
+
+
+Sem dúvida este ano está sendo muito especial para a África. Até agora já tivemos a visita de Daniel Radcliffe, o inesquecível Harry Potter, e do carismático e amado Bill Clinton; ambos desfrutando o que há de melhor neste mágico continente. Além disso, estou extremamente feliz com as fotos que vocês estão nos mandando dos safáris na Mama África. Defitivamente a África é o lugar certo para se viver uma grande e inesquecível jornada.
+
+~  Marcus Brain, fundador Safari365  ~</textOnly>
+    <type>custom</type>
+</EmailTemplate>

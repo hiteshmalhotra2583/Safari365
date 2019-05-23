@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>integration@safari365.com</contactEmail>
+    <label>Members Club UI</label>
+    <oauthConfig>
+        <callbackUrl>https://safari365.inbeta.co.za/salesforce/callback.php</callbackUrl>
+        <consumerKey>3MVG9PhR6g6B7ps6QsAziHlayqp0jDLSgoCXORMbXLyb7uC132uAGWXYJ2z_GhExNByL3Dftt0xg3ztezJOKH</consumerKey>
+        <scopes>Api</scopes>
+    </oauthConfig>
+</ConnectedApp>

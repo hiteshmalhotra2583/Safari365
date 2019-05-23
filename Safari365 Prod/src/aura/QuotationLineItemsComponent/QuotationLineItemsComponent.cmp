@@ -1,0 +1,107 @@
+<aura:component controller="QuotationLineItemsController" implements="flexipage:availableForAllPageTypes,force:hasRecordId,force:lightningQuickAction,force:appHostable"  access="global">
+    <aura:attribute name="quotationId" type="String"/>
+    <aura:attribute name="Mode" type="String" access="global"/>
+    <aura:attribute name="CrmId" type="String" access="global"/>
+    <aura:attribute name="listItems" type="QuotationLineItem__c[]" access="global"/>
+	<aura:attribute name="hasConfig" type="Boolean" access="global" default="false"/>
+	<aura:attribute name="treeHeader" type="String" default="Accounts &amp; Contacts"/>
+    <aura:attribute name="treeItems" type="List"/>
+    <aura:attribute name="itemsToUpdate" type="ChargeTypeUpdate[]" />
+    
+    <aura:attribute name="treeConfig" type="Map" default="{'labelProperties': ['Name'], 'expandProperties': ['childRecords'], 'isSelectable': true, 'isNodeSelectionEnabled': true, 'expandLevel': 1, 'columnProperties': 'item'}" />
+    <aura:attribute name="refreshItem" type="String" access="global" default="false"/>
+    <aura:attribute name="resetFilter" type="Boolean" access="private" default="false"/>
+    <aura:attribute name="disableButton" type="Boolean" access="private" default="false"/>
+	<aura:attribute name="tableFilter" type="Object" access="private" />
+    <aura:attribute name="selectedItems" type="List" access="private"/>
+    <aura:attribute name="selectedItemMap" type="Map" access="private"/>
+    <aura:attribute name="showServiceLine" type="Boolean" access="private" default="false"/>
+    <aura:attribute name="showChargeType" type="Boolean" access="private" default="false"/>
+    <aura:attribute name="selectedQuotationLineItem" type="String" access="private"/>
+    <aura:attribute name="selectedQuotationLineItemName" type="String" access="private"/>
+    <aura:attribute name="selectedServiceLineItem" type="String" access="private"/>
+    <aura:attribute name="selectedServiceLineItemName" type="String" access="private"/>
+    <aura:attribute name="selectedLineItemDate" type="String" access="private"/>
+    <aura:attribute name="currentServiceLineItem" type="ServiceLineItem__c" access="global"/>
+    <aura:attribute name="itemsToDelete" type="String[]" />
+    
+    <aura:handler name="treeSelectionEvent" event="c:TreeSelectionEvent" action="{!c.handleTreeSelection}"/>
+    <aura:handler name="treeExpansionEvent" event="c:TreeExpansionEvent" action="{!c.handleTreeExpansion}"/>
+    <aura:handler name="showModelEvent" event="c:ShowModelEvent" action="{!c.handleShowModelEvent}"/>
+    <aura:handler name="deleteItemCheckboxEvent" event="c:DeleteItemCheckboxEvent" action="{!c.handleDeleteItemCheckboxEvent}"/>
+    <aura:handler name="showCrmEvent" event="c:ShowCrmEvent" action="{!c.handleShowCrmEvent}"/>
+    <aura:handler name="updateItemsEvent" event="c:UpdateItemsEvent" action="{!c.handleUpdateItemsEvent}"/>
+    
+    <aura:attribute name="hasQuotationLineItems" type="Boolean" access="private" default="false"/>
+    <aura:attribute name="pillItems" type="List" access="private"/>
+    
+    <aura:attribute name="errorMessage" type="String" access="private" />
+    <aura:attribute name="showError" type="Boolean" default="false" access="private" />
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:registerEvent name="itemDateChangeEvent" type="c:ItemDateChangeEvent"/>
+    <aura:registerEvent name="collapseAllEvent" type="c:CollapseAllEvent"/>
+    
+    <div aura:id="loading" class="slds-hide">
+        <lightning:spinner variant="brand" size="medium" class="slds-is-fixed"/>
+    </div>
+    <div>
+        <aura:renderIf isTrue="{!v.showError}">
+            <div class="slds-notify slds-notify--alert slds-theme--alert-texture slds-theme--error" role="alert">
+                <span class="slds-assistive-text">error</span>
+                <h2>
+                     {!v.errorMessage}
+                </h2>
+            </div>
+        </aura:renderIf>
+    </div>
+                           
+    <div class="slds-m-top--medium" >
+    	<aura:if isTrue="{!v.hasConfig}">
+        	<div class="slds-scrollable slds-grow" style="height: 3000px; overflow-y: scroll;">
+                <lightning:button label="Expand All" class="slds-button slds-button--neutral"   onclick="{!c.handleExpendAll}"/> 
+                <lightning:button label="Collapse All" class="slds-button slds-button--neutral"   onclick="{!c.handleCollapseAll}"/> 
+                <lightning:button label="Delete Selected Cells" class="slds-button slds-button--neutral" disabled="{!v.disableButton}"  onclick="{!c.handleDeleteItems}"/>
+                <lightning:button label="Update Details" class="slds-button slds-button--neutral" disabled="{!v.disableButton}"  onclick="{!c.handleUpdateItems}"  /> 
+            	<c:GridTree header="{!v.treeHeader}" 
+                            resetFilter="{!v.resetFilter}" 
+                            items="{!v.treeItems}" 
+                            config="{!v.treeConfig}" 
+                            refreshItem="{!v.refreshItem}" 
+                            columnsLoaded="{!v.hasConfig}"/>
+            </div>
+        </aura:if>
+    </div>
+    <aura:if isTrue="{!!empty(v.pillItems)}">
+		<div class="slds-pill_container">
+        	<aura:iteration items="{!v.pillItems}" var="pill">
+            	<c:PillComponent item="{!pill}"/>
+            </aura:iteration>
+        </div>
+        <aura:set attribute="else">
+        	<div style="min-height: calc(1.875rem + 2px);"></div>
+         </aura:set>
+     </aura:if>
+            <aura:renderIf isTrue="{!v.showServiceLine}">
+                <div class="slds" >
+                        <div aria-hidden="false"   role="dialog" class="slds-modal slds-modal--large slds-fade-in-open"  style="background-color:#F7F7F7">
+                            <c:ServiceLineComponent Mode="{!v.Mode}"
+                                                    servicedate="{!v.selectedLineItemDate}" 
+                                                    quotationId="{!v.quotationId}" 
+                                                    quotationLineId="{!v.selectedQuotationLineItem}" 
+                                                    quotationLineItemName="{!v.selectedQuotationLineItemName}"  
+                                                    currentServiceLineItem="{!v.currentServiceLineItem}"/>
+                        </div>
+                    </div>
+                
+            </aura:renderIf>
+        	<aura:renderIf isTrue="{!v.showChargeType}">
+                <div class="slds" >
+                        <div aria-hidden="false"   role="dialog" class="slds-modal slds-modal--large slds-fade-in-open"  style="background-color:#F7F7F7">
+                            <!--<c:ServiceLineChargeTypeComponent quotationId="{!v.quotationId}" serviceLineItemId="{!v.selectedServiceLineItem}" serviceLineItemName="{!v.selectedServiceLineItemName}"  />-->
+                        </div>
+                    </div>
+                
+            </aura:renderIf>
+  
+</aura:component>

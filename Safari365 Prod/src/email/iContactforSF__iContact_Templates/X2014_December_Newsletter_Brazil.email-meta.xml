@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2014 December Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Safari365 Newsletter - Dezembro 2014</subject>
+    <textOnly>December 2014 Newsletter
+
+Olá travelers
+
+2014 tem sido um ano de muitos acontecimentos: da crise do Ebola na Nigéria e no Senegal aos novos lodges e às excitantes experiências que vem sendo criadas da Cidade do Cabo ao Serengeti – além das fotos espetaculares capturadas por vocês, nossos clientes. Desejamos a todos um 2015 frutífero e uma alegre temporada de festas.
+
+Uma bela imagem para contemplar o horizonte.
+
+- Marcus Brian, , diretor-fundador da Safari365
+
+
+Experimente o Kruger
+
+A época festiva chegou trazendo grandes memórias! Um lugar em especial faz parte das nossas lembranças: o Parque Nacional Kruger.
+
+Os safáris no Kruger preenchem todos os requisitos necessários para uma experiência genuína na África – do misterioso Timbavati aos lodges excepcionais e momentos inesquecíveis com amigos e família. O Kruger é capaz de proporcionar jornadas emocionantes pelo ciclo da vida!
+
+Safari365
+Old Marine Dr Foreshore,
+Cape Town, 8000, South Africa
+
+www.safari365.com/pt/</textOnly>
+    <type>custom</type>
+</EmailTemplate>

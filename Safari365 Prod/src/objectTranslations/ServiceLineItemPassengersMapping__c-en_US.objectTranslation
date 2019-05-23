@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ServiceLineItemPassengersMapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ServiceLineItemPassengersMappings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Passenger --></label>
+        <name>Passenger__c</name>
+        <relationshipLabel><!-- ServiceLineItemPassengersMappings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Line Item --></label>
+        <name>Service_Line_Item__c</name>
+        <relationshipLabel><!-- ServiceLineItemPassengersMappings --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

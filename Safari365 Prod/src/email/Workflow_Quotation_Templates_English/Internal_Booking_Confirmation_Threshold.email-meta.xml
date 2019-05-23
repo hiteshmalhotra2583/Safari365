@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Warning sent to consultant when booking confirmation created threshold is soon t</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>Internal: Booking Confirmation Threshold</name>
+    <style>freeForm</style>
+    <subject>{!Quotations__c.Primary_Client_Name__c} - {!Quotations__c.Quotation_Name__c}: Threshold To Raise Booking Confirmation Reached Tomorrow</subject>
+    <textOnly>Dear {!Quotations__c.Consultant_Name__c},
+
+The threshold for your client requesting booking confirmation to a &apos;Raised Booking Confirmation&apos; status will be reached tomorrow. Please complete all necessary steps before this time as FX Manager approval will be needed if the threshold is passed in order to check exchange rates.
+
+Client: {!Quotations__c.Primary_Client_Name__c}
+Opportunity: {!Quotations__c.Opportunity__c}
+Quote: {!Quotations__c.Quotation_Name__c}
+Date Requested Booking Confirmation: {!Quotations__c.Date_Client_Requested_Confirmation__c}
+
+Thanks,
+FX Manager.</textOnly>
+    <type>html</type>
+</EmailTemplate>

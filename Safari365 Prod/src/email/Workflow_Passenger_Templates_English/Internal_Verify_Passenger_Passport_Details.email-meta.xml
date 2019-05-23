@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification sent to consultant when client passport details need to be verified.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>Internal: Verify Passenger Passport Details</name>
+    <style>freeForm</style>
+    <subject>{!Passenger__c.Account__c} / {!Passenger__c.Opportunity__c}: Verify Passenger Passport Details</subject>
+    <textOnly>Dear {!Passenger__c.OwnerFirstName},
+
+A passenger has provided passport details, please ensure they are correct against the scan that was uploaded.
+
+Passenger: {!Passenger__c.FirstName__c} {!Passenger__c.Last_Name__c}
+Client: {!Passenger__c.Account__c}
+Opportunity: {!Passenger__c.Opportunity__c}</textOnly>
+    <type>html</type>
+</EmailTemplate>

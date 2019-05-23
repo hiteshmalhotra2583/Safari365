@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Welcome and assigned to dedicated consultant</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>External: Welcome &amp; Meet Yor Consultant</name>
+    <style>freeForm</style>
+    <subject>Safari365: A warm welcome from Africa</subject>
+    <textOnly>Dear {!Lead.FirstName},
+
+Thank you once again for contacting Safari365 and for your recent enquiry.
+
+So as to keep you informed, I have assigned your request to {!Lead.OwnerFullName} (cc&apos;d). You are in good hands - {!Lead.OwnerFirstName} is a true expert when it comes to tailor-made African travel and will be in contact shortly. In the interim, please feel free to email/phone {!Lead.OwnerFirstName} on {!Lead.OwnerEmail} or {!Lead.OwnerPhone} at any stage.
+
+As you may already know, Safari365 is one of Africa&apos;s leading tour operators arranging incredible experiences for 2000 clients to the continent annually. We have offices in Australia, United States, Brazil and Tanzania, with our head office in Cape Town, South Africa (so we are on the ground when it counts!) Our rates and savings are unmatched, as is our history of tailor-making safe and memorable experiences to this diverse continent. Please chat to us if you would like personal references from {!Lead.00ND0000003Cyk2} clients who have travelled with us in the past.
+
+Lastly, we are the only company to produce a personal photobook for all clients who travel with us (we will create this free of charge and courier it to you after travel), together with our Africa specific complimentary Emergency Evacuation Insurance, our value adds are unmatched.
+
+I wish you an incredible journey and may Africa be everything you dreamed of,
+
+Marcus Brain
+Managing Director
+
+{!Lead.Intro_Video__c}
+
+Other Useful Information
+{!Lead.OwnerFirstName}&apos;s Consultant Profile: {!Lead.Consultant_Profile_Link__c}
+{!Lead.OwnerFirstName}&apos;s direct phone number: {!Lead.OwnerPhone}
+{!Lead.OwnerFirstName}&apos;s email address: {!Lead.OwnerEmail}
+
+
+Get to know us better! Read our Blog and chat to your travel expert about adding one of these *Current Specials into your itinerary
+
+_______________________________________________________________________________________________
+
+Safari365
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK  080 823 44485  USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325  Fax: 086 658 1713
+www.safari365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

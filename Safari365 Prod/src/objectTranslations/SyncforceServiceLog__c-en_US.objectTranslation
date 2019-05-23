@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SyncforceServiceLog</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SyncforceServiceLogs</value>
+    </caseValues>
+    <fields>
+        <label><!-- NumberOfRecordsProcessed --></label>
+        <name>NumberOfRecordsProcessed__c</name>
+    </fields>
+    <fields>
+        <label><!-- NumberOfRecordsUnProcessed --></label>
+        <name>NumberOfRecordsUnProcessed__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProcessDate --></label>
+        <name>ProcessDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProcessedSqlQuery --></label>
+        <name>ProcessedSqlQuery__c</name>
+    </fields>
+    <fields>
+        <label><!-- QueryId --></label>
+        <name>QueryId__c</name>
+    </fields>
+    <fields>
+        <label><!-- SalesforceObjectName --></label>
+        <name>SalesforceObjectName__c</name>
+    </fields>
+    <fields>
+        <label><!-- SqlTableName --></label>
+        <name>SqlTableName__c</name>
+    </fields>
+    <layouts>
+        <layout>SyncforceServiceLog Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

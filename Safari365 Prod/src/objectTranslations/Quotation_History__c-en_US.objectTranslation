@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Recorded Data at Booking Confirmation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Recorded Data at Booking Confirmation</value>
+    </caseValues>
+    <fields>
+        <label><!-- Date Confirmed --></label>
+        <name>Date_Confirmed__c</name>
+    </fields>
+    <fields>
+        <label><!-- EUR to ZAR --></label>
+        <name>EUR_to_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Exchange Rate EUR to ZAR --></label>
+        <name>Internal_EUR_Exchange__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal EUR - Quotation Cost Total --></label>
+        <name>Internal_EUR_Quotation_Cost_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal EUR - Quotation Sale Total --></label>
+        <name>Internal_EUR_Quotation_Sale_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal ZAR Quotation Profit Total --></label>
+        <name>Internal_Quotation_Profit_Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the sales total for internal reporting at stage = Raised Booking Confirmation (it has utilised the nett exchange rate to calculate) --></help>
+        <label><!-- Internal ZAR Quotation Sale Total --></label>
+        <name>Internal_Quotation_Sale_Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the cost of sales total for internal reporting at stage = Raised Booking Confirmation (it has utilised the nett exchange rate to calculate) --></help>
+        <label><!-- Internal ZAR Quotation Cost Total --></label>
+        <name>Internal_Reporting_Cost_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Exchange Rate USD to ZAR --></label>
+        <name>Internal_USD_Exchange__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal USD - Quotation Cost Total --></label>
+        <name>Internal_USD_Quotation_Cost_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal USD - Quotation Sale Total --></label>
+        <name>Internal_USD_Quotation_Sale_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Exchange Rate ZAR to ZAR --></label>
+        <name>Internal_ZAR_Exchange__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation --></label>
+        <name>Quotation__c</name>
+        <relationshipLabel><!-- Recorded Data at Booking Confirmation --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sale Total in Selected CC --></label>
+        <name>Sale_Total_in_Selected_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- USD to ZAR --></label>
+        <name>USD_to_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZAR to ZAR --></label>
+        <name>ZAR_to_ZAR__c</name>
+    </fields>
+    <layouts>
+        <layout>Quotation History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

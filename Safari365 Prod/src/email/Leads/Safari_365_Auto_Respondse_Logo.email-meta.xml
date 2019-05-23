@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Safari 365 Auto Response</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>Safari 365 Auto Response</name>
+    <style>freeForm</style>
+    <subject>Safari365: Thank you for your enquiry</subject>
+    <textOnly>Dear {!Lead.FirstName},
+
+Thank you for your enquiry. This is an automated reply to acknowledge we have received your request and a dedicated travel specialist will revert to you within 24 hours*
+
+By way of introduction, Safari 365 is a leading tour operator specialising ONLY in Africa. Our organisation has been operating since 2004 and have over 1500 happy clients travel with us annually. We are bonded with SATSA and have the right affiliations and credibility in place to ensure your peace of mind.
+
+As African travel specialists, we only sell the products and services that we know and trust and have experienced first-hand. We tailor-make your vacation to ensure you enjoy a safe and memorable experience! Read our review section here for previous client feedback.
+
+Due to the volume of business we generate and because you are dealing directly with us, we cut out the middleman and offer you exceptionally competitive rates (we are regularly 5-15% cheaper than dealing with the hotel or lodge directly).
+
+
+
+If you would like to add anything further to the enquiry you have just sent, please don’t hesitate to email info@safari365.com or call any of our international numbers:
+
+Australia: +61 2 8015 7616
+United States: +1 206 7923653
+United Kingdom: +44 203 8876674
+South Africa: +27 21 418 1325
+Brazil: +55 11 2476 1102
+
+We are looking forward to sharing Africa with you,
+
+Kind regards,
+Safari 365
+
+
+
+Get to know us better! Read our blog
+
+_______________________________________________________________________________________________
+
+Safari365.com &amp; South Africa 365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK  080 823 44485  USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325  Fax: 086 658 1713
+www.safari365.com &amp; www.southafrica365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

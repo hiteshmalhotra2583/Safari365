@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Quotation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Quotations</value>
+    </caseValues>
+    <fields>
+        <label><!-- ALL Quotation LineItem Count --></label>
+        <name>ALL_Quotation_LineItem_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Cancelled QuotationLineItems --></label>
+        <name>All_Cancelled_QuotationLineItems__c</name>
+    </fields>
+    <fields>
+        <label><!-- All_Confirmed_QuotationLineItem --></label>
+        <name>All_Confirmed_QuotationLineItem__c</name>
+    </fields>
+    <fields>
+        <help><!-- This box is checked once client has completed all payments in full. --></help>
+        <label><!-- All Funds Received --></label>
+        <name>All_Funds_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- All_RaisedInvoice_QuotationLineItem --></label>
+        <name>All_RaisedInvoice_QuotationLineItem__c</name>
+    </fields>
+    <fields>
+        <help><!-- Details where the Quotation is in the Finance Handover protocol --></help>
+        <label><!-- Approval Status --></label>
+        <name>Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Finance Approval Pending</masterLabel>
+            <translation><!-- Finance Approval Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance Approved</masterLabel>
+            <translation><!-- Finance Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance Rejected</masterLabel>
+            <translation><!-- Finance Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval from FX Treasury Required --></label>
+        <name>Approval_from_FX_Treasury_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance Currency Received --></label>
+        <name>Balance_Currency_Received__c</name>
+    </fields>
+    <fields>
+        <help><!-- EUR portion of balance for booking. --></help>
+        <label><!-- Balance Due Amount EUR --></label>
+        <name>Balance_Due_Amount_EUR__c</name>
+    </fields>
+    <fields>
+        <help><!-- USD portion of balance for booking. --></help>
+        <label><!-- Balance Due Amount USD --></label>
+        <name>Balance_Due_Amount_USD__c</name>
+    </fields>
+    <fields>
+        <help><!-- ZAR portion of balance for booking. --></help>
+        <label><!-- Balance Due Amount ZAR --></label>
+        <name>Balance_Due_Amount_ZAR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Balance to be paid by client in their selected currency. --></help>
+        <label><!-- Client Currency Balance Due Amount --></label>
+        <name>Balance_Due_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance Due Date --></label>
+        <name>Balance_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance Received Date --></label>
+        <name>Balance_Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance Value Received (nett) --></label>
+        <name>Balance_Value_Received_nett__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for EUR to AUD --></label>
+        <name>CC_ROE_for_EUR_in_AUD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for EUR to EUR --></label>
+        <name>CC_ROE_for_EUR_in_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for EUR to GPB --></label>
+        <name>CC_ROE_for_EUR_in_GPB__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for EUR to USD --></label>
+        <name>CC_ROE_for_EUR_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for USD to AUD --></label>
+        <name>CC_ROE_for_USD_in_AUD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for USD to EUR --></label>
+        <name>CC_ROE_for_USD_in_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for USD to GPB --></label>
+        <name>CC_ROE_for_USD_in_GPB__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for USD to USD --></label>
+        <name>CC_ROE_for_USD_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for ZAR to AUD --></label>
+        <name>CC_ROE_for_ZAR_in_AUD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for ZAR to EUR --></label>
+        <name>CC_ROE_for_ZAR_in_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for ZAR to GPB --></label>
+        <name>CC_ROE_for_ZAR_in_GPB__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for ZAR to USD --></label>
+        <name>CC_ROE_for_ZAR_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Sub Total for EUR in AUD --></label>
+        <name>CC_Sub_Total_for_EUR_in_AUD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Sub Total for EUR in EUR --></label>
+        <name>CC_Sub_Total_for_EUR_in_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Sub Total for EUR in GPB --></label>
+        <name>CC_Sub_Total_for_EUR_in_GPB__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Sub Total for EUR in USD --></label>
+        <name>CC_Sub_Total_for_EUR_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Sub Total for USD in AUD --></label>
+        <name>CC_Sub_Total_for_USD_in_AUD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Sub Total for USD in EUR --></label>
+        <name>CC_Sub_Total_for_USD_in_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Sub Total for USD in GPB --></label>
+        <name>CC_Sub_Total_for_USD_in_GPB__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Sub Total for USD in USD --></label>
+        <name>CC_Sub_Total_for_USD_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Sub Total for ZAR in AUD --></label>
+        <name>CC_Sub_Total_for_ZAR_in_AUD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Sub Total for ZAR in EUR --></label>
+        <name>CC_Sub_Total_for_ZAR_in_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Sub Total for ZAR in GPB --></label>
+        <name>CC_Sub_Total_for_ZAR_in_GPB__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Sub Total for ZAR in USD --></label>
+        <name>CC_Sub_Total_for_ZAR_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cos in EUR --></label>
+        <name>COS_in_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- COS in USD --></label>
+        <name>COS_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- COS in ZAR --></label>
+        <name>COS_in_ZAR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the currency that you would like to include the Photobooks and Emergency Evacuation in, if this is a mostly a USD booking charge in USD and vice versa --></help>
+        <label><!-- Select Photobook &amp; Evac Cover Currency --></label>
+        <name>Charge_Photobooks_and_Insurance_in__c</name>
+        <picklistValues>
+            <masterLabel>USD</masterLabel>
+            <translation><!-- USD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZAR</masterLabel>
+            <translation><!-- ZAR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Client Currency Balance Due Amount --></label>
+        <name>Client_Currency_Balance_Due_Amount_Calc__c</name>
+    </fields>
+    <fields>
+        <help><!-- Once Quote stage  = Raised Booking Confirmation, the Client Currency Locks --></help>
+        <label><!-- Client Currency Locked --></label>
+        <name>Client_Currency_Locked__c</name>
+    </fields>
+    <fields>
+        <help><!-- This box is checked when any payment has been received from the client. If a payment has already been received this boxed must been unchecked and checked again. This checkbox being true enables consultants to move to &apos;Confirmed&apos; --></help>
+        <label><!-- Deposit Received --></label>
+        <name>Client_Fund_Recieved__c</name>
+    </fields>
+    <fields>
+        <help><!-- In the Members Club, the client has clicked the &quot;Book This&quot; button. Please proceed within 3 days (maximum) to raise a Booking Confirmation ( there is FX exposure if you delay on this stage) --></help>
+        <label><!-- Client Has Requested Confirmation --></label>
+        <name>Client_Has_Requested_Confirmation__c</name>
+    </fields>
+    <fields>
+        <help><!-- The quote you had sent the client has expired ( it if no longer valid due to FX exposure) and your client has requested a re-quote on the same itinerary. --></help>
+        <label><!-- Client Has Requested Requote --></label>
+        <name>Client_Has_Requested_Requote__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field restricts a user editing a quotation that has already been paid or quoted in FX to Booking Confirmation. Please seek administrator authorization should you need to edit this confirmed quotation --></help>
+        <label><!-- Untick to Edit Confirmed Quote --></label>
+        <name>Confirmed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Name --></label>
+        <name>Consultant_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit card sale total in CC EUR --></label>
+        <name>Credit_card_sale_total_in_CC_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit card sale total in CC GBP --></label>
+        <name>Credit_card_sale_total_in_CC_GBP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit card sale total in CC USD --></label>
+        <name>Credit_card_sale_total_in_CC_USD__c</name>
+    </fields>
+    <fields>
+        <help><!-- On the Opportunity level, choose the most likely Client Display Currency (one of the supported Global Currencies)  Your client is able to change their preferred currency in the Members Club, you will need to raise Booking Confirmation in this Currency. --></help>
+        <label><!-- Client Display Currency --></label>
+        <name>Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Client Requested Confirmation --></label>
+        <name>Date_Client_Requested_Confirmation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deposit Currency Received --></label>
+        <name>Deposit_Currency_Received__c</name>
+    </fields>
+    <fields>
+        <help><!-- Deposit to be paid by client in their selected currency. --></help>
+        <label><!-- Client Currency Deposit Due Amount --></label>
+        <name>Deposit_Due_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deposit Due Date --></label>
+        <name>Deposit_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deposit Received Date --></label>
+        <name>Deposit_Received_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Consultant has amended the standard (30%) deposit requitrements to recieve a greater or lesser booking deposit. --></help>
+        <label><!-- Deposit Value Override By Consultant --></label>
+        <name>Deposit_Value_Override_By_Consultant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deposit Value Received (nett) --></label>
+        <name>Deposit_Value_Received_nett__c</name>
+    </fields>
+    <fields>
+        <help><!-- EUR portion of deposit for booking. --></help>
+        <label><!-- Deposit Due Amount EUR --></label>
+        <name>Deposite_Due_Amount_EUR__c</name>
+    </fields>
+    <fields>
+        <help><!-- USD portion of deposit for booking. --></help>
+        <label><!-- Deposit Due Amount USD --></label>
+        <name>Deposite_Due_Amount_USD__c</name>
+    </fields>
+    <fields>
+        <help><!-- ZAR portion of deposit for booking. --></help>
+        <label><!-- Deposit Due Amount ZAR --></label>
+        <name>Deposite_Due_Amount_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Include Photobooks --></label>
+        <name>Do_not_include_Photobooks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Include Passenger Emergency Evac --></label>
+        <name>Do_not_include_insurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- EFT Expected --></label>
+        <name>EFT_Expected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- This checkbox disables the FX rate lookup. Only to be used by FX Manager when FX rates must be manually overridden. --></help>
+        <label><!-- Disable FX Rate Refresh --></label>
+        <name>Exchange_Values_Override_By_Finance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Displays gross profit for the quotation --></help>
+        <label><!-- Foreign Exchange Profit --></label>
+        <name>Foreign_Exchange_Profit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forward CC Buy Rate EUR --></label>
+        <name>Forward_CC_Buy_Rate_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forward CC Buy Rate USD --></label>
+        <name>Forward_CC_Buy_Rate_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forward CC Buy Rate ZAR --></label>
+        <name>Forward_CC_Buy_Rate_ZAR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checked once forward contract has been completed and funds paid out from FX broker. --></help>
+        <label><!-- Forward Contract Completed --></label>
+        <name>Forward_Contract_Completed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date when forward contract was locked in with FX broker. --></help>
+        <label><!-- Forward Contract Buy Date --></label>
+        <name>Forward_Contract_Currency_Committed_Buy__c</name>
+    </fields>
+    <fields>
+        <help><!-- End date that the forward contract for this quote must be booked to. This is set later than the balance due date to allow for some time for the client payment to settle in our bank account. --></help>
+        <label><!-- Forward Contract Mature Date --></label>
+        <name>Forward_Contract_Mature_Date_Calc__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date at which forward contract is set to mature. All client funds must have been received before this date. --></help>
+        <label><!-- Forward Contract Mature Date --></label>
+        <name>Forward_Contract_Mature_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checked once forward contract has been locked in with FX broker. --></help>
+        <label><!-- Forward Contract Confirmed --></label>
+        <name>Forward_Contracts_Confirmed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Value of all received payments for this quote in the selected client currency. --></help>
+        <label><!-- Funds Received To Date --></label>
+        <name>Funds_Received_To_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include Passenger Emergency Evac in USD --></label>
+        <name>Include_Passenger_Insurance_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include Passenger Emergency Evac in ZAR --></label>
+        <name>Include_Passenger_Insurance_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include Photobooks in USD --></label>
+        <name>Include_Photobooks_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include Photobooks in ZAR --></label>
+        <name>Include_Photobooks_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of PAX Emerg Evac included for --></label>
+        <name>Include_insurance_for_passengers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency medical evacuation Cos in USD --></label>
+        <name>Insurance_Cos_in_USD_New__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency medical evacuation Cos in ZAR --></label>
+        <name>Insurance_Cos_in_ZAR_New__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency medical evacuation Sale in USD --></label>
+        <name>Insurance_Sale_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency medical evacuation Sale in ZAR --></label>
+        <name>Insurance_Sale_in_ZAR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please ensure all of the supporting documents have been added to the &quot;Internal Documentation and Traveling Files&quot; folders. 
+
+This includes the Google Sheets client Booking Confirmation and all supplier invoices for confirmed services. --></help>
+        <label><!-- Internal Documents have been Added to SF --></label>
+        <name>Internal_Documents_have_been_Added_to_SF__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to capture any important information around FX values. e.g. reason FX rates refresh is disabled, method used for new blended manual FX rate calc, etc. If rates have decreased in value, then profit margin has decreased against quote. --></help>
+        <label><!-- Internal FX Management Notes --></label>
+        <name>Internal_FX_Management_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to capture any information around incoming payments. e.g. Partial deposit amounts received if clients paying parts, under payments due to SWIFT fees, etc. --></help>
+        <label><!-- Internal Payment Notes --></label>
+        <name>Internal_Payment_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the correct language to display in the Members Club and for the Itinerary Document --></help>
+        <label><!-- Itinerary Language --></label>
+        <name>Iternary_Language__c</name>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>German</masterLabel>
+            <translation><!-- German --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugese</masterLabel>
+            <translation><!-- Portugese --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This is the intro text that will show on this quotation in the Members Club (and also to be used on your covering email) Make sure this is specific to the quotation you are offering and adding value and insight. --></help>
+        <label><!-- Quotation Intro Note to Customer --></label>
+        <name>Itinerary_Summary__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the URL to the exact section in the Members Club where the Client can view this Itinerary --></help>
+        <label><!-- Members Club Itinerary Link --></label>
+        <name>Members_Club_Itinerary_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of PhotoBooks Owed --></label>
+        <name>No_of_PhotoBook__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Opportunity_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Quotations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Passenger Details Form --></label>
+        <name>Passenger_Site_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the URL to the exact section in the Members Club where the Client can proceed to pay --></help>
+        <label><!-- Members Club Payment Link --></label>
+        <name>Payment_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photobooks Cos in USD --></label>
+        <name>Photobooks_Cos_in_USD_new__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photobooks Cos in ZAR --></label>
+        <name>Photobooks_Cos_in_ZAR_New__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photobooks Sale in USD --></label>
+        <name>Photobooks_Sale_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photobooks Sale in ZAR --></label>
+        <name>Photobooks_Sale_in_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Client First Name --></label>
+        <name>Primary_Client_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Client Name --></label>
+        <name>Primary_Client_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Newest and/or Primary Quotation --></label>
+        <name>Primary_Quotation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checking this box will add this Quotation value ( Sale and Cost) to the main Opportunity value for &quot;Closed Won Deal&quot; Do this if the client is confirming multiple quotations --></help>
+        <label><!-- Always Include this Quote in Opp Value --></label>
+        <name>Primary_by_Consultant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profit % Eur --></label>
+        <name>Profit_Eur__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profit % IN ZAR --></label>
+        <name>Profit_IN_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profit % USD --></label>
+        <name>Profit_USD__c</name>
+    </fields>
+    <fields>
+        <help><!-- Internal reporting figures only (contributes towards targets and BHAGS) These figures will be rolled-up to to the Opportunity values. --></help>
+        <label><!-- Profit % Total --></label>
+        <name>Profit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation Approval Requested --></label>
+        <name>Quotation_Approval_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation Arrival Date --></label>
+        <name>Quotation_Arrival_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Internal reporting figures only (contributes towards targets and BHAGS) These figures will be rolled-up to to the Opportunity values. --></help>
+        <label><!-- Quotation Cost Total --></label>
+        <name>Quotation_Cos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation Gross Profit EUR --></label>
+        <name>Quotation_Gross_Profit_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation Gross Profit USD --></label>
+        <name>Quotation_Gross_Profit_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation Gross Profit ZAR --></label>
+        <name>Quotation_Gross_Profit_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation ID --></label>
+        <name>Quotation_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Make this descriptive as it displays to the Client in the Members Club --></help>
+        <label><!-- Quotation Name --></label>
+        <name>Quotation_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Internal reporting figures only (contributes towards targets and BHAGS) These figures will be rolled-up to to the Opportunity values. --></help>
+        <label><!-- Quotation Profit Total --></label>
+        <name>Quotation_Profit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation Sale Total in CC AUD --></label>
+        <name>Quotation_Sale_Total_in_CC_AUD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation Sale Total in CC EUR --></label>
+        <name>Quotation_Sale_Total_in_CC_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation Sale Total in CC GBP --></label>
+        <name>Quotation_Sale_Total_in_CC_GBP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation Sale Total in CC USD --></label>
+        <name>Quotation_Sale_Total_in_CC_USD__c</name>
+    </fields>
+    <fields>
+        <help><!-- OLD FORMULA - JUDD BROKE (Total_Sale_In_Zar__c / ROE_ZAR_to_CC__c) + (Total_Sale_In_USD__c / ROE_USD_to_CC__c)+ (Sale_in_EUR__c / ROE_EUR_to_CC__c ) --></help>
+        <label><!-- OLD DONT USE SaleTotalinClient Currency --></label>
+        <name>Quotation_Sale_Total_in_CC__c</name>
+    </fields>
+    <fields>
+        <help><!-- This displays the quote sale total in the selected client currency --></help>
+        <label><!-- Quotation Sale Total in Selected CC --></label>
+        <name>Quotation_Sale_Total_in_Selected_CC__c</name>
+    </fields>
+    <fields>
+        <help><!-- Internal reporting figures only (contributes towards targets and BHAGS) These figures will be rolled-up to to the Opportunity values. --></help>
+        <label><!-- Quotation Sale Total --></label>
+        <name>Quotation_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation Sales --></label>
+        <name>Quotation_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation Stage --></label>
+        <name>Quotation_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmed</masterLabel>
+            <translation><!-- Confirmed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quoting</masterLabel>
+            <translation><!-- Quoting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raised Booking Confirmation</masterLabel>
+            <translation><!-- Raised Booking Confirmation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field is not editable by users and is used in the approval by finance process. --></help>
+        <label><!-- Quote Approved by Finance --></label>
+        <name>Quote_Approved_by_Finance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Exposure --></label>
+        <name>Quote_Exposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROE Euro to Client Currency --></label>
+        <name>ROE_EUR_to_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROE EUR to ZAR --></label>
+        <name>ROE_EUR_to_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROE USD to Client Currency --></label>
+        <name>ROE_USD_to_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROE USD to ZAR --></label>
+        <name>ROE_USD_to_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROE ZAR to Client Currency --></label>
+        <name>ROE_ZAR_to_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROE ZAR to ZAR --></label>
+        <name>ROE_ZAR_to_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raised Booking Confirmation Date --></label>
+        <name>Raised_Booking_Confirmation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Locked --></label>
+        <name>Record_Locked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sale In USD --></label>
+        <name>Sale_In_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sale in EUR --></label>
+        <name>Sale_in_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sale in Zar --></label>
+        <name>Sale_in_Zar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deposit Values Verified By Consultant --></label>
+        <name>Sales_Values_Verified_By_Consultant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected Client Currency Sell Rate  EUR --></label>
+        <name>Selected_Client_Currency_Sell_Rate_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected Client Currency Sell Rate USD --></label>
+        <name>Selected_Client_Currency_Sell_Rate_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected Client Currency Sell Rate ZAR --></label>
+        <name>Selected_Client_Currency_Sell_Rate_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Email To Customer --></label>
+        <name>Send_Email_To_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Itinerary Doc Customer Note --></label>
+        <name>Special_Itinerary_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spot Buy Rate (Deposit payment) --></label>
+        <name>Spot_Buy_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is Google Drive folder for ther Internal Docs --></help>
+        <label><!-- Team Drive Quotation Folder Url --></label>
+        <name>Team_Drive_Quotation_Folder_Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text for Booking Confirmation Requested --></label>
+        <name>Text_for_Booking_Confirmation_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- TotalQuotationLineItems --></label>
+        <name>TotalQuotationLineItems__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Adult Passengers --></label>
+        <name>Total_Adult_Passengers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Child and Infant Travellers --></label>
+        <name>Total_Child_and_Infant_Travellers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cos in USD --></label>
+        <name>Total_Cos_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cos in ZAR --></label>
+        <name>Total_Cos_in_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Days --></label>
+        <name>Total_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Value of all outstanding payments for this quote in the selected client currency. --></help>
+        <label><!-- Total Funds Outstanding --></label>
+        <name>Total_Funds_Outstanding__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Nights --></label>
+        <name>Total_Nights__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sale In USD --></label>
+        <name>Total_Sale_In_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sale In ZAR --></label>
+        <name>Total_Sale_In_Zar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel End Date --></label>
+        <name>TravelEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel Start Date --></label>
+        <name>TravelStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Update CC ROE Fields Date --></label>
+        <name>Update_CC_ROE_Fields_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Update CC ROE Fields --></label>
+        <name>Update_CC_ROE_Fields__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date when the quoted exchange rate for this quote will expire. Rate will be valid until midnight of this date South African time. --></help>
+        <label><!-- Quotation FX Rate Valid Until --></label>
+        <name>Valid_Until__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check and Edit this itinerary to make it perfect (certain details may not have mapped through from the Itinerary Builder) The more effort you put in here the better it will look in MC. Note, If you &quot;Update WETU&quot; it will overwrite your changes. --></help>
+        <label><!-- Editable Itinerary (WETU) --></label>
+        <name>WETU_Edit_Itinerary__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provide this link for your Client to access the Members Club (do not hyperlking this link to text in your emails when providing the Client the link, make sure its obvious) --></help>
+        <label><!-- Members Club Link --></label>
+        <name>WETU_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wetu Identifier Key --></label>
+        <name>Wetu_Identifier_Key__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the unique WETU URL string if you want to duplicate this exact Members Club itinerrary display. You can override this field with an updated URL string as required (proceed with caution as the quotes need to be identical) --></help>
+        <label><!-- WETU Identifier --></label>
+        <name>Wetu_Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wetu Request Fail --></label>
+        <name>Wetu_Request_Fail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit card sale total in CC AUD --></label>
+        <name>credit_card_sale_total_in_CC_AUD__c</name>
+    </fields>
+    <fields>
+        <label><!-- email formula --></label>
+        <name>email_formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- isBookingConfStatusOverdue --></label>
+        <name>isBookingConfStatusOverdue__c</name>
+    </fields>
+    <fields>
+        <label><!-- isClientRequestedConfStatusOverdue --></label>
+        <name>isClientRequestedConfStatusOverdue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator Identity id --></label>
+        <name>operator_identity_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Excludes --></label>
+        <name>price_excludes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Includes --></label>
+        <name>price_includes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wetu is Disabled --></label>
+        <name>wetu_is_disabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wetu operator id --></label>
+        <name>wetu_operator_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wetu Operator Theme Id --></label>
+        <name>wetu_operator_theme_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wetu Type --></label>
+        <name>wetu_type__c</name>
+    </fields>
+    <layouts>
+        <layout>Quotation Administrator Layout</layout>
+        <sections>
+            <label><!-- All other Fields --></label>
+            <section>All other Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Editable Itinerary (WETU System) --></label>
+            <section>Editable Itinerary (WETU System)</section>
+        </sections>
+        <sections>
+            <label><!-- Itinerary Builder --></label>
+            <section>Itinerary Builder</section>
+        </sections>
+        <sections>
+            <label><!-- Members Club --></label>
+            <section>Members Club</section>
+        </sections>
+        <sections>
+            <label><!-- Passengers --></label>
+            <section>Passengers</section>
+        </sections>
+        <sections>
+            <label><!-- Photobooks and Emergency Evacuation Cover --></label>
+            <section>Photobooks and Emergency Evacuation Cover</section>
+        </sections>
+        <sections>
+            <label><!-- Quotation Base Currency Amount EUR (Internal Only) --></label>
+            <section>Quotation Base Currency Amount EUR (Internal Only)</section>
+        </sections>
+        <sections>
+            <label><!-- Quotation Base Currency Amount in USD (Internal Only) --></label>
+            <section>Quotation Base Currency Amount in USD (Internal Only)</section>
+        </sections>
+        <sections>
+            <label><!-- Quotation Base Currency Amount in ZAR (Internal Only) --></label>
+            <section>Quotation Base Currency Amount in ZAR (Internal Only)</section>
+        </sections>
+        <sections>
+            <label><!-- Quotation Introduction Note to Client --></label>
+            <section>Quotation Introduction Note to Client</section>
+        </sections>
+        <sections>
+            <label><!-- Quotation Sale Amounts in Client Currency Values &amp; Client Payments Summary --></label>
+            <section>Quotation Sale Amounts in Client Currency Values &amp; Client Payments Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Reporting Figures for GP/Targets/BHAG Reporting (Internal Only) --></label>
+            <section>Sales Reporting Figures for GP/Targets/BHAG Reporting (Internal Only)</section>
+        </sections>
+        <sections>
+            <label><!-- Travel Dates --></label>
+            <section>Travel Dates</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quotation Consultant Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Editable Itinerary (WETU System) --></label>
+            <section>Editable Itinerary (WETU System)</section>
+        </sections>
+        <sections>
+            <label><!-- Itinerary Builder --></label>
+            <section>Itinerary Builder</section>
+        </sections>
+        <sections>
+            <label><!-- Members Club --></label>
+            <section>Members Club</section>
+        </sections>
+        <sections>
+            <label><!-- Passengers --></label>
+            <section>Passengers</section>
+        </sections>
+        <sections>
+            <label><!-- Photobooks and Emergency Evacuation Cover --></label>
+            <section>Photobooks and Emergency Evacuation Cover</section>
+        </sections>
+        <sections>
+            <label><!-- Quotation Base Currency Amount EUR (Internal Only) --></label>
+            <section>Quotation Base Currency Amount EUR (Internal Only)</section>
+        </sections>
+        <sections>
+            <label><!-- Quotation Base Currency Amount in USD (Internal Only) --></label>
+            <section>Quotation Base Currency Amount in USD (Internal Only)</section>
+        </sections>
+        <sections>
+            <label><!-- Quotation Base Currency Amount in ZAR (Internal Only) --></label>
+            <section>Quotation Base Currency Amount in ZAR (Internal Only)</section>
+        </sections>
+        <sections>
+            <label><!-- Quotation Introduction Note to Client --></label>
+            <section>Quotation Introduction Note to Client</section>
+        </sections>
+        <sections>
+            <label><!-- Quotation Sale Amounts in Client Currency Values &amp; Client Payments Summary --></label>
+            <section>Quotation Sale Amounts in Client Currency Values &amp; Client Payments Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Reporting Figures for GP/Targets/BHAG Reporting (Internal Only) --></label>
+            <section>Sales Reporting Figures for GP/Targets/BHAG Reporting (Internal Only)</section>
+        </sections>
+        <sections>
+            <label><!-- Travel Dates --></label>
+            <section>Travel Dates</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quotation Finance Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Itinerary Line Items --></label>
+            <section>Itinerary Line Items</section>
+        </sections>
+        <sections>
+            <label><!-- Photobooks and Emergency Evacuation Cover --></label>
+            <section>Photobooks and Emergency Evacuation Cover</section>
+        </sections>
+        <sections>
+            <label><!-- Quotation Base Currency Amount EUR (Internal Only) --></label>
+            <section>Quotation Base Currency Amount EUR (Internal Only)</section>
+        </sections>
+        <sections>
+            <label><!-- Quotation Base Currency Amount in USD (Internal Only) --></label>
+            <section>Quotation Base Currency Amount in USD (Internal Only)</section>
+        </sections>
+        <sections>
+            <label><!-- Quotation Base Currency Amount in ZAR (Internal Only) --></label>
+            <section>Quotation Base Currency Amount in ZAR (Internal Only)</section>
+        </sections>
+        <sections>
+            <label><!-- Quotation Sale Amounts in Client Currency Values &amp; Client Payments Summary --></label>
+            <section>Quotation Sale Amounts in Client Currency Values &amp; Client Payments Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Reporting Figures for GP/Targets/BHAG Reporting (Internal Only) --></label>
+            <section>Sales Reporting Figures for GP/Targets/BHAG Reporting (Internal Only)</section>
+        </sections>
+        <sections>
+            <label><!-- Travel Dates --></label>
+            <section>Travel Dates</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quotation Treasury Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Exchange Rate Information --></label>
+            <section>Exchange Rate Information</section>
+        </sections>
+        <sections>
+            <label><!-- FX Overview --></label>
+            <section>FX Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Payments Information --></label>
+            <section>Payments Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create Google Connection Manually --></label>
+        <name>Create_Google_Connection_Manually</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Manually Create WETU (on Error) --></label>
+        <name>Create_Manual_Wetu</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create or Update WETU --></label>
+        <name>Create_or_Update_WETU_Itinerary</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Quotation Action --></label>
+        <name>New_Quotation_Action</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Booking Confirmation --></label>
+        <name>Quotation_Booking_Confirm_Doc_On_Google_Drive</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Itinerary (OLD) --></label>
+        <name>Quotation_Itinerary_Doc_On_Google_Drive</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Vouchers --></label>
+        <name>Quotation_Voucher_Doc_On_Google_Drive</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Manually Update ROE --></label>
+        <name>Update_CC_ROE_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Itinerary --></label>
+        <name>Update_CC_ROE_Itinerary</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Quote status cannot change stage to Raised Booking Confirmation as approval from FX Manager required. --></errorMessage>
+        <name>Approval_from_FX_Treasury_before_RBC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Quote stage cannot change to &apos;Confirmed&apos; before &apos;Fiance has approved the Quotation values&apos;. Please ensure all documents have been added and the is submitted for approval. --></errorMessage>
+        <name>Approval_from_Finance_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A User cannot update to Cancelled status unless all service lines are Stage:  No Booking Required, Cancelled, Not Booked --></errorMessage>
+        <name>Check_Status_Cancelled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Quote stage cannot change to Confirmed unless all service lines are Stage:  Confirmed or No Booking Required. --></errorMessage>
+        <name>Check_Status_Confirmed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Quote stage cannot change to &apos;Confirmed&apos; before &apos;Internal Documents Added To SF&apos; has been checked. Please ensure all documents have been added and the box is checked to proceed. --></errorMessage>
+        <name>Check_Status_ConfirmedInternalDocuments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Quote stage cannot change to &apos;Raised Booking Confirmation&apos; until deposit values have been calculated --></errorMessage>
+        <name>Check_Status_Raised_Invoice</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The QuotationStage can only be Raise confirmation before all the Quotation line item is confirmed --></errorMessage>
+        <name>Check_Status_Raised_Invoice_AllConfirmed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Quote stage cannot be changed as booking confirmation status is overdue. --></errorMessage>
+        <name>Quotation_Stage_Cannot_be_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You need to click the &quot;Book This&quot; function in the members club before you can raise a booking confirmation.  If &quot;Book This&quot; is unavailable, please get approval from FX Manager to proceed. --></errorMessage>
+        <name>Validate_Book_this_is_True</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Quote stage cannot change to &apos;Confirmed&apos; before a deposit has been marked as received by the FX Manager. Please ensure your client has paid for their booking before contacting the FX Manager. --></errorMessage>
+        <name>Validate_Confirmed_When_Funds_Received</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Create_Manual_Wetu --></label>
+        <name>Create_Manual_Wetu</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Delete --></label>
+        <name>Delete</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Get_Pricing_Info --></label>
+        <name>Get_Pricing_Info</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Quotation_Booking_Confirm_Doc_On_Google_Drive --></label>
+        <name>Quotation_Booking_Confirm_Doc_On_Google_Drive</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Quotation_Itinerary_Doc_On_Google_Drive --></label>
+        <name>Quotation_Itinerary_Doc_On_Google_Drive</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Quotation_Voucher_Doc_On_Google_Drive --></label>
+        <name>Quotation_Voucher_Doc_On_Google_Drive</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Request_Balance_Payment --></label>
+        <name>Request_Balance_Payment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Request_Passenger_Details_via_Email --></label>
+        <name>Request_Passenger_Details_via_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_StatementButton --></label>
+        <name>Send_StatementButton</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_request_to_Wetu --></label>
+        <name>Send_request_to_Wetu</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_CC_ROE_Fields --></label>
+        <name>Update_CC_ROE_Fields</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- $Label.Quotation_Approval_Requested + testing --></description>
+        <name>Finance_Approval_Required</name>
+        <subject><!-- Quotation: Finance Approval Required --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Opportunity owner Please complete the following before requesting Approval
+
+Step 1
+Step 2
+Step 3 --></description>
+        <name>Prepare_your_Quote_for_approval</name>
+        <subject><!-- Quotation: Prepare your Quote for approval --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Your Quotation is approved by finance, please proceed to the Confirmed and change your opportunity to Closed Won Deal. --></description>
+        <name>Quotation_Approved_Proceed_to_Confirmed</name>
+        <subject><!-- Quotation: Approved, Proceed to Confirmed --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Quotation rejected, Please Resubmit for approval once corrected --></description>
+        <name>Quotation_rejected_Please_Resubmit_for_approval_once_corrected</name>
+        <subject><!-- Quotation: Rejected, Resubmit Once Quotation Corrected --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

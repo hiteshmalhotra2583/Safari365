@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Offer a Discount</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>No_Banner</letterhead>
+    <name>4.4. STAGE = CLOSED LOST DE</name>
+    <style>formalLetter</style>
+    <subject>{!User.Division} - {!Account.Name} : Das beste Safari Angebot</subject>
+    <textOnly>Dear {!Account.Name},
+Thank you for the feedback. I realise that in this day and age, value for money is the first and foremost consideration in any undertaking. I can appreciate that you are naturally looking to get the best value for your money.
+
+That said, I firmly believe in the value of the product that has been offered – an African holiday is often a once-in-a-lifetime experience, the memories of which will last a lifetime. I know it is a cliche’, but I don’t believe we sell holidays; we sell experiences.
+
+Because I believe so strongly in the value of the itinerary I have put together for you, I have spoken to the powers that be and negotiated a one-time discount for you.
+
+If you can put a deposit down by *******, I am able to offer a ******** discount on the total cost of the itinerary.
+
+I know that price should not be the only deciding factor, but if it helps tip the scales to what I believe is a superb itinerary, then we are happy to do so.
+
+Looking forward to hearing from you!
+
+Kind regards,
+
+{!User.Name}
+{!User.Title}
+{!User.Email}
+
+Visit Your Members Club: www.safari365.com/members/login/{!Opportunity.Members_Club_ID__c}
+
+
+
+Get to know us better! Read our blog
+_______________________________________________________________________________________________
+
+Safari365.com &amp; South Africa 365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK 080 823 44485 USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325 Fax: 086 658 1713
+www.safari365.com &amp; www.southafrica365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

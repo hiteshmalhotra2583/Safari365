@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2017 December Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Finalizando mais um ano, agradecimentos Safari365</subject>
+    <textOnly>[fname],
+
+O ano de 2017 chega ao fim e não poderíamos estar mais contentes com as novidades do turismo no continente africano. Diversas rotas internacionais foram criadas e as domésticas, melhoradas. No nível político e econômico, muitos dos acontecimentos trazem mais estabilidade aos países africanos e segurança aos passageiros.
+
+Este ano, tivemos o privilégio de ajudar um total de 2.000 viajantes a realizarem uma viagem dos sonhos na África.
+
+Para muitos dos nossos clientes, o continente se tornou mais do que um simples destino, é praticamente uma segunda casa. Da vibrante Cidade do Cabo às savanas do Serengeti, são tantas atrações para serem exploradas que uma só viagem não basta.
+
+Nos bastidores da Safari365, 2017 foi um ano muito especial, no qual tivemos um aumento significativo da equipe, mudanças físicas no escritório sede na Cidade do Cabo, e visitas ilustres de consultores baseados em outros países, como Estados Unidos, Brasil e Austrália.
+
+Para celebrar o término de um ano tão especial, compilamos em um só vídeo os melhores clipes resgistrado pela nossa equipe este ano.
+
+Deixamos aqui o nosso agradecimento a todos que viajaram conosco, aos que viajarão e àqueles que recomendaram nossos serviços aos amigos e conhecidos.
+
+Esperamos revê-los em breve em 2018.
+
+Um Feliz Natal e excelente final de ano,
+
+EQUIPE SAFARI365</textOnly>
+    <type>custom</type>
+</EmailTemplate>

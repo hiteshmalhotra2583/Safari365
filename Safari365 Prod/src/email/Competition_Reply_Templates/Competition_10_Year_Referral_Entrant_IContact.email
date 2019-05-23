@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible"><style type="text/css">@media only screen and (max-width: 620px) {
+			[id=topMessageWrapper] img {
+				height: auto !important;
+				max-width: 100%;
+				width: auto;
+			}
+
+			[id=topMessageWrapper],
+			[id=topMessageWrapperMainTable] {
+				width: 100% !important;
+				table-layout: fixed;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+		}@media only screen and (max-width: 450px) {
+			[id=topMessageWrapper] {
+				padding: 0 10px;
+			}
+
+			td[class=responsiveColumn] {
+				width: 100% !important;
+				height: auto !important;
+				display: block;
+				padding: 0;
+				clear: both;
+				height: auto;
+			}
+		}</style></head><body style="margin: 0; padding: 0;"><table cellpadding="0" cellspacing="0" width="100%" bgcolor="#f0f0f0" style="background-color:#f0f0f0"><tbody><tr><td align="center" style="text-align:left"><table align="center" cellpadding="0" cellspacing="0" id="topMessageWrapper" style="background-color: #f0f0f0; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px; width: 600px; margin: 0 auto;" bgcolor="#f0f0f0" width="600"><tbody><tr><td>
+	<!-- BASIC TEMPLATE: HeadMainAndFoot --><table id="topMessageWrapperMainTable" width="600" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="responsiveColumn" style="background-color: #FFFFFF; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" bgcolor="#FFFFFF">
+				<table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top">
+							<div class="" style="">
+								<table width="100%" cellspacing="0" cellpadding="0" border="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="background-color: #FFFFFF; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" bgcolor="#FFFFFF"><p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><br></p></td>
+									</tr></tbody></table></div>
+						</td>
+					</tr></tbody></table></td>
+		</tr><tr><td class="responsiveColumn" style="background-color: #FFFFFF; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" bgcolor="#FFFFFF">
+				<table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td style="padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 10px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top">
+							<div class="" style="border-color: #c2d9e7;">
+								<table width="100%" cellspacing="0" cellpadding="0" border="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="margin-top: 20px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding-top: 20px; padding-left: 0px; padding-right: 0px; padding-bottom: 20px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+<p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	<img src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/938553723b99842fa51977c4bec86add/image/jpeg" style="width: 600px; height: 221px; display: inline;" width="600" height="221"></p>
+</td>
+									</tr></tbody></table></div>
+							<div class="" style="border-color: #c2d9e7;">
+								<table width="100%" cellspacing="0" cellpadding="0" border="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="background-color: #FFFFFF; margin-top: 20px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding-top: 20px; padding-left: 0px; padding-right: 0px; padding-bottom: 20px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" bgcolor="#FFFFFF">
+<p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	<span style="color: #d9892d;"><span style="font-size: 26px;"><span style="font-family: trebuchet ms,helvetica,sans-serif;"><strong>ENTER OUR 10 YEAR ANNIVERSARY GIVEAWAY</strong></span></span></span></p>
+</td>
+									</tr></tbody></table></div>
+							<div class="" style="border-color: #c2d9e7;">
+								<table width="100%" cellspacing="0" cellpadding="0" border="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="background-color: #FFFFFF; margin-top: 20px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; border-top: 0px none transparent; border-right: 0px none transparent; border-bottom: 0px none transparent; border-left: 0px none transparent; color: #000000; font-family: Tahoma, Geneva, sans-serif; font-size: 12px;" bgcolor="#FFFFFF">Dear {!Lead.FirstName},&nbsp;<br/>
+								        <br/>
+								        Your friend {!Lead.Referral_Competition_Lead_Name__c} has recently entered the&nbsp;<b>“Win the safari of a lifetime to Africa”</b>&nbsp;competition with Safari365, and thought you might also like to enter!!&nbsp;<br/>
+								        <br/>
+								        Safari365 is an leading African travel company, and is giving away an&nbsp;<strong>incredible safari valued at more than USD 10,000.</strong></td>
+									</tr></tbody></table></div>
+<div class="" style="left: 0px; top: 0px; display: block; border-color: #c2d9e7;"><table width="100%" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; border-top: 0px none transparent; border-right: 0px none transparent; border-bottom: 0px none transparent; border-left: 0px none transparent; color: #000000; font-family: 'Trebuchet MS'; font-size: 12px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0; font-family: Tahoma, Geneva, sans-serif;">
+	<span style="font-family: tahoma,geneva,sans-serif;"><span style="font-size: 12px;"><strong><span style="line-height: 22px; text-align: justify;">If you would like to enter:&nbsp;</span></strong></span></span><a href="https://www.safari365.com/competition/{!Lead.Members_Club_ID__c}?utm_source=Newsletter&amp;utm_medium=Newsletter&amp;utm_campaign=Competition:%2010%20Year%20_Referral%20Entrant" style="text-align: center;"><span style="color: #0000ff;"><span style="font-size: 12px;"><span style="font-family: Tahoma, Geneva, sans-serif;">ENTER HERE</span></span></span></a></p>
+<p style="margin-left: 0; margin-right: 0; padding: 0; font-family: Tahoma, Geneva, sans-serif;"><font style="font-size: 12px; font-family: Tahoma, Geneva, sans-serif;">If you would not like to receive any further correspondence from Safari365, please <a href="https://www.safari365.com/unsubscribe/{!Lead.Members_Club_ID__c}">unsubscribe here.</a></font>	</p>
+<div></div></td></tr></tbody></table></div>
+<div class="" style="border-color: #c2d9e7; left: 0px; top: 0px; display: block;"><table width="100%" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr>
+  <td style="background-color: #d9892d; padding-top: 0px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; border-top: 4px solid #ffffff; border-right: 4px solid #ffffff; border-bottom: 4px solid #ffffff; border-left: 4px solid #ffffff; color: #000000; font-family: 'Trebuchet MS'; font-size: 12px;" bgcolor="#d9892d"><br />
+    <p><strong>The Prize - A 10-Day African safari for two persons inclusive the following:</strong></p>
+          <ul>
+            <li><strong> 3 nights at the luxurious More Quarters Hotel in Cape Town.</strong></li>
+            <li><strong>A 15 minute helicopter flip over Cape Town.</strong></li>
+            <li><strong>1 night in the spectacular Cape Winelands.</strong></li>
+            <li><strong>3 nights on safari at Simbavati River Lodge in Kruger National Park.</strong></li>
+            <li><strong>2 nights at Victoria Falls at Ilala Lodge.</strong></li>
+            <li><strong>A sunset river cruise and tour of Victoria Falls.</strong></li>
+            <li><strong>All internal flights and 4 days of car hire in Cape Town. </strong></li>
+          </ul>
+          <p></p></td></tr></tbody></table></div>
+						</td>
+					</tr></tbody></table></td>
+		</tr><tr><td class="responsiveColumn" style="background-color: #FFFFFF; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" bgcolor="#FFFFFF">
+				<table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td style="padding-top: 20px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top">
+							<div class="" style="border-color: #c2d9e7;">
+								<table width="100%" cellspacing="0" cellpadding="0" border="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="margin-top: 20px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top: 0px none transparent; border-right: 0px none transparent; border-bottom: 0px none transparent; border-left: 0px none transparent; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+<p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	<a href="https://www.safari365.com/competition/{!Lead.Members_Club_ID__c}?utm_source=Newsletter&amp;utm_medium=Newsletter&amp;utm_campaign=Competition:%2010%20Year%20_Referral%20Entrant"><img alt="" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/fadb6c61f6f8a1d2238c9cffc7459753/image/jpeg" style="margin: 1px; border: 0px solid #000000; width: 205px; height: 50px; display: inline;" width="205" height="50"></a></p>
+<p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;
+	</p>
+<p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;
+	</p>
+<p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	<span style="font-size: 12px;"><span style="text-align: center; font-family: verdana, geneva, sans-serif;">Good luck from all of us at </span><strong style="text-align: center; font-family: verdana, geneva, sans-serif; font-size: 13px;">Safari365!</strong></span></p>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;
+	</p>
+<p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+<p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;
+	</p>
+<p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	&nbsp; &nbsp; &nbsp; &nbsp;<img alt="" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/0a6e1004602fbbf759d522a6b9adfaee/image/jpeg" style="width: 59px; height: 59px; margin: 0px; border: 0px solid #000000; display: inline;" width="59" height="59">&nbsp; &nbsp;&nbsp;</p>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;
+	</p>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	<img alt="" src="http://files.icontact.com/templates/v2/HappyHolidays/images/happy-holidays-bottom-border.png" style="margin: 0px; border: 0px solid #000000; width: 599px; height: 11px; display: inline;" width="599" height="11"></p>
+</td>
+									</tr></tbody></table></div>
+<div class=""><table width="100%" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;
+	</p>
+</td></tr></tbody></table></div>
+							
+							<div>
+								<table width="100%" cellspacing="0" cellpadding="0" border="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="background-color: #d8e5e0; margin-top: 15px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 10px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; border-top: 0px none transparent; border-right: 0px none transparent; border-bottom: 0px none transparent; border-left: 0px none transparent; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" bgcolor="#d8e5e0">
+											<p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;
+												
+											</p>
+										</td>
+									</tr></tbody></table></div>
+						</td>
+					</tr></tbody></table></td>
+		</tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></body></html>

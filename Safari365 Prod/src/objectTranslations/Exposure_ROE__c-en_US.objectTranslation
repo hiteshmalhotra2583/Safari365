@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Exposure ROE</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Exposure ROE</value>
+    </caseValues>
+    <fields>
+        <label><!-- CC ROE for EUR in AUD --></label>
+        <name>CC_ROE_for_EUR_in_AUD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for EUR in EUR --></label>
+        <name>CC_ROE_for_EUR_in_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for EUR in GPB --></label>
+        <name>CC_ROE_for_EUR_in_GPB__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for EUR in USD --></label>
+        <name>CC_ROE_for_EUR_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for USD in AUD --></label>
+        <name>CC_ROE_for_USD_in_AUD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for USD in EUR --></label>
+        <name>CC_ROE_for_USD_in_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for USD in GPB --></label>
+        <name>CC_ROE_for_USD_in_GPB__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for USD to USD --></label>
+        <name>CC_ROE_for_USD_to_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for ZAR to AUD --></label>
+        <name>CC_ROE_for_ZAR_to_AUD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for ZAR to EUR --></label>
+        <name>CC_ROE_for_ZAR_to_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for ZAR to GPB --></label>
+        <name>CC_ROE_for_ZAR_to_GPB__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC ROE for ZAR to USD --></label>
+        <name>CC_ROE_for_ZAR_to_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Currency --></label>
+        <name>Client_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXP Quotation Sale Total in Selected CC --></label>
+        <name>EXP_Quotation_Sale_Total_in_Selected_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXP ROE EUR to CC --></label>
+        <name>EXP_ROE_EUR_to_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXP ROE USD to CC --></label>
+        <name>EXP_ROE_USD_to_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXP ROE ZAR to CC --></label>
+        <name>EXP_ROE_ZAR_to_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXP Subtotal for EUR in CC --></label>
+        <name>EXP_Subtotal_for_EUR_in_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXP Subtotal for USD in CC --></label>
+        <name>EXP_Subtotal_for_USD_in_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXP Subtotal for ZAR in CC --></label>
+        <name>EXP_Subtotal_for_ZAR_in_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exposure Value --></label>
+        <name>Exposure_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation Sale Total in Selected CC --></label>
+        <name>Quotation_Sale_Total_in_Selected_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation --></label>
+        <name>Quotation__c</name>
+        <relationshipLabel><!-- Exposure ROE --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Exposure % --></label>
+        <name>Quote_Exposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected Client Currency Sell Rate EUR --></label>
+        <name>Selected_Client_Currency_Sell_Rate_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sale In USD --></label>
+        <name>Total_Sale_In_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sale In ZAR --></label>
+        <name>Total_Sale_In_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sale in EUR --></label>
+        <name>Total_Sale_in_EUR__c</name>
+    </fields>
+    <layouts>
+        <layout>Quotation ROE Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- ROE&apos;s --></label>
+            <section>ROE&apos;s</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

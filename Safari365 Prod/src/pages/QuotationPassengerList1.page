@@ -1,0 +1,30 @@
+<apex:page showHeader="false" sidebar="false"  standardController="Quotations__c" extensions="QuotationPassengerListController"  docType="html-5.0">
+<apex:form html-novalidate="novalidate">
+    <apex:outputpanel id="addPassenger" styleclass="panel-body"  rendered="{!firstPanel}" style="overflow:auto;" layout="block">
+           <!--###### MODAL BOX Start From Here ######--> 
+              <div class="slds-modal__header">
+                <h2 id="header99" class="slds-text-heading--medium">Add Passengers</h2>
+              </div>
+              <div style="400px;">
+               	 Passengers: 
+                  <apex:selectCheckboxes value="{!SelectedPassengers}" layout="pageDirection" >
+                      <apex:selectoptions value="{!PassengerSelectOptions}"></apex:selectoptions>
+                  </apex:selectCheckboxes>
+                  
+                  <apex:commandButton title="Save" value="Save" action="{!Save}" styleclass="btn btn-default"/>
+                  <apex:commandButton title="Cancel" value="Cancel" action="{!Cancel}" styleclass="btn btn-default"/>
+                        
+              </div>
+         </apex:outputpanel>     
+          <!--###### MODAL BOX Part END Here ######-->  
+      <apex:outputpanel id="listResult" styleclass="panel-body" rendered="{!secondPanel}" style="overflow:auto;" layout="block">
+      <apex:commandButton title="Add Passenger" value="Add Passenger" action="{!ShowModel}" />
+        <div class="slds-text-title--caps">
+            <apex:dataList value="{!Passengers}" var="passenger">
+                <apex:outputLink value="/{!passenger.Id}" target="_blank">{!passenger.PassengerName__c}</apex:outputLink>
+        	</apex:dataList>
+            
+        </div>
+       </apex:outputpanel>
+    </apex:form> 
+</apex:page>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Safari 365 Auto Response with Quote Calculator</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>Safari 365 Auto Response_Quote Calculator</name>
+    <style>freeForm</style>
+    <subject>Safari365: Your Safari Price Estimation</subject>
+    <textOnly>Dear {!Lead.FirstName},
+
+Thank you for making use of our exclusive Safari Price Estimation tool. Based on the details provided, your initial roughly estimated price is as follows:
+
+{!Lead.Basket_Information__c}
+
+Please note; this is not a quotation and is only a very rough indication of what to expect to pay based on the details provided.
+
+Safari365 is an African based specialist at creating unique, tailor made experiences to Africa. We work closely with our clients and budgets available to create dream trips to this continent, with all the small touches a true specialist should provide.
+
+If you would not like our assistance, please reply ‘No Thanks’ to this email. Alternatively, a dedicated travel expert will be in contact to see how we can assist you further
+
+Kind regards,
+Safari365
+
+Get to know us better! Read our blog
+
+_______________________________________________________________________________________________
+
+Safari365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK  080 823 44485  USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325  Fax: 086 658 1713
+www.safari365.com
+_________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

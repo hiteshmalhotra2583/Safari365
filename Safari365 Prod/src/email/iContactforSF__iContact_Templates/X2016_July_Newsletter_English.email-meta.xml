@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2016 July Newsletter English</name>
+    <style>none</style>
+    <subject>Safari365 July 2016 Newsletter - Discover Botswana</subject>
+    <textOnly>Newsletter July 2016
+
+Dear [fname],
+
+It’s been a busy few months here at Safari365. We’ve rebranded, resdesigned and launched our new website, hoping to inspire and excite your sense of travel.
+
+Our efforts deserved some reward, and so we packed our bags for an inspection of Botswana’s best kept secrets. Over 60 lodges were visited in two weeks – we covered the Okavango Delta, Savuti, Linyanti and Moremi. We’re excited to share what we’ve discovered.
+
+Next month sees our 10-year anniversary and in the spirit of celebration, we’ll be launching an exciting opportunity, so watch this space.
+
+Until then, be inspired and safe travels!
+
+
+~ Marcus Brain, Safari365 founder
+
+Discover Botswana - Watch our Video
+
+
+Our destination video gives you just a taste of the wonders that Botswana has on offer. It’s impossible to truly capture the energy of this awe-inspiring country through a lens, but we’ve tried our best.
+
+What&apos;s New?
+
+Our brand new look and with it, exciting tours and experiences. Explore our new website and find your dream vacation. Your African journey begins here.
+
+
+Comprehensive Botswana &amp; Vic Falls Luxury Tour
+
+Embark on an unforgettable safari to Botswana. This tour explores the remote Makgadikgadi Salt Pans and heading towards the iconic Okavango Delta and Chobe River, ending at the mighty Victoria Falls.
+
+Read our Guest&apos;s African Story
+
+How does one truly describe the perfect safari experience? Read about two of our guests&apos; journey to Botswana – a story told through their stunning images.
+
+
+
+Follow us and begin your African journey</textOnly>
+    <type>custom</type>
+</EmailTemplate>

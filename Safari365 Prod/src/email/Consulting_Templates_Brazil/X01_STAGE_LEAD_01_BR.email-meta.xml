@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>First consultation email</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>1.01 STAGE = LEAD</name>
+    <style>formalLetter</style>
+    <subject>Safari365: Planejamento da sua viagem para a África.</subject>
+    <textOnly>Olá {!Lead.FirstName},
+Saudações!!! Fui designada sua consultora de viagens dedicada à sua próxima viagem para a África.
+
+Gostaria de me apresentar, meu nome é {!User.FirstName} {!User.LastName} e estou baseada no {!User.Location__c}. Trabalho com turismo desde {!User.Working_Since__c} e sou especializada em África. Se desejar, confira meu perfil aqui {!User.ProfileUrl__c} (juntamente com os feedbacks dos nossos clientes).
+
+Além disso, em caso de dúvidas, não hesite em me chamar diretamente em qualquer fase deste planejamento através do número {!User.Phone} - às vezes é mais fácil discutir ideias por telefone.
+
+Viajar para a África é uma grande jornada, por esta razão, customizamos o roteiro de nossos clientes a partir do zero e de acordo com suas necessidades e sonhos. Meu trabalho é garantir que você obtenha a melhor experiência possível durante suas férias e gastando o mínimo possível ao comprar conosco.
+
+Em nosso primeiro contato, obtivemos as seguintes informações:
+{!Lead.Basket_Information__c}
+
+Data de chegada: {!Lead.Arrival_Date__c}
+Quantidade de adultos viajando: {!Lead.Number_of_Adults__c}
+Quantidade de crianças viajando: {!Lead.Number_of_Children__c}
+Duração: {!Lead.Duration__c}
+Opções de datas para a viagem: {!Lead.Travel_Date_Options__c}
+Nível de acomodação: {!Lead.Level_of_Accommodation__c}
+Orçamento ou classificação por estrelas: {!Lead.Budget_or_Star_Rating__c}
+Orçamento total disponível: {!Lead.Budget_Total__c}
+
+{!Lead.Client_Comments__c}
+
+Preciso apenas de mais alguns detalhes antes de gerar seu orçamento personalizado:
+
+READ THEIR COMMENTS, GET INSIDE THEIR HEAD AND ADD VALUE
+QUESTION 2
+QUESTION 3
+
+Estou ansiosa pela sua resposta e para tornar esta viagem realidade!
+
+
+
+Atenciosamente,
+
+
+
+{!User.FirstName} {!User.LastName}
+
+{!User.Title}
+
+{!User.Email}
+
+
+
+
+
+Visite seu Members Club: www.safari365.com/members/login/{!Lead.Members_Club_ID__c}
+_______________________________________________________________________________________________
+
+Safari365 Brasil
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK 080 823 44485 USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325 Fax: 086 658 1713
+www.safari365.com/pt
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

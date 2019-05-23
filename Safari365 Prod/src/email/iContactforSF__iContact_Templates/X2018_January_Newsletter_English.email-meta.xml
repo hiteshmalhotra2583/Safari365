@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Africa General + Tanzania Migration River Crossing Special Tour</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2018 January Newsletter (English)</name>
+    <style>none</style>
+    <subject>This is the Year | Visit Africa in 2018</subject>
+    <textOnly>Dear [fname],
+
+
+Africa is a destination unlike any other in the world. It is a place of wonder and discovery. 
+
+Each year, the Safari365 team welcomes a multitude of guests to the continent. From first time visitors to travelers who fell in love with Africa and return time and time again.  
+
+In a place as vast and diverse as Africa, there are countless, extraordinary experiences on offer. A few of the top attractions and destinations include the magnificent Victoria Falls, the mighty Great Migration in Tanzania and Kenya, unforgettable encounters while Gorilla Trekking in Uganda and Rwanda, bountiful wildlife viewing in the world-renowned Kruger National Park in South Africa, and paddling through the lush waterways of the Okavango Delta in the heart of Botswana. 
+
+Africa has become an easy destination to access with a number of airlines flying directly to various countries across the continent from all over the world.  
+
+Once you step onto African soil, let Safari365 look after you with seamless travel plans ensuring a smooth and memorable holiday.
+
+Yours in Safari,
+
+The Safari365 Team</textOnly>
+    <type>custom</type>
+</EmailTemplate>

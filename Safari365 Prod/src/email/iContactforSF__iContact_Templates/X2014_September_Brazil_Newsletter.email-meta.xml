@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2014 September Brazil Newsletter</name>
+    <style>none</style>
+    <subject>Newsletter de Setembro - Fotos da África</subject>
+    <textOnly>Olá {!Contact.FirstName},
+Em nosso informativo de Setembro compartilhamos algumas fotos incríveis dos clientes que viajaram recentemente para o sul e leste africano.
+
+Pensando nas preocupações em relação à crise causada pelo vírus ebola na África, desenvolvemos um documento com esclarecimentos sobre a real situação - acesse-o aqui.
+
+Estamos orgulhosos em anunciar que:
+
+1) Somos a primeira operadora de turismo da África a presentear nossos clientes com um photobook (livro de fotos), personalizado com suas próprias fotos da viagem;
+
+2) Já está no ar o novo website da Safari365 em português www.safari365.com/pt - muito mais completo, incluindo informações sobre os 10 países em que trabalhamos, roteiros, acomodações, dicas de viagem e muito mais.
+
+Aguardamos você do outro lado do Atlântico!
+
+Safari365
+
+
+
+
+
+
+
+
+Nossa visão: crescer como uma empresa de turismo africana integrada e próspera, oferecendo experiências enriquecedoras aos nossos clientes e funcionários; incentivar o desenvolvimento africano e a sustentabilidade através do turismo na região.
+Contato:
+info@safari365.com
+www.safari365.com/pt
+Escritórios Safari365:
+São Paulo, Brasil: +55 11 2476 1102
+Cidade do Cabo, África do Sul: +27 21 4181325
+Sidney, Austrália: +61 41 22 77 100</textOnly>
+    <type>custom</type>
+</EmailTemplate>

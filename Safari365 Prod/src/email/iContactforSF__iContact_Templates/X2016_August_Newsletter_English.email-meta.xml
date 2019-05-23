@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2016 August Newsletter (English)</name>
+    <style>none</style>
+    <subject>Safari365 August 2016 Newsletter - An East African Adventure</subject>
+    <textOnly>Dear [fname],
+
+
+East Africa is an area that has always been close to our hearts.
+
+
+Following Kenya’s brief period of unrest, the parks of the Masai Mara, Liakipia and Amboseli are fast regaining prominence as key African safari destinations.
+
+
+Tanzania continues to delight, and has seen a peaceful shift to new governance, and with attractions such as the Serengeti, Ngorongoro Crater and the Great Rift Valley, remains high on our list of favourite African getaways.
+
+
+We are fortunate to have been specialising in these regions for a number of years, and regularly undertake inspection trips to visit our key suppliers in the areas. June 2016 saw separate Safari365 inspection trips to both Kenya and Tanzania—read Dee’s review below for more about the best of Kenya.
+
+
+If you need further convincing, have a look at our Great Migration video—the ultimate bucket-list event. Lastly, we have several great value specials running for the remainder of 2016 and into 2017—see our Lemala special… it’s one of our favourites.
+
+
+~ Yours in Safari
+Marcus Brain, Safari365 founder</textOnly>
+    <type>custom</type>
+</EmailTemplate>

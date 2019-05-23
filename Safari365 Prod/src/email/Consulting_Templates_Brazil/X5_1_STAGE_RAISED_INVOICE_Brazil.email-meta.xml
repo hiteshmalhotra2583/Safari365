@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Payment Instructions (cc Accounts in this email)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Payment_Gateway</letterhead>
+    <name>5.1 STAGE = RAISED INVOICE</name>
+    <style>formalLetter</style>
+    <subject>{!User.Division} - {!Account.Name}: Confirmando sua reserva</subject>
+    <textOnly>Olá {!Account.FirstName},
+Por gentileza, confira invoice anexa no e-mail de confirmação, assim como as instruções de pagamento abaixo, para que possamos confirmar sua reserva. Pedimos que confira se os dados estão corretos e de acordo com o itinerário combinado. Se houver qualquer erro, por favor, nos avise.
+
+Instruções de Pagamento:
+
+Nós desenvolvemos nossa própria ferramenta de pagamento online, a fim de proporcionar ao cliente maior segurança e conforto ao realizar a transação através do Cartão de Crédito ou Transferência Internacional Bancária.
+
+Se você optar por pagar com cartão de crédito, será cobrada a sobretaxa de administração de 3%, adicionada automaticamente à transação. Para faturas em Rands Sul-africanos, aceitamos os cartões Visa e MasterCard. Para faturas em Dólar Americano, aceitamos os cartões Visa, MasterCard Amex e Paypal.
+
+Outra opção é a Transferência Internacional Bancária, na qual o banco cobrará uma taxa que varia de acordo com a conta do cliente. Caso esta seja sua opção escolhida, pedimos a gentileza de entrar em contato com seu gerente e confirmar o valor com o próprio banco. É possível também fazê-lo através de casa de câmbio. Se desejar, podemos sugerir algumas.
+
+Clique no link abaixo para prosseguir com o seu pagamento:
+https://payments.safari365.com/
+
+Ao finalizar este processo, por gentileza nos avise para que possamos informar nosso departamento financeiro. O pagamento final deve ser realizado 60 dias antes da data da viagem e após confirmado, enviaremos a você (2 a 4 semanas antes da viagem) todos os vouchers e documentações necessárias.
+
+{!Account.FirstName}, é uma honra poder ajudar você com o planejamento de sua viagem. Temos certeza de que viverá momentos inesquecíveis na África e que retornará com histórias emocionantes para dividir conosco. Não hesite em nos contatar se precisar de mais alguma coisa.
+
+Atenciosamente,
+
+
+
+{!User.Name}
+
+{!User.Title}
+
+{!User.Email}
+_______________________________________________________________________________________________
+
+Safari365.com &amp; South Africa 365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK 080 823 44485 USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325 Fax: 086 658 1713
+www.safari365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

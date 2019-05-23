@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>WETU loaded</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>External: WETU 1st map loaded DE</name>
+    <style>freeForm</style>
+    <subject>Safari365: Your Itinerary Map</subject>
+    <textOnly>Dear {!Opportunity.Lead_First_Name__c},
+
+We trust that you are excited for your upcoming trip to Africa and that your itinerary planning with {!Account.OwnerFirstName} is proceeding well.
+
+So as to get a better idea of your routing, we have built a &apos;virtual itinerary map&apos; for your proposed trip. This map allows you to drill down in detail to the exact areas you will be visiting, so you can explore activities and attractions before you go!
+
+We have loaded this itinerary map of your safari in your Members Club. Please click on the following link and proceed to the map section: https://www.safari365.com/members/login/{!Opportunity.Members_Club_ID__c}
+
+Yours in safari,
+
+Marcus Brain
+Managing Director</textOnly>
+    <type>html</type>
+</EmailTemplate>

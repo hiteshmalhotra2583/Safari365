@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Passenger</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Passengers</value>
+    </caseValues>
+    <fields>
+        <label><!-- Primary Client --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Passengers --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The system will calculate this based on the date of birth entered in the Members Club --></help>
+        <label><!-- Age From Date Of Birth --></label>
+        <name>Age_From_DOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival Date --></label>
+        <name>Arrival_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Celebrating Birthday --></label>
+        <name>Celebrating_Birthday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anniversary --></label>
+        <name>Celebrating_a_wedding_anniversary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Confirmed --></label>
+        <name>Confirmed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Information Verified --></label>
+        <name>Contact_Information_Verified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of Residence --></label>
+        <name>Country_of_Residence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Sub Opportunity --></label>
+        <name>Create_Sub_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Birth --></label>
+        <name>Date_of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dietary Requirements Detail --></label>
+        <name>DietaryRequirements_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dietary Requirements --></label>
+        <name>DietaryRequirements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency First Name --></label>
+        <name>Emergency_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Last Name --></label>
+        <name>Emergency_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Mobile Phone Number --></label>
+        <name>Emergency_Mobile_Phone_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- How many Photobooks is this passenger entitled to? Enter a number only --></help>
+        <label><!-- Entitled to Photobook(s) --></label>
+        <name>Entitled_to_Photobook_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- Existing Medical Condition --></label>
+        <name>ExistingMedicalCondition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Existing Mobility Issue --></label>
+        <name>ExistingMobilityIssue__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>FirstName__c</name>
+    </fields>
+    <fields>
+        <help><!-- What age did the client give for this passenger? ( this will be used to calculate the applicable room rate) --></help>
+        <label><!-- Given Age --></label>
+        <name>Given_Age__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation><!-- 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation><!-- 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Home Phone --></label>
+        <name>Home_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Information Verified --></label>
+        <name>Insurance_Information_Verified__c</name>
+    </fields>
+    <fields>
+        <label><!-- International Flight Arrival Details --></label>
+        <name>International_Flight_Arrival_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- International Flight Departure Details  --></label>
+        <name>International_Flight_Departure_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Primary --></label>
+        <name>Is_Primary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Surname --></label>
+        <name>Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Conditions --></label>
+        <name>Medical_Conditions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Information Verified --></label>
+        <name>Medical_Information_Verified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Membership Policy Number --></label>
+        <name>Membership_Policy_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Middle Name(s) --></label>
+        <name>Middle_Name_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Phone --></label>
+        <name>Mobile_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobility Issues: --></label>
+        <name>Mobility_Issues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Month of Birthday --></label>
+        <name>Month_of_Birthday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nationality --></label>
+        <name>Nationality__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Account --></label>
+        <name>New_Account__c</name>
+        <relationshipLabel><!-- Passengers (New Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Next Birthday --></label>
+        <name>Next_Birthday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Opportunity_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Passengers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Special Occasion --></label>
+        <name>Other_Occasion__c</name>
+    </fields>
+    <fields>
+        <label><!-- PAX --></label>
+        <name>PassengerName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passenger Type --></label>
+        <name>PassengerType__c</name>
+        <picklistValues>
+            <masterLabel>Adult</masterLabel>
+            <translation><!-- Adult --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation><!-- Child --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infant</masterLabel>
+            <translation><!-- Infant --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Passport Expiry Date --></label>
+        <name>Passport_Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passport Information Verified --></label>
+        <name>Passport_Information_Verified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passport Number --></label>
+        <name>Passport_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passport details verified by consultant --></label>
+        <name>Passport_details_verified_by_consultant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Policy Emergency Phone Number --></label>
+        <name>Policy_Emergency_Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Privacy Policy Agreed --></label>
+        <name>Privacy_Policy_Agreed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Require trip updates --></label>
+        <name>Require_trip_updates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Opportunity --></label>
+        <name>Sub_Opportunity__c</name>
+        <relationshipLabel><!-- Passengers (Sub Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Subscribe me to newsletter --></label>
+        <name>Subscribe_me_to_newsletter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel End Date --></label>
+        <name>Travel_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel Insurance Policy Number --></label>
+        <name>Travel_Insurance_Policy_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel Insurance Policy Provider --></label>
+        <name>Travel_Insurance_Policy_Provider__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel Insurance --></label>
+        <name>Travel_Insurance__c</name>
+        <picklistValues>
+            <masterLabel>I don&apos;t have travel insurance</masterLabel>
+            <translation><!-- I don&apos;t have travel insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I have arranged my own travel insurance ( inclusive of cancellation,curtailment/lost baggage etc )</masterLabel>
+            <translation><!-- I have arranged my own travel insurance ( inclusive of cancellation,curtailment/lost baggage etc ) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Waiver Of Liability Date --></label>
+        <name>Waiver_Of_Liability_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Waiver Of Liability Name --></label>
+        <name>Waiver_Of_Liability_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Waiver Of Liability --></label>
+        <name>Waiver_Of_Liability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website Origin From Parent Account --></label>
+        <name>WebSite_Origin_From_Parent_Account__c</name>
+    </fields>
+    <layouts>
+        <layout>Passenger Layout</layout>
+        <sections>
+            <label><!-- . --></label>
+            <section>.</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Emergency Contact Information --></label>
+            <section>Emergency Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Information --></label>
+            <section>Flight Information</section>
+        </sections>
+        <sections>
+            <label><!-- Insurance Information --></label>
+            <section>Insurance Information</section>
+        </sections>
+        <sections>
+            <label><!-- Medical Information --></label>
+            <section>Medical Information</section>
+        </sections>
+        <sections>
+            <label><!-- Passport Information --></label>
+            <section>Passport Information</section>
+        </sections>
+        <sections>
+            <label><!-- Personal Information --></label>
+            <section>Personal Information</section>
+        </sections>
+        <sections>
+            <label><!-- The Fun Stuff --></label>
+            <section>The Fun Stuff</section>
+        </sections>
+        <sections>
+            <label><!-- Waiver Of Liability --></label>
+            <section>Waiver Of Liability</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Last Name is Mandatory if passenger is confirmed --></errorMessage>
+        <name>Last_Name_is_Mandatory</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Add_Passenger --></label>
+        <name>Add_Passenger</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Passenger --></label>
+        <name>Create_Passenger</name>
+    </webLinks>
+</CustomObjectTranslation>

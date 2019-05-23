@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OSR</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OSRs</value>
+    </caseValues>
+    <fields>
+        <label><!-- APPLY FRI --></label>
+        <name>APPLY_FRI__c</name>
+    </fields>
+    <fields>
+        <label><!-- APPLY MON --></label>
+        <name>APPLY_MON__c</name>
+    </fields>
+    <fields>
+        <label><!-- APPLY SAT --></label>
+        <name>APPLY_SAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- APPLY SUN --></label>
+        <name>APPLY_SUN__c</name>
+    </fields>
+    <fields>
+        <label><!-- APPLY THU --></label>
+        <name>APPLY_THU__c</name>
+    </fields>
+    <fields>
+        <label><!-- APPLY TUE --></label>
+        <name>APPLY_TUE__c</name>
+    </fields>
+    <fields>
+        <label><!-- APPLY WED --></label>
+        <name>APPLY_WED__c</name>
+    </fields>
+    <fields>
+        <label><!-- BUY CURRENCY --></label>
+        <name>BUY_CURRENCY__c</name>
+    </fields>
+    <fields>
+        <label><!-- CANCEL HOURS --></label>
+        <name>CANCEL_HOURS__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHARGEEXTRA1 --></label>
+        <name>CHARGEEXTRA1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHARGEEXTRA2 --></label>
+        <name>CHARGEEXTRA2__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHARGEEXTRA3 --></label>
+        <name>CHARGEEXTRA3__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHARGEEXTRA4 --></label>
+        <name>CHARGEEXTRA4__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHARGEEXTRA5 --></label>
+        <name>CHARGEEXTRA5__c</name>
+    </fields>
+    <fields>
+        <label><!-- COMMISSIONABLE --></label>
+        <name>COMMISSIONABLE__c</name>
+    </fields>
+    <fields>
+        <label><!-- COMM ORIDE --></label>
+        <name>COMM_ORIDE__c</name>
+    </fields>
+    <fields>
+        <label><!-- DATE FROM --></label>
+        <name>DATE_FROM__c</name>
+    </fields>
+    <fields>
+        <label><!-- DATE TO --></label>
+        <name>DATE_TO__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDITVTEXT10 --></label>
+        <name>EDITVTEXT10__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDITVTEXT1 --></label>
+        <name>EDITVTEXT1__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDITVTEXT2 --></label>
+        <name>EDITVTEXT2__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDITVTEXT3 --></label>
+        <name>EDITVTEXT3__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDITVTEXT4 --></label>
+        <name>EDITVTEXT4__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDITVTEXT5 --></label>
+        <name>EDITVTEXT5__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDITVTEXT6 --></label>
+        <name>EDITVTEXT6__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDITVTEXT7 --></label>
+        <name>EDITVTEXT7__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDITVTEXT8 --></label>
+        <name>EDITVTEXT8__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDITVTEXT9 --></label>
+        <name>EDITVTEXT9__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXCHANGE DIV RATE --></label>
+        <name>EXCHANGE_DIV_RATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXCHANGE MUT RATE --></label>
+        <name>EXCHANGE_MUT_RATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- FIXED COUNT --></label>
+        <name>FIXED_COUNT__c</name>
+    </fields>
+    <fields>
+        <label><!-- FREE10 --></label>
+        <name>FREE10__c</name>
+    </fields>
+    <fields>
+        <label><!-- FREE1 --></label>
+        <name>FREE1__c</name>
+    </fields>
+    <fields>
+        <label><!-- FREE2 --></label>
+        <name>FREE2__c</name>
+    </fields>
+    <fields>
+        <label><!-- FREE3 --></label>
+        <name>FREE3__c</name>
+    </fields>
+    <fields>
+        <label><!-- FREE4 --></label>
+        <name>FREE4__c</name>
+    </fields>
+    <fields>
+        <label><!-- FREE5 --></label>
+        <name>FREE5__c</name>
+    </fields>
+    <fields>
+        <label><!-- FREE6 --></label>
+        <name>FREE6__c</name>
+    </fields>
+    <fields>
+        <label><!-- FREE7 --></label>
+        <name>FREE7__c</name>
+    </fields>
+    <fields>
+        <label><!-- FREE8 --></label>
+        <name>FREE8__c</name>
+    </fields>
+    <fields>
+        <label><!-- FREE9 --></label>
+        <name>FREE9__c</name>
+    </fields>
+    <fields>
+        <label><!-- GROSS NETT --></label>
+        <name>GROSS_NETT__c</name>
+    </fields>
+    <fields>
+        <label><!-- MAX SCU --></label>
+        <name>MAX_SCU__c</name>
+    </fields>
+    <fields>
+        <label><!-- MIN SCU --></label>
+        <name>MIN_SCU__c</name>
+    </fields>
+    <fields>
+        <label><!-- OPC Description --></label>
+        <name>OPC_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- OPC --></label>
+        <name>OPC_Lookup__c</name>
+        <relationshipLabel><!-- OSRs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OPT ID --></label>
+        <name>OPT_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- OPT --></label>
+        <name>OPT_Lookup__c</name>
+        <relationshipLabel><!-- OSRs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OSR ID --></label>
+        <name>OSR_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- PREFER --></label>
+        <name>PREFER__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE CODE --></label>
+        <name>PRICE_CODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- PROV --></label>
+        <name>PROV__c</name>
+    </fields>
+    <fields>
+        <label><!-- RATE TEXT --></label>
+        <name>RATE_TEXT__c</name>
+    </fields>
+    <fields>
+        <label><!-- REPEAT IND --></label>
+        <name>REPEAT_IND__c</name>
+    </fields>
+    <fields>
+        <label><!-- REPEAT TIMES --></label>
+        <name>REPEAT_TIMES__c</name>
+    </fields>
+    <fields>
+        <label><!-- SALE FROM --></label>
+        <name>SALE_FROM__c</name>
+    </fields>
+    <fields>
+        <label><!-- SALE TO --></label>
+        <name>SALE_TO__c</name>
+    </fields>
+    <fields>
+        <label><!-- SELLBEFORETRAVEL --></label>
+        <name>SELLBEFORETRAVEL__c</name>
+    </fields>
+    <fields>
+        <label><!-- SELLBEFORETYPE --></label>
+        <name>SELLBEFORETYPE__c</name>
+    </fields>
+    <fields>
+        <label><!-- SELL CODE --></label>
+        <name>SELL_CODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- SELL CURRENCY --></label>
+        <name>SELL_CURRENCY__c</name>
+    </fields>
+    <fields>
+        <label><!-- SPLITRATE --></label>
+        <name>SPLITRATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- STAY10 --></label>
+        <name>STAY10__c</name>
+    </fields>
+    <fields>
+        <label><!-- STAY1 --></label>
+        <name>STAY1__c</name>
+    </fields>
+    <fields>
+        <label><!-- STAY2 --></label>
+        <name>STAY2__c</name>
+    </fields>
+    <fields>
+        <label><!-- STAY3 --></label>
+        <name>STAY3__c</name>
+    </fields>
+    <fields>
+        <label><!-- STAY4 --></label>
+        <name>STAY4__c</name>
+    </fields>
+    <fields>
+        <label><!-- STAY5 --></label>
+        <name>STAY5__c</name>
+    </fields>
+    <fields>
+        <label><!-- STAY6 --></label>
+        <name>STAY6__c</name>
+    </fields>
+    <fields>
+        <label><!-- STAY7 --></label>
+        <name>STAY7__c</name>
+    </fields>
+    <fields>
+        <label><!-- STAY8 --></label>
+        <name>STAY8__c</name>
+    </fields>
+    <fields>
+        <label><!-- STAY9 --></label>
+        <name>STAY9__c</name>
+    </fields>
+    <fields>
+        <label><!-- STAYPAY FROM --></label>
+        <name>STAYPAY_FROM__c</name>
+    </fields>
+    <fields>
+        <label><!-- STAYPAY TO --></label>
+        <name>STAYPAY_TO__c</name>
+    </fields>
+    <fields>
+        <label><!-- STAY TYPE --></label>
+        <name>STAY_TYPE__c</name>
+    </fields>
+    <fields>
+        <label><!-- VALIDATE MIN MAX --></label>
+        <name>VALIDATE_MIN_MAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- VTEXT10 --></label>
+        <name>VTEXT10__c</name>
+    </fields>
+    <fields>
+        <label><!-- VTEXT1 --></label>
+        <name>VTEXT1__c</name>
+    </fields>
+    <fields>
+        <label><!-- VTEXT2 --></label>
+        <name>VTEXT2__c</name>
+    </fields>
+    <fields>
+        <label><!-- VTEXT3 --></label>
+        <name>VTEXT3__c</name>
+    </fields>
+    <fields>
+        <label><!-- VTEXT4 --></label>
+        <name>VTEXT4__c</name>
+    </fields>
+    <fields>
+        <label><!-- VTEXT5 --></label>
+        <name>VTEXT5__c</name>
+    </fields>
+    <fields>
+        <label><!-- VTEXT6 --></label>
+        <name>VTEXT6__c</name>
+    </fields>
+    <fields>
+        <label><!-- VTEXT7 --></label>
+        <name>VTEXT7__c</name>
+    </fields>
+    <fields>
+        <label><!-- VTEXT8 --></label>
+        <name>VTEXT8__c</name>
+    </fields>
+    <fields>
+        <label><!-- VTEXT9 --></label>
+        <name>VTEXT9__c</name>
+    </fields>
+    <layouts>
+        <layout>OSR Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Other Information --></label>
+            <section>Other Information</section>
+        </sections>
+        <sections>
+            <label><!-- Rate Validity Conditions --></label>
+            <section>Rate Validity Conditions</section>
+        </sections>
+        <sections>
+            <label><!-- Stay Pay Specials --></label>
+            <section>Stay Pay Specials</section>
+        </sections>
+        <sections>
+            <label><!-- Voucher Text --></label>
+            <section>Voucher Text</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

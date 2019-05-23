@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Repeart and referral template to be sent 1 year after travel</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>6.3 STAGE = MONEY IN THE BANK</name>
+    <style>freeForm</style>
+    <subject>{!User.Division} Touching Base</subject>
+    <textOnly>Hi {!Account.FirstName},
+
+I hope yourself and TRAVELLING PARTNER NAME are well and - MAKE THIS PERSONAL.
+
+I have just recalled that it was almost a year ago today that you last travelled with us, and it jogged my memory of your trip to DESTINATION/HOTEL/LODGE.
+
+As you know, Africa is a vast continent with so many different landscapes, attractions and things to do.  If this continent has gotten under your skin (like so many people that have travelled with us before) we would love to show you more of Southern or East Africa. We have some inspiring travel ideas, life enriching experiences and fantastic travel offerings throughout these destinations!
+
+Stay well and I look forward to hearing from you
+
+Kind regards,
+
+{!User.Name}
+
+{!User.Title}
+
+{!User.Email}
+
+
+
+
+See our latest travel inspirations! Read our blog
+_______________________________________________________________________________________________
+
+Safari365.com &amp; South Africa 365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK 080 823 44485 USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325 Fax: 086 658 1713
+www.safari365.com &amp; www.southafrica365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

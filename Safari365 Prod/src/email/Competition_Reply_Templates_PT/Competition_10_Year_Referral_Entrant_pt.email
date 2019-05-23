@@ -1,0 +1,16 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font size="2"><font face="Arial,Sans-Serif">Olá {!Lead.FirstName}, <br><br>Seu amigo/a {!Lead.Referral_Competition_Lead_Name__c} se inscreveu no nosso sorteiro <b>"Ganhe uma viagem dos sonhos na África"</b>&nbsp;e lembrou de você!!! <br><br>A Safari365 é uma agência líder em viagens para a África e em comemoração aos 10 anos de existência estamos sorteando uma viagem de&nbsp;</font></font><span style="font-size: 10pt; line-height: 115%; font-family: Arial, sans-serif;">10 dias no continente no valor de 10 mil dólares.</span><div><font size="2"><font face="Arial,Sans-Serif"><br>Se você deseja testar sua sorte, inscreva-se agora mesmo <br><a href="https://www.safari365.com/pt/competition/{!Lead.Members_Club_ID__c} "><br><b>Participe</b></a><br><br>Se você não deseja receber emails da Safari365, <b>cancele </b>sua inscrição aqui.</font></font></div><div><font size="2"><font face="Arial,Sans-Serif"><br></font></font></div><div><p class="MsoNormal" style="margin-bottom:12.0pt;line-height:normal"><span style="font-size: 10pt; font-family: Arial, sans-serif;">O vencedor será
+anunciado no dia 21 de Novembro de 2016.&nbsp;</span><span style="font-size: 12pt; font-family: Arial, sans-serif;"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size: 10pt; font-family: Arial, sans-serif;">Boa sorte!!!&nbsp;<br>
+<b>Safari365<br>
+<i><br>
+</i></b><i>Prêmio inclui:</i></span></p><ul><li><font size="2">3 noites no luxuoso More Quarters Hotel na Cidade do Cabo;</font></li><li><font size="2">15 minutos de passeio de helicóptero pela Cidade do Cabo;</font></li><li><font size="2">1 noite em Cape Winelands;</font></li><li><font size="2">3 noites de safári no Parque Nacional Kruger com acomodação no Simbavati River Lodge;</font></li><li><font size="2">2 noites nas Cataratas Vitória com acomodação 5 estrelas no Elephant Camp Lodge (incluso cruzeiro ao pôr do sol e passeio pelas cataratas);</font></li><li><font size="2">Todos os voos internos e 4 dias de aluguel de carro na Cidade do Cabo.</font></li></ul><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size: 10pt; font-family: Arial, sans-serif;"></span><span style="font-size: 12pt; font-family: Arial, sans-serif;"><o:p></o:p></span></p>
+
+</div>]]></td>
+</tr>
+</table>

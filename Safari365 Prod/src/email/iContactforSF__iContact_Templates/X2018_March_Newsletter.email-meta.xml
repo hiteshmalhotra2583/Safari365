@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Franschhoek + CPT, Hermanus + Franschhoek self drive tour</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2018 March Newsletter (English)</name>
+    <style>none</style>
+    <subject>Enjoy a Taste of Franschhoek</subject>
+    <textOnly>Dear [fname],
+
+Nestled in a valley at the base of a majestic mountain range is Franschhoek. This month we discover why it is a highlight of the Cape Winelands.
+
+
+South Africa is acclaimed for producing world-renowned wine with Franschhoek being home to some of the country’s best vintages. The rolling hills, sprawling vineyards, and beautiful natural surroundings are in a prime position for award-winning wine production. With over 40 cellars and wine estates making up the valley, Franschhoek is a haven for lovers of fine wine.
+
+
+Whether travelers are interested in the history, the production process or simply want to relax and enjoy the views, Franschhoek is a scenic wine tasting destination sure to delight any visitor. There are also a number of unique ways to experience the valley ensuring an unforgettable trip.
+
+
+Franschhoek is a complete destination. Meander along the main street and enjoy numerous gourmet restaurants, art galleries, quaint cafes and craft stalls. History enthusiasts can enjoy the Huguenot Memorial and Museum as well as the Motor Museum while nature lovers can venture into the Mont Rochelle Nature Reserve and take in the panoramic views.
+
+
+Situated an hour from Cape Town, Franschhoek is in a great location. It is perfect for both day trips and for longer stays. Nearby Stellenbosch and Paarl are also fantastic Cape Winelands destinations filled with things to eat, drink, see and do.
+
+
+Yours in Safari,
+
+The Safari365 Team</textOnly>
+    <type>custom</type>
+</EmailTemplate>

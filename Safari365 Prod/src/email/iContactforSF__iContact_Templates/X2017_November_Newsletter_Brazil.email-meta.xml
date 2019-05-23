@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2017 November Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Explore a Rota Jardim na África do Sul - Safari365</subject>
+    <textOnly>Explore a Rota Jardim na África do Sul
+
+
+[fname],
+
+Uma viagem pela Rota Jardim promete cenários de deixar qualquer um de queixo caído. Não é à toa que é um dos destinos mais procurados pelos brasileiros na África do Sul.
+
+A Rota Jardim ou Garden Route se estende de Mossel Bay até Storm&apos;s River. Há diversas opções para se fazer essa rota, a mais comum delas é voar até George Town e começar por lá seguindo toda a costa, que possui como cenário o Tsitsikamma e as montanhas Outeniqua de um lado, e do outro, o Ocenao Índico.
+
+Uma das grandes vantagens da Rota Jardim é o fato de ser uma excelente opção de self-drive para quem gosta de dirigir. As estradas nessa parte do país são excelentes e super seguras, sem contar os cenários absurdamente lindos. As grandes atrações da rota estão nas cidades de Oudtshoorn, Knysna, Wilderness e Plettenberg, por isso é indispensável uma parada nestas.
+
+A rota acaba nas proximidades de Port Elizabeth, onde o chamado Cabo Oriental começa. Aqui é um excelente destino para se realizar um safári antes de seguir viagem.
+
+Esperamos por você do outro lado do Atlântico!
+
+Abraços,
+
+
+Fundador Safari365</textOnly>
+    <type>custom</type>
+</EmailTemplate>

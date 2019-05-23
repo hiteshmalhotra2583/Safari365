@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Alert sent to consultant when FX Manager approval is needed to check FX rates</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>Internal: FX Treasury Approval Required</name>
+    <style>freeForm</style>
+    <subject>{!Quotations__c.Primary_Client_Name__c} - {!Quotations__c.Quotation_Name__c}: FX Treasury Approval Required</subject>
+    <textOnly>Dear {!Quotations__c.Consultant_Name__c},
+
+Your deal has been put on hold as there may be financial risk to continue. To proceed with this booking, please seek approval from the FX Manager. This email is sent if either the consultant has not raised the booking confirmation within the required time or if there has been a major shift in the exchange rates.
+
+Client: {!Quotations__c.Primary_Client_Name__c}
+Opportunity: {!Quotations__c.Opportunity__c}
+Quote: {!Quotations__c.Quotation_Name__c}
+
+Thanks,
+FX Manager.</textOnly>
+    <type>html</type>
+</EmailTemplate>

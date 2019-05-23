@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fieldSets>
+        <fullName>QLI_FieldSet</fullName>
+        <description>This fieldset will be used in quotation line item controller</description>
+        <displayedFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Day__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Net_Cost__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>QLI_FieldSet</label>
+    </fieldSets>
+    <fields>
+        <fullName>AllServiceLineItemCount__c</fullName>
+        <externalId>false</externalId>
+        <label>AllServiceLineItemCount</label>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>All_SLI_Cancelled__c</fullName>
+        <externalId>false</externalId>
+        <formula>AND((AllServiceLineItemCount__c ==  Cancelled_Count__c),(QLI_with_SLI__c == TRUE))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>All SLI Cancelled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>All_SLI_Confirmed__c</fullName>
+        <externalId>false</externalId>
+        <formula>AND((AllServiceLineItemCount__c ==  SLI_Confirmed__c),(QLI_with_SLI__c == TRUE))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>All SLI Confirmed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>All_SLI_Raised_Invoice__c</fullName>
+        <externalId>false</externalId>
+        <formula>AND((AllServiceLineItemCount__c == ServiceLineItem_Count_For_Raised_Invoice__c),(QLI_with_SLI__c == TRUE))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>All SLI Raised Invoice</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Cancelled_Count__c</fullName>
+        <description>This roll up summary will be used in Quotation validation rule which states as follow
+
+Quotation status cannot change to &quot;Cancelled&quot; unless all service line stages are equal to: No Booking Required, Cancelled, Not Booked.</description>
+        <externalId>false</externalId>
+        <label>Cancelled Count</label>
+        <summaryFilterItems>
+            <field>ServiceLineItem__c.Service_Status__c</field>
+            <operation>equals</operation>
+            <value>Not Booked, Cancelled, No Booking Required</value>
+        </summaryFilterItems>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Confirmed_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Confirmed Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Processing</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Confirmed</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Confirmed_serviceLineItems__c</fullName>
+        <externalId>false</externalId>
+        <label>Confirmed ServiceLineItems</label>
+        <summaryFilterItems>
+            <field>ServiceLineItem__c.Service_Status__c</field>
+            <operation>equals</operation>
+            <value>Confirmed</value>
+        </summaryFilterItems>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Day__c</fullName>
+        <externalId>false</externalId>
+        <label>Day</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Display_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Display Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Format_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Format Date</label>
+        <length>15</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Insurance_COS_in_USD__c</fullName>
+        <externalId>false</externalId>
+        <label>Insurance COS in USD</label>
+        <summarizedField>ServiceLineItem__c.Insurance_COS_in_USD__c</summarizedField>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Insurance_COS_in_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <label>Insurance COS in ZAR</label>
+        <summarizedField>ServiceLineItem__c.Insurance_COS_in_ZAR__c</summarizedField>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Insurance_Sale_in_USD__c</fullName>
+        <externalId>false</externalId>
+        <label>Insurance  Sale in USD</label>
+        <summarizedField>ServiceLineItem__c.Insurance_Sale_in_USD__c</summarizedField>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Insurance_Sale_in_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <label>Insurance  Sale in ZAR</label>
+        <summarizedField>ServiceLineItem__c.Insurance_Sale_in_ZAR__c</summarizedField>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Line_Item_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MarkupEur__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Sale_in_Eur__c - Nett_Cost_in_EUR__c )/Nett_Cost_in_EUR__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Markup in Eur</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MarkupUSD__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Sale_in_USD__c - Nett_Cost_in_USD__c )/ Nett_Cost_in_USD__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Markup in USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Markup_in_Zar__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Sale__c - Net_Cost__c)/Net_Cost__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Markup in Zar</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Net_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Net Cost in Zar</label>
+        <summarizedField>ServiceLineItem__c.Nett_Cost__c</summarizedField>
+        <summaryFilterItems>
+            <field>ServiceLineItem__c.CurrencyIsoCode</field>
+            <operation>equals</operation>
+            <value>ZAR</value>
+        </summaryFilterItems>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Nett_Cost_in_EUR__c</fullName>
+        <externalId>false</externalId>
+        <label>Nett Cost in EUR</label>
+        <summarizedField>ServiceLineItem__c.Nett_Cost_in_EUR__c</summarizedField>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Nett_Cost_in_USD__c</fullName>
+        <externalId>false</externalId>
+        <label>Nett Cost in USD</label>
+        <summarizedField>ServiceLineItem__c.Nett_Cost_in_USD__c</summarizedField>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Photobooks_COS_in_USD__c</fullName>
+        <externalId>false</externalId>
+        <label>Photobooks COS in USD</label>
+        <summarizedField>ServiceLineItem__c.Photobooks_COS_in_USD__c</summarizedField>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Photobooks_COS_in_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <label>Photobooks COS in ZAR</label>
+        <summarizedField>ServiceLineItem__c.Photobooks_COS_in_ZAR__c</summarizedField>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Photobooks_Sale_in_USD__c</fullName>
+        <externalId>false</externalId>
+        <label>Photobooks Sale in USD</label>
+        <summarizedField>ServiceLineItem__c.Photobooks_Sale_in_USD__c</summarizedField>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Photobooks_Sale_in_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <label>Photobooks Sale in ZAR</label>
+        <summarizedField>ServiceLineItem__c.Photobooks_Sale_in_ZAR__c</summarizedField>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>QLI_with_SLI__c</fullName>
+        <externalId>false</externalId>
+        <formula>AllServiceLineItemCount__c &gt; 0</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QLI with SLI</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Quotation__c</fullName>
+        <externalId>false</externalId>
+        <label>Quotation</label>
+        <referenceTo>Quotations__c</referenceTo>
+        <relationshipName>QuotationLines</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>RaisedInvoice_ServiceLineItems_c__c</fullName>
+        <externalId>false</externalId>
+        <label>Raised Invoice ServiceLineItems</label>
+        <summaryFilterItems>
+            <field>ServiceLineItem__c.Service_Status__c</field>
+            <operation>equals</operation>
+            <value>Request Provisional Booking, Provisionally Booked, Request Confirmation, Confirmed</value>
+        </summaryFilterItems>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Raised_Invoice_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Raised Invoice Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>UnConfirmed</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Confirmed</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Related_Services_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Related Services Count</label>
+        <summaryFilterItems>
+            <field>ServiceLineItem__c.Service_Status__c</field>
+            <operation>equals</operation>
+            <value>Request Provisional Booking, Not Booked, Provisionally Booked, Request Confirmation, Confirmed</value>
+        </summaryFilterItems>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SLI_Confirmed__c</fullName>
+        <description>This Roll up summary will be used for Quotation validation rule for following scenario.
+
+ a User can not update to Confirmed unless all service lines are Stage:  Confirmed or No Booking Required.</description>
+        <externalId>false</externalId>
+        <label>SLI Confirmed</label>
+        <summaryFilterItems>
+            <field>ServiceLineItem__c.Service_Status__c</field>
+            <operation>equals</operation>
+            <value>Confirmed, No Booking Required</value>
+        </summaryFilterItems>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Sale__c</fullName>
+        <externalId>false</externalId>
+        <label>Sale in Zar</label>
+        <summarizedField>ServiceLineItem__c.Total__c</summarizedField>
+        <summaryFilterItems>
+            <field>ServiceLineItem__c.CurrencyIsoCode</field>
+            <operation>contains</operation>
+            <value>ZAR</value>
+        </summaryFilterItems>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Sale_in_Eur__c</fullName>
+        <externalId>false</externalId>
+        <label>Sale in Eur</label>
+        <summarizedField>ServiceLineItem__c.Sale_in_Eur__c</summarizedField>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Sale_in_USD__c</fullName>
+        <externalId>false</externalId>
+        <label>Sale in USD</label>
+        <summarizedField>ServiceLineItem__c.Sale_in_USD__c</summarizedField>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>ServiceLineItem_Count_For_Raised_Invoice__c</fullName>
+        <description>This Roll up summary would be used in Quotation validation rule which states as follow
+
+A user can only change to &quot;Raised Invoice&quot; If all service line items are at stages &quot;Provisionally Booked, Request Confirmation, Confirmed,  No Booking Required&quot; Example: if any service line item is = to Stage &quot;Not booked&quot; or  &quot;Request Provisional Booking&quot; a consultant should not be able to update the Quotation Object Stage.</description>
+        <externalId>false</externalId>
+        <label>ServiceLineItem Count For Raised Invoice</label>
+        <summaryFilterItems>
+            <field>ServiceLineItem__c.Service_Status__c</field>
+            <operation>equals</operation>
+            <value>Provisionally Booked, Request Confirmation, Confirmed</value>
+        </summaryFilterItems>
+        <summaryForeignKey>ServiceLineItem__c.QuotationLine__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <label>Quotation Line Item</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Quotation Line Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Quotation Line Items</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2015 May Newsletter (English)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 May Newsletter (English)</name>
+    <style>none</style>
+    <subject>The greatest safari event of the year !</subject>
+    <textOnly>The greatest event on Mama Africa&apos;s calender
+
+Hello {!Lead.FirstName},
+
+The great migration, I&apos;ve yet to see a photograph that does it complete justice. Imagine the thundering bass of two million wildebeests, zebras and elands filling up the sun painted Serengeti horizon – it is a sight as iconic as it is theatrical.
+
+
+If the hair on your arm is rising as much is it is on mine, you&apos;ll be excited to know that the month of June we&apos;ll be focusing specifically on the great migration. I look forward to sharing plenty of inspiration, tours, specials and a few extras.
+
+
+It has no doubt been an exciting year in Africa. Both Daniel Radcliffe and Bill Clinton have been spotted enjoying the sights and sounds of this beautiful continent. But perhaps more impressive are the photos you&apos;ve been sending of your safaris. It warms my heart sharing the beauty of Mama Africa. Keep on discovering your journey.
+
+~  Marcus Brain, Safari365 founder  ~</textOnly>
+    <type>custom</type>
+</EmailTemplate>

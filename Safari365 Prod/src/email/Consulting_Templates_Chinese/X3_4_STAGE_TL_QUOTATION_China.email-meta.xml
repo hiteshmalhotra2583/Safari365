@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Company Affiliations and Credibility (from Management)</description>
+    <encodingKey>Big5-HKSCS</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>3.4 STAGE = TL QUOTATION</name>
+    <style>freeForm</style>
+    <subject>{!Account.Name}: 您的预订</subject>
+    <type>html</type>
+</EmailTemplate>

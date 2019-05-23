@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2014 September English Newsletter</name>
+    <style>none</style>
+    <subject>Photos from Africa - September Newsletter</subject>
+    <textOnly>Dear {!Contact.FirstName},
+In our September newsletter we share some incredible photographs from several clients who have recently explored Southern and East Africa.
+We also touch on concerns our international travellers have regarding Ebola in Africa, please see our full blog article here for more details.
+Lastly, we are proud to announce that we are Africa’s first travel company to now include a complimentary photobook for every client that books with us, personalised with YOUR African travel photographs.
+We look forward to welcoming you to Africa,
+Safari365
+
+
+Our vision: Grow a thriving, integrated African travel company, that offers life-enriching opportunities for clients and staff alike, whist supporting Africa’s sustainability and development through tourism.
+Contact:
+info@safari365.com
+www.safari365.com
+Safari365 Offices:
+Cape Town, South Africa: +27 21 4181325
+Sao Paulo, Brazil: +55 11 2476 1102
+Sydney, Australia: +61 41 22 77 100</textOnly>
+    <type>custom</type>
+</EmailTemplate>

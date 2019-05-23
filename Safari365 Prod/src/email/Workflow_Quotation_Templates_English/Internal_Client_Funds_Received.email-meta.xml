@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification sent to consultant when client deposit has been received</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>Internal: Client Funds Received</name>
+    <style>freeForm</style>
+    <subject>{!Quotations__c.Primary_Client_Name__c} - {!Quotations__c.Quotation_Name__c}: Client Funds Received</subject>
+    <textOnly>Dear {!Quotations__c.Consultant_Name__c},
+
+Great news, we have received funds from your client to confirm their booking.
+
+-Client: {!Quotations__c.Primary_Client_Name__c}
+-Opportunity: {!Quotations__c.Opportunity__c}
+-Quote: {!Quotations__c.Quotation_Name__c}
+
+@{!Quotations__c.Consultant_Name__c} - Last Checks To Do:
+
+-Please ensure all of the documents have been correctly stored in Salesforce (including the internal accounting documents for Finance to process your booking, as well as the correct and final Client Facing Documents which will be shown to your client via the Members Club)
+-Acknowledge this by clicking the checkbox “Internal Documents have been Added to SF”
+If there are multiple Quotations confirming for one Opportunity, Check “Always include in deal value”
+-Change the Quotation Status to “Confirmed”
+
+Once your manager has completed the final check, you will receive a “Closed Won Deal Notification” - well done!</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Service Line Item ChargeType</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Service Line Item ChargeTypes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Additional Cost Insurance --></label>
+        <name>Additional_Cost_Insurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Cost PhotoBook --></label>
+        <name>Additional_Cost_PhotoBook__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Other Charge</masterLabel>
+            <translation><!-- Other Charge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Charge</masterLabel>
+            <translation><!-- Service Charge --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Charge --></label>
+        <name>Charge_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cur --></label>
+        <name>Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Include Extra Charge --></label>
+        <name>Do_Not_Include_Extra_Charge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extra --></label>
+        <name>Extra__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Additional Cost --></label>
+        <name>Is_Additional_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsDiscounted --></label>
+        <name>Is_Discounted__c</name>
+    </fields>
+    <fields>
+        <label><!-- % --></label>
+        <name>Markup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nett --></label>
+        <name>Nett_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overide Markup --></label>
+        <name>Overide_Markup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override Nett Cost --></label>
+        <name>Override_Nett_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passenger Name --></label>
+        <name>Passenger_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected OPD --></label>
+        <name>Selected_OPD__c</name>
+        <relationshipLabel><!-- Service Line Item ChargeTypes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected OPT --></label>
+        <name>Selected_OPT__c</name>
+        <relationshipLabel><!-- Service Line Item ChargeTypes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected Passenger --></label>
+        <name>Selected_Passenger__c</name>
+        <relationshipLabel><!-- Service Line Item ChargeTypes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Line Item --></label>
+        <name>Service_Line_Item__c</name>
+        <relationshipLabel><!-- Service Line Item ChargeTypes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sale --></label>
+        <name>Total__c</name>
+    </fields>
+    <layouts>
+        <layout>Service Line Item ChargeType Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

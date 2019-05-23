@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SettingsToDeleteRecord</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SettingsToDeleteRecords</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldName --></label>
+        <name>FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldValue --></label>
+        <name>FieldValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- ObjectName --></label>
+        <name>ObjectName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator --></label>
+        <name>Operator__c</name>
+    </fields>
+    <fields>
+        <label><!-- TestCase --></label>
+        <name>TestCase__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,1369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>A_Quotation_has_Unlocked</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>A_Quotation_has_Unlocked</shortDescription>
+        <value>Testing</value>
+    </labels>
+    <labels>
+        <fullName>Adult_Count</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Adult Count</shortDescription>
+        <value>This Supplier Policy is preventing you from adding the selected amount of adults.
+Please check the number of adults selected or select &quot;Override Supplier Details&quot; which overrides any policies and restrictions and creates a service line with no rates.</value>
+    </labels>
+    <labels>
+        <fullName>Age_Criteria_Total_Pax</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Age Criteria Total Pax</shortDescription>
+        <value>This Supplier Policy is preventing you from adding the selected passenger because the age does not match the property&apos;s age criteria. 
+Please check the age criteria or select &quot;Override Supplier Details&quot; which overrides any policies and restrictions and creates a service line with no rates.</value>
+    </labels>
+    <labels>
+        <fullName>Balance_Due_Amount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>deposit note3</shortDescription>
+        <value>Balance Due Amount</value>
+    </labels>
+    <labels>
+        <fullName>CRM_Id_Label</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRM Id Label</shortDescription>
+        <value>https://365force--365dev.cs89.my.salesforce.com/</value>
+    </labels>
+    <labels>
+        <fullName>Call_Wetu_Service</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call Wetu Service</shortDescription>
+        <value>Please call the wetu service first before creating the itinerary document</value>
+    </labels>
+    <labels>
+        <fullName>Check_Iternary_Language</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Check Iternary Language</shortDescription>
+        <value>Please select the itinerary language</value>
+    </labels>
+    <labels>
+        <fullName>Client_Balance_Due_Date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Client Balance Due Date</shortDescription>
+        <value>-60</value>
+    </labels>
+    <labels>
+        <fullName>Client_Booking_Confirmation_Requested</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Client ‘Booking Confirmation’ Requested</shortDescription>
+        <value>Well done!! Your client wants to proceed with their booking!!
+
+Please proceed with the following steps: 
+
+Change the Service Lines to Provisionally Booked (or “No Booking Required”) and double check Supplier booking details against your Itinerary booking details. Enter Transport Service Start/End Location and Start/End Time (all in the same screen). Provided you complete this all correctly, it will pull through to your Booking Confirmation and Vouchers. Do not do this manually on your actual documentation as it will not replicate and errors can be made.
+
+“Create Deposit Information” correctly by stipulating the required deposits in each Base Currency. Change the default “Deposit Due Amount” when you want to Override and receive greater deposits in line with Supplier deposit requirements (especially for flights, peak season bookings, and other in-demand services).</value>
+    </labels>
+    <labels>
+        <fullName>Client_Booking_Confirmation_Requested1</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Client_Booking_Confirmation_Requested-1</shortDescription>
+        <value>Change your Quotation Stage to “Raised Booking Confirmation”, Save, and then “Create Booking Confirmation” as a Google sheet document. Verify accurate information on this document (including supplier inclusions and exclusions).
+
+Save the Google Sheet document as a PDF, and then ensure the Booking Confirmation PDF document is added into the “Client Facing Documentation” folder (only then will it show in the Members Club).   Also delete the “Quotation” document at this stage from the “Client Facing Documentation” folder.
+
+From the moment when the client has clicked &quot;Booked this&quot; you have 3 days to provide them with the Booking Confirmation document in order for them to pay their deposit within 24 hours of receiving the Confirmation document.
+
+Send your client email instructions, with the Members Club link and Booking Confirmation attached (PDF) for them to proceed with payment within 24 hours (this entire stage is time sensitive as there is FX exposure).</value>
+    </labels>
+    <labels>
+        <fullName>Client_Deposit_Due_Date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Client Deposit Due Date</shortDescription>
+        <value>3</value>
+    </labels>
+    <labels>
+        <fullName>Client_Quotation_Expires_in_2_Days</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Client Quotation Expires in 2 Days</shortDescription>
+        <value>Your client Quotation expires in two days. If your client is not currently communicating with you and has gone “cold’, now is a good opportunity to contact your client and advise them of the imminent expiration of the Quotation you have prepared for them, and see if they would like any amendments before making their decision. 
+
+Note: You have already invested significant effort in creating your clients&apos; personal quotation, your best return on effort is now helping overcome objections and choosing your Quotation.</value>
+    </labels>
+    <labels>
+        <fullName>Deposit_Due_Date</fullName>
+        <categories>Itinerary Fields</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Deposit Due Date</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>Duration_Check</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Duration Check</shortDescription>
+        <value>This Supplier Policy is preventing you from adding the selected duration as the duration is too long. 
+Please check the duration or select &quot;Override Supplier Details&quot; which overrides any policies and restrictions and creates a service line with no rates.</value>
+    </labels>
+    <labels>
+        <fullName>ETU_Intro_Customer_Note</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WETU Intro Customer Note</shortDescription>
+        <value>Please put  some wetu intro customer note</value>
+    </labels>
+    <labels>
+        <fullName>EUR_Euro</fullName>
+        <categories>Itinerary Fields</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>curEUR</shortDescription>
+        <value>EUR - Euro</value>
+    </labels>
+    <labels>
+        <fullName>ExchangeRateApp_id</fullName>
+        <categories>e51dbb28dc1c4380b30af6b07edfaffa</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ExchangeRateApp_Id</shortDescription>
+        <value>e51dbb28dc1c4380b30af6b07edfaffa</value>
+    </labels>
+    <labels>
+        <fullName>Exposure_Threshold</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Exposure Threshold</shortDescription>
+        <value>-5</value>
+    </labels>
+    <labels>
+        <fullName>Included_Day_Match</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Included Day Match</shortDescription>
+        <value>This Supplier Policy is preventing you from adding the selected days as there are certain days missing. 
+Please check the selected days or select &quot;Override Supplier Details&quot; which overrides any policies and restrictions and creates a service line with no rates.</value>
+    </labels>
+    <labels>
+        <fullName>Initial_Client_Payment_Received</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Initial Client Payment Received</shortDescription>
+        <value>Your client CLIENT NAME has successfully paid for their booking. 
+Please follow the steps and Submit for Approval within a maximum of 5 working days:
+
+Contact suppliers to confirm services, verify you are getting the best Nett rate, BAR versus STO, request any special rates or savings be applied on your invoice for the applicable service. You are able to edit the nett cost of a service line as this will not change the sale price. Driving your Nett Cost down without changing your Sale Price will increase your margin and Gross Profit. 
+
+Change all Service Lines from Provisionally Booked to Confirmed, and include all Reservation Numbers for ease of vouchers. (The Service Line edit function will allow you to confirm multiple services at once). 
+
+Ensure that your Sales and Cost of Sales values are correct (for base currency ZAR, USD or EUR) against the documents you are handing over to Finance
+
+Ensure that “supplier invoices have been added to the Internal Documents.</value>
+    </labels>
+    <labels>
+        <fullName>Initial_Client_Payment_Received_1</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Initial Client Payment Received-1</shortDescription>
+        <value>When Submitting for Approval, specify additional comments to Finance in the ‘Comments’ section ( this could include reasons why Gross Profit margins are outside of the 18-24% thresholds, reasons for Photobook/Medical Evac edits, special deposit requirements to suppliers, partial services that have been paid for such as gorilla permits/flights etc.)
+
+Handover the complete file to Finance.
+
+Once these steps have been completed, “Submit for Approval”. Finance has a maximum of 1 working day to approve or reject your submission.</value>
+    </labels>
+    <labels>
+        <fullName>IternaryConsultantName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItineraryConsultantName</shortDescription>
+        <value>Consultant</value>
+    </labels>
+    <labels>
+        <fullName>Kids_Not_Allowed</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Kids Not Allowed</shortDescription>
+        <value>This Supplier Policy is preventing you from adding a child as it has a no children policy. Please check the selected passengers or select &quot;Override Supplier Details&quot; which overrides any policies and restrictions and creates a service line with no rates.</value>
+    </labels>
+    <labels>
+        <fullName>Maximum_Quote_Exposure_Days</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Maximum Quote Exposure Days</shortDescription>
+        <value>37</value>
+    </labels>
+    <labels>
+        <fullName>NextNewsLetterDay</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NextNewsLetterDay</shortDescription>
+        <value>42</value>
+    </labels>
+    <labels>
+        <fullName>No_OPD_available_for_selected_OSR</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No OPD available for selected OSR</shortDescription>
+        <value>There are no rates loaded for the selected property. 
+Please check the selected property or select &quot;Override Supplier Details&quot; which overrides any policies and restrictions and creates a service line with no rates.</value>
+    </labels>
+    <labels>
+        <fullName>No_OSR_available</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No OSR available</shortDescription>
+        <value>There are no rates available for the date range selected. 
+Please check the selected date range or select &quot;Override Supplier Details&quot; which overrides any policies and restrictions and creates a service line with no rates.</value>
+    </labels>
+    <labels>
+        <fullName>OPT_Not_Available</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OPT Not Available</shortDescription>
+        <value>This option is not available at the selected property. Please check the option or select &quot;Override Supplier Details&quot; which overrides any policies and restrictions and creates a service line with no rates.</value>
+    </labels>
+    <labels>
+        <fullName>Opportunity_Close_Day</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity Close Day</shortDescription>
+        <value>7</value>
+    </labels>
+    <labels>
+        <fullName>Passenger_Celebrates_Birthday_in_3_Days</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Passenger Celebrates Birthday in 3 Days</shortDescription>
+        <value>Your Passenger currently travelling with Safari365 celebrates a birthday in 3 days. Contact the hotel/lodge and ensure they pass a personal ‘best wishes’ note from you and Safari365 to the passenger or call your client to wish them in person at the hotel/lodge.
+
+This kind act is also an excellent way to develop your Repeat and Referral clients.</value>
+    </labels>
+    <labels>
+        <fullName>Passenger_Celebrates_Special_Occasion_in_3_Days</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Passenger Celebrates Special Occasion in 3 Days</shortDescription>
+        <value>Your Passenger celebrates a special occasion in 3 days time. (Your clients  inserted this information into the Members Club) Check what this special occasion is in the Passenger Form. 
+
+Contact the hotel/lodge and ensure they pass a personal ‘best wishes’ note from you and Safari365 to the passenger acknowledging this special occasion, and let the hotel/lodge handle the occasion appropriately or call your client to wish them in person at the hotel/lodge.
+
+This gesture is also an excellent way to develop your Repeat and Referral clients.</value>
+    </labels>
+    <labels>
+        <fullName>Passenger_Insurance_not_included_for_wetu</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Passenger Insurance not included for wetu</shortDescription>
+        <value>Before you can generate a digital itinerary you have to select if you want to charge the Photobooks and insurance in USD or ZAR. If the majority of this quotation is in USD please price the extras in USD and vice versa.</value>
+    </labels>
+    <labels>
+        <fullName>Passenger_Site_URL_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Passenger Site URL Label</shortDescription>
+        <value>http://365dev-safari365.cs89.force.com/passengerdetails?Id=</value>
+    </labels>
+    <labels>
+        <fullName>Passenger_Type_Not_Defined</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Passenger Type Not Defined</shortDescription>
+        <value>The Passenger type is not defined. Please indicate if passenger is an adult, child or infant.</value>
+    </labels>
+    <labels>
+        <fullName>Photobooks_not_included_for_wetu</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Photobooks not included for wetu</shortDescription>
+        <value>Before you can generate a digital itinerary you have to select if you want to charge the Photobooks and insurance in USD or ZAR.  If the majority of this quotation is in ZAR please price the extras in ZAR and vice versa.</value>
+    </labels>
+    <labels>
+        <fullName>Quotation</fullName>
+        <categories>Quotation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quotation</shortDescription>
+        <value>Quotation</value>
+    </labels>
+    <labels>
+        <fullName>Quotation_Approval_Requested</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quotation Approval Requested</shortDescription>
+        <value>A  Quotation needs your approval in order to Confirm, please verify the following and approve/reject accordingly:
+
+The complete file has been handed to the Finance Department including all supplier invoices.
+
+Cost of Sale values in the various base currencies (USD, ZAR or EUR) match the supporting supplier invoices
+
+Photobook and Medivac Cover are included per requirements.
+
+Please also note and action and relevant Consultant “Comments” for this Quotation.
+
+
+Timing Notes:
+It is agreed that approvals/rejections will occur within a maximum of 1 working day after submission.</value>
+    </labels>
+    <labels>
+        <fullName>Quotation_Re_Quote_Requested</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quotation Re-Quote Requested</shortDescription>
+        <value>Your client has requested a Re-quote on a previously expired quotation via the Members Club. 
+Please proceed to quotation and re-quote your client.</value>
+    </labels>
+    <labels>
+        <fullName>Quotation_Submission_for_Approval_Approved</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quotation Submission for Approval Approved</shortDescription>
+        <value>Thank you, your Quotation has been Approved and is now Confirmed.
+
+Please follow these steps on the Opportunity immediately:
+
+Timing Notes:
+As Closed Won Deal dates and values affect incentives and commissions payable, willful manipulation is simply unacceptable. The only permissible reason for editing/influencing the Closed Won Deal date is if the Clients Funds had been received before midnight on the last day of the month, and correct documents have been submitted to Finance within 48 working hours of the following month, and has been Approved in the first instance, Management will revert the &quot;Closed Date&quot; into the previous month.</value>
+    </labels>
+    <labels>
+        <fullName>Quotation_Submission_for_Approval_Approved1</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quotation Submission for Approval Approved 1</shortDescription>
+        <value>Please note, this Quotation is now locked. Should you need any changes to the Sale or Cost of Sales values, you will need approval from Finance or Management.  You are now able to create vouchers, reservations numbers and Service Name changes without approval.
+
+Closed Won - Cancelled Deals
+Should a client cancel their travel plans at this Quotation Confirmed stage you are no longer able to edit any Sale or Cost of Sale values.</value>
+    </labels>
+    <labels>
+        <fullName>Quotation_Submission_for_Approval_Rejected</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quotation Submission for Approval Rejected</shortDescription>
+        <value>Your Quotation didn&apos;t meet the handover requirements for Finance approval. Please review Finance comments and re-submit within 1 working day.</value>
+    </labels>
+    <labels>
+        <fullName>Raised_Booking_Confirmation_Tolearance</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Raised Booking Confirmation Tolearance</shortDescription>
+        <value>3</value>
+    </labels>
+    <labels>
+        <fullName>Raised_Client_Confirmation_Tolearance</fullName>
+        <categories>365 Schedular</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Raised_Client_Confirmation_Tolearance</shortDescription>
+        <value>3</value>
+    </labels>
+    <labels>
+        <fullName>Room_Configuration_Match</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Room Configuration Match</shortDescription>
+        <value>This Supplier Policy is preventing you from selecting this room configuration as it does not match up with the selected amount of passengers. 
+Please check the room configuration or select &quot;Override Supplier Details&quot; which overrides any policies and restrictions and creates a service line with no rates.</value>
+    </labels>
+    <labels>
+        <fullName>SCU_Range_Check</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SCU Range Check</shortDescription>
+        <value>This Supplier Policy is preventing you from adding the selected amount of nights because this service can only be booked for a specific amount of nights. 
+Please check the number of nights or select &quot;Override Supplier Details&quot; which overrides any policies and restrictions and creates a service line with no rates.</value>
+    </labels>
+    <labels>
+        <fullName>SafariLogoForDocument</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SafariLogoForDocument</shortDescription>
+        <value>https://safari365--c.documentforce.com/servlet/servlet.FileDownload?file=0154G0000065vki</value>
+    </labels>
+    <labels>
+        <fullName>Service_Date_Check</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service Date Check</shortDescription>
+        <value>It is too late to book the selected date. Please contact the supplier directly to make a booking.</value>
+    </labels>
+    <labels>
+        <fullName>Service_Date_Range</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service Date Range</shortDescription>
+        <value>The service dates are not available in the selected range. Please check the selected service dates or select &quot;Override Supplier Details&quot; which overrides any policies and restrictions and creates a service line with no rates.</value>
+    </labels>
+    <labels>
+        <fullName>Service_Day_Check</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service Day Check</shortDescription>
+        <value>This service is not available on certain days. Please check the selected days or select &quot;Override Supplier Details&quot; which overrides any policies and restrictions and creates a service line with no rates.</value>
+    </labels>
+    <labels>
+        <fullName>Service_Duration_Check</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service Duration Check</shortDescription>
+        <value>This Supplier Policy is preventing you from selecting this service duration as there is a minimum stay for that time period or package duration. 
+Please check the service duration or select &quot;Override Supplier Details&quot; which overrides any policies and restrictions and creates a service line with no rates.</value>
+    </labels>
+    <labels>
+        <fullName>Stay_Pay_Not_Valid</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Stay Pay Not Valid</shortDescription>
+        <value>The selected date falls outside of the stay pay service range. Please check the selected date.</value>
+    </labels>
+    <labels>
+        <fullName>Triggered_to_Consultant_A_Quotation_has_Unlocked</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Triggered to Consultant: A Quotation has ‘Unlocked”</shortDescription>
+        <value>You are about to edit a Quotation that is confirmed and has been captured by Finance and FX. Please treat this very carefully. 
+
+Do not edit this Quotation if services are being added and the cost will increase (in these cases create a new Quotation) You may only edit this Quotation if the Quote is Cancelling or if costs are reducing. 
+
+NB to Note if you are making an Edit to this Quotation:
+There will not be a Salesforce Re-approval process to Finance for this Quotation. It is your responsibility to obtain the original documents from Finance, make the Edits, and then Re-Submit (manually) these documents to Finance.
+
+There may be an Exchange Rate change. Please check this Quotation with FX before changing the stage back to Confirmed (FX might update the Exchange Rate).
+
+Ensure this Quotation has moved back the Confirmed status once Re-submitted to Finance.</value>
+    </labels>
+    <labels>
+        <fullName>Triggered_to_Consultant_A_Quotation_has_Unlocked_1</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Triggered to Consultant: A Quotation has ‘Unlocked”1</shortDescription>
+        <value>NB to Note if you are Cancelling this Quotation:
+If this Quotation is Cancelling, ensure the Cancellation Policy is followed and the new Sales and COS values reflect the Cancellation figures correctly in Salesforce (this is the Consultants responsibility). 
+
+Ensure the Opportunity object is also amended to reflect the new Cancelled figures.
+
+Change the stage of the Quotation to “Cancelled”.
+
+Change the Stage on the Opportunity to” Closed Won -  Cancelled”.
+
+It is your responsibility to obtain the original documents from Finance, make the Cancellations, and then Re-Submit (manually) these documents to Finance.</value>
+    </labels>
+    <labels>
+        <fullName>Triggered_to_FX_A_Quotation_has_Unlocked</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Triggered to FX: A Quotation has ‘Unlocked”</shortDescription>
+        <value>Base Currencies are about to change or the stage is changing to “Cancelled” for a previously confirmed Quotation.
+
+NB to do:
+Ensure the Quotation value is only decreasing (increasing values must be added as a new Quotation).
+
+Check Forwards and Exposure Deals are in place.
+
+Check quoted exchange rate in amended Quote and apply blended rate ( if applicable).</value>
+    </labels>
+    <labels>
+        <fullName>Valid_Until_Days</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Valid Until Days</shortDescription>
+        <value>6</value>
+    </labels>
+    <labels>
+        <fullName>WeekDay_Match</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WeekDay Match</shortDescription>
+        <value>This Supplier Policy is preventing you from adding the selected days as there are certain weekdays missing. 
+Please check the selected days or select &quot;Override Supplier Details&quot; which overrides any policies and restrictions and creates a service line with no rates.</value>
+    </labels>
+    <labels>
+        <fullName>WetuAPI</fullName>
+        <categories>WetuAPI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WetuAPI</shortDescription>
+        <value>9AIMALS6CD1H8XZQ</value>
+    </labels>
+    <labels>
+        <fullName>WetuQuotation_Intro_Note_to_Customer_Length</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WetuQuotation_Intro_Note_to_Customer_Length</shortDescription>
+        <value>Quotation Intro Note to Customer, is restricted to a minimum requirement of 150 characters (including spaces) this is about 50 words. This will not allow you to post if you do not reach the minimum requirement. Maximum recommended length is 200 words.</value>
+    </labels>
+    <labels>
+        <fullName>Your_Client_Celebrates_their_Birthday_Tomorrow</fullName>
+        <categories>Tasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Your Client Celebrates their Birthday Tomorrow</shortDescription>
+        <value>Your Client celebrates a birthday tomorrow. They have previously booked a safari with you (they   are not traveling with us at this moment)
+
+Send them a personal note with for ‘Best Birthday Wishes’ from you and Safari365. This kind act is also an excellent way to develop your Repeat and Referral clients.</value>
+    </labels>
+    <labels>
+        <fullName>confirmed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>confirmed</shortDescription>
+        <value>Confirmed</value>
+    </labels>
+    <labels>
+        <fullName>curAUD</fullName>
+        <categories>Itinerary Fields</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>curAUD</shortDescription>
+        <value>: AUD $</value>
+    </labels>
+    <labels>
+        <fullName>curEUR</fullName>
+        <categories>Itinerary Fields</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>curEUR</shortDescription>
+        <value>: EUR €</value>
+    </labels>
+    <labels>
+        <fullName>curGBP</fullName>
+        <categories>Itinerary Fields</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>curGBP</shortDescription>
+        <value>: GBP £</value>
+    </labels>
+    <labels>
+        <fullName>curUSD</fullName>
+        <categories>Itinerary Fields</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>curUSD</shortDescription>
+        <value>: USD $</value>
+    </labels>
+    <labels>
+        <fullName>deposit_note1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>deposit note1</shortDescription>
+        <value>Deposit Due Amount</value>
+    </labels>
+    <labels>
+        <fullName>deposit_note2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>deposit note2</shortDescription>
+        <value>Balance Due Date</value>
+    </labels>
+    <labels>
+        <fullName>depositnote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>deposit note</shortDescription>
+        <value>Deposit Due Date</value>
+    </labels>
+    <labels>
+        <fullName>ffhttp_AbstractClientCredentialsNotSet</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Credentials not set</shortDescription>
+        <value>AbstractClient.Credentials not set</value>
+    </labels>
+    <labels>
+        <fullName>ffhttp_AbstractClientNotSet</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AbstractClient not set</shortDescription>
+        <value>AbstractClient not set</value>
+    </labels>
+    <labels>
+        <fullName>ffhttp_InvalidStateAddingProtectedHeader</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error for invalid request</shortDescription>
+        <value>AbstractClientRequest: Invalid State: Cannot add protected header</value>
+    </labels>
+    <labels>
+        <fullName>ffhttp_InvalidStateJsonAndRequestBody</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error for invalid request</shortDescription>
+        <value>AbstractClientRequest: Invalid State: A request cannot have both a request body and JSON parameters</value>
+    </labels>
+    <labels>
+        <fullName>ffhttp_NullAccessToken</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AccessToken cannot be null</shortDescription>
+        <value>AccessToken cannot be null</value>
+    </labels>
+    <labels>
+        <fullName>ffhttp_NullBlob</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Blob cannot be null</shortDescription>
+        <value>Blob cannot be null</value>
+    </labels>
+    <labels>
+        <fullName>ffhttp_NullContentType</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ContentType cannot be null</shortDescription>
+        <value>ContentType cannot be null</value>
+    </labels>
+    <labels>
+        <fullName>ffhttp_NullNamedCredentialName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Named Credential Name cannot be null</shortDescription>
+        <value>Named Credential Name cannot be null</value>
+    </labels>
+    <labels>
+        <fullName>ffhttp_NullTokenType</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TokenType cannot be null</shortDescription>
+        <value>TokenType cannot be null</value>
+    </labels>
+    <labels>
+        <fullName>ffhttp_UnhandledRedirection</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error for unhandled redirection</shortDescription>
+        <value>Response returned a 3xx Redirection error which is currently unhandled</value>
+    </labels>
+    <labels>
+        <fullName>ffhttp_gdrive_NullComment</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Comment cannot be null</shortDescription>
+        <value>Comment cannot be null</value>
+    </labels>
+    <labels>
+        <fullName>ffhttp_gdrive_NullCommentId</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Comment ID cannot be null</shortDescription>
+        <value>Comment ID cannot be null</value>
+    </labels>
+    <labels>
+        <fullName>ffhttp_gdrive_NullFile</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>File cannot be null</shortDescription>
+        <value>File cannot be null</value>
+    </labels>
+    <labels>
+        <fullName>ffhttp_gdrive_NullFileId</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>File ID cannot be null</shortDescription>
+        <value>File ID cannot be null</value>
+    </labels>
+    <labels>
+        <fullName>itinerarybookingsteps</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarybookingsteps</shortDescription>
+        <value>Your Booking: The Next Steps</value>
+    </labels>
+    <labels>
+        <fullName>itinerarybookingstepsnote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarybookingstepsnote</shortDescription>
+        <value>This itinerary is currently not booked. To confirm this itinerary, please visit the Members Club.</value>
+    </labels>
+    <labels>
+        <fullName>itinerarybookingstepsnote2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarybookingstepsnote2</shortDescription>
+        <value>Should you wish to make an amendment to this itinerary, please email</value>
+    </labels>
+    <labels>
+        <fullName>itinerarycomplimentaryservices</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarycomplimentaryservices</shortDescription>
+        <value>Complimentary Safari365 Services</value>
+    </labels>
+    <labels>
+        <fullName>itinerarycomplimentaryservicesnote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarycomplimentaryservicesnote</shortDescription>
+        <value>As a unique offer to our guests, we will create and send you</value>
+    </labels>
+    <labels>
+        <fullName>itinerarycomplimentaryservicesnote13</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarycomplimentaryservicesnote13</shortDescription>
+        <value>Your Complimentary Photobook:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarycomplimentaryservicesnote14</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarycomplimentaryservicesnote14</shortDescription>
+        <value>Emergency Evacuation Cover:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarycomplimentaryservicesnote15</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarycomplimentaryservicesnote15</shortDescription>
+        <value>24 Hour Emergency Support Centre:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarycomplimentaryservicesnote2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarycomplimentaryservicesnote2</shortDescription>
+        <value>complimentary photobook(s) filled with photos from your trip after you have traveled with us. All you need to do is choose the photos and we will do the rest.</value>
+    </labels>
+    <labels>
+        <fullName>itinerarycomplimentaryservicesnote3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarycomplimentaryservicesnote3</shortDescription>
+        <value>As a part of our commitment to your safety, Emergency Evacuation Cover for</value>
+    </labels>
+    <labels>
+        <fullName>itinerarycomplimentaryservicesnote4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarycomplimentaryservicesnote4</shortDescription>
+        <value>persons has been included in this quotation. This Emergency Evacuation policy has been designed specifically for African travel, and is operated by a team of African specialists that ensure safe evacuation to a suitable hospital should the need arise. This cover is not a substitute for comprehensive medical and travel insurance, which is strongly recommended for you to obtain prior to travel. For more specifics on our Emergency Evacuation Cover, please see the policy in the &quot;Your Documents&quot; section of your Members Club.</value>
+    </labels>
+    <labels>
+        <fullName>itinerarycomplimentaryservicesnote5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarycomplimentaryservicesnote5</shortDescription>
+        <value>You will have access to our 24/7 Emergency Support Centre whille you are travelling in Africa.</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconfirmationbooking</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconfirmationbooking</shortDescription>
+        <value>(1) Pay for your booking</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconfirmationbooking1</fullName>
+        <categories>Itinerary Fields</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconfirmationbooking1</shortDescription>
+        <value>Please click on the link below to proceed to our Payment Gateway. Please pay strict in adherence to the payment due dates.</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconfirmationbooking2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconfirmationbooking2</shortDescription>
+        <value>(2) Enter your passenger details</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconfirmationbooking3</fullName>
+        <categories>Itinerary Fields</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconfirmationbooking3</shortDescription>
+        <value>To ensure a seamless trip, all of our guests are required to complete their passenger details prior to travel. Please complete this section in your Members Club within 7 days of confirming your booking.</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconfirmationcancerlation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconfirmationcancerlation</shortDescription>
+        <value>Cancellation Policy</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconfirmationcancerlation2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconfirmationcancerlation2</shortDescription>
+        <value>In the unfortunate event that you are required to cancel your itinerary, cancellations must be submitted in writing and will be subject to the following cancellation policy:
+•        Cancellation greater than 60 days from arrival date, cancellation fee equal to the deposit value of the booking.
+•        Cancellation between 59 - 30 days from arrival date, cancellation fee equal to the greater of 50% (fifty percent) or the deposit due for the booking. 
+•        Cancellation less than 30 days from arrival date, the full booking total cost will be forfeited and no refund will be possible.
+•        Itinerary amendments after confirmation will be charged at USD 100 per amendment, excluding any applicable costs levied by 3rd party suppliers.
+•        Safari365 strongly recommends that you acquire comprehensive medical and travel insurance prior to travel.</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconfirmationcompservices</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconfirmationcompservices</shortDescription>
+        <value>complimentary photobook(s)</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconfirmationcompservices2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconfirmationcompservices2</shortDescription>
+        <value>Comprehensive Emergency Evacuation Cover for</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconfirmationcompservices3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconfirmationcompservices3</shortDescription>
+        <value>passengers</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconfirmationheading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconfirmationheading</shortDescription>
+        <value>Booking Confirmation for</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconfirmationpayment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconfirmationpayment</shortDescription>
+        <value>Payment Overview</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconfirmationpayment2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconfirmationpayment2</shortDescription>
+        <value>Deposits and full payment schedule</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconfirmationpayment3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconfirmationpayment3</shortDescription>
+        <value>Pax Preakdown</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconfirmationterms</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconfirmationterms</shortDescription>
+        <value>Terms and Conditions</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconfirmationterms2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconfirmationterms2</shortDescription>
+        <value>A payment towards your itinerary (deposit or balance) shall constitute acceptance of Safari365&apos;s Terms and Conditions. A complete version of the Safari365 terms and conditions is available online.</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconfirmationterms3</fullName>
+        <categories>Itinerary Fields</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconfirmationterms3</shortDescription>
+        <value>https://www.safari365.com/terms-and-conditions</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconsultant</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconsultant</shortDescription>
+        <value>Consultant:</value>
+    </labels>
+    <labels>
+        <fullName>itineraryconsultantcd</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryconsultantcd</shortDescription>
+        <value>Consultant Contact Details</value>
+    </labels>
+    <labels>
+        <fullName>itinerarydate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarydate</shortDescription>
+        <value>Date</value>
+    </labels>
+    <labels>
+        <fullName>itinerarydescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarydescription</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>itinerarydestination</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarydestination</shortDescription>
+        <value>Destination</value>
+    </labels>
+    <labels>
+        <fullName>itinerarydetailedinclusions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarydetailedinclusions</shortDescription>
+        <value>Detailed Inclusions and Exclusions for All Supplier Services</value>
+    </labels>
+    <labels>
+        <fullName>itinerarydigitalitinerary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarydigitalitinerary</shortDescription>
+        <value>Your Digital Itinerary</value>
+    </labels>
+    <labels>
+        <fullName>itinerarydigitalitinerarynote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarydigitalitinerarynote</shortDescription>
+        <value>See your full digital itinerary in the Safari365 Members Club:</value>
+    </labels>
+    <labels>
+        <fullName>itineraryemail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryemail</shortDescription>
+        <value>Email:</value>
+    </labels>
+    <labels>
+        <fullName>itineraryexcluded</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryexcluded</shortDescription>
+        <value>Excluded:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote</shortDescription>
+        <value>General Itinerary Notes:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote1</shortDescription>
+        <value>Services Not Booked: No services on this itinerary have been confirmed at this stage and as such are subject to availability at the time of confirmation.</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote10</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote10</shortDescription>
+        <value>Travel Insurance:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote11</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote11</shortDescription>
+        <value>Health Precautions:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote12</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote12</shortDescription>
+        <value>Visas and Passports:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote14</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote14</shortDescription>
+        <value>General Exclusions:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote15</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote15</shortDescription>
+        <value>South African Immigration Law:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote16</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote16</shortDescription>
+        <value>Flight Pricing:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote17</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote17</shortDescription>
+        <value>Light Aircraft Restrictions:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote2</shortDescription>
+        <value>We strongly recommend that you take out comprehensive cancellation, medical and travel insurance prior to travel.</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote21</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote21</shortDescription>
+        <value>Due to our volume negotiated rates, we routinely save our clients up to 15% when compared to booking via other channels. In the unlikely event you have received a better rate for the same itinerary, please send it to us for an obligation free comparison. Please read here for more reasons why you should be booking with Safari365.</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote3</shortDescription>
+        <value>Please consult your medical practitioner for any necessary vaccinations, inoculations or medication prior to travel (including yellow fever and malaria requirements).</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote4</shortDescription>
+        <value>Please ensure your passport contains three consecutive blank pages and is valid for at least six months from the return date of travel. Due to changing visa requirements, we cannot guarantee the accuracy of our visa information provided. Please contact the relevant consulates and embassies for visa requirements prior to travel.</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote5</shortDescription>
+        <value>Rates exclude items of personal nature (telephone calls, laundry, visas etc), meals and beverages (other than where specified), gratuities and porterage.</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote6</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote6</shortDescription>
+        <value>Effective 1 June 2015, all minors under the age of 18 years will be required to produce, in addition to their passport, an Unabridged Birth Certificate (showing the particulars of both parents) when exiting and entering South African ports of entry. For further details and relevant forms please see here:  http://www.dha.gov.za/files/Brochures/Immigrationleaflet.pdf.</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote7</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote7</shortDescription>
+        <value>Flight prices are subject to change until final payment for this portion has been received in full by Safari365.</value>
+    </labels>
+    <labels>
+        <fullName>itinerarygeneralnote8</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarygeneralnote8</shortDescription>
+        <value>Light aircraft flights (charter flights) will be subject to 15 kg luggage limit per person in soft-sided bags. Charter flights have a passenger weight limitation of 100 kg (220 lb) per person. If applicable, please discuss these weight restrictions with your travel consultant. These restrictions do not apply to scheduled (commercial) aircraft flights.</value>
+    </labels>
+    <labels>
+        <fullName>itineraryheading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryheading</shortDescription>
+        <value>Personalised African Safari Proposal for</value>
+    </labels>
+    <labels>
+        <fullName>itineraryincluded</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryincluded</shortDescription>
+        <value>Included:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarypassengers</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarypassengers:</shortDescription>
+        <value>Passengers:
+Ad/Ch/In</value>
+    </labels>
+    <labels>
+        <fullName>itineraryphone</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryphone</shortDescription>
+        <value>Phone:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarypricing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarypricing</shortDescription>
+        <value>Itinerary Pricing and Payment Overview</value>
+    </labels>
+    <labels>
+        <fullName>itinerarypricingnote1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarypricingnote1</shortDescription>
+        <value>We guarantee our final pricing in any one of four major global currencies (British Pound (GBP), US Dollar (USD), Euro (EUR) and Australian Dollar (AUD)). Once you have confirmed a booking with Safari365, you are not at risk of exchange rate fluctuations.</value>
+    </labels>
+    <labels>
+        <fullName>itinerarypricingnote10</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarypricingnote10</shortDescription>
+        <value>Global Currencies:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarypricingnote11</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarypricingnote11</shortDescription>
+        <value>Best Rates Guaranteed:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarypricingnote12</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarypricingnote12</shortDescription>
+        <value>Payment Methods:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarypricingnote13</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarypricingnote13</shortDescription>
+        <value>Confirmation Process:</value>
+    </labels>
+    <labels>
+        <fullName>itinerarypricingnote2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarypricingnote2</shortDescription>
+        <value>Due to our volume negotiated rates, we routinely save our clients money when booking their trips. In the unlikely event you have received a better rate for the same itinerary, please send it to us for an obligation free comparison. Please read here for more reasons why you should be booking with Safari365: https://www.safari365.com/about-us</value>
+    </labels>
+    <labels>
+        <fullName>itinerarypricingnote3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarypricingnote3</shortDescription>
+        <value>We accept payment by either credit / debit card or bank transfer. Payment by credit / debit card incurs a 2.9% administration fee. Payment by bank transfer incurs no administration fee and a local bank transfer is possible from within the USA, Australia, Europe and the United Kingdom. Clients from other countries are required to make an international bank transfer and transfer fees are for your account.</value>
+    </labels>
+    <labels>
+        <fullName>itinerarypricingnote4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarypricingnote4</shortDescription>
+        <value>Once you are satisfied with your travel arrangements, a non-refundable deposit of 30% of the total booking value is required to secure your itinerary. The balance owed is due 60 days prior to arrival. In the event of any booking being finalized within 60 days prior to arrival, the total booking value is due immediately. Safari365 may request greater non-refundable deposits should flights or limited availability items be included in your itinerary.</value>
+    </labels>
+    <labels>
+        <fullName>itineraryquotationname</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryquotationname</shortDescription>
+        <value>Quotation Name:</value>
+    </labels>
+    <labels>
+        <fullName>itineraryquotationnumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryquotationnumber</shortDescription>
+        <value>Quotation Number:</value>
+    </labels>
+    <labels>
+        <fullName>itineraryquotationvaliduntil</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryquotationvaliduntil</shortDescription>
+        <value>Quotation Valid Until:</value>
+    </labels>
+    <labels>
+        <fullName>itineraryreservationdetails</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryreservationdetails</shortDescription>
+        <value>Reservation Details</value>
+    </labels>
+    <labels>
+        <fullName>itineraryreservationstatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryreservationstatus</shortDescription>
+        <value>Reservation Status:</value>
+    </labels>
+    <labels>
+        <fullName>itineraryservice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryservice</shortDescription>
+        <value>Service</value>
+    </labels>
+    <labels>
+        <fullName>itinerarytotal</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarytotal</shortDescription>
+        <value>Quotation Total</value>
+    </labels>
+    <labels>
+        <fullName>itinerarytotal1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarytotal1</shortDescription>
+        <value>This quotation is priced in</value>
+    </labels>
+    <labels>
+        <fullName>itinerarytotal2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarytotal2</shortDescription>
+        <value>and is valid to book until</value>
+    </labels>
+    <labels>
+        <fullName>itinerarytraveldetails</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itinerarytraveldetails</shortDescription>
+        <value>Travel Details and Additional Services</value>
+    </labels>
+    <labels>
+        <fullName>itineraryvoucherarrival</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryvoucherarrival</shortDescription>
+        <value>Arrival Date:</value>
+    </labels>
+    <labels>
+        <fullName>itineraryvouchercontact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryvouchercontact</shortDescription>
+        <value>Safari365 Emergancy Contact Details</value>
+    </labels>
+    <labels>
+        <fullName>itineraryvouchercontact2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryvouchercontact2</shortDescription>
+        <value>Telephone Office: +27 (0)21 418 1325</value>
+    </labels>
+    <labels>
+        <fullName>itineraryvouchercontact3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryvouchercontact3</shortDescription>
+        <value>After Hours Emergency Cell: +27 (0)76 4246310</value>
+    </labels>
+    <labels>
+        <fullName>itineraryvouchercontact4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryvouchercontact4</shortDescription>
+        <value>After Hours Emergency Email: emergency@safari365.com</value>
+    </labels>
+    <labels>
+        <fullName>itineraryvouchercontact5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryvouchercontact5</shortDescription>
+        <value>Your Safari365 Consultant:</value>
+    </labels>
+    <labels>
+        <fullName>itineraryvoucherdepart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryvoucherdepart</shortDescription>
+        <value>Departure Date:</value>
+    </labels>
+    <labels>
+        <fullName>itineraryvoucherguests</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryvoucherguests</shortDescription>
+        <value>Guests Travelling</value>
+    </labels>
+    <labels>
+        <fullName>itineraryvoucherheading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryvoucherheading</shortDescription>
+        <value>Safari365 Travel Vouchers</value>
+    </labels>
+    <labels>
+        <fullName>itineraryvouchernotes</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryvouchernotes</shortDescription>
+        <value>Notes:</value>
+    </labels>
+    <labels>
+        <fullName>itineraryvoucherprovider</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryvoucherprovider</shortDescription>
+        <value>Service Provider</value>
+    </labels>
+    <labels>
+        <fullName>itineraryvoucherresno</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryvoucherresno</shortDescription>
+        <value>Reservations No</value>
+    </labels>
+    <labels>
+        <fullName>itineraryvoucherservices</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>itineraryvoucherservices</shortDescription>
+        <value>Travel Services</value>
+    </labels>
+    <labels>
+        <fullName>paxbreakdown</fullName>
+        <categories>Itinerary Fields</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>paxbreakdown</shortDescription>
+        <value>Per Person Price Breakdown</value>
+    </labels>
+    <labels>
+        <fullName>phone</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>phone</shortDescription>
+        <value>Phone:</value>
+    </labels>
+</CustomLabels>

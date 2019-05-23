@@ -1,0 +1,286 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" controller="QuotationPricingController" access="global" >
+    <aura:attribute name="Quotation" type="Quotations__c" access="global"/>
+    <aura:attribute name="quotationId" type="String"/>
+    <aura:attribute name="QuotationPricingSummary" type="QuotationPricingSummaryWrapper" access="global"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    
+    <table width="300" class="slds-table slds-table_bordered slds-table_cell-buffer">
+        <tr>
+            <aura:if isTrue="{!not(empty(v.QuotationPricingSummary.ProfileAnalysisZAR))}">
+                 <td width="300"><span style="color:black; font-weight: bold;">Profit Analysis ZAR</span>
+                    <table border="1">
+                       
+                        <tr>
+                            <td  class="Table_Cell" style="width: 150px;">Quotation Sale</td>
+                            <td class="Table_Cell">{!v.QuotationPricingSummary.ProfileAnalysisZAR.QuotationSale}</td>
+                        </tr>
+                        <tr>
+                            <td class="Table_Cell2" style="width: 150px;">Quotation Cost</td>
+                            <td>{!v.QuotationPricingSummary.ProfileAnalysisZAR.QuotationCost}</td>
+                        </tr>
+                         <tr>
+                            <td class="Table_Cell" style="width: 150px;">Quotation Profit</td>
+                            <td class="Table_Cell">{!v.QuotationPricingSummary.ProfileAnalysisZAR.QuotationGross}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 150px;">Quotation Gross %</td>
+                            <td>{!v.QuotationPricingSummary.ProfileAnalysisZAR.QuotationProfit}</td>
+                        </tr>
+                       
+                    </table>
+                </td>
+            </aura:if>
+            <aura:if isTrue="{!not(empty(v.QuotationPricingSummary.ProfileAnalysisUSD))}">
+                <td width="300"><span style="color:black; font-weight: bold;">Profit Analysis USD</span>
+                    <table width="300" border="1" >
+                        
+                        <tr>
+                            <td  class="Table_Cell" style="width: 150px;">Quotation Sale</td>
+                            <td class="Table_Cell">{!v.QuotationPricingSummary.ProfileAnalysisUSD.QuotationSale}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 150px;">Quotation Cost</td>
+                            <td>{!v.QuotationPricingSummary.ProfileAnalysisUSD.QuotationCost}</td>
+                        </tr>
+                         <tr>
+                            <td class="Table_Cell" style="width: 150px;">Quotation Profit</td>
+                             <td class="Table_Cell">{!v.QuotationPricingSummary.ProfileAnalysisUSD.QuotationGross}</td>
+                        </tr>
+                          <tr>
+                            <td style="width: 150px;">Quotation Gross %</td>
+                            <td>{!v.QuotationPricingSummary.ProfileAnalysisUSD.QuotationProfit}</td>
+                           
+                        </tr>
+                       
+                      
+                    </table>
+                </td>
+            </aura:if>
+            <aura:if isTrue="{!not(empty(v.QuotationPricingSummary.ProfileAnalysisEUR))}">
+                <td width="300"><span style="color:black; font-weight: bold;">Profit Analysis EUR</span>
+                    <table width="300" border="1" >
+                        <tr>
+                            <td class="Table_Cell" style="width: 150px;">Quotation Sale</td>
+                            <td class="Table_Cell">{!v.QuotationPricingSummary.ProfileAnalysisEUR.QuotationSale}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 150px;">Quotation Cost</td>
+                            <td>{!v.QuotationPricingSummary.ProfileAnalysisEUR.QuotationCost}</td>
+                        </tr>
+                        <tr>
+                            <td  class="Table_Cell" style="width: 150px;">Quotation Profit</td>
+                            <td class="Table_Cell">{!v.QuotationPricingSummary.ProfileAnalysisEUR.QuotationGross}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 150px;">Quotation Gross %</td>
+                            <td>{!v.QuotationPricingSummary.ProfileAnalysisEUR.QuotationProfit}</td>
+                        </tr>
+                    </table>
+                </td>
+            </aura:if>
+            
+        </tr>
+        <tr style="height:30px;border-width:1px;border-style:solid;"></tr>
+        <tr>
+            <aura:if isTrue="{!not(empty(v.QuotationPricingSummary.PaymentSummaryZAR))}">
+                <td width="300"><span style="color:black; font-weight: bold;">Payment Summary ZAR</span>
+                    <table width="300" border="1" >
+                        
+                        <th class="Table_Cell">Deposit</th>
+                        <th class="Table_Cell"></th>
+                        <tr>
+                            <td style="width: 150px;">Due Date</td>
+                            <td>{!v.QuotationPricingSummary.PaymentSummaryZAR.DepositeDueDate}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 150px;">Deposit Due Amount</td>
+                            <td><ui:inputText aura:id="depositeDueAmountZAR" value="{!v.QuotationPricingSummary.PaymentSummaryZAR.DepositeDueAmount}"/></td>
+                        </tr>
+                        <tr>
+                        </tr>
+                        <th class="Table_Cell">Balance</th>
+                        <th class="Table_Cell"></th>
+                        <tr>
+                            <td style="width: 150px;">Due Date</td>
+                            <td>{!v.QuotationPricingSummary.PaymentSummaryZAR.BalanceDueDate}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 150px;">Balance Due Amount</td>
+                            <td>{!v.QuotationPricingSummary.PaymentSummaryZAR.BalanceDueAmount}</td>
+                        </tr>
+                    </table>
+                </td>
+            </aura:if>
+            
+            <aura:if isTrue="{!not(empty(v.QuotationPricingSummary.PaymentSummaryUSD))}">
+                <td width="300"><span style="color:black; font-weight: bold;">Payment Summary USD</span>
+                    <table width="300" border="1" >
+                        
+                        <th class="Table_Cell">Deposit</th>
+                        <th class="Table_Cell"></th>
+                        <tr>
+                            <td style="width: 150px;">Due Date</td>
+                            <td>{!v.QuotationPricingSummary.PaymentSummaryUSD.DepositeDueDate}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 150px;">Deposit Due Amount</td>
+                            <td><ui:inputText aura:id="depositeDueAmountUSD" value="{!v.QuotationPricingSummary.PaymentSummaryUSD.DepositeDueAmount}"/></td>
+                        </tr>
+                        <tr>
+                        </tr>
+                        <th class="Table_Cell">Balance</th>
+                        <th class="Table_Cell"></th>
+                        <tr>
+                            <td style="width: 150px;">Due Date</td>
+                            <td>{!v.QuotationPricingSummary.PaymentSummaryUSD.BalanceDueDate}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 150px;">Balance Due Amount</td>
+                            <td>{!v.QuotationPricingSummary.PaymentSummaryUSD.BalanceDueAmount}</td>
+                        </tr>
+                    </table>
+                </td>
+            </aura:if>
+            <aura:if isTrue="{!not(empty(v.QuotationPricingSummary.PaymentSummaryEUR))}">
+                <td width="300"><span style="color:black; font-weight: bold;">Payment Summary EUR</span>
+                    <table width="300" border="1" >
+                        
+                        <th class="Table_Cell">Deposit</th>
+                        <th class="Table_Cell"></th>
+                        <tr>
+                            <td style="width: 150px;">Due Date</td>
+                            <td>{!v.QuotationPricingSummary.PaymentSummaryEUR.DepositeDueDate}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 150px;">Deposit Due Amount</td>
+                            <td><ui:inputText aura:id="depositeDueAmountEUR" value="{!v.QuotationPricingSummary.PaymentSummaryEUR.DepositeDueAmount}"/></td>
+                        </tr>
+                        <tr>
+                        </tr>
+                        <th class="Table_Cell">Balance</th>
+                        <th class="Table_Cell"></th>
+                        <tr>
+                            <td style="width: 150px;">Due Date</td>
+                            <td>{!v.QuotationPricingSummary.PaymentSummaryEUR.BalanceDueDate}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 150px;">Balance Due Amount</td>
+                            <td>{!v.QuotationPricingSummary.PaymentSummaryEUR.BalanceDueAmount}</td>
+                        </tr>
+                    </table>
+                </td>
+            </aura:if>
+
+            
+                
+
+            
+        </tr>
+       
+        <tr>
+            <aura:if isTrue="{!not(empty(v.QuotationPricingSummary.PricePerPersonSummaryZAR))}">
+                <td width="300"><span style="color:black; font-weight: bold;">Price Per Person Summary (ZAR)</span>
+                    <aura:iteration items="{!v.QuotationPricingSummary.PricePerPersonSummaryZAR}" var="pps">
+                        <table width="300" border="1" >
+                            <tr >
+                                <td style="width: 150px;">{!pps.PassengerName}</td>
+                                <td>{!pps.Amount}</td>
+                            </tr>
+                        </table>
+                    </aura:iteration>
+                </td>
+            </aura:if>
+            <aura:if isTrue="{!not(empty(v.QuotationPricingSummary.PricePerPersonSummaryUSD))}">
+                <td width="300"><span style="color:black; font-weight: bold;">Price Per Person Summary (USD)</span>
+                    <aura:iteration items="{!v.QuotationPricingSummary.PricePerPersonSummaryUSD}" var="pps">
+                        <table width="300" border="1" >
+                            <tr>
+                                <td style="width: 150px;">{!pps.PassengerName}</td>
+                                <td>{!pps.Amount}</td>
+                            </tr>
+                        </table>
+                    </aura:iteration>
+                </td>
+            </aura:if>
+            <aura:if isTrue="{!not(empty(v.QuotationPricingSummary.PricePerPersonSummaryEUR))}">
+                <td width="300"><span style="color:black; font-weight: bold;">Price Per Person Summary (EUR)</span>
+                    <aura:iteration items="{!v.QuotationPricingSummary.PricePerPersonSummaryEUR}" var="pps">
+                        <table width="300" border="1" >
+                            <tr>
+                                <td style="width: 150px;">{!pps.PassengerName}</td>
+                                <td>{!pps.Amount}</td>
+                            </tr>
+                        </table>
+                    </aura:iteration>
+                </td>
+            </aura:if> 
+            
+        </tr>
+         <tr style="height:30px;border-width:1px;border-style:solid;">
+        <td width="300"><span style="color:black; font-weight: bold;">Payment Client Currency {!v.QuotationPricingSummary.ClientSelectedCurrency} </span>
+                <table width="300" border="1" >
+                   <tr>
+                        <td class="Table_Cell" style="width: 150px;">Client Selected Currency</td>
+                        <td class="Table_Cell">{!v.QuotationPricingSummary.ClientSelectedCurrency}</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 150px;">Quotation Sale</td>
+                        <td>{!v.QuotationPricingSummary.PaymentClientCurrency.QuotationSales}</td>
+                    </tr>
+                    <tr>
+                        <td class="Table_Cell" style="width: 150px;">Deposit Due Date</td>
+                        <td class="Table_Cell">{!v.QuotationPricingSummary.PaymentClientCurrency.DepositDueDate}</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 150px;">Deposit Due Amount</td>
+                        <td>{!v.QuotationPricingSummary.PaymentClientCurrency.DepositDueAmount}</td>
+                    </tr>
+                    <tr>
+                        <td class="Table_Cell" style="width: 150px;">Balance Due Date</td>
+                        <td class="Table_Cell">{!v.QuotationPricingSummary.PaymentClientCurrency.BalanceDueDate}</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 150px;">Balance Due Amount</td>
+                        <td>{!v.QuotationPricingSummary.PaymentClientCurrency.BalanceDueAmount}</td>
+                    </tr>
+                    <th class="Table_Cell">Price Per Person Summary</th>
+                    <th class="Table_Cell"></th>
+                       <aura:if isTrue="{!not(empty(v.QuotationPricingSummary.TotalPricePerPersonSummaryClientCurrency))}">
+                    <aura:iteration items="{!v.QuotationPricingSummary.TotalPricePerPersonSummaryClientCurrency}" var="tpps">
+                       <tr>
+                                <td style="width: 150px;">{!tpps.PassengerName}</td>
+                                <aura:if isTrue="{!(v.QuotationPricingSummary.ClientSelectedCurrency=='USD')}">
+                                <td>{!tpps.TotalAmountINUSD} - USD</td>
+                                </aura:if>
+                                <aura:if isTrue="{!(v.QuotationPricingSummary.ClientSelectedCurrency=='EUR')}">
+                                <td>{!tpps.TotalAmountINEUR} - EUR</td>
+                                </aura:if>
+                                <aura:if isTrue="{!(v.QuotationPricingSummary.ClientSelectedCurrency=='AUD')}">
+                                <td>{!tpps.TotalAmountINAUD} - AUD</td>
+                                </aura:if>
+                                <aura:if isTrue="{!(v.QuotationPricingSummary.ClientSelectedCurrency=='GBP')}">
+                                <td>{!tpps.TotalAmountInGBP} - GBP</td>
+                                </aura:if>
+                      </tr>
+                    </aura:iteration>
+            </aura:if>
+                        
+            </table>
+            </td>
+            
+            <td>
+             <aura:if isTrue="{!(v.QuotationPricingSummary.ClientFundRecieved=='false')}">
+            <table width="300">
+             <tr>
+              <td>
+              <ui:button class="btn slds-m-left_large" label="Calculate Deposit Values" press="{!c.calculateDepositValues}"/>
+              </td>
+              
+            </tr>
+            </table>
+           </aura:if>
+            </td>
+         </tr>
+    </table>
+</aura:component>

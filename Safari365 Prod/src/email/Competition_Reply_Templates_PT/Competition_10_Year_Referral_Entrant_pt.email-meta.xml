@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Competition: 10 Year - Email sent to client referral</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Competition_10_Year_Giveaway_Wina_a_Safari_to_Africa</letterhead>
+    <name>Competition: 10 Year _Referral Entrant PT</name>
+    <style>freeForm</style>
+    <subject>Ganhe uma viagem dos sonhos na África - Safari365</subject>
+    <textOnly>Olá {!Lead.FirstName},
+
+Seu amigo/a {!Lead.Referral_Competition_Lead_Name__c} se inscreveu no nosso sorteiro &quot;Ganhe uma viagem dos sonhos na África&quot; e lembrou de você!!!
+
+A Safari365 é uma agência líder em viagens para a África e em comemoração aos 10 anos de existência estamos sorteando uma viagem de 10 dias no continente no valor de 10 mil dólares.
+
+Se você deseja testar sua sorte, inscreva-se agora mesmo
+
+Participe
+
+Se você não deseja receber emails da Safari365, cancele sua inscrição aqui.
+
+O vencedor será anunciado no dia 21 de Novembro de 2016.
+
+Boa sorte!!!
+Safari365
+
+Prêmio inclui:
+
+3 noites no luxuoso More Quarters Hotel na Cidade do Cabo;
+15 minutos de passeio de helicóptero pela Cidade do Cabo;
+1 noite em Cape Winelands;
+3 noites de safári no Parque Nacional Kruger com acomodação no Simbavati River Lodge;
+2 noites nas Cataratas Vitória com acomodação 5 estrelas no Elephant Camp Lodge (incluso cruzeiro ao pôr do sol e passeio pelas cataratas);
+Todos os voos internos e 4 dias de aluguel de carro na Cidade do Cabo.</textOnly>
+    <type>html</type>
+</EmailTemplate>

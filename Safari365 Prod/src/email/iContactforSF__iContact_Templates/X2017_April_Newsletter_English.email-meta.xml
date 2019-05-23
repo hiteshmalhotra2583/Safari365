@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Chobe NP + Chobe, Okavango Delta and Moremi Tour</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2017 April Newsletter (English)</name>
+    <style>none</style>
+    <subject>In the Land of Africa&apos;s Giants | Safari 365</subject>
+    <textOnly>In the Land of Africa&apos;s Giants
+
+
+Dear [fname],
+
+Botswana’s Chobe National Park is an immensely popular safari destination. This month we explored a few of the reasons why.
+
+Chobe is well known for its elephant population; it has the highest concentration on the African continent with numbers estimated at 50 000. Chobe’s huge residents, along with the abundance of animals and birdlife as well as the spectacular Chobe River, make Chobe widely favoured by safari-goers. Chobe is also easily accessible and Victoria Falls is in close proximity, adding to the attraction of the safari destination.
+
+Safari365 visited Chobe National Park for a first-hand safari experience and captured some footage of the plentiful wildlife, diverse scenery and luxury lodges.
+
+In other travel news, this month, travel professionals from across Africa gathered in Cape Town for the third annual World Travel Market Africa. The travel expo featured products, businesses and travel trends from across the continent. This year was a huge success with 550 exhibitors and approximately 5000 attendees.
+
+World Travel Market Africa 2017 was important not only for the African tourism industry but also for promoting responsible tourism globally. On Thursday, 20 April the travel expo hosted the 2017 African Responsible Tourism Awards. The awards are an important event on the African tourism calendar and highlighted groups across Africa making strides in upholding the ideal of responsible tourism.
+
+Yours in Safari,
+
+
+
+Safari365 Founder
+
+
+
+
+
+Experience Chobe National Park in Botswana
+
+
+20 Chobe National Park is a popular safari destination in Botswana. This is thanks its diverse and abundant wildlife, awe-inspiring landscapes and awesome Chobe River.</textOnly>
+    <type>custom</type>
+</EmailTemplate>

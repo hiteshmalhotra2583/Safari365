@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Photobook_Offer_Letterhead_Safari365</letterhead>
+    <name>External: Is there a problem with your photo upload photographs DE</name>
+    <style>freeForm</style>
+    <subject>Safari365: Is there a problem uploading your photographs?</subject>
+    <textOnly>Dear {!Account.FirstName},
+
+we notice you have started uploading your photographs for your complimentary photobook, but the process has not been completed yet.
+
+Please let us know if we can be of assistance or if you would prefer to use the services of Dropbox or Google Drive to send us these photograph?
+
+Alternatively, complete the process at https://www.safari365.com/members/login/{!Opportunity.Members_Club_ID__c}
+
+Kind regards,
+
+Safari365
+Photo Book Department</textOnly>
+    <type>html</type>
+</EmailTemplate>

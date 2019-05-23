@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Lead Assignment</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>marcus@safari365.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <booleanFilter>1 OR 2 OR 3</booleanFilter>
+            <criteriaItems>
+                <field>Lead.Website_origin__c</field>
+                <operation>equals</operation>
+                <value>Web: safari365.com.au</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.Website_origin__c</field>
+                <operation>equals</operation>
+                <value>Web: safari365.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.Website_origin__c</field>
+                <operation>equals</operation>
+                <value>Web: southafrica365.com</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>marcus@safari365.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <booleanFilter>1 OR  2</booleanFilter>
+            <criteriaItems>
+                <field>Lead.Website_origin__c</field>
+                <operation>equals</operation>
+                <value>Web:safari365.com.tur.br</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.Website_origin__c</field>
+                <operation>contains</operation>
+                <value>safari365.com.tur.br</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>marcus@safari365.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.Website_origin__c</field>
+                <operation>equals</operation>
+                <value>Web: safari365.com</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

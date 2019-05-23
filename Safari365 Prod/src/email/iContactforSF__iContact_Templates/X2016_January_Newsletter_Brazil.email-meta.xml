@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2016 January Newsletter (Brazil)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2016 January Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Safari365: Eu abençôo as chuvas na África!</subject>
+    <textOnly>Se não conseguir visualizar clique aqui
+
+Romance, amor e momentos inesquecíveis na África
+Olá [fname],
+
+Me deparei com o vídeo destes dois pombinhos hollywoodianos, Kristen Bell e seu marido Dax Shepard, se divertindo aqui no continente e achei o resumo perfeito de amor e África. Divirta-se com a sincronização labial
+
+que eles fizeram da clássica música &quot;África&quot;, cantada pela banda Toto.
+
+Clique na imagem abaixo para abrir o video.
+
+Desejo a todos muito amor em 2016!
+
+~  Marcus Brain, fundador Safari365 ~
+
+Safari365
+Old Marine Dr Foreshore,
+Cape Town, 8000, South Africa
+
+Safari365.com/pt
+
+View in browser</textOnly>
+    <type>custom</type>
+</EmailTemplate>

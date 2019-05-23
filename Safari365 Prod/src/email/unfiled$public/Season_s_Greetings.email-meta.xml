@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Season&apos;s Greetings</name>
+    <style>none</style>
+    <subject>Season&apos;s Greetings from 365 Tours &amp; Safaris</subject>
+    <textOnly>Dear {!Contact.FirstName} , 
+
+As another year draws to a close, I would like to take this opportunity to thank you for your tremendous continued support in allowing us to share Africa with you. 
+
+The trying global economic times brought great challenges as well as opportunities. We responded to changes in demand of shorter lead times and varied value for money prestige destinations by working very closely with our suppliers and were able to give wonderful tailored travel itineraries to over 1500 travellers in 2011.
+
+ Staff expertise and culture at the 365 Group have never been better. Our Southern Africa consultants did extensive inspections of lodges in Kruger, Botswana, the Garden Route and Zambia, while our East Africa team travelled in Kenya, Uganda and climbed Mount Kilimanjaro in September! Our ability to satisfy your Southern and East Africa dreams at highly competitive prices is only an email away. 
+
+ Our brand new Brazilian operation, under Eliane Barzilay based in Sao Paolo, provides dedicated service to our Brazilian clients. We have also partnered with a local ground handler in Arusha, Tanzania to guarantee you a seamless travel experience, and additional technological improvements like interactive mapping go one step further in bringing the planning process of your holiday to life. If you haven&apos;t yet joined our &apos;365 family&apos; on Facebook, please do so by clicking here. 
+
+Africa remains an incredible destination with rich offerings in diversity and attractions; we hope to welcome you again in 2012.
+
+We wish you the best over the Festive Season and a happy New Year!! 
+
+Marcus Brain,
+Managing Director</textOnly>
+    <type>custom</type>
+</EmailTemplate>

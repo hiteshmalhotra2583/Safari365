@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>&gt;7-day Opportunity No Response - Manager Weekly Followup</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>3.5. STAGE = TL QUOTATION</name>
+    <style>freeForm</style>
+    <subject>Safari365: Sobre sua viagem para a África planejada para {!Opportunity.Arrival_Date__c}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+I am {!Opportunity.OwnerFullName}’s Manager and have been overseeing your holiday planning from inception.
+
+Africa is an incredible, life-enriching destination, and for that reason we tailor-make all of our itineraries to fit your expectations. It is important you are getting what you need in making this the best possible trip to Africa.
+
+If you feel you are not getting what you need from Safari365 ( be it price, style/type of accommodation, routing or included activities), please let me know. It is up to us to make this dream trip your reality.
+
+Kind regards,
+{!User.Name}
+{!User.Title}
+{!User.Email}
+
+Visit Your Members Club: www.safari365.com/members/login/{!Opportunity.Members_Club_ID__c}
+Read our Blog: www.safari365.com/blog</textOnly>
+    <type>html</type>
+</EmailTemplate>

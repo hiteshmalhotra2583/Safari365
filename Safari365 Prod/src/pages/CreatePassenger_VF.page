@@ -1,0 +1,69 @@
+<apex:page showHeader="false" sidebar="false" standardController="Passenger__c"  extensions="CreatePassengerController"  action="{!showPopup}" docType="html-5.0">
+   
+    <style type="text/css">
+        .custPopup{
+            background-color: white;
+            border-width: 2px;
+            border-style: solid;
+            z-index: 9999;
+            left: 50%;
+            padding:10px;
+            position: absolute;
+            /* These are the 3 css properties you will need to change so the popup 
+            displays in the center of the screen. First set the width. Then set 
+            margin-left to negative half of what the width is. You can add 
+            the height property for a fixed size pop up if you want.*/
+            width: 500px;
+            margin-left: -250px;
+            top:100px;
+        }
+        .popupBackground{
+            background-color:black;
+            opacity: 0.20;
+            filter: alpha(opacity = 20);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 9998;
+        }
+
+    </style>
+    
+    <apex:form html-novalidate="novalidate">
+        <apex:outputPanel id="tstpopup">
+         <apex:outputPanel styleClass="popupBackground" layout="block" rendered="{!displayPopUp}"/>
+            <apex:outputPanel styleClass="custPopup" layout="block" rendered="{!displayPopUp}">
+        <table style="width: 400px; line-height:30px;">
+            <tr><td></td></tr>
+            <tr >
+                <td style="padding-left: 17px;">Passenger Type: </td>
+                <td style="padding-left: 17px;"> 
+                    <apex:selectList id="passengertypes" value="{!SelectedPassengerType}" size="1" required="true">
+                        <apex:selectOptions value="{!PassengerTypes}"/>
+                    </apex:selectList>
+                </td>
+            
+            </tr>
+            <tr >
+            <td style="padding-left: 17px;">Number Of Passenger: </td>
+                <td style="padding-left: 17px;">
+                    <apex:selectList id="passengernumbers" value="{!SelectedPassengerNumber}" size="1" required="true">
+                      <apex:selectOptions value="{!PassengerNumbers}"/>
+                    </apex:selectList></td>
+            </tr>
+            
+            <tr>
+                <td style="width:200px;align:center" align="right">
+                    <apex:commandButton title="Save" value="Save" action="{!Save}"/>
+                    &nbsp;&nbsp;&nbsp;
+                    <apex:commandButton title="Cancel" value="Cancel" action="{!Cancel}"/>
+                </td>
+            </tr>
+        </table>
+        </apex:outputPanel>
+        
+        </apex:outputPanel>
+    </apex:form>
+</apex:page>

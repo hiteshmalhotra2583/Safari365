@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2015 October Newsletter (Brazil)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 October Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Safari365: África do Sul, um espetáculo à parte!</subject>
+    <textOnly>Se não conseguir visualizar clique aqui
+A espetacular África do Sul
+
+​Olá [fname],
+
+Quando se trata de destinos africanos, poucos são capazes de integrar tanta diversidade cultural, visual e funcional como a África do Sul.
+
+Da majestosa Table Mountain aos grandes safáris em busca dos Big 5, aqui o mundo se resume dentro de um só paíse com serviços de classe mundial.
+
+Por isso, este mês focamos em trazer a você tudo o que faz da África do Sul o seu próximo destino e as vantagens de reservar hoje mesmo sua viagem conosco – além de tantas outras novidades.
+
+Prontos para embarcar? Desejamos a todos uma excelente jornada!
+
+
+~ Marcus Brain, fundador Safari365 ~</textOnly>
+    <type>custom</type>
+</EmailTemplate>

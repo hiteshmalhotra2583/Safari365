@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Ask client to login and upload review and photobook</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>External: Request client to upload photographs and reviews Brazil</name>
+    <style>freeForm</style>
+    <subject>Safari365: Reveja sua experiência na África e receba seu photobook</subject>
+    <textOnly>Olá {!Account.FirstName},
+
+Obrigado mais uma vez por escolher viajar com a Safari365, tornando-se um membro de nossa comunidade de viajantes.
+
+Reveja sua experiência na África
+
+Gostaríamos muito de saber seus comentários sobre nosso serviço, assim como sobre os hotéis e lodges que você se hospedou. Por gentileza, dedique um tempo para completar a sua análise em nosso Members Club.
+
+
+Receba seu Photo book da Safari365
+
+Nós adoramos criar lembranças duradouras. Por isso, oferecemos como cortesia aos nossos clientes um livro de fotos da viagem. Basta seguir as instruções do “photo book” e carregar suas fotos no Members Club.
+
+Clique abaixo para visitar o Members Club e dar continuidade ao processo:
+
+www.safari365.com/members/login/{!Opportunity.Members_Club_ID__c}
+
+
+Esperamos recebê-la novamente na África,
+
+
+
+Safari365</textOnly>
+    <type>html</type>
+</EmailTemplate>

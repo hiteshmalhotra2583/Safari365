@@ -1,0 +1,13 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font size="2" style="color: rgb(0, 0, 0); font-family: arial;"><font face="Arial,Sans-Serif" style="">Olá {!Contact.FirstName}, <br><br></font><span style="line-height: 115%; font-family: Arial, sans-serif;">Sou gerente da</span><font face="Arial,Sans-Serif" style="">&nbsp;{!Opportunity.OwnerFullName}&nbsp;</font><span style="line-height: 115%; font-family: Arial, sans-serif;">e tenho supervisionado o planejamento da sua viagem
+desde o início.<span class="apple-converted-space">&nbsp;</span><br></span><font face="Arial,Sans-Serif" style=""><br></font><span style="line-height: 115%; font-family: Arial, sans-serif;">A África é um destino incrível e enriquecedor e é por
+este motivo que customizamos todos os itinerários com o objetivo de responder às suas
+expectativas. É importante que esteja recebendo o atendimento adequado para que sua viagem seja perfeita. Para isso, também me coloco à sua disposição. <br>
+<br>
+Se não entendemos o que precisa ou se necessita de alterações no orçamento
+(preço, itinerário, estilo / tipo de acomodação ou inclusão de serviços), peço
+a gentileza de nos informar. Nossa missão é tornar seu sonho, realidade.</span><font face="Arial,Sans-Serif" style=""><br><br>Atenciosamente,</font></font><div style="color: rgb(0, 0, 0); font-family: arial;"><font face="Arial,Sans-Serif" size="2"><br></font><font face="Arial,Sans-Serif" size="2"><font size="2"><span style="font-family: Arial,Sans-Serif;"><span style="font-weight: bold;">{!User.Name}</span><br style="font-weight: bold;"><span style="font-weight: bold;">{!User.Title}</span></span></font></font></div><div style=""><span style="color: rgb(0, 0, 0); font-family: Arial, sans-serif; background-color: rgb(255, 255, 255);"><font size="2">{!User.Phone}</font></span><font face="Arial,Sans-Serif" size="2" style=""><font size="2" style="color: rgb(0, 0, 0); font-family: arial;"><span style="font-family: Arial,Sans-Serif;"><br>{!User.Email}<br><br></span></font><b style="color: rgb(0, 0, 0); font-family: arial;">Visite o Members Club:&nbsp;</b>https://www.safari365.com/mc/?opp={!Opportunity.Id}<font face="arial">&nbsp;</font><br><font face="arial">Leia nosso Blog: www.safari365.com/pt/blog </font><br></font></div>]]></td>
+</tr>
+</table>

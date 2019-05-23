@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Welcome to Members Club - Manually Created</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>External: Welcome to Members Club (Lead manually created)</name>
+    <style>freeForm</style>
+    <subject>Safari365: Bem-vindo ao Members Club</subject>
+    <textOnly>Olá {!Lead.FirstName},
+
+Gostaríamos de dar as boas vindas em nome da Safari365 e do Members Club – serviço exclusivo oferecido aos nossos clientes!
+
+A Safari365 tem grande satisfação em proporcionar experiências únicas no mágico continente africano e estaremos supervisionando sua viagem do planejamento à realização.
+
+Para começar, clique aqui para acessar o Members Club, onde poderá ler comentários de clientes que já viajaram conosco e conhecer melhor sua consultora de viagem, {!Lead.OwnerFullName}.
+
+No Members Club, você também encontrará informações sobre o nosso photobook (um livro de fotos de sua viagem de alta qualidade), cortesia exclusiva da Safari365!
+
+Estamos ansiosos para recebê-la do outro lado do Atlântico!
+
+
+Safari365
+
+Informações adicionais:
+Members Club link: www.safari365.com/members/login/{!Lead.Members_Club_ID__c}
+
+Telefone de contato {!Lead.OwnerFirstName}: {!Lead.OwnerPhone}
+Email {!Lead.OwnerFirstName}: {!Lead.OwnerEmail}
+{!Lead.Consultant_Image__c}
+
+
+_______________________________________________________________________________________________
+
+Safari365.com
+
+Brasil: +55 11 2476 1102 África do Sul: +27 21 4181325
+
+www.safari365.com/pt
+
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,3 @@
+<aura:event type="APPLICATION" description="This event is used to set the start date in service line item component" >
+    <aura:attribute name="itemDate" type="String"/>
+</aura:event>

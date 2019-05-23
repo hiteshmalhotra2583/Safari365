@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2015 September Newsletter (Brazil)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 September Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Safari365: O Verão está no Ar</subject>
+    <textOnly>Se não conseguir visualizar clique aqui
+
+Amor de verão não sobe serra,
+
+mas pega avião!
+
+​Olá [fname],
+
+
+O verão está pronto para nos abraçar aqui na Cidade do Cabo e estamos ansiosos pela sua chegada. A suave brisa que toca a cidade já é suficiente para fazer você se apaixonar. E como desejamos mergulhar fundo em um amor de verão, já começamos a vestir roupas mais leves e sentir o incrível clima que toma conta do sul da África durante esta época do ano.
+
+
+Das lindas praias da Cidade do Cabo às plácidas águas do Chobe, há muita coisa a ser descoberta aqui na Mama África. Eu mesmo já comecei a esboçar um itinerário para o meu verão e todos os itens que trazemos neste boletim informativo me ajudam neste caloroso sonho. Minhas havaianas brasileiras estão prontas para desbravar ainda mais este continente do qual sou completamente apaixonado.
+
+
+Convido vocês a sonharem comigo conferindo as novidades, últimas publicações do blog e ofertas especiais da Safari365.
+
+
+Espero por você deste lado do Atlântico.
+
+
+~  Marcus Brain, fundador da Safari365 ~
+
+
+Safari365
+Old Marine Dr Foreshore,
+Cape Town, 8000, South Africa</textOnly>
+    <type>custom</type>
+</EmailTemplate>

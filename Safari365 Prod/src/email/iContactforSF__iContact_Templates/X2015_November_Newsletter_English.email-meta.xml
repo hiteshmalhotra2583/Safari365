@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2015 November Newsletter (English)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 November Newsletter (English)</name>
+    <style>none</style>
+    <subject>Sunny Days and Warm Nights</subject>
+    <textOnly>Days that start with sunshine and end with moonlight
+
+Dear [fname],
+
+It’s that time of the year again when we can look forward to much deserved time off, with family and friends.
+
+Personally, I can’t think of a better time. As the founder of a leading safari operator based in Cape Town, I get to wake up every morning with the sun rising over Table Mountain. What could be better? Maybe a Kruger safari… but let me not digress.
+
+If you are inspired to see Africa in 2016 and would like some assistance –browse our not to be missed tours below. And if you just need a bit of wanderlust inspiration, we have plenty of that – the guest photo of the month being a sure winner.
+
+Safe travels!
+
+~  Marcus Brain, Safari365 founder  ~</textOnly>
+    <type>custom</type>
+</EmailTemplate>

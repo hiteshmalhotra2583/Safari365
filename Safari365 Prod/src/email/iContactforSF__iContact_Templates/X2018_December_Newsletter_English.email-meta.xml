@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Best in African Travel 2019 + best in travel video</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2018 December Newsletter (English)</name>
+    <style>none</style>
+    <subject>Best in Travel 2019 | Safari365</subject>
+    <textOnly>Our Top African Destinations for 2019
+
+
+Dear [fname],
+
+With a steady rise in travelers visiting Africa and an increase in international flights to Southern and East Africa, Africa is planting itself firmly on the world map as a must-visit destination.
+
+
+2018 saw millions of travelers arrive on African soil in search of authentic experiences - a travel trend which will become even more popular next year. We believe Africa is the perfect place for authentic adventures and that it should be at the top of your travel bucket list in 2019.
+
+
+After collecting footage from trips to our favorite African destinations, we put together our ‘Best in Travel 2019’ video.
+
+
+From tracking the Big Five in Kruger National Park, exploring the vibrant streets of Cape Town and hiking through the forests of Uganda in search of rare mountain gorillas, to navigating the winding waterways of the Okavango Delta in a mokoro, watching the sunrise while floating high above the Serengeti plains in a hot air balloon and seeing the thundering waters of Victoria Falls up close; Africa is filled with unique and genuine experiences.
+
+
+For the Safari365 team, 2018 was a year of making African travel dreams a reality. In 2019, our team will be hard at work ensuring that we keep up the momentum!
+
+
+It was incredibly busy behind the scenes this year. We expanded our teams in Cape Town, Brazil and the USA, and trained a group of brilliant new junior consultants. We also launched our brand new Member’s Club which is set to make planning the perfect trip a seamless, stress-free experience.
+
+
+Thank you to all of our new and return guests who travelled with us this year. To anyone who has yet to experience the wonder of Africa – make 2019 the year for it! We hope to welcome you all to Africa soon!
+
+
+Yours in Safari,
+
+
+The Safari365 Team
+
+
+
+
+“The World is a book, and those who do not travel read only a page.”
+Saint Augustine
+
+
+
+Copyright © 2018 Safari365. All rights reserved</textOnly>
+    <type>custom</type>
+</EmailTemplate>

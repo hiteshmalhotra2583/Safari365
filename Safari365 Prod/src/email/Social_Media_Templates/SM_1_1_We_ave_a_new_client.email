@@ -1,0 +1,13 @@
+{!Opportunity.OwnerFullName} has just confirmed a safari for {!Opportunity.Account}
+
+Reach out to them with a Social Media with a like request in Facebook ( Check if they already like Safari365 pages) 
+
+Send to the correct Social Media Channel based on 
+{!Account.Website_Origin_c__c}
+
+{!Opportunity.Name}
+{!Account.Name}
+{!Account.Id}
+{!Account.PersonEmail}
+{!Account.Phone}
+{!Account.Country_of_Residence__c}

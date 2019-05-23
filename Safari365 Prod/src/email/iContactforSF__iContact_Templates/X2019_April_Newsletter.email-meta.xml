@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>East Africa Tours  - Kenya &amp; Tanzania</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2019 April Newsletter</name>
+    <style>none</style>
+    <subject>Experience East Africa’s Safari Highlights</subject>
+    <textOnly>Experience East Africa&apos;s Safari Highlights
+
+
+Dear [fname],
+
+East Africa is celebrated as being home to the world’s greatest safari destinations namely Tanzania’s Serengeti and Ngorongoro Crater, and Kenya’s Masai Mara.
+
+It is now easier than ever to experience these destinations with our newly launched small group safaris.
+
+With selected departure dates for both Tanzania and Kenya, our guests now have an opportunity to experience the highlights of these spectacular wildlife destinations, at a reduced cost.
+
+Furthermore, certain departure dates are back to back to allow for an all-encompassing experience of both Kenya and Tanzania!
+
+With a maximum of 6 guests per tour, 4 star graded accommodation throughout, as well as a dedicated safari guide, these itineraries promise a truly memorable experience.
+
+Due to limited availability and popular demand, we suggest your book your place on one of our special small group safaris today!
+
+
+Yours in Safari,
+
+
+The Safari365 Team
+
+
+Learn more about our team here
+
+
+
+
+
+Tanzania&apos;s Safari Highlights
+
+
+Spend 8 nights on a small group departure safari visiting famed wildlife destinations including the Ngorongoro Crater and the Serengeti National Park, while staying in 4 star accommodation.
+
+Prices from $4960 per person sharing.
+
+
+Read more on our website &gt;&gt;
+
+
+
+Classic Kenya Safari
+
+
+Discover the best safari destinations in Kenya on this 9 night small group departure safari, with stops at the Masai Mara, Samburu National Park and more! Enjoy 4 star accommodation in fantastic locations.
+
+Prices from $3390 per person sharing.​
+
+Read more on our website&gt;&gt;
+
+
+
+“The World is a book, and those who do not travel read only a page.”
+Saint Augustine
+
+
+Copyright © 2019 Safari365. All rights reserved</textOnly>
+    <type>custom</type>
+</EmailTemplate>

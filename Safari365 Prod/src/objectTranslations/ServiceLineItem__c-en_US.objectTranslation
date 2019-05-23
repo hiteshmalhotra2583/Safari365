@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Service Line Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ServiceLine Items</value>
+    </caseValues>
+    <fields>
+        <label><!-- Basis --></label>
+        <name>Basis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkin Time --></label>
+        <name>Checkin_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Notes --></label>
+        <name>ClientNotes__c</name>
+    </fields>
+    <fields>
+        <label><!-- T&amp;C&apos;s --></label>
+        <name>Crm_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day Order --></label>
+        <name>Day_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Details Complete --></label>
+        <name>Details_Complete__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if you have manually entered Nett service costs and do not want them overwritten by the database --></help>
+        <label><!-- Do Not Override NetCost --></label>
+        <name>Do_Not_Override_NetCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration --></label>
+        <name>Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- EmailForConfirmedStatus --></label>
+        <name>EmailForConfirmedStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- EmailForProvisionallyBooked --></label>
+        <name>EmailForProvisionallyBooked__c</name>
+    </fields>
+    <fields>
+        <label><!-- EmailForRequestConfirmation --></label>
+        <name>EmailForRequestConfirmation__c</name>
+    </fields>
+    <fields>
+        <label><!-- EmailForRequestProvisionalBooking --></label>
+        <name>EmailForRequestProvisionalBooking__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Terminal --></label>
+        <name>End_Terminal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance COS in USD --></label>
+        <name>Insurance_COS_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance COS in ZAR --></label>
+        <name>Insurance_COS_in_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance  Sale in USD --></label>
+        <name>Insurance_Sale_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance  Sale in ZAR --></label>
+        <name>Insurance_Sale_in_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Friday --></label>
+        <name>Is_Friday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Monday --></label>
+        <name>Is_Monday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Quotation Extra Costing Item --></label>
+        <name>Is_Quotation_Extra_Costing_Item__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Saturday --></label>
+        <name>Is_Saturday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Sunday --></label>
+        <name>Is_Sunday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Thursday --></label>
+        <name>Is_Thursday__c</name>
+    </fields>
+    <fields>
+        <label><!-- MarkUp in Zar --></label>
+        <name>MarkUp_Zar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Markup in USD --></label>
+        <name>MarkupUSD__c</name>
+    </fields>
+    <fields>
+        <label><!-- MarkupEur --></label>
+        <name>Markup_Eur__c</name>
+    </fields>
+    <fields>
+        <label><!-- MarkUp --></label>
+        <name>Markup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mode --></label>
+        <name>Mode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nett Cost in Zar --></label>
+        <name>Nett_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nett Cost in EUR --></label>
+        <name>Nett_Cost_in_EUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nett Cost in USD --></label>
+        <name>Nett_Cost_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- NumberOfDays --></label>
+        <name>NumberOfDays__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- OpportunityId --></label>
+        <name>OpportunityId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner Email --></label>
+        <name>Opportunity_Owner_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override details --></label>
+        <name>Override_details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Reference --></label>
+        <name>Parent_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photobooks COS in USD --></label>
+        <name>Photobooks_COS_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photobooks COS in ZAR --></label>
+        <name>Photobooks_COS_in_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photobooks Sale in USD --></label>
+        <name>Photobooks_Sale_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photobooks Sale in ZAR --></label>
+        <name>Photobooks_Sale_in_ZAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provisional Booking Expiry Date --></label>
+        <name>Provisional_Booking_Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation Line --></label>
+        <name>QuotationLine__c</name>
+        <relationshipLabel><!-- ServiceLine Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reservation Number --></label>
+        <name>Reservation_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Room Configuration --></label>
+        <name>Room_Configuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sale in Eur --></label>
+        <name>Sale_in_Eur__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sale in USD --></label>
+        <name>Sale_in_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected OPT Code --></label>
+        <name>Selected_OPT_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected Supplier Id --></label>
+        <name>Selected_Supplier_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceLocation --></label>
+        <name>ServiceLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Date --></label>
+        <name>Service_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service --></label>
+        <name>Service_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Duration --></label>
+        <name>Service_Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lock --></label>
+        <name>Service_Line_Lock__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Service_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Type --></label>
+        <name>Service_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Terminal --></label>
+        <name>Start_Terminal__c</name>
+    </fields>
+    <fields>
+        <label><!-- SupplierName --></label>
+        <name>SupplierName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Code --></label>
+        <name>Supplier_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Notes --></label>
+        <name>Supplier_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ticket Class --></label>
+        <name>Ticket_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- TotalServiceDuration --></label>
+        <name>TotalServiceDuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sale in Zar --></label>
+        <name>Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day of the week --></label>
+        <name>WeekDays__c</name>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation><!-- Friday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation><!-- Monday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saturday</masterLabel>
+            <translation><!-- Saturday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunday</masterLabel>
+            <translation><!-- Sunday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thursday</masterLabel>
+            <translation><!-- Thursday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuesday</masterLabel>
+            <translation><!-- Tuesday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wednesday</masterLabel>
+            <translation><!-- Wednesday --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Wetu End Location Id --></label>
+        <name>Wetu_End_Location_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Location --></label>
+        <name>Wetu_End_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Time --></label>
+        <name>Wetu_End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wetu Start Location Id --></label>
+        <name>Wetu_Start_Location_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Location --></label>
+        <name>Wetu_Start_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start time --></label>
+        <name>Wetu_Start_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- is Tuesday --></label>
+        <name>is_Tuesday__c</name>
+    </fields>
+    <fields>
+        <label><!-- is Wednesday --></label>
+        <name>is_Wednesday__c</name>
+    </fields>
+    <layouts>
+        <layout>Consultant Service Line Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Supplier Details --></label>
+            <section>Supplier Details</section>
+        </sections>
+        <sections>
+            <label><!-- Wetu Fields --></label>
+            <section>Wetu Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service Line Item Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ServiceLine Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Rate details --></label>
+            <section>Rate details</section>
+        </sections>
+        <sections>
+            <label><!-- Supplier Details --></label>
+            <section>Supplier Details</section>
+        </sections>
+        <sections>
+            <label><!-- Wetu Fields --></label>
+            <section>Wetu Fields</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please provide the Reservation Number --></errorMessage>
+        <name>Check_Status_Confirmed</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Service_Line_Item --></label>
+        <name>New_Service_Line_Item</name>
+    </webLinks>
+</CustomObjectTranslation>

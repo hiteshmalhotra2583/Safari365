@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Advise client we have sent the photobook (Brazil)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>External: We have sent your photobook (Brazil)</name>
+    <style>freeForm</style>
+    <subject>Safari365: Seu photobook foi enviado com sucesso!</subject>
+    <textOnly>Dear {!Opportunity.Lead_First_Name__c},
+
+Please be advised that we have sent your photo book via registered airmail to the following address:
+
+{!Account.ShippingAddress}
+{!Account.Delivery_Notes__c}
+
+Please expect a delivery duration of approximately 3 weeks until your photobook is delivered, and do not hesitate to contact us should you require any further assistance
+
+
+Yours in safari,
+
+Safari365 Photo Book Department
+
+Login to your Members Club:
+www.safari365.com/members/login/{!Opportunity.Members_Club_ID__c}</textOnly>
+    <type>html</type>
+</EmailTemplate>

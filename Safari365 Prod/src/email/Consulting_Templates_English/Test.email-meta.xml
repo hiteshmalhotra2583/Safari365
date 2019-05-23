@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>Test</name>
+    <style>freeForm</style>
+    <subject>test</subject>
+    <textOnly>{!Lead.Consultant_Image__c}
+
+{!User.FirstName}Â {!User.LastName}
+{!User.Title}
+A proud member of Travel Smart Crew
+p: +27 21 4181325 (ext. 209) m: +27 83 325 1619
+a: #3 Old Marine Drive, Cape Town, South Africa
+w: www.safari365.com e: {!Lead.OwnerEmail}
+
+{!Lead.Footer_Image__c}</textOnly>
+    <type>html</type>
+</EmailTemplate>

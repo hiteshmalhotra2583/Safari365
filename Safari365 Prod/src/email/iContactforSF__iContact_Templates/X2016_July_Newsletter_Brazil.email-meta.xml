@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2016 July Newsletter (Brazil)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2016 July Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Newsletter Safari365 Julho 2016 - Descubra Botsuana</subject>
+    <textOnly>Olá [fname],
+
+2016 tem sido um ano de grandes mudanças para nós da Safari365. Temos muitas novidades após a reformulação da nossa marca, um novo design já está no ar com o intuito de inspirar ainda mais seus planos de conhecer e desbravar o continente africano.
+
+Enquanto nosso time de Marketing abria portas para um novo visual, nossos consultores caçadores de grandes destinos faziam as malas para se aventurarem em Botsuana com o objetivo de descobrir os grandes segredos do país. Foram mais de 60 lodges visitados em 2 semanas, cobrindo destinos como o Okavango Delta, Savuti, Linynati e Moremi. Estamos ansiosos para compartilhar com vocês tudo o que descobrirmos.
+
+No próximo mês, celebraremos nosso aniversário de 10 anos e viremos com mais novidades e grandes oportunidades aqui. Por isso, fique de olhos bem abertos em nossos próximos boletins informativos.
+
+Por hora, desejamos a todos ótimas viagens!
+
+
+Marcus Brain, fundador Safari365</textOnly>
+    <type>custom</type>
+</EmailTemplate>

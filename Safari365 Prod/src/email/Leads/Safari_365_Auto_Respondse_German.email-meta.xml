@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Safari 365 Auto Response (German)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>Safari 365 Auto Response (German)</name>
+    <style>freeForm</style>
+    <subject>Safari365 – Vielen Dank für Ihre kürzliche Afrage</subject>
+    <textOnly>Sehr geehrter Herr / Sehr geehrte Frau {!Lead.Surname},
+
+Vielen Dank für Ihre Anfrage. Dies ist eine automatische Antwort um zu bestätigen dass wir Ihre Anfrage erhalten haben. Einer unserer Reisespezialisten wir Sie innerhalb von 24 Stunden* kontaktieren.
+
+Als kleine Einleitung, Safari365 ist ein marktführender Reiseveranstalter der sich NUR auf Reisen in Afrika spezialisiert. Unsere Organisation ist seit 2006 tätig und wir haben jährlich über 2000 zufriedene Kunden die mit uns reisen. Wir sind mit SATSA (South Africa Tourism Services Association) verbunden um Ihren Seelenfrieden zu gewährleisten.
+
+Als afrikanischer Reisespezialist verkaufen wir auch nur Produkte und Dienstleistungen die wir persönlich kennen und mit denen wir Erfahrungen aus erster Hand gemacht haben. Wir maßschneidern Ihren Urlaub um Ihnen eine sichere und unvergessliche Erfahrung sicherzustellen. Lesen Sie unser Kunden-Feedback hier.
+
+Aufgrund des Geschäftsvolumens das wir jährlich erzeugen und da Sie direkt direkt mit uns zu tun haben, können wir den Zwischenhändler auslassen und Ihnen die besten Preise weitervermitteln (wir sind im Durchschnitt um 5-15% günstiger wie wenn Sie direkt bei den Lodges und Hotels buchen würden).
+
+Wenn Sie zu Ihrer Anfrage noch etwas hinzufügen möchten, bitte zögern Sie nicht uns ein E-Mail an info@safari365.com zu schicken, alternativ können Sie uns auch auf folgenden Telefonnummern kontaktieren:
+
+•    Australien: 180 000 4296
+•    Vereinigte Staaten: 187 7843 1621
+•    Großbritannien: 080 823 44485
+•    Südafrika: +27 21 418 1325
+•    Brasilien: +55 11 2476 1102
+
+Ihre Afrikareise beginnt hier.Sonnige Grüße aus Kapstadt, Safari 365
+
+_______________________________________________________________________________________________
+
+Safari365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK  080 823 44485  USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325  Fax: 086 658 1713
+www.safari365.com/de
+_________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

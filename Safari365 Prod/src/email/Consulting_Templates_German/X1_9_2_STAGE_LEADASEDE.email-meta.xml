@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Introducing African Safari Excellence</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>AfricanSafariExcellence</letterhead>
+    <name>1.9.2 STAGE = LEAD DE</name>
+    <style>freeForm</style>
+    <subject>African Safari Excellence: Ihr Partner für den Verkauf von afrikanischen Reisen</subject>
+    <textOnly>Dear {!Lead.FirstName},
+Thank you for the enquiry and the opportunity to work with &apos;AGENCY NAME&apos;.
+
+I am referring you to our dedicated business-to-business partner, African Safari Excellence www.ase.co.tz
+
+African Safari Excellence is a fully fledged ground handler with offices in Tanzania and South Africa, providing bespoke travel itineraries to agencies whose clients are travelling to Kenya, Tanzania, Uganda or Rwanda.
+
+African Safari Excellence works with a number of leading international travel agencies and will be in contact ASAP to assist you with this request
+
+Kind regards,
+
+{!User.FirstName} {!User.LastName}
+
+info@ase.co.tz
+
+Tel: +27 (0)21 418 5170
+
+
+
+Agent Details:
+
+{!Lead.Name}
+
+{!Lead.Email}
+
+{!Lead.Phone}
+
+{!Lead.Country}
+
+{!Lead.Client_Comments__c}
+
+{!Lead.Duration__c}
+
+{!Lead.Budget_or_Star_Rating__c}</textOnly>
+    <type>html</type>
+</EmailTemplate>

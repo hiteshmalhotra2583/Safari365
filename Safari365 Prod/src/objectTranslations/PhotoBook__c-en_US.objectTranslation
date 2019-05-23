@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PhotoBook</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PhotoBooks</value>
+    </caseValues>
+    <fields>
+        <label><!-- Delivery Notes --></label>
+        <name>Delivery_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- May we use your  photographs --></label>
+        <name>May_we_use_your_photographs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- PhotoBooks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PhotoBook Stage --></label>
+        <name>PhotoBook_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Not Loaded</masterLabel>
+            <translation><!-- Not Loaded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation><!-- Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uploaded</masterLabel>
+            <translation><!-- Uploaded --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Photobook Title --></label>
+        <name>Photobook_Title__c</name>
+    </fields>
+    <layouts>
+        <layout>PhotoBook Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

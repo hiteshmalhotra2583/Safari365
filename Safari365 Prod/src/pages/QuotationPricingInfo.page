@@ -1,0 +1,16 @@
+<apex:page id="PP_LightningOut" showHeader="false" sideBar="false" StandardController="Quotations__c">
+    <apex:includeLightning />
+    <div id="componentPosition" />
+    
+    <script>
+    $Lightning.use("c:QuotationPricingDetail", function() {
+    $Lightning.createComponent("c:QuotationPricingDetails",
+    {"quotationId" : '{!Quotations__c.Id}' },
+    "componentPosition",
+    function(cmp) {
+    // do some stuff
+        });
+    });
+
+ </script>
+</apex:page>

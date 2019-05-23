@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Wetu Stage Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Wetu Stage Mappings</value>
+    </caseValues>
+    <fields>
+        <label><!-- SF Mapping --></label>
+        <name>SF_Mapping__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wetu Mapping Value --></label>
+        <name>Wetu_Mapping_Value__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

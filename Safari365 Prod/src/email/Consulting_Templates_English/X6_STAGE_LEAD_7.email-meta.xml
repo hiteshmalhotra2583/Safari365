@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>&gt;7-day Lead No Response - Manager Weekly Followup</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>1.9.3 STAGE = LEAD</name>
+    <style>formalLetter</style>
+    <subject>{!User.Division} - {!Lead.FirstName} {!Lead.LastName}&apos;s Safari to Africa</subject>
+    <textOnly>Dear {!Lead.FirstName},
+I am the Team Leader for our Sales Consultants and have been monitoring the early stages of planning your safari to Africa.
+
+As {!Lead.OwnerFirstName} has not heard from you in some time, I would like to lend my services to make sure you are getting what you need. Africa is an incredible, life-enriching destination, so it is important we understand your needs to build your perfect African experience.
+
+If we have missed the mark or your travel plans have changed, please let me know so we can make the necessary amendments. We are keen on making your African dream a reality
+
+I look forward to hearing from you
+
+Kind regards,
+
+
+
+{!User.FirstName} {!User.LastName}
+
+{!User.Title}
+{!User.Email}
+
+
+
+Visit Your Members Club: https://www.safari365.com/members/login/{!Lead.Members_Club_ID__c}
+
+
+
+Get to know us better! Read our blog
+_______________________________________________________________________________________________
+
+Safari365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK 080 823 44485 USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325 Fax: 086 658 1713
+www.safari365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

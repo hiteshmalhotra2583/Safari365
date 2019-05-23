@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SOD</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SODs</value>
+    </caseValues>
+    <fields>
+        <label><!-- ADULT_FROM --></label>
+        <name>ADULT_FROM__c</name>
+    </fields>
+    <fields>
+        <label><!-- ADULT_TO --></label>
+        <name>ADULT_TO__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHILD_FROM --></label>
+        <name>CHILD_FROM__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHILD_TO --></label>
+        <name>CHILD_TO__c</name>
+    </fields>
+    <fields>
+        <label><!-- CRM_Lookup --></label>
+        <name>CRM_Lookup__c</name>
+        <relationshipLabel><!-- SODs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DOUBLE_AD_MAX --></label>
+        <name>DOUBLE_AD_MAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- DOUBLE_AVAIL --></label>
+        <name>DOUBLE_AVAIL__c</name>
+    </fields>
+    <fields>
+        <label><!-- DOUBLE_MAX --></label>
+        <name>DOUBLE_MAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- INCLUDE_FRI --></label>
+        <name>INCLUDE_FRI__c</name>
+    </fields>
+    <fields>
+        <label><!-- INCLUDE_MON --></label>
+        <name>INCLUDE_MON__c</name>
+    </fields>
+    <fields>
+        <label><!-- INCLUDE_SAT --></label>
+        <name>INCLUDE_SAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- INCLUDE_SUN --></label>
+        <name>INCLUDE_SUN__c</name>
+    </fields>
+    <fields>
+        <label><!-- INCLUDE_THU --></label>
+        <name>INCLUDE_THU__c</name>
+    </fields>
+    <fields>
+        <label><!-- INCLUDE_TUE --></label>
+        <name>INCLUDE_TUE__c</name>
+    </fields>
+    <fields>
+        <label><!-- INCLUDE_WED --></label>
+        <name>INCLUDE_WED__c</name>
+    </fields>
+    <fields>
+        <label><!-- INFANT_FROM --></label>
+        <name>INFANT_FROM__c</name>
+    </fields>
+    <fields>
+        <label><!-- INFANT_TO --></label>
+        <name>INFANT_TO__c</name>
+    </fields>
+    <fields>
+        <label><!-- OTHER_AD_MAX --></label>
+        <name>OTHER_AD_MAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- OTHER_AVAIL --></label>
+        <name>OTHER_AVAIL__c</name>
+    </fields>
+    <fields>
+        <label><!-- OTHER_MAX --></label>
+        <name>OTHER_MAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- POLICY_TYPE --></label>
+        <name>POLICY_TYPE__c</name>
+    </fields>
+    <fields>
+        <label><!-- QUAD_AD_MAX --></label>
+        <name>QUAD_AD_MAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- QUAD_AVAIL --></label>
+        <name>QUAD_AVAIL__c</name>
+    </fields>
+    <fields>
+        <label><!-- QUAD_MAX --></label>
+        <name>QUAD_MAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- SINGLE_AD_MAX --></label>
+        <name>SINGLE_AD_MAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- SINGLE_AVAIL --></label>
+        <name>SINGLE_AVAIL__c</name>
+    </fields>
+    <fields>
+        <label><!-- SINGLE_MAX --></label>
+        <name>SINGLE_MAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOD_ID --></label>
+        <name>SOD_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- START_FRI --></label>
+        <name>START_FRI__c</name>
+    </fields>
+    <fields>
+        <label><!-- START_MON --></label>
+        <name>START_MON__c</name>
+    </fields>
+    <fields>
+        <label><!-- START_SAT --></label>
+        <name>START_SAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- START_SUN --></label>
+        <name>START_SUN__c</name>
+    </fields>
+    <fields>
+        <label><!-- START_THU --></label>
+        <name>START_THU__c</name>
+    </fields>
+    <fields>
+        <label><!-- START_TUE --></label>
+        <name>START_TUE__c</name>
+    </fields>
+    <fields>
+        <label><!-- START_WED --></label>
+        <name>START_WED__c</name>
+    </fields>
+    <fields>
+        <label><!-- TRIPLE_AD_MAX --></label>
+        <name>TRIPLE_AD_MAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- TRIPLE_AVAIL --></label>
+        <name>TRIPLE_AVAIL__c</name>
+    </fields>
+    <fields>
+        <label><!-- TRIPLE_MAX --></label>
+        <name>TRIPLE_MAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- TWIN_AD_MAX --></label>
+        <name>TWIN_AD_MAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- TWIN_AVAIL --></label>
+        <name>TWIN_AVAIL__c</name>
+    </fields>
+    <fields>
+        <label><!-- TWIN_MAX --></label>
+        <name>TWIN_MAX__c</name>
+    </fields>
+    <layouts>
+        <layout>SOD Layout</layout>
+        <sections>
+            <label><!-- Age Fields --></label>
+            <section>Age Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Days Of the Week Rules --></label>
+            <section>Days Of the Week Rules</section>
+        </sections>
+        <sections>
+            <label><!-- Room and Max PAX Rules --></label>
+            <section>Room and Max PAX Rules</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

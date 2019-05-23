@@ -1,0 +1,5 @@
+<apex:page showHeader="false" sidebar="false" standardController="Passenger__c" >
+    <div style="margin:20px;font-weight:bold;font-size:26px;">
+        Thank you. Your details have been captured!
+    </div>
+</apex:page>

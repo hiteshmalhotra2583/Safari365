@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Payment Instructions (cc Accounts in this email)</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>5.1 STAGE = RAISED INVOICE</name>
+    <style>freeForm</style>
+    <subject>{!User.Division} - {!Account.Name}:预订支付</subject>
+    <type>html</type>
+</EmailTemplate>

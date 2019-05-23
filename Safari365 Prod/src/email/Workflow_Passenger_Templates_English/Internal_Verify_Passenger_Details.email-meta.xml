@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Passenger Details</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Internal: Verify Passenger Details</name>
+    <style>none</style>
+    <subject>Passenger Details for {!Passenger__c.Account__c} Booking:  {!Passenger__c.FirstName__c} {!Passenger__c.Last_Name__c}</subject>
+    <type>text</type>
+</EmailTemplate>

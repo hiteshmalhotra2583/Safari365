@@ -1,0 +1,16 @@
+/**
+ * Created by bmohammed on 02/05/2017.
+ */
+.THIS .collapsed {
+    display:none;
+}
+
+.THIS .spacer {
+    display:inline-block; width:22px;
+}
+.THIS .inputText {
+    width:50px;
+}
+.THIS .longInputText {
+    width:220px;
+}

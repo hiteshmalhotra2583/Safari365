@@ -1,0 +1,21 @@
+*** NEW LEAD ASSIGNMENT NOTIFICATION ***  
+
+Lead Name:  {!Lead.Name}  
+Country: {!Lead.00ND0000003Cyk2}
+Phone number: {!Lead.Phone} 
+
+NB - Call this person first before sending them an email if the phone number exists. 
+
+The Goal: qualify this person and work out 'their African dream' as soon as possible before quoting -  then get them a personal quote (with their soft touches) to make a decision on.
+
+Phone calls are the best way to achieve this. Deals convert at 2X better after phone call versus email only. Log the call - put notes directly into SF.
+
+Good luck!!
+
+Click on the link to access the lead directly:  {!Lead.Link}
+
+Comments/Basket:{!Lead.Basket_Information__c}
+
+{!Lead.Client_Comments__c}
+
+{!Lead.Internal_Comments__c}

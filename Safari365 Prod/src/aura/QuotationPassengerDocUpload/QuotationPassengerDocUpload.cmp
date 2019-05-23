@@ -1,0 +1,104 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="QuotationPassengersController" >
+    <!-- 'showLoadingSpinner' attribute for show/hide the uploading image and msg in aura:if-->
+    <aura:attribute name="showLoadingSpinner" type="boolean" default="false" />
+    <!-- 'fileName' attribute for display the selected file name -->  
+    <aura:attribute name="fileName" type="String" default="No File Selected.." />
+    <!-- Lightning Input with file type and on file change call the 'handleFilesChange' controller --> 
+    <aura:attribute name="passengers" type="Passenger__c[]"  />
+    <aura:attribute name="fileDocResponse" type="Object[]"/>
+    <aura:attribute name="resStatus" type="boolean" default="false" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <div class="slds-col slds-size_1-of-3">
+        Select Passenger 
+        <ui:inputSelect aura:id="passengers" change="{!c.changePassenger}">
+            <ui:inputSelectOption text="" label="--None--" />
+            <aura:iteration items="{!v.passengers}" var="passenger">
+                <ui:inputSelectOption text="{!passenger.Id}" label="{!passenger.PassengerName__c}" />
+            </aura:iteration>
+        </ui:inputSelect>
+    </div>
+    
+    <lightning:input aura:id="fileId" onchange="{!c.handleFilesChange}" type="file" name="file" label="[ Upload File on Google Drive ]" multiple="false"/>
+    <div class="slds-text-body_small slds-text-color_error">{!v.fileName} </div>
+    
+    <!--use aura:if for show-hide the loading spinner image--> 
+    <aura:if isTrue="{!v.showLoadingSpinner}">
+        <div class="slds-text-body_small slds-text-color_error">Uploading... 
+            <img src="/auraFW/resources/aura/images/spinner.gif" class="spinner-img" alt="Loading"/>
+        </div>
+    </aura:if>
+    <br/>
+    <button class="slds-button slds-button_brand" onclick="{!c.doSave}">Upload File</button>
+    <br/><br/>
+    <div class="slds-section slds-is-open">
+        <h3 class="slds-section__title">
+            <button aria-controls="expando-unique-id" aria-expanded="true" class="slds-button slds-section__title-action">
+                <span class="slds-truncate" title="Section Title">GOOGLE DRIVE DOCUMENTS</span>
+            </button>
+        </h3>
+        <div aria-hidden="false" class="slds-section__content" id="expando-unique-id">
+            <aura:if isTrue="{!v.resStatus}">
+                <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+                    <thead>
+                        <tr class="slds-text-title_caps">
+                            <th scope="col">
+                                <div class="slds-truncate" title="Action">Action</div>
+                            </th>
+                            <th scope="col">
+                                <div class="slds-truncate" title="Type">Type</div>
+                            </th>
+                            <th scope="col">
+                                <div class="slds-truncate" title="Title">Title</div>
+                            </th>
+                            <th scope="col">
+                                <div class="slds-truncate" title="Last Modified">Last Modified</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <aura:iteration items="{!v.fileDocResponse}" var="res">
+                            <tr>
+                                <td data-label="Action">
+                                    <button id="{!res.alternateLink}" onclick="{!c.openDoc}" class="slds-button slds-button_brand">Open</button>
+                                    <button id="{!res.id}" onclick="{!c.deleteDoc}" class="slds-button slds-button_destructive">Delete</button>
+                                </td>
+                                <td data-label="Type">
+                                    {!res.mimeType}
+                                </td>
+                                <td data-label="Title">
+                                    {!res.title}
+                                </td>
+                                <td data-label="Last Modifield">
+                                    {!res.modifiedDate}
+                                </td>
+                            </tr>
+                        </aura:iteration>
+                    </tbody>
+                </table>
+                <aura:set attribute="else">
+                    <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+                    <thead>
+                        <tr class="slds-text-title_caps">
+                            <th scope="col">
+                                <div class="slds-truncate" title="Action">Action</div>
+                            </th>
+                            <th scope="col">
+                                <div class="slds-truncate" title="Type">Type</div>
+                            </th>
+                            <th scope="col">
+                                <div class="slds-truncate" title="Title">Title</div>
+                            </th>
+                            <th scope="col">
+                                <div class="slds-truncate" title="Last Modified">Last Modified</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                </aura:set>
+            </aura:if>
+        </div>
+    </div>
+</aura:component>

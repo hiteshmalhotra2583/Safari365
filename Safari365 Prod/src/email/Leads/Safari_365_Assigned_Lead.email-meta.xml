@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Client Update - lead assigned to dedicated consultant</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>Safari 365 Assigned Lead</name>
+    <style>freeForm</style>
+    <subject>Safari365: Introducing {!Lead.OwnerFullName} - Your dedicated African travel consultant</subject>
+    <textOnly>Dear {!Lead.FirstName},
+
+Thank you once again for your recent request for a safari to Africa. This is a quick progress update to advise you that I have assigned your enquiry to {!Lead.OwnerFullName}, who will be in contact shortly to start the planning process.
+
+{!Lead.OwnerFirstName} is an {!Lead.OwnerTitle} at {!User.Division} and has been planning tailor-made safaris for clients travelling to Africa since {!Lead.Consultant_Working_Since__c}. {!Lead.OwnerFirstName} has worked with countless clients from {!Lead.00ND0000003Cyk2} and is at your full disposal to assist and guide you in creating your dream African safari.
+
+{!Lead.Consultant_Profile_Link__c} for {!Lead.OwnerFirstName}, including area of expertise, client feedback and insight into {!Lead.OwnerFirstName}&apos;s passion for Africa.
+
+{!Lead.Consultant_Image__c}
+
+{!Lead.OwnerFirstName}&apos;s direct phone number: {!Lead.OwnerPhone}
+{!Lead.OwnerFirstName}&apos;s email address: {!Lead.OwnerEmail}
+{!Lead.OwnerFirstName}&apos;s online profile: {!Lead.Consultant_Profile_Link__c}
+
+We are looking forward to sharing Africa with you,
+
+Kind regards,
+
+{!User.FirstName} {!User.LastName}
+
+{!User.Title}
+
+
+Get to know us better! Read our blog
+
+_______________________________________________________________________________________________
+
+Safari365.com &amp; South Africa 365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK  080 823 44485  USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325  Fax: 086 658 1713
+www.safari365.com &amp; www.southafrica365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

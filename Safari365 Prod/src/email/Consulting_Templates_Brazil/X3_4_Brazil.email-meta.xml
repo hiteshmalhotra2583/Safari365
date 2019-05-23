@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Company Affiliations and Credibility (from Management)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>3.4 STAGE = TL QUOTATION</name>
+    <style>freeForm</style>
+    <subject>{!Account.Name}: Your booking with Safari365</subject>
+    <textOnly>Dear {!Account.Name},
+
+I have just chatted with {!Account.OwnerFirstName} regarding your booking and I thank you for considering us thus far. I realise that travelling to Africa represents a large investment in time and money, and doing your correct due diligence on your travel provider is important.
+
+By way of a little history, we having been operating since 2005 and have systematically grown our knowledge to offer the best of Southern and East African tourism (primarily through the websites www.southafrica365.com and www.safari365.com ) We have had many thousand international clients travel with us - should you like a personal reference please let me know (I will try and find a previous client in your vicinity.)
+
+We are long-standing members of the Southern Africa Tourism Services Association (SATSA www.satsa.com) which is the official body regulating all South African based tour operators.  We also subscribe to SATSA’s bonding scheme, that ensures should the member become financially insolvent prior to rendering the contracted service, the bond, (which has an indemnity limit of ZAR1.5 million), guarantees that deposits will be refunded, or the service replaced, to a maximum level of R300 000 per event or R75 000 per claim against the insolvent member.
+
+SATSA Member Details:
+
+South Africa 365 Travel cc
+Chapter Member - Tour Broker
+SATSA member no. 1649
+
+We are further insured for Professional Indemnity with Safari and Tourism Insurance Brokers (SATIB, www.satib.co.za) who are specialists for the African travel market.
+
+SATIB Policy Details:
+
+South Africa 365 Travel cc
+Policy number 0600928-PI07/2007/0251
+Professional Indemnity cover to a maximum value of  R2 million
+
+Please also have a look for our name on Tripadvisor (I realize there are currently limited reviews but this is something we are now encouraging our clients to contribute). We also have a growing Facebook following and I am sure if you post something on there you will get a accurate response.
+
+Please let me know if you have any other concerns and I will endeavor to put them to rest.
+
+Kind regards,
+
+{!User.Name}
+{!User.Title}
+{!User.Email}
+
+Visit Your Members Club: www.safari365.com/members/login/{!Opportunity.Members_Club_ID__c}
+_______________________________________________________________________________________________
+
+Safari365.com &amp; South Africa 365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK 080 823 44485  USA 1877 843 1621  AUS 180 000 4296
+SA +27 (0)21 418 1325  Fax: 086 658 1713
+www.safari365.com &amp; www.southafrica365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

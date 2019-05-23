@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Festive Season Coffee Table Book Gift Incentive</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2018 November Newsletter (English)</name>
+    <style>none</style>
+    <subject>A Festive Season Surprise from Safari365</subject>
+    <textOnly>Book now and receive a festive season gift compliments of Safari365!
+
+Dear [fname],
+
+As the summer season arrives in the Southern Hemisphere, it becomes one of the most popular times for travellers to visit Africa. The weather is gorgeous, the scenery is stunning, the game viewing is thrilling and there is a great vibe in the air as we head into the final months of 2018.
+
+Many of our preferred lodges and hotels across Southern Africa and East Africa are already fully booked for the festive season as well as the early months of next year. However, luckily for us and for our guests, a few last-minute spots are still available at some of our favourite destinations and we are holding onto them.
+
+Start ticking travel adventures off of your bucket list and let us plan your trip to Southern Africa.  These countries have so much to offer; they are rich in culture, offer an abundance of natural beauty and most importantly the incredible wildlife.  Alternatively, get out the safari gear and plan the adventure of a lifetime to East Africa.  Now is the perfect time to book these trips.  If you already have a quote with us and are considering a trip to this amazing continent, we suggest booking now to avoid any disappointment.
+
+To thank our guests for their support Safari365 are offering our clients a festive season gift. Guests who book, confirm and pay a deposit for their trips with Safari365 before 15 December 2018 will receive a complimentary African Safari: Into the Great Game Reserves coffee table book courtesy of the Safari365 team!  This is a once off offer and we guarantee you, the book alone will keep you coming back to our magical continent.
+
+Don’t miss out, book now or contact us for a quote to start making the trip of your dreams a reality.
+
+Silindele ukukwamukela e-Afrika,
+We look forward to welcoming you to Africa,
+
+The Safari365 Team
+
+Copyright © 2018 Safari365. All rights reserved</textOnly>
+    <type>custom</type>
+</EmailTemplate>

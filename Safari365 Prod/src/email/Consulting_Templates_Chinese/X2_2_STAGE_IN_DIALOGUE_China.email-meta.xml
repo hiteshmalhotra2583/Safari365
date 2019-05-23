@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>No response (client gone quiet)</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>2.2. STAGE = IN DIALOGUE</name>
+    <style>freeForm</style>
+    <subject>{!User.Division} - {!Account.Name} : 您的非洲之行</subject>
+    <type>html</type>
+</EmailTemplate>

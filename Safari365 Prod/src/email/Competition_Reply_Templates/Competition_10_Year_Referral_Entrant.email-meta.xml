@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Competition: 10 Year - Email sent to client referral</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Competition_10_Year_Giveaway_Wina_a_Safari_to_Africa</letterhead>
+    <name>Competition: 10 Year _Referral Entrant</name>
+    <style>freeForm</style>
+    <subject>Win the safari of a lifetime to Africa with Safari365</subject>
+    <textOnly>Dear {!Lead.FirstName},
+
+Your friend {!Lead.Referral_Competition_Lead_Name__c} has recently entered the “Win the safari of a lifetime to Africa” competition with Safari365, and thought of you!!
+
+Safari365 is an leading African travel company, and is giving away a 10 day safari to Africa  - valued at over USD10,000  - to celebrate their 10 years in the safari trade.
+
+If you would like to enter this incredible competition, please Enter Here
+
+If you would not like to receive any further correspondence from Safari365, please Unsubscribe Here
+
+The competition draw will occur on 21 November 2016.
+
+We hope to share Africa with you,
+Safari365
+
+Prize Inclusive of the following:
+
+4 nights at the luxurious Cape Cadagon boutique hotel in Cape Town
+A 15 minute helicopter flip over Cape Town
+3 nights on safari seeing the Big 5 at Simbavati River Lodge in the Kruger National Park
+2 nights at Victoria&apos;s Falls at the 5 star Elephant Camp Lodge (including a sunset river cruise and tour of the falls)
+All internal flights and 4 days of car hire in Cape Town
+Travel to be completed before 21 November 2017</textOnly>
+    <type>html</type>
+</EmailTemplate>

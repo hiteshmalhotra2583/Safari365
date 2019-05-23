@@ -1,0 +1,354 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html style="" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible" />
+    <style type="text/css">
+@media only screen and (max-width: 620px) {
+  [id=topMessageWrapper] img {
+  height: auto !important;
+  max-width: 100%;
+  width: auto;
+  }
+  [id=topMessageWrapper],
+  [id=topMessageWrapperMainTable] {
+  width: 100% !important;
+  table-layout: fixed;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+  }@media only screen and (max-width: 450px) {
+  [id=topMessageWrapper] {
+  padding: 0 10px;
+  }
+  td[class=responsiveColumn] {
+  width: 100% !important;
+  height: auto !important;
+  display:block;
+  padding: 0;
+  clear:both;
+  height:auto;
+  }
+  }    </style>
+  </head>
+  <body style="margin: 0; padding: 0;">
+    <p>
+      &nbsp;</p>
+    <table bgcolor="#f2f2f2" cellpadding="0" cellspacing="0" style="background-color:#f2f2f2" width="100%">
+      <tbody>
+        <tr>
+          <td align="center" style="text-align:left">
+            <table align="center" bgcolor="#f2f2f2" cellpadding="0" cellspacing="0" id="topMessageWrapper" style="background-color: #f2f2f2; color: #333333; font-family: 'Georgia'; font-size: 12px; width: 590px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top: 5px solid #ffffff; border-right: 5px solid #ffffff; border-bottom: 5px solid #ffffff; border-left: 5px solid #ffffff; margin: 0 auto;" width="590">
+              <tbody>
+                <tr>
+                  <td>
+                    <!-- DESIGNER TEMPLATE: Grid --><!-- BASIC TEMPLATE: unknown derivation -->
+                    <table border="0" cellpadding="0" cellspacing="0" id="topMessageWrapperMainTable" width="590">
+                      <tbody>
+                        <tr>
+                          <td bgcolor="#FFFFFF" style="color: #333333; font-family: 'Georgia'; font-size: 12px;" width="100%">
+                            <span style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><img alt="" height="251" src="https://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/ea858c0162a29f5b8de15e9e0ca97aa5/image/jpeg" style="width: 590px; display: inline; height: 251px;" width="590" /></span></td>
+                        </tr>
+                        <tr>
+                          <td bgcolor="#ffffff" class="responsiveColumn" style="background-color: #ffffff; border-width: 0px; border-style: none; border-color: transparent; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top" width="100%">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td style="padding-top: 15px; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top">
+                                    <div style="border-color: #c2d9e7;">
+                                      <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td style="border-bottom: 2px solid #a8afb2; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <em><strong><span style="color: #374850;"><span style="font-size: 25px;">Celebrating Cape Town</span></span></strong></em><br />
+                                                <br />
+                                                <span style="font-size: 15px;"> <span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="color: #666666;">Dear {!Lead.FirstName},<br />
+                                                <br />
+                                                Cape Town is the city that everybody loves. &nbsp;It has it all; the people, the culture, the food, and the scenery.<br />
+                                                <br />
+                                                The city is nestled beneath the natural wonder of Table Mountain, and incredible beaches, fine dining, and world-class wineries are within easy reach. It’s no wonder that Cape Town was voted number two on Lonely Planet’s Top Ten Cities for World Travelers to visit in 2017.&nbsp;<br />
+                                                <br />
+                                                In the Southern Hemisphere, March signifies summer slowly coming to an end. But that doesn’t mean that there are any less exciting events happening this month.&nbsp;<br />
+                                                <br />
+                                                Cape Town is abuzz, with the new luxury</span> <a href="http://www.theroyalportfolio.com/the-silo/overview/" style="color: #55aadd!important;" target="_blank"><span style="color: #ff6600;">Silo Hotel </span></a><span style="color: #666666;">recently opening. More notably, Cape Town is busy completing work on the Zietz Museum of Contemporary African Art, opening in September 2017. This new development in the art world is said to rival London’s Tate Modern, the MoMA in New York and the Museo Nacional del Prado in Madrid.&nbsp;<br />
+                                                <br />
+                                                Yours in Safari,</span></span></span></p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <br />
+                                                <span style="font-size: 15px;"><span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="color: #666666;"><img height="44" src="https://gallery.mailchimp.com/b405d330cda51b06be727e46f/images/05e7a649-1ad7-4ac2-933f-4ea2f3dcbc3e.jpg" style="width: 132px; height: 44px; margin: 0px; border: 0px solid #666666; display: inline;" width="132" /><br />
+                                                Safari365 Founder </span></span></span><br />
+                                                &nbsp;</p>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div style="">
+                                      <table cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <br />
+                                                &nbsp;&nbsp;</p>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="responsiveColumn" style="color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top" width="100%">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top">
+                                    <div>
+                                      <table cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                              &nbsp;</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;" width="100%">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td bgcolor="#ffffff" class="responsiveColumn" style="background-color: #ffffff; border-width: 0px; border-style: none; border-color: transparent; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top" width="50%">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding-bottom: 10px; padding-right: 10px; padding-top: 10px; padding-left: 10px; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top">
+                                            <div style="border-color: #c2d9e7;">
+                                              <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top: 0px none transparent; border-right: 0px none transparent; border-bottom: 0px none transparent; border-left: 0px none transparent; color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <a href="http://www.safari365.com/travel-destinations/south-africa/cape-town/city-centre" style="color: #55aadd!important;"><img height="151" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/82f38300ea84a279b081392af41f8121/image/jpeg" style="width: 275px; margin: 0px; border: 0px solid #333333; height: 151px;" width="275" /></a></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="color: #374850;"><strong><span style="font-size: 18px;">Explore Cape Town's exciting city center</span></strong></span></span></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="font-size: 15px;"><span style="color: #666666;">There are city centers across the world though very little compare to the uniquely African hum of Cape Town’s city center. Sitting in the shadow of the iconic Table Mountain, the city is constantly buzzing with activity making it a definite exploration stop for any traveler to the Cape.</span></span></span><br />
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="color: #ff6600;"><span style="font-size: 15px;"><a href="https://www.safari365.com/travel-destinations/south-africa/cape-town/city-centre" style="color: #F60!important;" target="_blank">Watch the video here &gt;&gt;</a></span></span></span></p>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                  <td bgcolor="#ffffff" class="responsiveColumn" style="background-color: #ffffff; border-width: 0px; border-style: none; border-color: transparent; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top" width="50%">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding-bottom: 10px; padding-left: 10px; padding-top: 10px; padding-right: 10px; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top">
+                                            <div style="border-color: #c2d9e7;">
+                                              <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <a href="http://www.safari365.com/travel-destinations/south-africa/cape-town/beaches" style="color: #55aadd!important;"><span style="font-family: tahoma,geneva,sans-serif;"><img height="151" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/5cbe06712116a642dba747b58d316007/image/jpeg" style="width: 275px; margin: 0px; border: 0px solid #333333; height: 151px;" width="275" /></span></a></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="color: #374850;"><strong><span style="font-size: 18px;">Adventure on the Atlantic Seaboard</span></strong></span></span></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <br />
+                                                        <span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="font-size: 15px;"><span style="color: #666666;">The Atlantic Seaboard’s cosmopolitan beachfronts and bustling promenades are bursting with things to see and do. From sunbathing and leisurely strolls, to biking and beach volleyball. We captured some of the best scenes.</span><br />
+                                                        <br />
+                                                        <a href="https://www.safari365.com/travel-destinations/south-africa/cape-town/beaches" style="color: #F60!important;" target="_blank">Watch the video here &gt;&gt;&nbsp;</a></span></span></p>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td bgcolor="#ffffff" class="responsiveColumn" style="border-width: 0px; border-style: none; border-color: transparent; background-color: #ffffff; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top" width="50%">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding-bottom: 10px; padding-right: 10px; padding-top: 10px; padding-left: 10px; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top">
+                                            <div style="border-color: #c2d9e7;">
+                                              <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <a href="http://www.safari365.com/blog/cape-town-contemporary" style="color: #55aadd!important;"><img height="151" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/3dd70381e9810376b4f0f5ce9f84baf9/image/jpeg" style="width: 275px; display: inline; height: 151px; margin: 0px; border: 0px solid #333333;" width="275" /></a></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <br />
+                                                        <span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="color: #374850;"><span style="font-size: 18px;"><strong>SA’s new contemporary art landmark</strong></span></span></span></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <br />
+                                                        <span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="color: #666666;"><span style="font-size: 15px;">South Africa’s art scene is set for an exciting new addition that is said to rival the likes of the Tate Modern and New York’s MoMA .</span></span></span></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="color: #f78800;"><span style="font-size: 15px;"><a href="https://www.safari365.com/blog/cape-town-contemporary" style="color: #F60!important;" target="_blank">Read more on our blog &gt;&gt;</a></span></span></span></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                  <td bgcolor="#ffffff" class="responsiveColumn" style="border-width: 0px; border-style: none; border-color: transparent; background-color: #ffffff; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top" width="50%">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding-bottom: 10px; padding-left: 10px; padding-top: 10px; padding-right: 10px; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top">
+                                            <div style="border-color: #c2d9e7;">
+                                              <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <a href="https://www.safari365.com/specials/kruger-safari-and-seaside-relaxation" style="color: #55aadd!important;"><span style="font-family: tahoma,geneva,sans-serif;"><img height="150" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/69dbe912a75596a3d679f6e535d9869a/image/jpeg" style="width: 275px; display: inline; height: 150px; margin: 0px; border: 0px solid #333333;" width="275" /></span></a></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="color: #374850;"><strong><span style="font-size: 18px;">Special – Kruger and seaside relaxation package</span></strong></span></span></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <br />
+                                                        <span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="color: #666666;"><span style="font-size: 15px;">Spend five nights experiencing two exciting South African destinations and save 20%! Travel from the bush to the beach with this Rhino Post Safari Lodge and Thonga Beach Lodge package.</span></span></span></p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        &nbsp;</p>
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="color: #f78800;"><span style="font-size: 15px;"><a href="https://www.safari365.com/specials/kruger-safari-and-seaside-relaxation" style="color: #F60!important;" target="_blank">More information here &gt;&gt;</a></span></span></span></p>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td bgcolor="#ffffff" class="responsiveColumn" style="background-color: #ffffff; border-width: 0px; border-style: none; border-color: transparent; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top" width="100%">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: #333333; font-family: 'Georgia'; font-size: 12px;" valign="top">
+                                    <div style="border-color: #c2d9e7;">
+                                      <table cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div style="border-color: #c2d9e7;">
+                                      <table cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td style="color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <br />
+                                                <img height="38" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/a35f0c7e602ad6c55aae8a2129ee1874/image/jpeg" style="width: 590px; display: inline; height: 38px;" width="590" /></p>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div style="border-color: #c2d9e7;">
+                                      <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td bgcolor="#374850" style="border-top: 0px none #999999; padding-top: 9px; background-color: #374850; padding-right: 9px; padding-bottom: 9px; padding-left: 9px; color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                              <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="font-size: 14px;"><span style="color: #a8afb2;"><span style="font-family: verdana,geneva,sans-serif;"><em>“The World is a book, and those who do not travel read only a page.”<br />
+                                                <strong>Saint Augustine</strong></em></span></span></span><br />
+                                                <br />
+                                                &nbsp;</p>
+                                              <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <img alt="Logo Safari Sm" height="auto" src="https://www.safari365.com/images/logo_safari_sm.png" style="box-sizing: inherit; border: 0px none; max-width: 100%; height: auto; display: inline-block; vertical-align: middle; margin-right: 20px; color: #a8afb2; font-family: Roboto,Arial,sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #37484f;" title="Logo Safari Sm" width="52" /><span style="color: #a8afb2; font-family: Roboto, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #37484f; display: inline !important; float: none;"><span>&nbsp;</span></span><span style="box-sizing: inherit; color: #a8afb2; font-family: Roboto, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #37484f;">Copyright © 2017 Safari365. All rights reserved</span></p>
+                                              <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;">
+                                                <tbody>
+                                                  <tr>
+                                                    <td id="cke_contents_editor185" style="height: 45px; text-align: center; color: #333333; font-family: 'Georgia'; font-size: 12px;">
+                                                      &nbsp;</td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      &nbsp;</p>
+  </body>
+</html>

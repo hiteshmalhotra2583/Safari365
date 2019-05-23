@@ -1,0 +1,10 @@
+To whom it may concern - A duplicate lead has been Identified 
+
+Lead Name:{!SFSSDupeCatcher__Potential_Duplicate__c.SFSSDupeCatcher__Lead__c}
+
+Lead Email Address: 
+{!SFSSDupeCatcher__Potential_Duplicate__c.SFSSDupeCatcher__Email__c}
+
+Lead Detail Link: {!SFSSDupeCatcher__Potential_Duplicate__c.Lead_Detail_link__c}
+
+Detail Link: {!SFSSDupeCatcher__Potential_Duplicate__c.Link}

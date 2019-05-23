@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OPD</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OPDs</value>
+    </caseValues>
+    <fields>
+        <label><!-- ADD ADULT1 --></label>
+        <name>ADD_ADULT1__c</name>
+    </fields>
+    <fields>
+        <label><!-- AGE CATEGORY --></label>
+        <name>AGE_CATEGORY__c</name>
+    </fields>
+    <fields>
+        <label><!-- EX1 --></label>
+        <name>EX1__c</name>
+    </fields>
+    <fields>
+        <label><!-- EX2 --></label>
+        <name>EX2__c</name>
+    </fields>
+    <fields>
+        <label><!-- EX3 --></label>
+        <name>EX3__c</name>
+    </fields>
+    <fields>
+        <label><!-- EX4 --></label>
+        <name>EX4__c</name>
+    </fields>
+    <fields>
+        <label><!-- EX5 --></label>
+        <name>EX5__c</name>
+    </fields>
+    <fields>
+        <label><!-- OPD ID --></label>
+        <name>OPD_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- OSR ID --></label>
+        <name>OSR_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- OSR --></label>
+        <name>OSR_Lookup__c</name>
+        <relationshipLabel><!-- OPDs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PAX_AGE_MAX --></label>
+        <name>PAX_AGE_MAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- PAX_AGE_MIN --></label>
+        <name>PAX_AGE_MIN__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE PXB1 --></label>
+        <name>PRICE_PXB1__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE PXB2 --></label>
+        <name>PRICE_PXB2__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE PXB3 --></label>
+        <name>PRICE_PXB3__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE PXB4 --></label>
+        <name>PRICE_PXB4__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE PXB5 --></label>
+        <name>PRICE_PXB5__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE PXB6 --></label>
+        <name>PRICE_PXB6__c</name>
+    </fields>
+    <fields>
+        <label><!-- PRICE PXB7 --></label>
+        <name>PRICE_PXB7__c</name>
+    </fields>
+    <fields>
+        <label><!-- QR --></label>
+        <name>QR__c</name>
+    </fields>
+    <fields>
+        <label><!-- RATE CATEGORY --></label>
+        <name>RATE_CATEGORY__c</name>
+    </fields>
+    <fields>
+        <label><!-- RATE TYPE --></label>
+        <name>RATE_TYPE__c</name>
+    </fields>
+    <fields>
+        <label><!-- SS --></label>
+        <name>SS__c</name>
+    </fields>
+    <fields>
+        <label><!-- STD EXT --></label>
+        <name>STD_EXT__c</name>
+    </fields>
+    <fields>
+        <label><!-- TR --></label>
+        <name>TR__c</name>
+    </fields>
+    <fields>
+        <label><!-- TW --></label>
+        <name>TW__c</name>
+    </fields>
+    <layouts>
+        <layout>OPD Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

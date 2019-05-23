@@ -1,0 +1,6 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<font face="Arial,Sans-Serif" size="2">Prezado {!Lead.FirstName}, <br><br>Após nosso e-mail de apresentação, gostaríamos de informa-lo que estamos preparando uma incrível oferta especial para todos os clientes que fecharem viagens conosco. Todos os novos clientes que viajarem com a Safari 365 <b>receberão grátis um álbum de fotos personalizado que será entregue em casa</b>. <br><br>Este álbum de alta qualidade, com capa dura e <b>28 páginas, irá conter as fotos de sua viagem</b>. Tudo o que você precisa fazer é manda-las para nós. <br><br>Sua consultora {!Lead.OwnerFullName} estará a disposição para esclarecer suas dúvidas sobre está oferta e para começar a transformar seu safari em realidade. <br><br>Estamos ansiosos para compartilhar a África com você!<br><br>Atenciosamente, <br><b>Safari 365</b></font>]]></td>
+</tr>
+</table>

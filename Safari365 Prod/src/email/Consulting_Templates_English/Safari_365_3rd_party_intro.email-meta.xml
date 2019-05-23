@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Relay phone conversation from 3rd party intro ( instructions to the Members Club included)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>1.03 STAGE = LEAD</name>
+    <style>freeForm</style>
+    <subject>Safari365: Travel to Africa</subject>
+    <textOnly>Dear {!Lead.FirstName},
+
+thank you so much for taking my call earlier and providing me with such valuable feedback.
+
+As mentioned over the phone, Safari365 is one of Africa’s leading safari companies, specializing in tailor-made safaris to Southern and East Africa. I run the Safari365 USA Office, based in Seattle WA, and generally touch base with clients on the initial enquiry to understand your needs and ensure you are working with our most applicable consultant. I would like to introduce you to {!Lead.OwnerFullName}, who has been working in the safari industry since {!Lead.Consultant_Working_Since__c} and comes highly recommended. {!Lead.OwnerFirstName} is based in South Africa and is aware of Africa’s best travel opportunities, and will be your point of contact when you are in Africa and actually travelling. Please see {!Lead.OwnerFirstName}’s full profile here: {!Lead.Consultant_Profile_Link__c}
+
+{!Lead.OwnerFirstName}, I have just had a great conversation with {!Lead.FirstName}, …
+
+Kind regards and we look forward to making this a reality,
+Katja Wright
+
+Safari365 USA Office, Seattle WA
+(425) 240-2934
+
+PS -  I forgot to mention, but we also are the only company to offer a personalized photobook of your adventure, couriered to your door free of charge once you travel with us. See your Members Club here for more information.
+
+
+Other Useful Information
+{!Lead.OwnerFirstName}&apos;s Consultant Profile: {!Lead.Consultant_Profile_Link__c}
+{!Lead.OwnerFirstName}&apos;s direct phone number: {!Lead.OwnerPhone}
+{!Lead.OwnerFirstName}&apos;s email address: {!Lead.OwnerEmail}
+
+Get to know us better! Read our Blog
+
+_______________________________________________________________________________________________
+
+Safari365
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Toll Free: UK  080 823 44485  USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325  Fax: 086 658 1713
+www.safari365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

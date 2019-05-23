@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2015 October Newsletter (English)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 October Newsletter (English)</name>
+    <style>none</style>
+    <subject>Sensational South Africa</subject>
+    <textOnly>Sensational South Africa
+
+Dear [fname],
+
+When it comes to African destinations, little tickle the senses quite like South Africa.
+
+From the mighty Table Mountain, wide open romantic stretches of beach, the Big 5 and pulse racing adventures – it’s a world in one. Not to mention the hotels and lodges are superior.
+
+This month we look at what makes South Africa such a great place to travel to and why you should take advantage of last minute bookings (and weakening South Africa exchange rate) – or add it to your bucket list for 2016.
+
+We also have plenty of good news to share. See below, I’m sure it will leave you inspired.
+
+
+~  Marcus Brain, Safari365 founder  ~</textOnly>
+    <type>custom</type>
+</EmailTemplate>

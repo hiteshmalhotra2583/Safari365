@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification sent to client and consultant when they have clicked the &apos;Book This&apos; button in the Members Club</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>External: Thank You For Booking</name>
+    <style>freeForm</style>
+    <subject>Thank you for your Booking with Safari365</subject>
+    <textOnly>Dear {!Quotations__c.Primary_Client_First_Name__c},
+
+
+Congratulations, Africa awaits!
+
+Thank you, we have received your request to proceed with your booking, &apos;{!Quotations__c.Opportunity__c}-{!Quotations__c.Quotation_Name__c}&apos;, and cannot wait to make this trip a reality for you.
+
+What are the next steps?
+
+Review and Pay for your Booking. Your consultant, {!Quotations__c.Consultant_Name__c}, is busy reconfirming all services for your African safari and will be sending through your Booking Confirmation document within the next few days. This document will contain your finalised itinerary details together with the relevant payment terms. Please check these details carefully. We are committing a {!Quotations__c.Currency__c} price to you and are managing the exchange rate risks. As such, we will require a payment within 24 hours of you receiving the Booking Confirmation in order to guarantee this price.
+Complete your Passenger Details. These will need to be completed by all guests prior to travel in order to keep your trip seamless and hassle free. Please see here.
+
+We look forward to welcoming you to Africa,
+Safari365.</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Lead History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Lead Historys</value>
+    </caseValues>
+    <fields>
+        <label><!-- Absolute luxury --></label>
+        <name>Absolute_luxury__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activate Workflow --></label>
+        <name>Activate_Workflow__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active and adventure tours --></label>
+        <name>Active_and_adventure_tours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activities --></label>
+        <name>Activities__c</name>
+        <picklistValues>
+            <masterLabel>Adventure</masterLabel>
+            <translation><!-- Adventure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beach Holiday</masterLabel>
+            <translation><!-- Beach Holiday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climbing Kilimanjaro</masterLabel>
+            <translation><!-- Climbing Kilimanjaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family Friendly</masterLabel>
+            <translation><!-- Family Friendly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food and wine</masterLabel>
+            <translation><!-- Food and wine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gorilla Trekking</masterLabel>
+            <translation><!-- Gorilla Trekking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>History and culture</masterLabel>
+            <translation><!-- History and culture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romance</masterLabel>
+            <translation><!-- Romance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Great Migration</masterLabel>
+            <translation><!-- The Great Migration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wildlife Safaris</masterLabel>
+            <translation><!-- Wildlife Safaris --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Adventure --></label>
+        <name>Adventure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adventure activities --></label>
+        <name>Adventure_activities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agent --></label>
+        <name>Agent__c</name>
+        <relationshipLabel><!-- Lead Historys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ages of Children --></label>
+        <name>Ages_of_Children__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival Date --></label>
+        <name>Arrival_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Basket Information --></label>
+        <name>Basket_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beach and bush safaris --></label>
+        <name>Beach_and_bush_safaris__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beach relaxation --></label>
+        <name>Beach_relaxation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Botswana --></label>
+        <name>Botswana__c</name>
+    </fields>
+    <fields>
+        <label><!-- Browser Trial --></label>
+        <name>Browser_Trial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget Total --></label>
+        <name>Budget_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget or Star Rating --></label>
+        <name>Budget_or_Star_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget safaris --></label>
+        <name>Budget_safaris__c</name>
+    </fields>
+    <fields>
+        <label><!-- Canoe Safari --></label>
+        <name>Canoe_Safari__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cape Town (SA) --></label>
+        <name>Cape_Town_SA__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Comments --></label>
+        <name>Client_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Climbing Kilimanjaro --></label>
+        <name>Climbing_Kilimanjaro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Image --></label>
+        <name>Consultant_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Profile Link --></label>
+        <name>Consultant_Profile_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Profile --></label>
+        <name>Consultant_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Working Since --></label>
+        <name>Consultant_Working_Since__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant has replied --></label>
+        <name>Consultanthasreplied__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Method --></label>
+        <name>Contact_Method__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ConvertMe --></label>
+        <name>ConvertMe__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of residence --></label>
+        <name>Country_of_residence__c</name>
+        <picklistValues>
+            <masterLabel>Argentina</masterLabel>
+            <translation><!-- Argentina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austria</masterLabel>
+            <translation><!-- Austria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahrain</masterLabel>
+            <translation><!-- Bahrain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barbados</masterLabel>
+            <translation><!-- Barbados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belgium</masterLabel>
+            <translation><!-- Belgium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Botswana</masterLabel>
+            <translation><!-- Botswana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation><!-- Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation><!-- China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatia</masterLabel>
+            <translation><!-- Croatia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech Republic</masterLabel>
+            <translation><!-- Czech Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denmark</masterLabel>
+            <translation><!-- Denmark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djibouti</masterLabel>
+            <translation><!-- Djibouti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominica</masterLabel>
+            <translation><!-- Dominica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation><!-- Germany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ghana</masterLabel>
+            <translation><!-- Ghana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gibraltar</masterLabel>
+            <translation><!-- Gibraltar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenland</masterLabel>
+            <translation><!-- Greenland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hong Kong</masterLabel>
+            <translation><!-- Hong Kong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ireland</masterLabel>
+            <translation><!-- Ireland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Israel</masterLabel>
+            <translation><!-- Israel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation><!-- Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation><!-- Japan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jordan</masterLabel>
+            <translation><!-- Jordan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea, Republic of</masterLabel>
+            <translation><!-- Korea, Republic of --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kuwait</masterLabel>
+            <translation><!-- Kuwait --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvia</masterLabel>
+            <translation><!-- Latvia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liberia</masterLabel>
+            <translation><!-- Liberia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxembourg</masterLabel>
+            <translation><!-- Luxembourg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madagascar</masterLabel>
+            <translation><!-- Madagascar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malawi</masterLabel>
+            <translation><!-- Malawi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mali</masterLabel>
+            <translation><!-- Mali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malta</masterLabel>
+            <translation><!-- Malta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mozambique</masterLabel>
+            <translation><!-- Mozambique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Namibia</masterLabel>
+            <translation><!-- Namibia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation><!-- Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand</masterLabel>
+            <translation><!-- New Zealand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nigeria</masterLabel>
+            <translation><!-- Nigeria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norway</masterLabel>
+            <translation><!-- Norway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Country</masterLabel>
+            <translation><!-- Other Country --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pakistan</masterLabel>
+            <translation><!-- Pakistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal</masterLabel>
+            <translation><!-- Portugal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qatar</masterLabel>
+            <translation><!-- Qatar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romania</masterLabel>
+            <translation><!-- Romania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia</masterLabel>
+            <translation><!-- Russia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rwanda</masterLabel>
+            <translation><!-- Rwanda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saudi Arabia</masterLabel>
+            <translation><!-- Saudi Arabia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scotland</masterLabel>
+            <translation><!-- Scotland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore</masterLabel>
+            <translation><!-- Singapore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation><!-- South Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sri Lanka</masterLabel>
+            <translation><!-- Sri Lanka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweden</masterLabel>
+            <translation><!-- Sweden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switzerland</masterLabel>
+            <translation><!-- Switzerland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanzania</masterLabel>
+            <translation><!-- Tanzania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thailand</masterLabel>
+            <translation><!-- Thailand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation><!-- Turkey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Arab Emirates</masterLabel>
+            <translation><!-- United Arab Emirates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Kingdom</masterLabel>
+            <translation><!-- United Kingdom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zambia</masterLabel>
+            <translation><!-- Zambia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zimbabwe</masterLabel>
+            <translation><!-- Zimbabwe --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Culture and history --></label>
+        <name>Culture_and_history__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer has Replied --></label>
+        <name>Customer_has_Replied__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destinations --></label>
+        <name>Destinations__c</name>
+        <picklistValues>
+            <masterLabel>Botswana</masterLabel>
+            <translation><!-- Botswana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape Town (South Africa)</masterLabel>
+            <translation><!-- Cape Town (South Africa) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape Winelands (South Africa)</masterLabel>
+            <translation><!-- Cape Winelands (South Africa) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garden Route (South Africa)</masterLabel>
+            <translation><!-- Garden Route (South Africa) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kenya Beaches</masterLabel>
+            <translation><!-- Kenya Beaches --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kruger National Park (South Africa)</masterLabel>
+            <translation><!-- Kruger National Park (South Africa) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kwa-Zulu Natal (South Africa)</masterLabel>
+            <translation><!-- Kwa-Zulu Natal (South Africa) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madikwe</masterLabel>
+            <translation><!-- Madikwe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Masai Mara</masterLabel>
+            <translation><!-- Masai Mara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mozambique</masterLabel>
+            <translation><!-- Mozambique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mt Kilimanjaro</masterLabel>
+            <translation><!-- Mt Kilimanjaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Namibia</masterLabel>
+            <translation><!-- Namibia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ngorongoro Crater</masterLabel>
+            <translation><!-- Ngorongoro Crater --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Kenya National Reserve</masterLabel>
+            <translation><!-- Other Kenya National Reserve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Tanzania National Parks</masterLabel>
+            <translation><!-- Other Tanzania National Parks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rwanda</masterLabel>
+            <translation><!-- Rwanda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serengeti National Park</masterLabel>
+            <translation><!-- Serengeti National Park --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sun City (South Africa)</masterLabel>
+            <translation><!-- Sun City (South Africa) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uganda</masterLabel>
+            <translation><!-- Uganda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Victoria Falls</masterLabel>
+            <translation><!-- Victoria Falls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zambia</masterLabel>
+            <translation><!-- Zambia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zanzibar and Pemba</masterLabel>
+            <translation><!-- Zanzibar and Pemba --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Do not remind me --></label>
+        <name>Do_not_remind_me__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration --></label>
+        <name>Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enquiry Ref No --></label>
+        <name>Enquiry_Ref_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enquiry item --></label>
+        <name>Enquiry_item__c</name>
+    </fields>
+    <fields>
+        <label><!-- Family Friendly --></label>
+        <name>Family_Friendly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Family safaris --></label>
+        <name>Family_safaris__c</name>
+    </fields>
+    <fields>
+        <label><!-- FirstName --></label>
+        <name>FirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fishing adventures --></label>
+        <name>Fishing_adventures__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fly-In safaris --></label>
+        <name>Fly_In_safaris__c</name>
+    </fields>
+    <fields>
+        <label><!-- Food and Wine --></label>
+        <name>Food_and_Wine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Garden Route (SA) --></label>
+        <name>Garden_Route_SA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Golf combination holidays --></label>
+        <name>Golf_combination_holidays__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gorilla Trekking --></label>
+        <name>Gorilla_Trekking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hiking --></label>
+        <name>Hiking__c</name>
+    </fields>
+    <fields>
+        <label><!-- History and culture --></label>
+        <name>History_and_culture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Honeymoons and Romance --></label>
+        <name>Honeymoons_and_Romance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hot-air ballooning --></label>
+        <name>Hot_air_ballooning__c</name>
+    </fields>
+    <fields>
+        <label><!-- IP Address --></label>
+        <name>IP_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>Internal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Company --></label>
+        <name>Internal_Company__c</name>
+        <picklistValues>
+            <masterLabel>Safari 365</masterLabel>
+            <translation><!-- Safari 365 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa 365</masterLabel>
+            <translation><!-- South Africa 365 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- International Flight Required? --></label>
+        <name>International_Flight_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kenya --></label>
+        <name>Kenya__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kenyan beaches --></label>
+        <name>Kenyan_beaches__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kruger National Park (SA) --></label>
+        <name>Kruger_National_Park_SA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kwa-Zulu Natal (SA) --></label>
+        <name>Kwa_Zulu_Natal_SA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Landing Page --></label>
+        <name>Landing_Page_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- LastName --></label>
+        <name>LastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Age --></label>
+        <name>Lead_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Cost --></label>
+        <name>Lead_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exists as Lead Nurture --></label>
+        <name>Lead_Nurture__c</name>
+        <relationshipLabel><!-- Lead Historys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other Kenyan National Reserves --></label>
+        <name>Other_Kenyan_National_Reserves__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Tanzania National Parks --></label>
+        <name>Other_Tanzania_National_Parks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other --></label>
+        <name>Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- OwnerImageId --></label>
+        <name>OwnerImageId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rating --></label>
+        <name>Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referral Client&apos;s Name --></label>
+        <name>Referral_Client_s_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Roughing it --></label>
+        <name>Roughing_it__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rwanda --></label>
+        <name>Rwanda__c</name>
+    </fields>
+    <fields>
+        <label><!-- CorrelationID --></label>
+        <name>SFGA_CorrelationID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Correlation Data --></label>
+        <name>SFGA_Correlation_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web Source --></label>
+        <name>SFGA_Web_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salutation --></label>
+        <name>Salutation__c</name>
+        <picklistValues>
+            <masterLabel>Miss.</masterLabel>
+            <translation><!-- Miss. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mr.</masterLabel>
+            <translation><!-- Mr. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mrs.</masterLabel>
+            <translation><!-- Mrs. --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Scheduled escorted tours --></label>
+        <name>Scheduled_escorted_tours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Self drive tours --></label>
+        <name>Self_drive_tours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serengeti National Park --></label>
+        <name>Serengeti_National_Park__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shark cage diving --></label>
+        <name>Shark_cage_diving__c</name>
+    </fields>
+    <fields>
+        <label><!-- South Africa --></label>
+        <name>South_Africa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spa and rejuvenation --></label>
+        <name>Spa_and_rejuvenation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard --></label>
+        <name>Standard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>Supplier__c</name>
+        <picklistValues>
+            <masterLabel>Safari 365</masterLabel>
+            <translation><!-- Safari 365 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa 365</masterLabel>
+            <translation><!-- South Africa 365 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tanzania --></label>
+        <name>Tanzania__c</name>
+    </fields>
+    <fields>
+        <label><!-- The Great Migration --></label>
+        <name>The_Great_Migration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Participants --></label>
+        <name>Total_Participants__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel Date Options --></label>
+        <name>Travel_Date_Options__c</name>
+        <picklistValues>
+            <masterLabel>Exact</masterLabel>
+            <translation><!-- Exact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flexible within 2 weeks</masterLabel>
+            <translation><!-- Flexible within 2 weeks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flexible within 3 days</masterLabel>
+            <translation><!-- Flexible within 3 days --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Uganda --></label>
+        <name>Uganda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unqualified Reason --></label>
+        <name>Unqualified_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Booking parked - to contact later (send to LN)</masterLabel>
+            <translation><!-- Booking parked - to contact later (send to LN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client booked with another competitor (who/why ?)</masterLabel>
+            <translation><!-- Client booked with another competitor (who/why ?) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client cancelled their travel plans (send to LN)</masterLabel>
+            <translation><!-- Client cancelled their travel plans (send to LN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client changed their travel destination (send to LN)</masterLabel>
+            <translation><!-- Client changed their travel destination (send to LN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client postponed their trip (send to LN)</masterLabel>
+            <translation><!-- Client postponed their trip (send to LN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insufficient budget</masterLabel>
+            <translation><!-- Insufficient budget --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No response to emails/phone calls (send to LN)</masterLabel>
+            <translation><!-- No response to emails/phone calls (send to LN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other, why? (send to LN)</masterLabel>
+            <translation><!-- Other, why? (send to LN) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Victoria Falls --></label>
+        <name>Victoria_Falls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Walking Safaris --></label>
+        <name>Walking_Safaris__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website origin --></label>
+        <name>Website_origin__c</name>
+        <picklistValues>
+            <masterLabel>Web: safari365.com</masterLabel>
+            <translation><!-- Web: safari365.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web: safari365.com.au</masterLabel>
+            <translation><!-- Web: safari365.com.au --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web: southafrica365.com</masterLabel>
+            <translation><!-- Web: southafrica365.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web: top5africa.com</masterLabel>
+            <translation><!-- Web: top5africa.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web:safari365.com.tur.br</masterLabel>
+            <translation><!-- Web:safari365.com.tur.br --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Whale watching --></label>
+        <name>Whale_watching__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wildlife Safaris --></label>
+        <name>Wildlife_Safaris__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zambia --></label>
+        <name>Zambia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zanzibar and Pemba --></label>
+        <name>Zanzibar_and_Pemba__c</name>
+    </fields>
+    <layouts>
+        <layout>Lead History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

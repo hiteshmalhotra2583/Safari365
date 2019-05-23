@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2015 January Newsletter (English)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2015 January Newsletter (English)</name>
+    <style>none</style>
+    <subject>Safari365 - New Year, New Horizons</subject>
+    <textOnly>February 2015 Newsletter
+
+Hello {!Contact.FirstName},
+
+Time flies when you’re having fun! We’ve kick started 2015 with our focus destination Victoria Falls, which followed hot on the heels of exciting new developments in Zimbabwe – a destination on every one’s lips.
+
+
+Find all the good news below, as well as some great new specials
+to satisfy your wanderlust. We look forward to taking you on
+many new journeys this coming year. Happy travels!
+
+
+~  Marcus Brain, Safari365 founder  ~
+
+
+
+Which side of Victoria Falls is better: Zimbabwe vs Zambia
+
+Want to visit Victoria Falls? From which side do you want to experience it, Zimbabwe or Zambia? Both have their pros and cons. For those not familiar with the geography, the Zambezi River – which creates the Victoria Falls – is the border between these two beautiful African countries. The result, you’re
+
+left with a few tough decisions to make.
+
+
+Find out everything you need to know with our insightful infographic that looks at the differences – as well as giving you top travel tips.
+
+
+
+New UNIVISA will save you time and money
+
+
+Zimbabwe is on the rise!
+
+
+The newly introduced UNIVISA is set to open up the borders of Zimbabwe, ultimately saving you time and money.
+
+
+And to make the news even sweeter, a US$ 150 million Victoria Falls International Airport makeover is set to open Zimbabwe to the rest of the world – not to mention make travel extremely flexible when exploring Africa.
+
+
+Travel special
+
+Wilderness Safaris&apos; Best of Botswana
+
+Witness the best of Botswana at 1 of 4 premier selected lodges – Joa Camp, with its lush sprawling Okavango Delta surroundings; Kings Pool, overlooking an oxbow lagoon in the Linyati Wildlife Reserve; Vumbura South, a match made in heaven for honeymooners;or Abu Camp, in the heart of elephant country.
+
+HOW MUCH
+USD 3,990pps
+
+(minimum 6 night stay)
+
+SAVE
+USD 3,462
+
+
+
+LIMITED TIME ONLY
+
+Because this is a special celebrating green season, the offer above is only valid if you travel before end of March 2015.
+
+
+Travel special
+
+3 glorious days in Victoria Falls
+
+
+WHERE
+Victoria Falls, Zimbabwe
+
+
+Experience the magnificence of Mother Nature’s splendor with a 4 star stay in ‘Africa’s Adventure Capital’.
+
+
+Our package includes a selection
+
+from 1 of 3 wanderlust inducing accommodations, as well as
+
+2 complimentary tours that sees you venturing into lush rain forests to view the largest falling sheet of water in the world!
+
+
+HOW MUCH
+From USD 749pps
+
+(2 night stay)
+Excl. airport tax
+
+
+www.safari365.com
+
+
+Safari365
+Old Marine Dr Foreshore,
+Cape Town, 8000, South Africa
+
+
+
+
+This message was sent to email@example.com from:
+
+Safari365 | info@safari365.com | Safari365 | 3 Old Marine Drive | Cape Town, WC 8000, South Africa
+
+Email Marketing by
+
+Unsubscribe</textOnly>
+    <type>custom</type>
+</EmailTemplate>

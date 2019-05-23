@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Testing</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Testing Apple Compatibility</name>
+    <style>none</style>
+    <subject>Testing Apple Compatibility</subject>
+    <textOnly>Company Name
+
+
+
+Sample Header
+Commodo consequat natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec in ante vitae eros vestibulum. &gt; Learn More
+
+
+Sample Header
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in massa semper ante adipiscing condimentum. Sed ut lacus sed nisi sagittis ultricies. Donec varius, mauris sit amet scelerisque eleifend, nibh urna lobortis nisl, sit amet volutpat purus sapien eget diam.
+
+Learn More
+
+
+Sample Header
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in massa semper ante adipiscing condimentum. Sed ut lacus sed nisi sagittis ultricies. Donec varius, mauris sit amet scelerisque eleifend, nibh urna lobortis nisl, sit amet volutpat purus sapien eget diam.
+
+Learn More
+
+1234 Street Name - City, State 56789 - (555) 555-5555 - http://www.yoursite.com
+
+
+
+
+
+This message was sent to email@example.com from:
+
+Safari365 | info@safari365.com | Safari365 | 3 Old Marine Drive | Cape Town, WC 8000, South Africa
+
+Email Marketing by
+
+Unsubscribe</textOnly>
+    <type>custom</type>
+</EmailTemplate>

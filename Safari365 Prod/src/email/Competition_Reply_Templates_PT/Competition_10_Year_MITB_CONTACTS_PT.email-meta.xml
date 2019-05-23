@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Competition: 10 Year - MITB Contacts</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Competition_10_Year_Giveaway_Wina_a_Safari_to_Africa</letterhead>
+    <name>Competition: 10 Year  - MITB Contacts PT</name>
+    <style>freeForm</style>
+    <subject>Ganhe uma viagem dos sonhos na África - Safari365</subject>
+    <textOnly>Dear {!Account.FirstName},
+
+As Safari365 celebrates 10 years creating incredible African travel memories, we would like to thank you for your loyal patronage over the years.
+
+In celebration of this milestone, we have decided to give away a safari to to the value of USD10,000 showcasing the best of Southern Africa.
+
+Simply tell us your African favourite destinations and experiences, and recommend a friend who could be interested in winning a trip to Africa. We will send your friend an introductory email with the opportunity to opt out.
+
+Click here to Enter
+
+https://www.safari365.com/competition/{!Account.Members_Club_ID__c}
+
+To all our guests who have travelled with us or already recommended our services to other over the years, we thank you -  we would not be celebrating 10 years in business without you
+
+Yours in Safari,
+Safari365
+
+Prize Inclusive of the following:
+
+4 nights at the luxurious Cape Cadagon boutique hotel in Cape Town
+A 15 minute helicopter flip over Cape Town
+3 nights on safari seeing the Big 5 at Simbavati River Lodge in the Kruger National Park
+2 nights at Victoria&apos;s Falls at the 5 star Elephant Camp Lodge (including a sunset river cruise and tour of the falls)
+All internal flights and 4 days of car hire in Cape Town</textOnly>
+    <type>html</type>
+</EmailTemplate>

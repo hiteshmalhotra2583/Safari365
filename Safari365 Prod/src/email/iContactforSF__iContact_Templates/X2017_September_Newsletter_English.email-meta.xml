@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Kenya + Masai Mara Mahali Mzuri Special</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2017 September Newsletter (English)</name>
+    <style>none</style>
+    <subject>Karibu Kenya: The Quintessential Safari Destination</subject>
+    <textOnly>Karibu Kenya: The Quintessential Safari Destination
+
+Dear [fname],
+
+From the plains of the Masai Mara to the peaks of Mount Kenya, Kenya is full of unmissable experiences and this month we explore some of the country’s most exciting features.
+
+Thinking of Kenya brings to mind the quintessential African safari trip – big game wondering across acacia dotted savannas with skilled guides driving 4x4s in close pursuit, sundowners enjoyed while staring out over endless grassland, and nights spent sleeping in Kenya’s wilds with only a classic safari canvas tent separating you from the African night sky. From July to October, Kenya&apos;s Masai Mara is also the scene of one of nature’s grandest spectacles; the Great Migration.
+
+Touted as Africa’s original Safari destination; it is home to a number of breathtaking landscapes and memorable experiences including spectacular National Parks, inspiring World Heritage Sites and unforgettable wildlife that can be experienced while trundling across open savannas in places like the Masai Mara or closer up with animal conservation organisations such as the world-renowned David Sheldrick Wildlife Trust. Kenya has an array of activities to keep visitors exhilarated throughout their trip.
+
+In other news from the continent, Cape Town is now home to the highly anticipated and internationally acclaimed Zeitz Museum of Contemporary Art Africa. An addition to the city sure to captivate visitors from across the globe.
+
+Yours in Safari,
+
+Safari365 Founder</textOnly>
+    <type>custom</type>
+</EmailTemplate>

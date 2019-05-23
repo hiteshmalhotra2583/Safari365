@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Alert sent to consultant when client deposit has not been received within payment threshold</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>Internal: Client Deposit Not Received</name>
+    <style>freeForm</style>
+    <subject>{!Quotations__c.Primary_Client_Name__c} - {!Quotations__c.Quotation_Name__c}: Client Deposit Not Received</subject>
+    <textOnly>Dear {!Quotations__c.Consultant_Name__c},
+
+The deposit payment for your client is overdue, please follow up with them immediately to request the funds.
+
+Client: {!Quotations__c.Primary_Client_Name__c}
+Opportunity: {!Quotations__c.Opportunity__c}
+Quote: {!Quotations__c.Quotation_Name__c}
+Deposit Due Date: {!Quotations__c.Deposit_Due_Date__c}
+
+Thanks,
+FX Manager.</textOnly>
+    <type>html</type>
+</EmailTemplate>

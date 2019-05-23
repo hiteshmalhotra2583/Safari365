@@ -1,0 +1,11 @@
+Client: {!Lead.Name}
+Telephone: {!Lead.Phone}
+Email: {!Lead.Email}
+{!Lead.Country}
+{!Lead.Link}
+
+Basket Information:
+{!Lead.Basket_Information__c}
+
+Client Comments:
+{!Lead.Client_Comments__c}

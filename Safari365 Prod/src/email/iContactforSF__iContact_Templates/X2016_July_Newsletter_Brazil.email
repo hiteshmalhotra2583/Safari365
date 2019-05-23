@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html style="" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible" />
+    <style type="text/css">
+      @media only screen and (max-width: 620px) {
+      [id=topMessageWrapper] img {
+      height: auto !important;
+      max-width: 100%;
+      width: auto;
+      }
+      [id=topMessageWrapper],
+      [id=topMessageWrapperMainTable] {
+      width: 100% !important;
+      table-layout: fixed;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      }
+      }@media only screen and (max-width: 450px) {
+      [id=topMessageWrapper] {
+      padding: 0 10px;
+      }
+      td[class=responsiveColumn] {
+      width: 100% !important;
+      height: auto !important;
+      display:block;
+      padding: 0;
+      clear:both;
+      height:auto;
+      }
+      }    </style>
+  </head>
+  <body style="margin: 0; padding: 0;">
+    <p>
+      &nbsp;</p>
+    <table bgcolor="#DDDDDD" cellpadding="0" cellspacing="0" style="background-color:#DDDDDD" width="100%">
+      <tbody>
+        <tr>
+          <td align="center" style="text-align:left">
+            <table align="center" bgcolor="#DDDDDD" cellpadding="0" cellspacing="0" id="topMessageWrapper" style="background-color: #DDDDDD; color: #333333; font-family: 'Trebuchet MS'; font-size: 12px; padding-bottom: 10px; padding-top: 10px; width: 600px; border-right: 0px none transparent; margin: 0 auto;" width="600">
+              <tbody>
+                <tr>
+                  <td>
+                    <!-- DESIGNER TEMPLATE: Elegant --><!-- BASIC TEMPLATE: unknown derivation -->
+                    <table border="0" cellpadding="0" cellspacing="0" height="100%" id="topMessageWrapperMainTable" width="600">
+                      <tbody>
+                        <tr>
+                          <td style="color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;">
+                            <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td bgcolor="#FFFFFF" class="responsiveColumn" height="100%" style="background-color: #FFFFFF; color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;" valign="top" width="50%">
+                                    <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td height="100%" style="color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;" valign="top">
+                                            <div style="left: 0px; top: 0px; display: block;">
+                                              <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td bgcolor="#FFFFFF" style="background-color: #FFFFFF; padding-left: 30px; padding-top: 30px; color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;">
+                                                      <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                        <a href="https://www.safari365.com/" style="color: #f738a8!important;"><img alt="" height="78" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/87023e400325345190fb8297298f8d9c/image/jpeg" style="margin: 0px; border: 0px solid #333333; width: 144px; height: 78px; display: inline;" width="144" /></a></p>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                  <td bgcolor="#FFFFFF" class="responsiveColumn" height="100%" style="background-color: #FFFFFF; color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;" valign="top" width="50%">
+                                    <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td height="100%" style="color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;" valign="top">
+                                            <div style="border-color: #c2d9e7; left: 0px; top: 0px; display: block;">
+                                              <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td bgcolor="#FFFFFF" style="padding-right: 30px; padding-top: 30px; background-color: rgb(255, 255, 255);">
+                                                      <p style="text-align: right; margin: 0px; padding: 0px;">
+                                                        <font color="#374850" face="georgia, serif"><span style="font-size: 18px;"><b>Boletim&nbsp;</b></span></font><b style="font-size: 18px; color: rgb(55, 72, 80); font-family: georgia, serif;">Informativo</b></p>
+                                                      <p style="color: rgb(51, 51, 51); font-family: &quot;Trebuchet MS&quot;; font-size: 12px; text-align: right; margin: 0px; padding: 0px;">
+                                                        <strong><span style="font-size: 18px;"><span style="font-family: georgia,serif;"><font color="#374850">Julho&nbsp;</font></span></span></strong><strong><span style="font-size: 18px;"><span style="font-family: georgia,serif;"><span style="color: #374850;">2016</span></span></span></strong></p>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td bgcolor="#FFFFFF" class="responsiveColumn" style="background-color: #FFFFFF; color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td style="padding-bottom: 20px; padding-left: 30px; padding-right: 30px; padding-top: 10px; color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;" valign="top">
+                                    <div style="border-color: #c2d9e7;">
+                                      <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td bgcolor="#FFFFFF" style="background-color: #FFFFFF; color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;">
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <a href="https://www.safari365.com/travel-destinations/botswana" style="color: #f738a8!important;"><img alt="" height="359" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/ef9d966979cb3ec963f1b1daee001cda/image/jpeg" style="width: 540px; margin: 0px; border: 0px solid #333333; height: 359px; display: inline;" width="540" /></a></p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="text-align: justify; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="font-size:14px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><span style="color: #374850;">Olá&nbsp;</span><span style="color: rgb(55, 72, 80);">[fname],</span></span></span></p>
+                                              <p style="text-align: justify; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="text-align: justify; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="font-size:14px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><span style="color: #374850;">2016 tem sido um ano de grandes mudanças para nós da Safari365. Temos muitas novidades após a reformulação da nossa marca, um novo design já está no ar com o intuito de inspirar ainda mais seus planos de conhecer e desbravar o continente africano.</span></span></span></p>
+                                              <p style="text-align: justify; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="text-align: justify; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="font-size:14px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><span style="color: #374850;">Enquanto nosso time de Marketing abria portas para um novo visual, nossos consultores caçadores de grandes destinos faziam as malas para se aventurarem em Botsuana com o objetivo de descobrir os grandes segredos do país. Foram mais de 60 lodges visitados em 2 semanas, cobrindo destinos como o Okavango Delta, Savuti, Linynati e Moremi. Estamos ansiosos para compartilhar com vocês tudo o que descobrirmos.</span></span></span></p>
+                                              <p style="text-align: justify; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="margin:0cm;margin-bottom:.0001pt;text-align:justify">
+                                                <span style="font-size:14px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><span>No próximo mês, celebraremos nosso aniversário de 10 anos e viremos com mais novidades e grandes oportunidades aqui. Por isso, fique de olhos bem abertos em nossos próximos boletins informativos.</span></span></span></p>
+                                              <p style="margin: 0cm 0cm 0.0001pt; text-align: justify;">
+                                                <span style="font-size:14px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><span>&nbsp;</span></span></span></p>
+                                              <p style="margin: 0cm 0cm 0.0001pt; text-align: justify;">
+                                                <span style="font-size:14px;"><span style="font-family:trebuchet ms,helvetica,sans-serif;"><span>Por hora, desejamos a todos ótimas viagens!</span></span></span></p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="font-size: 14px;"><span style="font-family: trebuchet ms,helvetica,sans-serif;"><span style="color: #374850;"><strong>Marcus Brain, fundador&nbsp;</strong></span></span></span><strong style="color: rgb(55, 72, 80); font-family: &quot;trebuchet ms&quot;, helvetica, sans-serif; font-size: 14px;">Safari365</strong></p>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td bgcolor="#ffffff" class="responsiveColumn" style="border: 0px none transparent; background-color: #ffffff; color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td style="padding-left: 30px; padding-right: 30px; color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;" valign="top">
+                                    <div style="border-color: #c2d9e7;">
+                                      <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td bgcolor="#FFFFFF" style="background-color: #FFFFFF; padding-bottom: 30px; padding-top: 30px; color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;">
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <a href="https://www.youtube.com/watch?v=Q_afcdYuXvY" style="color: #f738a8!important;"><img align="left" height="129" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/f9d849530e9e92883b4356b153f04c3e/image/jpeg" style="width: 240px; margin: 0px; border: 0px solid #f738a8; height: 129px; float: left;" width="240" /></a><strong style="font-family: georgia, serif;"><span style="color: #374850;"><span style="font-size: 22px;">Descubra Botsuana aqui</span></span></strong></p>
+                                              <p style="margin-left: 40px; margin-bottom: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                              <p style="margin-left: 40px; margin-bottom: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                Nosso novo vídeo dá um gostinho do que se pode esperar de um safári em Botsuana, um dos destinos mais renomados para safáris na África e sem dúvida, inspirados. &nbsp;</p>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div style="border-color: #c2d9e7; left: 0px; top: 0px; display: block;">
+                                      <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td bgcolor="#FFFFFF" style="background-color: #FFFFFF; padding-bottom: 30px; padding-top: 30px; color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;">
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <a href="https://www.safari365.com/pt" style="color: #f738a8!important;"><img align="left" height="118" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/3eb5525d65ca3980814ba499e0b7f898/image/jpeg" style="width: 236px; height: 118px; margin: 0px; border: 0px solid #333333; float: left;" width="236" /></a><span style="color: #374850;"><strong><span style="font-size: 22px;"><span style="font-family: georgia,serif;">Temos novidades</span></span></strong></span></p>
+                                              <div>
+                                                &nbsp;</div>
+                                              <div>
+                                                Estamos de cara nova. Visite nosso site e descubra o melhor da África - ideias para roteiros, histórias e fotos inspiradoras, informações importantes e tudo o que você precisa saber para planejar uma viagem dos sonhos ao continente. Sua jornada começa aqui.</div>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                &nbsp;</p>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div style="border-color: #c2d9e7; left: 0px; top: 0px; display: block;">
+                                      <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td bgcolor="#FFFFFF" style="background-color: #FFFFFF; padding-bottom: 30px; padding-top: 30px; color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;">
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="color: #374850;"><span style="font-family: georgia,serif;"><strong style="font-family: georgia, serif;"><span style="font-size: 22px;"><a href="https://www.safari365.com/pt/tours/comprehensive-botswana-in-style-tour" style="color: #f738a8!important;"><img align="left" height="147" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/d55e0c8307cabb956a97e8b0a0ca065f/image/jpeg" style="margin: 0px; border: 0px solid #f738a8; width: 240px; height: 147px; float: left;" width="240" /></a></span></strong></span></span><strong style="color: #374850;"><span style="font-size: 22px;"><span style="font-family: georgia,serif;">Roteiro de luxo em Botsuana e nas Cataratas Vitória</span></span></strong></p>
+                                              <div>
+                                                &nbsp;</div>
+                                              <div>
+                                                Embarque em um safári de grande estilo em Botsuana. Com este roteiro, você terá a oportunidade de visitar destinos icônicos da África, como as Makgadikgadi Salt Pans e o Okavango Delta.</div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div style="border-color: #c2d9e7;">
+                                      <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td bgcolor="#FFFFFF" style="background-color: #FFFFFF; padding-bottom: 30px; padding-top: 30px; color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;">
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="color: #374850;"><strong><span style="font-family: georgia,serif;"><span style="font-size: 22px;"><a href="https://www.safari365.com/pt/blog/lions" style="color: #f738a8!important;"><img align="left" alt="" height="147" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/f6661a8deccdcc4fdeeeaf4dca4a0a25/image/jpeg" style="width: 240px; margin: 0px; border: 0px solid #f738a8; height: 147px; float: left;" width="240" /></a></span></span></strong></span><span style="color: #374850;"><strong><span style="font-family: georgia,serif;"><span style="font-size: 22px;">História na África</span></span></strong></span></p>
+                                              <div>
+                                                &nbsp;</div>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                Que tipo de experiência posso esperar de um safári na África? Clique no link ao lado e inspire-se com esta história enviada pelos nossos clientes que realizaram um safári em Botsuana e no Zimbábue.</p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="color: #374850;">&nbsp; &nbsp;</span></p>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td bgcolor="#dfdfdf" class="responsiveColumn" style="background-color: #dfdfdf; color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td style="padding-bottom: 10px; padding-left: 30px; padding-right: 30px; padding-top: 20px; color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;" valign="top">
+                                    <div style="border-color: #c2d9e7;">
+                                      <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td bgcolor="#dfdfdf" style="background-color: #dfdfdf; color: #333333; font-family: 'Trebuchet MS'; font-size: 12px;">
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <a href="https://www.facebook.com/safari365brasil/" style="color: #f738a8!important;"><img height="41.3333" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/5d990c86783d178612be0ed811675280/image/jpeg" style="width: 40.3333px; height: 41.3333px; display: inline;" width="40.3333" /></a>&nbsp;<a href="https://www.instagram.com/safari365/" style="color: #f738a8!important;"><img alt="" height="40" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/016466b64d8357503449e3439967d918/image/jpeg" style="margin: 0px; border: 0px solid #333333; width: 45px; height: 40px; display: inline;" width="45" /></a>&nbsp;<a href="https://www.youtube.com/user/TheSafari365/featured" style="color: #f738a8!important;"><img height="40.3333" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/554f45cf1eb04d9d000a74f5df50ef8e/image/jpeg" style="width: 44.3333px; height: 40.3333px; margin: 0px; border: 0px solid #333333; display: inline;" width="44.3333" /></a></p>
+                                              <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                <span style="font-size: 14px;"><strong style="color: #f16722;">Sua jornada na África começa aqui.</strong></span></p>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      &nbsp;</p>
+  </body>
+</html>

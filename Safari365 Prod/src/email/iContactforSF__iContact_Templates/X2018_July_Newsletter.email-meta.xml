@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Kruger Private Game Reserves + Kruger and Mozambique Combo Special</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2018 July Newsletter</name>
+    <style>none</style>
+    <subject>An Exclusive Kruger Safari Experience</subject>
+    <textOnly>Dear [fname],
+
+What makes a Kruger National Park safari exceptional? Is it the thrill of Big 5 sightings, the picturesque landscapes, the lodges, the hospitality or the expert guiding?
+
+
+The answer? All of the above.
+
+
+At Safari365, we have over a decade of experience in creating spectacular Kruger safaris. Over the years, we have learned that an unforgettable safari is shaped by an exceptional overall experience enjoyed at one of Kruger’s private game reserves.
+
+
+Destinations such as Sabi Sands, Timbavati, Thornybush and Kapama, are home to an array of lodges and camps which offer some of the most exclusive and luxurious safari experiences in Southern Africa.
+
+
+During a stay at a private game reserve, travelers can look forward to top quality accommodation and warm South African hospitality. Out in the scenic African bush, unparalleled safari adventures await. From tracking the Big 5 with expert rangers, to guided bush walks and sunset game drives; excitement is everywhere.
+
+
+This month, we have an exclusive last minute Kruger and Mozambique combo special offer for our travelers. Enjoy the best of a private Kruger safari and a relaxing Mozambique beach getaway with our Untamed Luxury: From Kruger to the Coast special. Book now and travel between 1 November and 19 December 2018 for an unforgettable African adventure.
+
+
+Yours in Safari,
+
+
+The Safari365 Team</textOnly>
+    <type>custom</type>
+</EmailTemplate>

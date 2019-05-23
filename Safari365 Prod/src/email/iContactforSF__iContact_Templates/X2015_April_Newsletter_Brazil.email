@@ -1,0 +1,1009 @@
+<html style="" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <title></title>
+  <meta content="text/html; charset=unicode" http-equiv="Content-Type" />
+  <meta content="Word.Document" name="ProgId" />
+    <meta content="Microsoft Word 14" name="Generator" />
+    <meta content="Microsoft Word 14" name="Originator" />
+    <!--[if !mso]>
+    <style>
+    v\:* {behavior:url(#default#VML);}
+    o\:* {behavior:url(#default#VML);}
+    w\:* {behavior:url(#default#VML);}
+    .shape {behavior:url(#default#VML);}
+  </style>
+    <![endif] --><!--[if gte mso 9]><xml>
+    <o:DocumentProperties>
+    <o:Author>USer</o:Author>
+    <o:Template>NormalEmail</o:Template>
+    <o:Revision>1</o:Revision>
+    <o:TotalTime>0</o:TotalTime>
+    <o:Created>2015-01-29T14:42:00Z</o:Created>
+    <o:Pages>1</o:Pages>
+    <o:Words>458</o:Words>
+    <o:Characters>2614</o:Characters>
+    <o:Lines>21</o:Lines>
+    <o:Paragraphs>6</o:Paragraphs>
+    <o:CharactersWithSpaces>3066</o:CharactersWithSpaces>
+    <o:Version>14.00</o:Version>
+  </o:DocumentProperties>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+  </o:OfficeDocumentSettings>
+  </xml><![endif] --><!--[if gte mso 9]><xml>
+    <w:WordDocument>
+    <w:Zoom>0</w:Zoom>
+    <w:TrackMoves/>
+    <w:TrackFormatting/>
+    <w:ValidateAgainstSchemas/>
+    <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+    <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+    <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+    <w:DoNotPromoteQF/>
+    <w:LidThemeOther>EN-US</w:LidThemeOther>
+    <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+    <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+    <w:Compatibility>
+    <w:DoNotExpandShiftReturn/>
+    <w:BreakWrappedTables/>
+    <w:SplitPgBreakAndParaMark/>
+    <w:EnableOpenTypeKerning/>
+  </w:Compatibility>
+    <m:mathPr>
+    <m:mathFont m:val="Cambria Math"/>
+    <m:brkBin m:val="before"/>
+    <m:brkBinSub m:val="&#45;-"/>
+    <m:smallFrac m:val="off"/>
+    <m:dispDef/>
+    <m:lMargin m:val="0"/>
+    <m:rMargin m:val="0"/>
+    <m:defJc m:val="centerGroup"/>
+    <m:wrapIndent m:val="1440"/>
+    <m:intLim m:val="subSup"/>
+    <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+  </xml><![endif] --><!--[if gte mso 9]><xml>
+    <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+    DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+    LatentStyleCount="267">
+    <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+    UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+    <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+    UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+    <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+    <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+    <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+    <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+    <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+    <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+    <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+    <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+    <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+    <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+    <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+    <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+    <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+    <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+    <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+    <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+    <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+    <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+    <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+    UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+    <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+    <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+    UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+    <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+    UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+    <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+    UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+    <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Table Grid"/>
+    <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+    <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+    UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+    <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light Shading"/>
+    <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light List"/>
+    <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light Grid"/>
+    <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Shading 1"/>
+    <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Shading 2"/>
+    <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium List 1"/>
+    <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium List 2"/>
+    <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 1"/>
+    <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 2"/>
+    <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 3"/>
+    <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Dark List"/>
+    <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful Shading"/>
+    <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful List"/>
+    <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful Grid"/>
+    <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+    <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light List Accent 1"/>
+    <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+    <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+    <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+    <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+    <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+    <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+    UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+    <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+    UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+    <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+    UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+    <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+    <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+    <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+    <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+    <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+    <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+    <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+    <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+    <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+    <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light List Accent 2"/>
+    <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+    <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+    <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+    <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+    <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+    <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+    <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+    <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+    <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+    <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+    <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+    <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+    <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+    <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light List Accent 3"/>
+    <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+    <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+    <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+    <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+    <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+    <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+    <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+    <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+    <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+    <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+    <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+    <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+    <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+    <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light List Accent 4"/>
+    <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+    <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+    <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+    <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+    <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+    <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+    <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+    <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+    <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+    <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+    <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+    <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+    <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+    <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light List Accent 5"/>
+    <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+    <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+    <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+    <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+    <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+    <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+    <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+    <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+    <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+    <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+    <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+    <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+    <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+    <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light List Accent 6"/>
+    <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+    <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+    <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+    <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+    <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+    <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+    <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+    <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+    <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+    <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+    <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+    <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+    UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+    <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+    UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+    <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+    UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+    <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+    UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+    <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+    UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+    <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+    UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+    <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+    <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+  </w:LatentStyles>
+  </xml><![endif] -->
+    <style type="text/css">
+      <!--
+      /* Font Definitions */
+      @font-face
+      {font-family:SimSun;
+      panose-1:2 1 6 0 3 1 1 1 1 1;
+      mso-font-alt:???¡ì??;
+      mso-font-charset:134;
+      mso-generic-font-family:auto;
+      mso-font-pitch:variable;
+      mso-font-signature:3 680460288 22 0 262145 0;}
+      @font-face
+      {font-family:"Cambria Math";
+      panose-1:2 4 5 3 5 4 6 3 2 4;
+      mso-font-charset:0;
+      mso-generic-font-family:roman;
+      mso-font-pitch:variable;
+      mso-font-signature:-536870145 1107305727 0 0 415 0;}
+      @font-face
+      {font-family:Calibri;
+      panose-1:2 15 5 2 2 2 4 3 2 4;
+      mso-font-charset:0;
+      mso-generic-font-family:swiss;
+      mso-font-pitch:variable;
+      mso-font-signature:-520092929 1073786111 9 0 415 0;}
+      @font-face
+      {font-family:"\@SimSun";
+      panose-1:2 1 6 0 3 1 1 1 1 1;
+      mso-font-charset:134;
+      mso-generic-font-family:auto;
+      mso-font-pitch:variable;
+      mso-font-signature:3 680460288 22 0 262145 0;}
+      @font-face
+      {font-family:Georgia;
+      panose-1:2 4 5 2 5 4 5 2 3 3;
+      mso-font-charset:0;
+      mso-generic-font-family:roman;
+      mso-font-pitch:variable;
+      mso-font-signature:647 0 0 0 159 0;}
+      @font-face
+      {font-family:"Trebuchet MS";
+      panose-1:2 11 6 3 2 2 2 2 2 4;
+      mso-font-charset:0;
+      mso-generic-font-family:swiss;
+      mso-font-pitch:variable;
+      mso-font-signature:647 0 0 0 159 0;}
+      /* Style Definitions */
+      p.MsoNormal, li.MsoNormal, div.MsoNormal
+      {mso-style-unhide:no;
+      mso-style-qformat:yes;
+      mso-style-parent:"";
+      margin:0in;
+      margin-bottom:.0001pt;
+      mso-pagination:widow-orphan;
+      font-size:12.0pt;
+      font-family:"Times New Roman","serif";
+      mso-fareast-font-family:SimSun;
+      mso-fareast-theme-font:minor-fareast;}
+      a:link, span.MsoHyperlink
+      {mso-style-priority:99;
+      color:blue;
+      text-decoration:underline;
+      text-underline:single;}
+      a:visited, span.MsoHyperlinkFollowed
+      {mso-style-noshow:yes;
+      mso-style-priority:99;
+      color:purple;
+      text-decoration:underline;
+      text-underline:single;}
+      p
+      {mso-style-priority:99;
+      mso-margin-top-alt:auto;
+      margin-right:0in;
+      mso-margin-bottom-alt:auto;
+      margin-left:0in;
+      mso-pagination:widow-orphan;
+      font-size:12.0pt;
+      font-family:"Times New Roman","serif";
+      mso-fareast-font-family:SimSun;
+      mso-fareast-theme-font:minor-fareast;}
+      .MsoChpDefault
+      {mso-style-type:export-only;
+      mso-default-props:yes;
+      font-size:10.0pt;
+      mso-ansi-font-size:10.0pt;
+      mso-bidi-font-size:10.0pt;}
+      @page WordSection1
+      {size:8.5in 11.0in;
+      margin:1.0in 1.0in 1.0in 1.0in;
+      mso-header-margin:.5in;
+      mso-footer-margin:.5in;
+      mso-paper-source:0;}
+      div.WordSection1
+      {page:WordSection1;}
+body {
+	background-color: #222;
+}
+      -->    
+    </style>
+    <!--[if gte mso 10]>
+    <style>
+    /* Style Definitions */
+    table.MsoNormalTable
+    {mso-style-name:"Table Normal";
+    mso-tstyle-rowband-size:0;
+    mso-tstyle-colband-size:0;
+    mso-style-noshow:yes;
+    mso-style-priority:99;
+    mso-style-parent:"";
+    mso-padding-alt:0in 5.4pt 0in 5.4pt;
+    mso-para-margin:0in;
+    mso-para-margin-bottom:.0001pt;
+    mso-pagination:widow-orphan;
+    font-size:10.0pt;
+    font-family:"Times New Roman","serif";}
+  </style>
+    <![endif] --><!--[if gte mso 9]><xml>
+    <o:shapedefaults v:ext="edit" spidmax="1029"/>
+  </xml><![endif] --><!--[if gte mso 9]><xml>
+    <o:shapelayout v:ext="edit">
+    <o:idmap v:ext="edit" data="1"/>
+  </o:shapelayout></xml><![endif] -->
+  </head>
+  <body lang="EN-US" link="blue" style="tab-interval:.5in" vlink="purple">
+    <div class="WordSection1">
+      <p class="MsoNormal">&nbsp;
+      </p>
+      <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width:100.0%;mso-cellspacing:0in;background:#222222;mso-yfti-tbllook:        1184;mso-padding-alt:0in 0in 0in 0in" width="100%">
+        <tbody>
+          <tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes">
+            <td bgcolor="#222222" style="padding:0in 0in 0in 0in">
+              <div align="center">
+                <table border="0" cellpadding="0" cellspacing="0" id="topMessageWrapperMainTable" width="600">
+                  <tbody>
+                    <tr>
+                      <td style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                          <tbody>
+                            <tr>
+                              <td bgcolor="#000000" class="responsiveColumn" style="background-color: #000000; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top" width="35%">
+                                <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td bgcolor="#000000" style="padding-top: 50px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; background-color: #000000; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top">
+                                        <div style="border-color: #c2d9e7; display: block;">
+                                          <br />
+                                          <table cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                                                  <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                    <img data-icontact-width-flexible="1063" src="https://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/ddaf690d849dec1835c1445f6a8a0239/image/jpeg" style="font-size: 11px; cursor: default; width: 170px; height: 104px;" width="170" /></p>
+                                                  <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                    <span style="font-size: 14px;"><span style="color: #ddeaf2;"><em><span style="font-family: georgia,serif;">Boletim informativo</span></em></span></span></p>
+                                                  <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                    <em style="color: rgb(221, 234, 242); font-size: 14px;"><span style="font-family: georgia, serif;">April, 2015</span></em></p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                              <td class="responsiveColumn" style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top" width="65%">
+                                <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top">&nbsp;
+                                        </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="responsiveColumn" style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                        <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                          <tbody>
+                            <tr>
+                              <td style="padding-top: 10px; padding-right: 0px; padding-bottom: 15px; padding-left: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top">
+                                <div style="border-color: #c2d9e7;">
+                                  <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="border-top: 0px solid transparent; border-right: 0px solid transparent; border-bottom: 0px solid transparent; border-left: 0px solid transparent; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                                          <p style="margin: 0px; padding: 0px; text-align: center;">
+
+                                            <img src="https://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/a93c15fd7dca9c79ad338cca466a833a/image/jpeg" /></p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <div style="display: block;">
+                                  <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="border-bottom: 1px solid #666666; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                                          <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;
+                                            </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <div style="border-color: #c2d9e7;">
+                                  <table cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                                          <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;
+                                            </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <div style="border-color: #c2d9e7;">
+                                  <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(102, 102, 102); padding: 15px 0px;">
+                                          <p style="text-align: center;">
+                                            <span style="color:#ddeaf2;"><strong><span style="font-size:33px;"><span style="font-family:tahoma,geneva,sans-serif;">Permita que a Safari365&nbsp;<br />
+                                              apresente o Zimbábue a você!&nbsp;</span></span></strong></span></p>
+                                          <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; text-align: center; margin: 0px; padding: 0px;">&nbsp;
+                                            </p>
+                                          <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; text-align: center; margin: 0px; padding: 0px;">
+                                            <span style="color:#ddeaf2;"><span style="font-size:18px;"><span style="font-family:georgia,serif;"><em>Olá&nbsp;</em></span></span></span><span style="font-size: 18px;"><em><span style="font-family: georgia,serif;"><span style="color: #ff0000;"><span style="color: #ddeaf2;">{!Contact.FirstName},</span></span></span></em><span style="color: #ff0000; font-family: tahoma, geneva, sans-serif;">&nbsp;</span></span></p>
+                                          <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; text-align: center; margin: 0px; padding: 0px;">&nbsp;
+                                            </p>
+                                          <p style="text-align: center;">
+                                            <span style="color:#999999;"><span style="font-size:18px;"><em><span style="font-family:georgia,serif;">Estamos felizes em anunciar o lançamento de mais um destino africano que aguarda pela sua visita, o magnífico Zimbábue! Nós viajamos por todo o país – do incrível <a href="http://www.safari365.com/pt/travel-destinations/zimbabwe/lake-kariba"><span style="color:#ddeaf2;"><strong>Lago Karib</strong></span><span style="color:#ddeaf2;"><strong>a</strong></span></a> e savanas do <a href="http://www.safari365.com/pt/travel-destinations/zimbabwe/hwange-park-in-zimbabwe"><strong><span style="color:#ddeaf2;">Parque Nacional Hwange</span></strong></a> à selvagem <a href="http://www.safari365.com/pt/travel-destinations/zimbabwe/mana-pools"><span style="color:#ddeaf2;"><strong>Mana Pools</strong></span></a> –, a fim de oferecer aos nossos clientes as melhores dicas, sugestões, experiências e memórias africanas. &nbsp;</span></em></span></span></p>
+                                          <p style="text-align: center;">
+                                            <span style="color:#999999;"><span style="font-size:18px;"><em><span style="font-family:georgia,serif;">Confira <a href="http://www.safari365.com/pt/travel-destinations/zimbabwe"><span style="color:#ddeaf2;"><strong>aqui</strong></span></a> tudo o que você precisa saber sobre&nbsp;</span></em></span></span><br />
+                                            <em style="font-size: 18px; color: rgb(153, 153, 153);"><span style="font-family:georgia,serif;">este surpreendente destino.</span></em></p>
+                                          <p style="text-align: center;">
+                                            <span style="color:#999999;"><span style="font-size:18px;"><em><span style="font-family:georgia,serif;">Abaixo você também encontrará o relato inspirador da nossa consultora australiana de viagens sobre sua jornada no Zimbábue; nossas promoções especiais; nossa foto do mês; e nosso mais novo vídeo.&nbsp;</span></em></span></span></p>
+                                          <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; text-align: center; margin: 0px; padding: 0px;">
+                                            <span style="font-size: 15px;"><span style="color: #ddeaf2;"><em><span style="font-family: georgia,serif;">&nbsp;</span><span style="font-family: georgia,serif;">~ &nbsp;Marcus Brain, Safari365 founder&nbsp;</span><span style="font-family: georgia, serif;">&nbsp;~&nbsp;</span></em></span><em style="font-size: 11px;"><span style="color: #bacfdd;"><span style="font-family: georgia,serif;">&nbsp;</span></span></em></span></p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                        <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                          <tbody>
+                            <tr>
+                              <td class="responsiveColumn" style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top" width="50%">
+                                <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top">
+                                        <div style="">
+                                          <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td style="border-top: 0px solid transparent; border-right: 0px solid transparent; border-bottom: 0px solid transparent; border-left: 0px solid transparent; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                                                  <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"> <a href="https://www.youtube.com/watch?v=PkfgfTTEuDY"><img src="https://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/f6ca85b41a931091cb3a50a2dc219ada/image/jpeg" /></a></p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                        <div style="border-color: #c2d9e7;">
+                                          <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td style="padding: 10px 0px 0px;">
+                                                  <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; margin: 0px; padding: 0px;">
+                                                    <span style="color:#ff0000;"><span style="font-size:15px;"><span style="font-family: georgia,serif;">VIDEO </span></span></span></p>
+                                                  <p style="margin: 0px; padding: 0px;">
+                                                    <span style="color:#ddeaf2;"><span style="font-size:21px;"><span style="font-family:georgia,serif;">Especialistas em Safáris de Luxo &amp; Aventuras</span></span></span></p>
+                                                  <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; margin: 0px; padding: 0px;">
+                                                    <br />
+                                                    <span style="font-size: 11px;"><span style="color:#999999;"><span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;">Como uma agência de viagens sul-africana com escritórios no Brasil e na Austr&aacute;lia, nós adoramos viagens que inspiram, assim como levar nossos clientes para os melhores e mais inspiradores destinos da África.</span></span></span></span></p>
+                                                  <p>
+                                                    <span style="color:#999999;"><span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;">Nosso novo vídeo irá transportá-lo para algumas das regiões mais espetaculares que trabalhamos. Prepare-se para uma mistura inebriante de paisagens e sons, do grande Serengeti à magnífica Cidade do Cabo – você encontrará muita coisa para adicionar à sua lista de viagens.&nbsp;</span></span></span><br />
+                                                    &nbsp;</p>
+                                                  <p>
+                                                    <a href="https://www.youtube.com/watch?v=PkfgfTTEuDY"><span style="font-size:13px;"><em><span style="color:#ffffff;"><span style="font-family:tahoma,geneva,sans-serif;">Assista o vídeo</span></span></em></span></a></p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                              <td class="responsiveColumn" style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top" width="50%">
+                                <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 5px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top">
+                                        <div style="">
+                                          <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td style="border-top: 0px solid transparent; border-right: 0px solid transparent; border-bottom: 0px solid transparent; border-left: 0px solid transparent; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                                                  <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"> <a href="http://www.safari365.com/pt/blog/zimbabwe-africa-greatest-destination"><img src="https://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/d61545643a68b3af525fa539876a1ec6/image/jpeg" /></a></p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                        <div style="border-color: #c2d9e7;">
+                                          <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td style="padding: 10px 0px 0px; border: 0px solid transparent;">
+                                                  <p style="margin: 0px; padding: 0px;">
+                                                    <font color="#ff0000" face="georgia, serif"><span style="font-size: 15.454545021057129px;">DESTAQUE</span></font></p>
+                                                  <p style="margin: 0px; padding: 0px;">
+                                                    <span style="font-size:21px;"><span style="color:#ddeaf2;"><span style="font-family:georgia,serif;">Um dos grandes destinos da África está de volta à rota do turismo</span></span></span></p>
+                                                  <p>
+                                                    <span style="font-size:12px;"><span style="color:#999999;"><span style="font-family:tahoma,geneva,sans-serif;">Recentemente, nossa consultora australiana de viagens, Karen Peasley, fez suas malas e decolou para o Zimbábue para experimentar alguns dos melhores destinos turísticos do país.</span></span></span></p>
+                                                  <p>
+                                                    <span style="font-size:12px;"><span style="color:#999999;"><span style="font-family:tahoma,geneva,sans-serif;">Sua aventura inspiradora desvenda tantos aspectos e curiosidades sobre o Zimbábue que é impossível não se apaixonar por este destino&nbsp;</span></span></span><span style="color: rgb(153, 153, 153); font-family: tahoma, geneva, sans-serif; font-size: 12px;">surpreendente</span><span style="font-family: tahoma, geneva, sans-serif; color: rgb(153, 153, 153); font-size: 12px;">.&nbsp;</span></p>
+                                                  <p>
+                                                    <span style="font-size:12px;"><span style="color:#999999;"><span style="font-family:tahoma,geneva,sans-serif;">Leitura imperdível!&nbsp;&nbsp;</span></span></span></p>
+                                                  <p>
+                                                    <a href="http://www.safari365.com/pt/blog/zimbabwe-africa-greatest-destination"><span style="color:#ffffff;"><span style="font-size:13px;"><em><span style="font-family:tahoma,geneva,sans-serif;">Confira mais sobre esta experiência aqui</span></em></span></span></a></p>
+                                                  <p>&nbsp;
+                                                    </p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                          <tbody>
+                            <tr>
+                              <td class="responsiveColumn" style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top" width="100%">
+                                <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td style="padding-top: 5px; padding-right: 0px; padding-bottom: 20px; padding-left: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top">
+                                        <div style="">
+                                          <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="600">
+                                            <tbody>
+                                              <tr>
+                                                <td style="border-bottom: 1px solid #666666; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                                                  <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;
+                                                    </p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                        <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                          <tbody>
+                            <tr>
+                              <td class="responsiveColumn" style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top" width="33%">
+                                <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top">
+                                        <div style="">
+                                          <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: normal; table-layout: fixed;" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                                                  <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"> <a href="https://www.facebook.com/safari365brasil/photos/a.241120355960073.55925.157141244357985/845081202230649/"><img src="https://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/14b10efc5a89afb2f69837948476ef89/image/jpeg" /></a></p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                        <div style="border-color: #c2d9e7;">
+                                          <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td style="padding-top: 10px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top: 0px solid transparent; border-right: 0px solid transparent; border-bottom: 0px solid transparent; border-left: 0px solid transparent; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                                                  <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                    <span style="color:#ddeaf2;"><span style="font-size:20px;"><span style="font-family:georgia,serif;">Foto do mês!&nbsp;</span></span></span></p>
+                                                  <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                    <br />
+                                                    <span style="font-size: 11px;"><span style="color:#999999;"><span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;">N&oacute;s nos apaixonamos pela foto que nossos clientes Brad e Verity McPartland nos enviaram de sua jornada pelas Cataratas Vit&oacute;ria. Ela se tornou a foto do m&ecirc;s. Temos certeza que voc&ecirc; tamb&eacute;m ir&aacute; adorar!&nbsp;</span></span></span></span></p>
+                                                  <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;
+                                                    </p>
+                                                  <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                    <a href="https://www.facebook.com/safari365brasil/photos/a.241120355960073.55925.157141244357985/845081202230649/"><span style="color:#ffffff;"><span style="font-size:13px;"><em><span style="font-family:tahoma,geneva,sans-serif;">Confira a foto inteira<br />
+                                                      no nosso Facebook&nbsp;</span></em></span></span></a></p>
+                                                  <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;
+                                                    </p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                              <td class="responsiveColumn" style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top" width="34%">
+                                <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top">
+                                        <div style="">
+                                          <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                                                  <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"> <a href="http://www.safari365.com/pt/tours/zimbawe-luxury-adventure-safari"><img src="https://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/a93536fae33a123432527a91df03d8d4/image/jpeg" style="margin: 0px; border: 0px solid #000000;" /></a></p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                        <div style="border-color: #c2d9e7;">
+                                          <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td style="padding: 10px 0px 0px;">
+                                                  <p style="margin: 0px; padding: 0px;">
+                                                    <font color="#ff0000" face="georgia, serif"><span style="font-size: 13.63636302948px;">ROTEIRO ESPECIAL</span></font></p>
+                                                  <p style="margin: 0px; padding: 0px;">
+                                                    <font color="#ddeaf2" face="georgia, serif"><span style="font-size: 20.909090042114258px;">Zimbabwe Luxury Adventure Safari</span></font></p>
+                                                  <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; margin: 0px; padding: 0px;">&nbsp;
+                                                    </p>
+                                                  <p style="font-family: 'Trebuchet MS'; font-size: 11px; margin: 0px; padding: 0px;">
+                                                    <span style="font-size: 12px;"><span style="font-family: tahoma, geneva, sans-serif;"><font color="#ddeaf2"><b>ONDE</b></font></span></span><br />
+                                                    <span style="font-size:12px;"><span style="color:#999999;"><span style="font-family:tahoma,geneva,sans-serif;">Cataratas Vitória e Parque Nacional Hwange, Zimbábue</span></span></span></p>
+                                                  <p>
+                                                    <span style="font-size:12px;"><span style="color:#999999;"><span style="font-family:tahoma,geneva,sans-serif;">Uma experiência de 5 dias e 4 noites em dois destinos icônicos do Zimbábue – Cataratas Vitória, a queda d’água mais espetacular do mundo e Parque Nacional Hwange, que abriga a segunda maior concentração de elefantes do mundo. Esta promoção inclui 2 passeios extras e estadia all inclusive!</span></span></span></p>
+                                                  <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; margin: 0px; padding: 0px;">
+                                                    <strong style="color: rgb(221, 234, 242); font-size: 11.818181991577148px;"><span style="font-family: tahoma, geneva, sans-serif;">PREÇO&nbsp;</span></strong><br />
+                                                    <span style="color: #999999;"><span style="font-size: 12px;"><span style="font-family: tahoma,geneva,sans-serif;"> <span style="font-family:tahoma,geneva,sans-serif;">Partir de</span> USD 1535</span></span></span></p>
+                                                  <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; margin: 0px; padding: 0px;">
+                                                    <span style="color: rgb(153, 153, 153); font-family: tahoma, geneva, sans-serif; font-size: 10px;">*Incl. voos (Excl. taxas aeroporto)<br />
+                                                      Preço pp/em apto duplo</span></p>
+                                                  <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; margin: 0px; padding: 0px;">&nbsp;
+                                                    </p>
+                                                  <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; margin: 0px; padding: 0px;">
+                                                    <a href="http://www.safari365.com/pt/tours/zimbawe-luxury-adventure-safari"><em style="color: rgb(255, 255, 255); font-family: tahoma, geneva, sans-serif; font-size: 12.727272033691406px;">Saiba mais aqui</em></a></p>
+                                                  <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; margin: 0px; padding: 0px;">&nbsp;
+                                                    </p>
+                                                  <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; margin: 0px; padding: 0px;">&nbsp;
+                                                    </p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                              <td class="responsiveColumn" style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top" width="33%">
+                                <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 5px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top">
+                                        <div style="">
+                                          <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                                                  <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"> <a href="http://www.safari365.com/pt/tours/great-zimbabwe-journey"><img height="139" src="https://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/cf0bd1bfe34a5618ff9cb922ef3b8e11/image/jpeg" style="width: 193px; height: 139px;" width="193" /></a></p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                        <div style="border-color: #c2d9e7;">
+                                          <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td style="padding: 10px 0px 0px;">
+                                                  <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; margin: 0px; padding: 0px;">
+                                                    <span style="color:#ff0000;"><span style="font-size:14px;"><span style="font-family:georgia,serif;">ROTEIRO ESPECIAL</span></span></span></p>
+                                                  <p style="margin: 0px; padding: 0px;">
+                                                    <font color="#ddeaf2" face="georgia, serif"><span style="font-size: 20.909090042114258px;">The Great Zimbabwe Journey</span></font></p>
+                                                  <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; margin: 0px; padding: 0px;">&nbsp;
+                                                    </p>
+                                                  <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; margin: 0px; padding: 0px;">
+                                                    <span style="font-size: 12px;"><span style="font-family: tahoma, geneva, sans-serif;"><font color="#ddeaf2"><b>ONDE</b></font></span></span><br />
+                                                    <span style="font-size:12px;"><span style="color:#999999;"><span style="font-family:tahoma,geneva,sans-serif;">Os melhores destinos do Zimbábue</span></span></span></p>
+                                                  <p>
+                                                    <span style="font-size:12px;"><span style="color:#999999;"><span style="font-family:tahoma,geneva,sans-serif;">Descubra o melhor do Zimbábue em uma jornada de 11 noites em 4 destinos especiais - Matobos Hills, Parque Nacional Wange, Mana Pools e Cataratas Vitória.</span></span></span></p>
+                                                  <p>
+                                                    <span style="font-size:12px;"><span style="color:#999999;"><span style="font-family:tahoma,geneva,sans-serif;">Nosso pacote inclui serviço de transporte e algumas das acomodações mais exclusivas do Zimbábue.&nbsp;</span></span></span></p>
+                                                  <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; margin: 0px; padding: 0px;">
+                                                    <span style="font-size:12px;"><span style="color:#ddeaf2;"><strong><span style="font-family:tahoma,geneva,sans-serif;">PREÇO&nbsp;</span></strong></span></span></p>
+                                                  <div><span style="font-size:12px;"><span style="color:#999999;"><span style="font-family:tahoma,geneva,sans-serif; color: #999;">Partir de USD 5331<br />
+                                                      <span style="font-size:10px;">*Excl. voos.<br />
+                                                        Preço pp/em apto duplo</span></span></span></span></div>
+                                                  <div>
+                                                    &nbsp;</div>
+                                                  <div>
+                                                    <a href="http://www.safari365.com/pt/tours/great-zimbabwe-journey"><span style="font-size:13px;"><span style="font-family:tahoma,geneva,sans-serif;"><span style="color:#ffffff;"><em>Saiba mais aqui</em></span></span></span></a></div>
+                                                  <div>
+                                                    &nbsp;</div>
+                                                  <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; margin: 0px; padding: 0px;">&nbsp;
+                                                    </p>
+                                                  <p style="margin: 0px; padding: 0px;">&nbsp;
+                                                    </p>
+                                                  <p style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS'; font-size: 11px; margin: 0px; padding: 0px;">&nbsp;
+                                                    </p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                          <tbody>
+                            <tr>
+                              <td class="responsiveColumn" style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top" width="100%">
+                                <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td style="padding-top: 5px; padding-right: 0px; padding-bottom: 20px; padding-left: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top">
+                                        <div style="">
+                                          <table cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top: 1px solid #ffffff; border-right: 1px solid #ffffff; border-bottom: 1px solid #ffffff; border-left: 1px solid #ffffff; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                                                  <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;
+                                                    </p>
+                                                  <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                    <strong style="font-size: 11px; text-align: center; font-family: tahoma, geneva, sans-serif;"><a href="http://www.safari365.com/pt/" style="font-size: 11px; color: #ffffff;" target="_blank">www.safari365.com/pt</a></strong></p>
+                                                  <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;
+                                                    </p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                        <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                          <tbody>
+                            <tr>
+                              <td class="responsiveColumn" style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top" width="33%">
+                                <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top">
+                                        <div style="border-color: #c2d9e7;">
+                                          <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                                                  <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                    <span style="color: #666666;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10px;">Safari365&nbsp;<br />
+                                                      Old Marine Dr Foreshore,<br />
+                                                      Cape Town, 8000, South Africa</span></span></p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                              <td class="responsiveColumn" style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top" width="34%">
+                                <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top">
+                                        <div style="border-color: #c2d9e7;">
+                                          <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                                                  <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;
+                                                    </p>
+                                                  <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                    <a href="[manage_your_subscription_url]" style="font-family: tahoma, geneva, sans-serif; font-size: 12px; color: #ffffff;" target="_blank"><font color="#999999">Manage your subscription</font></a></p>
+                                                  <p style="text-align: center; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;
+                                                    </p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                              <td class="responsiveColumn" style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top" width="33%">
+                                <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 5px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" valign="top">
+                                        <div style="border-color: #c2d9e7;">
+                                          <table border="0" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+                                                  <p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+                                                    &nbsp;<a href="https://www.facebook.com/safari365brasil" style="color: #ffffff;" target="_blank"><img src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/9dcf1541e8b6dd1b77b94466e1c7e8ff/image/jpeg" style="margin: 0px; border: 0px solid #000000;" /></a>&nbsp;&nbsp;<a href="http://www.safari365.com/pt/blog" style="color: #ffffff;" target="_blank"><img src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/5c74286905b15bfd3c19269aec36f8be/image/jpeg" style="margin: 0px; border: 0px solid #000000;" /></a>&nbsp;&nbsp;<a href="https://twitter.com/Safari365_BR" style="color: #ffffff;" target="_blank"><img alt="" src="http://staticapp.icpsc.com/icp/loadimage.php/mogile/1500197/0327facca1edfeb624835e4cf6ddbc6c/image/jpeg" style="margin: 0px; border: 0px solid #000000;" /></a>&nbsp;&nbsp;</p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="MsoNormal" style="margin-bottom:12.0pt">&nbsp;
+        </p>
+    </div>
+  </body>
+</html>

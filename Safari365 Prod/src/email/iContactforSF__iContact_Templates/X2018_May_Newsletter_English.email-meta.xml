@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Kruger National Park + Wildlife and Winelands Special (Ulusaba and Mont Rochelle)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2018 May Newsletter (English)</name>
+    <style>none</style>
+    <subject>Kruger: South Africa&apos;s Safari Icon</subject>
+    <textOnly>Dear [fname],
+
+“Sighting a leopard in a riverine tree at dusk, coming across a pride of lions feeding on a kill, or seeing a herd of elephant file with massive majesty across the savanna: these precious experiences will stay with you for a lifetime.”
+
+- National Geographic Traveler on Kruger National Park
+
+
+Year in and year out, Kruger National Park continues to be one of our most popular trips in Africa. This month we explore the highlights of this leading safari destination.
+
+
+Kruger National Park in South Africa offers travellers a quintessential Big 5 safari experience complete with an abundance of wildlife, natural splendor, premier lodges and private game reserves, as well as world-class South African warmth and hospitality.
+
+
+Lonely planet calls it “one of the world’s greatest wildlife watching destinations”, and Kruger National Park definitely delivers on this promise. Owing to the fantastic wildlife viewing, stunning landscapes and variety of accommodation, Kruger is perfect for every kind of traveler and the spirit of Kruger is sure to captivate all who visit. First-time visitors are almost guaranteed wildlife sighting thrills while Kruger remains a firm-favourite with well-traversed safari-goers who return to the heart of the bush again and again.
+
+
+Another highlight of a visit to Kruger is that is in the perfect position to combine with other southern African destinations such as the Panorama Route, Cape Town, Victoria Falls and Chobe National Park. With a variety of travel options both locally and internationally, it is now easier than ever to experience this iconic South African destination.
+
+
+Yours in Safari,
+
+
+The Safari365 Team</textOnly>
+    <type>custom</type>
+</EmailTemplate>

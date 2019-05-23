@@ -1,0 +1,10 @@
+<apex:page controller="GoogleDriveAppController">
+   <apex:form >
+   <br/>
+<br/>
+<apex:outputPanel rendered="{!googleDriveConnected }">
+    <span  style="Color:white;background:green;padding:10px" ><b><apex:outputText Value="Google Drive Connected"/></b></span>
+    </apex:outputPanel>
+    <apex:commandButton value="Connect Salesforce to Google Drive" action="{!newAuthorizationCode}" rendered="{!!googleDriveConnected }" />
+  </apex:form>
+</apex:page>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>CLOSED_AMOUNT</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>QUOTA</field>
+    </columns>
+    <columns>
+        <field>START_DATE2</field>
+    </columns>
+    <columns>
+        <field>CLOSED_PCTQUOTA</field>
+    </columns>
+    <columns>
+        <field>COMMIT_AMOUNT</field>
+    </columns>
+    <columns>
+        <field>UPSIDE_AMOUNT</field>
+    </columns>
+    <columns>
+        <field>PIPELINE_AMOUNT</field>
+    </columns>
+    <columns>
+        <field>CLOSED_PLUS_PIPELINE</field>
+    </columns>
+    <currency>ZAR</currency>
+    <filter>
+        <criteriaItems>
+            <column>FULL_NAME</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>mariana amorim</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Sales per Month (Booking Date)</name>
+    <params>
+        <name>show</name>
+        <value>me</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AdvForecastSummary</reportType>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>START_DATE</dateColumn>
+        <interval>INTERVAL_CURY</interval>
+    </timeFrameFilter>
+</Report>

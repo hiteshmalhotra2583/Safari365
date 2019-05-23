@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Used in Batch_LeadNurtureNewsLetter</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Template_Label_Name__c</fullName>
+        <description>Corresponding Label name of Template for Every News letter</description>
+        <externalId>false</externalId>
+        <label>Template Label Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>LeadNurtureMapping</label>
+    <visibility>Public</visibility>
+</CustomObject>

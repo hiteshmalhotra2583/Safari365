@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2015 December Newsletter (English)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 December Newsletter (English)</name>
+    <style>none</style>
+    <subject>Happy Holidays and best wishes from Safari365</subject>
+    <textOnly>Warmest greetings and best wishes from Africa
+
+Dear [fname],
+
+As another year draws to a close, I would like to thank all of our guests, friends and family for sharing Africa with us.
+
+Africa is vibrant and alive, and 2015 was no different. Botswana was named Lonely Planet number 1 destination for 2016. National Geographic named Cape Town the 2nd best beach city in the world. The 2.5 million year old Homo Naledi was discovered at the Cradle of Humankind, South Africa. Much of Africa continues to recognise the value of tourism and endeavours to supports conservation.
+
+And yes, we’ve had challenges. The draconian South African visa regulations have thankfully been overturned. The uncertainty in South African financial markets has led to a dramatic devaluation of the South African Rand (much to the benefit of our international visiting guests). The scourge that is wildlife poaching and trafficking sadly still remains prominent, but institutions such as Rhinos without Borders and TUSK are slowly stemming the tide. Our initiatives with Masikhule Trust are also bringing in smiles (see our feature below) and in 2016 we’d like to see those smiles become even bigger. We are for Africa, and maintain our belief that your time traveling here has a lasting positive impact on the people that make this continent great.
+
+On a final note, our little business has grown into a family of nearly 30 – servicing guests of which 40% is repeat and referral (a testament to the good work we’ve achieved). 2016 will see numerous enhancements to our service to you, including a new website and brand re-launch.
+
+We thank you again and wish you happy festive season and prosperous 2016.
+
+~  Marcus Brain, Safari365 founder  ~</textOnly>
+    <type>custom</type>
+</EmailTemplate>

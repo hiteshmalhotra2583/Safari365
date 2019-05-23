@@ -1,0 +1,8 @@
+Hi {!Opportunity.OwnerFirstName},
+
+Your client {!Opportunity.Account} has reviewed your service and their African safari experience and rated it 5 (5 = Fantastic, everything was perfect) 
+
+Click here for the opportunity: {!Opportunity.Link}
+
+
+WELL DONE!!

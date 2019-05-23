@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <attachedDocuments>E_Mail_Templates/African_Safari_Costs.pdf</attachedDocuments>
+    <available>false</available>
+    <description>Response to low budget request</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>1.4. STAGE = LEAD</name>
+    <style>formalLetter</style>
+    <subject>{!User.Division} - {!Lead.FirstName} {!Lead.LastName} : Your African Vacation Enquiry</subject>
+    <textOnly>Dear {!Lead.FirstName},
+Thank you for your enquiry. {!User.Division} specialises in scheduled and tailor-made safaris to Southern and East Africa.
+
+We have a wide selection of tours and accommodation available, and generally these range from USD 100 per person per night and upwards. I realise that the budget indicated on your enquiry form was lower than this; please consult the attached document for an indication of what a safari to Africa will cost as well as where you can find excellent value.
+
+On the surface, travel to Africa may seem expensive; however, the value lies in the memories and experiences of this unique destination. If you are able to meet the budget, we would be delighted to assist you. Should it not be within your reach, please follow this link for more budget-conscious accommodation options: http://www.safarinow.com/
+
+Kind regards,
+
+
+{!User.FirstName} {!User.LastName}
+
+{!User.Title}
+
+{!User.Email}
+
+
+
+Visit Your Members Club: www.safari365.com/members/login/{!Lead.Members_Club_ID__c}
+
+
+
+Get to know us better! Read our blog
+_______________________________________________________________________________________________
+
+Safari365.com &amp; South Africa 365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK 080 823 44485 USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325 Fax: 086 658 1713
+www.safari365.com &amp; www.southafrica365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

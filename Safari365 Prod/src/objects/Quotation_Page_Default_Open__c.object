@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>This setting is to tell if quotation item list should open in expand mode or collapse mode in quotation screen.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Expand__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Expand</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Quotation Page Default Open</label>
+    <visibility>Public</visibility>
+</CustomObject>

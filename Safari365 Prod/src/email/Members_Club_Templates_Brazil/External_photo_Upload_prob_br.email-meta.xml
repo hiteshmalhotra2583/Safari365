@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Photobook_Offer_Letterhead_Safari365</letterhead>
+    <name>External: Is there a problem with your photo upload photographs (Brazil)</name>
+    <style>freeForm</style>
+    <subject>Safari365: Problemas no carregamento de suas fotos?</subject>
+    <textOnly>Olá {!Account.FirstName},
+
+Notamos que você iniciou o carregamento de suas fotos para o photobook, porém nosso sistema alertou que o processo não foi finalizado.
+
+Para finalizá-lo, clique no link abaixo: www.safari365.com/members/login/{!Opportunity.Members_Club_ID__c}
+
+Caso você esteja com problemas ou dúvidas, nos colocamos à disposição para ajudá-lo.
+
+Alternativamente, nos informe se preferir enviar as fotos utilizando os serviços do Dropbox ou Google Drive.
+
+Atenciosamente,
+Equipe Safari365
+Departamento de Comunicação</textOnly>
+    <type>html</type>
+</EmailTemplate>

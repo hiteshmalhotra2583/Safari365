@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>First consultation email (Client roughly knows what they want)</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>1.2. STAGE = LEAD</name>
+    <style>freeForm</style>
+    <subject>{!User.Division} - {!Lead.FirstName} {!Lead.LastName} : 您的非洲之行</subject>
+    <type>html</type>
+</EmailTemplate>

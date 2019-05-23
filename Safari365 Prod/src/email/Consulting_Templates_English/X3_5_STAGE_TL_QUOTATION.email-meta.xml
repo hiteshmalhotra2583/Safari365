@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>&gt;7-day Opportunity No Response - Manager Weekly Followup</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>3.5. STAGE = TL QUOTATION</name>
+    <style>freeForm</style>
+    <subject>{!Contact.FirstName} {!Contact.LastName}&apos;s Safari to Africa - arriving {!Opportunity.Arrival_Date__c}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+I am the Team Leader for our Sales Consultants and have been monitoring the early stages of planning your safari to Africa.
+
+As {!Opportunity.OwnerFirstName} has not heard from you in some time, I would like to lend my services to make sure you are getting what you need. Africa is an incredible, life-enriching destination, so it is important we understand your needs to build your perfect African experience.
+
+If we have missed the mark or your travel plans have changed, please let me know so we can make the necessary amendments. We are keen on making your African dream a reality
+
+I look forward to hearing from you
+
+Kind regards,
+{!User.Name}
+{!User.Title}
+{!User.Email}
+
+Read our Blog: www.safari365.com/blog</textOnly>
+    <type>html</type>
+</EmailTemplate>

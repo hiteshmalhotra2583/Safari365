@@ -1,0 +1,23 @@
+<aura:component description="PillComponent">
+    <aura:attribute name="item" type="Object" required="true"/>
+    <aura:attribute name="showIcon" type="Boolean" default="false"/>
+    <aura:attribute name="icon" type="String" default="standard:pricebook"/>
+
+    <aura:attribute name="key" type="String" access="private"/>
+    <aura:attribute name="value" type="String" access="private"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <aura:registerEvent name="removePill" type="c:RemovePill"/>
+
+    <span class="slds-pill">
+        <span class="slds-icon_container slds-pill__icon_container">
+             <lightning:icon iconName="{!v.icon}" size="xx-small"/>
+            <span class="slds-assistive-text"></span>
+        </span>
+        <a href="javascript:void(0);" class="slds-pill__label">{!v.value}</a>
+        <button class="slds-button slds-button--icon slds-pill__remove" title="Remove" onclick="{!c.removePillItem}">
+           <lightning:icon iconName="utility:close" size="xx-small"/>
+        </button>
+    </span>
+</aura:component>

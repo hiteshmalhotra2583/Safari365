@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2015 September Newsletter (English)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 September Newsletter (English)</name>
+    <style>none</style>
+    <subject>Safari365: Celebrate Africa in 2015</subject>
+    <textOnly>Celebrate Africa in 2015
+
+Summer is around the corner ready to wrap its arms around us like a warm blanket. The smell is enough to make you fall in love. What could make this any better? Africa.
+
+From the sunset-soaked beaches of Cape Town, to the placid waters of Chobe and the vast stretches of Namibia there’s a whole lot to be discovered with your significant other. Personally I can’t wait, it’s time to hang up my snuggly safari jacket and don my best sandals.
+
+The time for sun, sand and Africa is coming… to celebrate, we’ve collected a few items of interest (find it all below). Don’t forget to browse our Travel Deals and grab a slice of summer fun for yourself.
+
+See you in Africa.
+
+
+~  Marcus Brain, Safari365 founder  ~</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Payment Instructions (cc Accounts in this email)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Payment_Gateway</letterhead>
+    <name>5.1 STAGE = RAISED INVOICE DE</name>
+    <style>formalLetter</style>
+    <subject>{!User.Division} - {!Account.Name}: Bestätigung Ihrer Reservierung</subject>
+    <textOnly>Hi {!Account.FirstName},
+In der Anlage befindet sich Ihre Rechnung, als auch die Zahlungsanweisung unten, um Ihre Reservierung zu bestätigen. Bitte überprüfen Sie, ob alle Details korrekt sind laut Ihrem zugestimmten Reiseplan und teilen Sie uns mit, wenn es irgendwelche Unstimmigkeiten geben sollte.
+
+Zahlungsanweisungen:
+Wir haben unser eigenes Online Zahlungs-Gateway entwickelt, um Ihnen eine sichere Zahlungsmethode für Ihren Urlaub zu gewährleisten, mit Kreditkarte oder iternationaler Banküberweisung.
+
+Sollten Sie sich dazu entscheiden mit Kreditkarte zu zahlen, wird eine Bearbeitungsgebühr von 3% automatisch zur Ihrer Transaktion hinzugefügt. Wir akzeptieren Visa und MasterCard für Süafrikanische Rand Rechnungen und Visa, Mastercard, American Express und Paypal für die US Dollar Rechnungen.
+
+Alternativ, falls Sie die Zahlungsoption International Bank wählen, kann Ihre Bank Gebühren erheben. Bitte überprüfen Sie das mit Ihrer Bank, da die Kosten von Bank zu Bank schwanken können.
+
+Bitte klicken Sie auf den Link unten, um mit Ihrer Zahlung fortzufahren:
+https://payments.safari365.com/
+
+Sobald Sie die Zahlung getätigt haben, teilen Sie mir das bitte mit, damit ich das an unsere Buchhaltung weitergeben kann. Ihre finale Zahlung muss 60 Tage vor Ihrer Abfahrt bei in unserem Konto eingegangen sein. Sobald dies erfolgt ist, werde ich Ihnen die relevanten Belege und Reiseunterlagen 2 bis 4 Wochen vor Ihrer Abreise zu kommen lassen.
+
+{!Account.FirstName}, es war mir eine Freude, Ihnen in der Planung Ihres Urlaubs behilflich zu sein und ich bin mir sicher, dass Sie eine unbeschreibliche Zeit mit wunderbaren Erinnerungen haben werden. Bitte zögern Sie nicht mich zu kontaktieren, falls Sie weitere Fragen oder Anliegen haben.
+
+Liebe Grüße
+
+{!User.Name}
+
+{!User.Title}
+
+{!User.Email}
+_______________________________________________________________________________________________
+
+Safari365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK 080 823 44485 USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325 Fax: 086 658 1713
+www.safari365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

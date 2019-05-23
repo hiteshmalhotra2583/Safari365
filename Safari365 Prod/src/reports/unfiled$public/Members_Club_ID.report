@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Lead$Name</field>
+    </columns>
+    <columns>
+        <field>Lead$ConvertedOpportunity</field>
+    </columns>
+    <columns>
+        <field>Lead$ConvertedOpportunity.Owner</field>
+    </columns>
+    <columns>
+        <field>Lead$Id</field>
+    </columns>
+    <columns>
+        <field>Lead$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Lead$ConvertedDate</field>
+    </columns>
+    <columns>
+        <field>Lead$ConvertedOpportunity.Arrival_Date__c</field>
+    </columns>
+    <columns>
+        <field>Lead$ConvertedOpportunity.Amount</field>
+    </columns>
+    <columns>
+        <field>Lead$ConvertedOpportunity.StageName</field>
+    </columns>
+    <currency>ZAR</currency>
+    <format>Tabular</format>
+    <name>Members Club IDs</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Leads_with_Opps__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Lead$Arrival_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

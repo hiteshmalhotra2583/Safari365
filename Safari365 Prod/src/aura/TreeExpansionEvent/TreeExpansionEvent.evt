@@ -1,0 +1,4 @@
+<aura:event type="COMPONENT" description="TreeExpansionEvent">
+    <aura:attribute name="selection" type="Object" access="global" description="Data associated with the selected tree node/leaf"/>
+    <aura:attribute name="nodeposition" type="String" access="global" description="Position of the tree"/>
+</aura:event>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Internal: Review Rating = 5</name>
+    <style>none</style>
+    <subject>Well Done!! Your Client {!Opportunity.Account} has given you a top review</subject>
+    <type>text</type>
+</EmailTemplate>

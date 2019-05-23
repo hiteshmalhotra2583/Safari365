@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Wetu Location</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Wetu Locations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Location Id --></label>
+        <name>Location_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Name --></label>
+        <name>Location_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Type --></label>
+        <name>Location_Type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

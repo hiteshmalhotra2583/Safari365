@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Safari 365 Non Response</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari365_No_logo_Footer</letterhead>
+    <name>Safari 365 Non Response</name>
+    <style>freeForm</style>
+    <subject>Safari365 Non Response</subject>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Photobook_Offer_Letterhead_Safari365</letterhead>
+    <name>External: You have not reviewed your safari (Brazil)</name>
+    <style>freeForm</style>
+    <subject>Safari365: Lembrete para avaliarsua viagem</subject>
+    <textOnly>Dear {!Account.FirstName},
+
+We have noticed that you have not uploaded your photographs for your complimentary photo book.
+
+We wanted to let you know that the offer is still available if you are interested. Click this link and proceed to the ‘photo book section’ to upload directly: www.safari365.com/members/login/{!Opportunity.Members_Club_ID__c}
+
+Should you not want your photo book, please ignore this email, we will not send you another reminder
+
+Kind regards,
+
+Safari365
+Photo Book Department</textOnly>
+    <type>html</type>
+</EmailTemplate>

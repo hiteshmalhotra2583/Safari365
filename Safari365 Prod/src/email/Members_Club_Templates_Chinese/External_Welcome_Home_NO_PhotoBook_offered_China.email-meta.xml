@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Welcome Home Letter (manually sent)</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Welcome_Home</letterhead>
+    <name>External: Welcome Home ( NO PhotoBook offered)</name>
+    <style>formalLetter</style>
+    <subject>Safari365:平安到家</subject>
+    <type>html</type>
+</EmailTemplate>

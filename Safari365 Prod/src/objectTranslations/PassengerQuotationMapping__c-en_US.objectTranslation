@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PassengerQuotationMapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PassengerQuotationMappings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Adult Passenger --></label>
+        <name>Adult_Passenger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Child Passenger Type --></label>
+        <name>Child_Passenger_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- PassengerName --></label>
+        <name>PassengerName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passenger Type --></label>
+        <name>Passenger_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passenger --></label>
+        <name>Passenger__c</name>
+        <relationshipLabel><!-- PassengerQuotationMappings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quotation --></label>
+        <name>Quotation__c</name>
+        <relationshipLabel><!-- PassengerQuotationMappings --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

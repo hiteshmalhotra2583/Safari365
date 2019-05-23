@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>NTS</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>NTSs</value>
+    </caseValues>
+    <fields>
+        <label><!-- AGENT_CODE --></label>
+        <name>AGENT_CODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- BHD_ID --></label>
+        <name>BHD_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSL_ID --></label>
+        <name>BSL_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- CATEGORY --></label>
+        <name>CATEGORY__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHANGED_DATE --></label>
+        <name>CHANGED_DATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHANGED_USER_NAME --></label>
+        <name>CHANGED_USER_NAME__c</name>
+    </fields>
+    <fields>
+        <label><!-- CREATED_DATE --></label>
+        <name>CREATED_DATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- CRM Lookup --></label>
+        <name>CRM_Lookup__c</name>
+        <relationshipLabel><!-- NTSs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MESSAGE_TEXT --></label>
+        <name>MESSAGE_TEXT__c</name>
+    </fields>
+    <fields>
+        <label><!-- NCT_Lookup --></label>
+        <name>NCT_Lookup__c</name>
+        <relationshipLabel><!-- NTSs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NOTE_LEVEL --></label>
+        <name>NOTE_LEVEL__c</name>
+    </fields>
+    <fields>
+        <label><!-- NTS_ID --></label>
+        <name>NTS_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOURCE --></label>
+        <name>SOURCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- SUPPLIER_CODE --></label>
+        <name>SUPPLIER_CODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- USER_NAME --></label>
+        <name>USER_NAME__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

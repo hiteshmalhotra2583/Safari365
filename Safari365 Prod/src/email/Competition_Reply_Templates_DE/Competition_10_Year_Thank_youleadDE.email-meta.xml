@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Competition: 10 Year - Thank You for Entering</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Competition_10_Year_Giveaway_Wina_a_Safari_to_Africa</letterhead>
+    <name>Competition: Lead 10 Year Thank you for enteringDE</name>
+    <style>freeForm</style>
+    <subject>Vielen Dank für Ihre Teilnahme beim “Gewinnen Sie eine afrikanische Safari” Preisausschreiben</subject>
+    <textOnly>Sehr geehrter Herr / Sehr geehrte Frau {!Lead.LastName},
+
+Vielen Dank dass Sie bei unserem Safari365-Preisausschreiben mitgemacht haben!
+
+Der Gewinner wird am 21. November 2016 bekannt gegeben.
+
+Viel Glück,
+Safari365</textOnly>
+    <type>html</type>
+</EmailTemplate>

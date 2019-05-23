@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Wetu Service Type</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Wetu Service Types</value>
+    </caseValues>
+    <fields>
+        <label><!-- Field Set Name --></label>
+        <name>Field_Set_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wetu Type --></label>
+        <name>Wetu_Type__c</name>
+        <picklistValues>
+            <masterLabel>Activity</masterLabel>
+            <translation><!-- Activity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Route</masterLabel>
+            <translation><!-- Route --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

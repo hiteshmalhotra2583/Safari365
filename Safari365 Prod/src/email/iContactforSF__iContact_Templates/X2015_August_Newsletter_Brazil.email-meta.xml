@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 August Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Safari365: Férias, tempo para novas aventuras!</subject>
+    <textOnly>Se não conseguir visualizar clique aqui
+Férias, tempo para novas aventuras!
+
+Olá [fname],
+
+O tempo voa quando estamos nos divertindo e 2015 não tem sido diferente. Já nos aproximamos das grandes comemorações do final do ano!
+
+Acabamos de terminar nossa inspeção anual no Chobe e no Okavango Delta e por isso Botsuana é o foco deste boletim informativo. Venho aqui com muitas novidades sobre este magnífico país!
+
+Se você continua indeciso sobre o que fazer no final do ano, por que não visitar a África? São muitas as razões que te trazem ao continente e, acredite se quiser, o dólar alto é uma delas (leia mais abaixo).
+
+Separamos ótimas oportunidades para você se aventurar na Mama África:
+
+
+Safari365
+Old Marine Dr Foreshore,
+Cape Town, 8000, South Africa
+
+Safari365.com/pt</textOnly>
+    <type>custom</type>
+</EmailTemplate>

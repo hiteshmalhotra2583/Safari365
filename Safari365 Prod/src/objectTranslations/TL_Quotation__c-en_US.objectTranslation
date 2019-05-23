@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TL Quotation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TL Quotations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- CoS --></label>
+        <name>CoS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant --></label>
+        <name>Consultant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- GP % --></label>
+        <name>Gross_Profit_Perc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Profit --></label>
+        <name>Gross_Profit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Name --></label>
+        <name>Group_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Cost Price (Excl) --></label>
+        <name>Invoice_Cost_Price_Excl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Cost Price (Incl) --></label>
+        <name>Invoice_Cost_Price_Incl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Gross Profit (Excl) --></label>
+        <name>Invoice_Gross_Profit_Excl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Gross Profit (Incl) --></label>
+        <name>Invoice_Gross_Profit_Incl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Selling Price (Excl) --></label>
+        <name>Invoice_Selling_Price_Excl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Selling Price (Incl) --></label>
+        <name>Invoice_Selling_Price_Incl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Newest TLQ --></label>
+        <name>Newest_TLQ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Date --></label>
+        <name>Opportunity_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- TL Quotations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Newest and/or Primary Quotation --></label>
+        <name>Primary_Quotation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tick to always include in deal value --></label>
+        <name>Primary_by_Consultant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proforma date --></label>
+        <name>Proforma_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Properties Summary --></label>
+        <name>Properties_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Property 1 --></label>
+        <name>Property_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Property 2 --></label>
+        <name>Property_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Property 3 --></label>
+        <name>Property_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Property 4 --></label>
+        <name>Property_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Property 5 --></label>
+        <name>Property_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation Name --></label>
+        <name>Quotation_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quotation No --></label>
+        <name>Quotation_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROE --></label>
+        <name>ROE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receipt Date --></label>
+        <name>Receipt_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales --></label>
+        <name>Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL Properties --></label>
+        <name>TL_Properties__c</name>
+    </fields>
+    <fields>
+        <label><!-- TR No --></label>
+        <name>TR_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tour Name --></label>
+        <name>Tour_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tour Reference --></label>
+        <name>Tour_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel Start Date --></label>
+        <name>Travel_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vat --></label>
+        <name>Vat__c</name>
+    </fields>
+    <layouts>
+        <layout>TL Quotation Layout</layout>
+        <sections>
+            <label><!-- Costings --></label>
+            <section>Costings</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Invoice Details --></label>
+            <section>Invoice Details</section>
+        </sections>
+        <sections>
+            <label><!-- Other Details --></label>
+            <section>Other Details</section>
+        </sections>
+        <sections>
+            <label><!-- Property --></label>
+            <section>Property</section>
+        </sections>
+        <sections>
+            <label><!-- System info --></label>
+            <section>System info</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

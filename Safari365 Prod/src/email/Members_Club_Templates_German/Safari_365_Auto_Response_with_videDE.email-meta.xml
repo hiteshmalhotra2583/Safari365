@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Welcome to Members Club - Manually Created - with Video</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>External: Welcome to Members Club (Lead manually created with video) DE</name>
+    <style>none</style>
+    <subject>Safari365  - Thank you for your recent enquiry</subject>
+    <textOnly>Dear {!Lead.FirstName},
+
+As an exclusive service to our clients, we would like to welcome you to Safari365 and the Members Club.
+
+Safari365 takes great pride in creating unique adventures to this incredible continent, and will be at your service throughout the planning and travelling process of your African safari.
+
+So as to get started, please access your Members Club by clicking here to read other travelers reviews and information about your dedicated travel consultant, {!Lead.OwnerFullName}.
+
+You will also find details of our exclusive offer, a high quality complimentary photo book you will receive after travelling with us (this is over and above the excellent rates, service and local knowledge we offer)
+
+We look forward to welcoming you to Africa
+
+
+Safari365
+
+______________________________________________________________________________________
+
+Watch the Safari365 Introductory Video:
+
+
+
+Other Useful Information
+Your Members Club link: www.safari365.com/members/login/{!Lead.Members_Club_ID__c}
+
+Your Dedicated Consultant:
+{!Lead.OwnerFirstName}&apos;s direct phone number: {!Lead.OwnerPhone}
+{!Lead.OwnerFirstName}&apos;s email address: {!Lead.OwnerEmail}
+
+{!Lead.Consultant_Image__c}
+
+Get to know us better! Read our blog
+
+
+
+______________________________________________________________________________________
+
+Safari365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK  080 823 44485  USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325  Fax: 086 658 1713
+www.safari365.com &amp; www.southafrica365.com
+______________________________________________________________________________________</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>NCT</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>NCTs</value>
+    </caseValues>
+    <fields>
+        <label><!-- CATEGORY TYPE --></label>
+        <name>CATEGORYTYPE__c</name>
+    </fields>
+    <fields>
+        <label><!-- COPY TO BOOKING --></label>
+        <name>COPY_TO_BOOKING__c</name>
+    </fields>
+    <fields>
+        <label><!-- DESCRIPTION --></label>
+        <name>DESCRIPTION__c</name>
+    </fields>
+    <fields>
+        <label><!-- FORMAT TYPE --></label>
+        <name>FORMATTYPE__c</name>
+    </fields>
+    <fields>
+        <label><!-- INTERNET ENABLED --></label>
+        <name>INTERNETENABLED__c</name>
+    </fields>
+    <fields>
+        <label><!-- MULTIPLE --></label>
+        <name>MULTIPLE__c</name>
+    </fields>
+    <fields>
+        <label><!-- NOTECATEGORY --></label>
+        <name>NOTECATEGORY__c</name>
+    </fields>
+    <fields>
+        <label><!-- TEMPLATE --></label>
+        <name>TEMPLATE__c</name>
+    </fields>
+    <layouts>
+        <layout>NCT Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

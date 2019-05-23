@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Festive Season Coffee Table Book Gift Incentive</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>A Festive Season Gift from Safari365</name>
+    <style>none</style>
+    <subject>A Festive Season Gift from Safari365</subject>
+    <textOnly>Dear [fname],
+
+As the summer season arrives in the Southern Hemisphere, it becomes one of the most popular times for travellers to visit Africa. The weather is gorgeous, the scenery is stunning, the game viewing is thrilling and there is a great vibe in the air as we head into the final months of 2018.
+Many of our preferred lodges and hotels across Southern Africa and East Africa are already fully booked for the festive season as well as the early months of next year. However, luckily for us and for our guests, a few last-minute spots are still available at some of our favourite destinations and we are holding onto them.
+
+To thank our guests for their support Safari365 are offering our clients a festive season gift. Guests who book, confirm and pay a deposit for their trips with Safari365 before 15 December 2018 will receive a complimentary African Safari: Into the Great Game Reserves coffee table book courtesy of the Safari365 team!
+Don’t miss out, book now or contact us for a quote to start making the trip of your dreams a reality.
+Silindele ukukwamukela e-Afrika,
+We look forward to welcoming you to Africa,
+
+The Safari365 Team
+Find out more about our team here</textOnly>
+    <type>custom</type>
+</EmailTemplate>

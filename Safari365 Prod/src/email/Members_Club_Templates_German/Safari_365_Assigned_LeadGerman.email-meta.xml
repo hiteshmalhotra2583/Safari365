@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Welcome to Members Club and assigned to dedicated consultant (German)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>External: Welcome to Members Club &amp; Meet Yor Consultant (German)</name>
+    <style>freeForm</style>
+    <subject>Safari365: Ein herzliches Willkommen aus Afrika</subject>
+    <textOnly>Lieber Herr / Liebe Frau {!Lead.LastName},
+
+Vielen Dank, dass Sie sich mit Safari365 in Kontakt gesetzt haben.
+
+Um Sie auf dem Laufenden zu halten, habe ich Ihre Anfrage an {!Lead.OwnerFullName} weitergeleitet und auch in diesem Email mit einbezogen. Sie sind in guten Händen! {!Lead.OwnerFirstName} ist ein echter Experte wenn es um maßgeschneiderte Reisen in Afrika geht. In der Zwischenzeit, bitte zögern Sie nicht ein Email an {!Lead.OwnerFirstName} unter {!Lead.OwnerEmail} zu schicken oder auch auf {!Lead.OwnerPhone} zu jedem Zeitpunkt anzurufen.
+
+Wie Sie wahrscheinlich schon wissen ist Safari365 einer der marktführendensten Reiseveranstalter in  Afrika, und stellt jährlich für über 2000 Kunden, unvergessliche und maßgeschneiderte Reisen zusammen. Wir verfügen über Büros in den vereinigten Staaten, Australien und Brasilien, unser Hauptsitz ist jeodch in Kapstadt, Südafrika basiert (wir sind daher direkt vor Ort!). Unsere Preise und Einsparungen sind unübertroffen, sowohl wie unsere maßgeschneiderten, sicheren und unvergesslichen Erfahrungen auf diesem vielfältigen Kontinent. Bitte kontaktieren Sie uns falls Sie persönliche Referenzen von früheren Kunden aus Deutschland, Österreich oder der Schweiz benötigen.
+
+Zu guter Letzt sind wir der einzige Veranstalter der ein persönliches Fotobuch für alle Kunden die mit uns gereist sind, produziert. (Das Fotobuch ist für alle unserer Kunden kostenlos! Wir schicken es nach Reise an die gewünschte Lieferadresse.  Bitte gehen Sie auf Ihren Members Club falls Sie mehr Informationen wünschen.)
+
+Ich wünsche Ihnen einen unvergesslichen Urlaub und freue mich Sie bald in Afrika willkommen zu heißen!
+
+Marcus Brain
+Managing Director
+
+{!Lead.Intro_Video__c}
+
+Weiter nützliche Informationen
+Ihr Members Club Link: https://www.safari365.com/members/login/{!Lead.Members_Club_ID__c}
+{!Lead.OwnerFirstName}&apos;s Berater-Profil: {!Lead.Consultant_Profile_Link__c}
+{!Lead.OwnerFirstName}&apos;s direkte Telefonnummer: {!Lead.OwnerPhone}
+{!Lead.OwnerFirstName}&apos;s E-Mail Adresse: {!Lead.OwnerEmail}
+
+
+Lernen Sie uns besser kennen! Lesen Sie unseren Blog
+
+_______________________________________________________________________________________________
+
+Safari365
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK  080 823 44485  USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325  Fax: 086 658 1713
+www.safari365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

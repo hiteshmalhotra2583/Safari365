@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 April Newsletter 2 (Brazil)</name>
+    <style>none</style>
+    <subject>Descubra a Tanzânia, um destino icônico da África!</subject>
+    <textOnly>Um destino icônico na África, descubra a Tanzânia
+
+
+Ola {!Lead.FirstName},
+
+
+Escrevo diretamente da nossa movimentada sede na Cidade do Cabo. Tenho ao meu lado as malas prontas para embarcar para uma nova jornada juntamente com um grupo especialmente selecionado da nossa equipe. Nosso destino? Tanzânia.
+
+
+Juntos exploraremos os melhores pontos turísticos, acomodações e atrações da região. Fazemos esse tipo de viagem todo ano para oferecer aos nossos clientes as melhores e inestimáveis experiências africanas.
+
+Em breve, teremos emocionantes publicações e uma novidade realmente grande vindo por aí...
+
+
+Enquanto isso, confira abaixo o que temos feito nesses últimos tempos. Apresentamos a você dois roteiros incríveis na Tanzânia que podem ser customizados de acordo com a sua vontade. Inspire-se!
+
+
+Espero vê-lo (ou revê-lo) em breve na África!
+
+
+~  Marcus Brain, diretor/fundador Safari365 ~
+
+
+If this message is not displaying as expected you can vew it online by clicking here &gt;&gt;&gt;[webversionurl]
+
+
+Safari365
+Old Marine Dr Foreshore,
+Cape Town, 8000, South Africa
+www.safari365.com/pt</textOnly>
+    <type>custom</type>
+</EmailTemplate>

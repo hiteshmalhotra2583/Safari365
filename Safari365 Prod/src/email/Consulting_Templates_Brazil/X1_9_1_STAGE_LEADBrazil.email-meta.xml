@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>PhotoBook Offer (Safari365 Brazil)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>PhotobookLetterheadSafari365Brazil</letterhead>
+    <name>1.9.1 STAGE = LEAD</name>
+    <style>freeForm</style>
+    <subject>Ao fechar sua viagem conosco, receba grátis um álbum de fotos (valor estimado em $150)</subject>
+    <textOnly>Prezado {!Lead.FirstName},
+
+Após nosso e-mail de apresentação, gostaríamos de informa-lo que estamos preparando uma incrível oferta especial para todos os clientes que fecharem viagens conosco. Todos os novos clientes que viajarem com a Safari 365 receberão grátis um álbum de fotos personalizado que será entregue em casa.
+
+Este álbum de alta qualidade, com capa dura e 28 páginas, irá conter as fotos de sua viagem. Tudo o que você precisa fazer é manda-las para nós.
+
+Sua consultora {!Lead.OwnerFullName} estará a disposição para esclarecer suas dúvidas sobre está oferta e para começar a transformar seu safari em realidade.
+
+Estamos ansiosos para compartilhar a África com você!
+
+Atenciosamente,
+Safari 365</textOnly>
+    <type>html</type>
+</EmailTemplate>

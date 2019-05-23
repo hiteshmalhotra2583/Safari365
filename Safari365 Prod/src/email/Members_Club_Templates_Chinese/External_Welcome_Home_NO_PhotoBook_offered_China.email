@@ -1,0 +1,14 @@
+<table height="400" width="600" cellpadding="5" border="0" cellspacing="5" >
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[]]></td>
+</tr>
+<tr height="300" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r2" locked="0" aEditID="c1r2" >
+<![CDATA[<font size="2" style="color: rgb(0, 0, 0); font-family: arial;" face="Arial, sans-serif">{!Account.FirstName}，</font><div style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;"><font size="2"><br></font></div><div style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;"><font size="2">&nbsp; &nbsp; &nbsp; 您好！</font></div><div style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;"><font size="2"><font face="arial"><br></font></font></div><div style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;"><font size="2"><font face="arial">&nbsp; &nbsp; &nbsp; 希望此时此刻您已安全抵达中国，回到温暖的家中。我非常荣幸能为您量身定制您的非洲之行，但愿这是一次令人难以忘怀的旅程。</font></font></div><div><font size="2" style="color: rgb(0, 0, 0); font-family: arial;"><div><span style="font-family: Arial, sans-serif;"><br></span></div><div><span style="font-family: Arial, sans-serif;">&nbsp; &nbsp; &nbsp; 我非常希望能听到您对行程安排的反馈信息，无论是好还是坏，因为这对我们来说是改善我们服务最好的办法，并能帮助未来的客人。如果您能给我一个大致的意见，包括整体行程安排，您喜欢的地方，不喜欢的地方（如果有的话）等等。于此同时，我们完全尊重您的隐私。</span></div></font><font><br><div><font face="Arial, sans-serif" size="2">&nbsp; &nbsp; &nbsp; &nbsp;如果您有其他朋友或家人对非洲旅行也感兴趣的话，我很高兴能为他们提供免费的咨询服务。&nbsp;</font></div><div><font face="Arial, sans-serif" size="2"><br></font></div><div><font face="Arial, sans-serif" size="2">&nbsp; &nbsp; &nbsp; &nbsp;再次感谢您选择safari365携手出行！</font></div><div><font face="Arial, sans-serif" size="2"><br></font></div></font><font size="2" style="color: rgb(0, 0, 0); font-family: arial;"><span style="font-family: Arial, sans-serif;">诚挚的问候，&nbsp;<br><br></span></font><p style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; background-color: rgb(255, 255, 255);"><font face="Arial, sans-serif" size="2"><b>{!User.Name}</b></font></p><p style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; background-color: rgb(255, 255, 255);"><font face="Arial, sans-serif" size="2"><b>{!User.Title}</b></font></p><p style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; background-color: rgb(255, 255, 255);"><font face="Arial, sans-serif" size="2">{!User.Email}</font></p><br><br></div>]]></td>
+</tr>
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r3" locked="0" aEditID="c1r3" >
+<![CDATA[]]></td>
+</tr>
+</table>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SRV</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SRVs</value>
+    </caseValues>
+    <fields>
+        <label><!-- ANALYSIS1 --></label>
+        <name>ANALYSIS1__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANALYSIS2 --></label>
+        <name>ANALYSIS2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANALYSIS3 --></label>
+        <name>ANALYSIS3__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANALYSIS4 --></label>
+        <name>ANALYSIS4__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANALYSIS5 --></label>
+        <name>ANALYSIS5__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANALYSIS6 --></label>
+        <name>ANALYSIS6__c</name>
+    </fields>
+    <fields>
+        <label><!-- CODE --></label>
+        <name>CODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- MESSAGE_CODE --></label>
+        <name>MESSAGE_CODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Markup Value --></label>
+        <name>Markup_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- NAME --></label>
+        <name>NAME__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

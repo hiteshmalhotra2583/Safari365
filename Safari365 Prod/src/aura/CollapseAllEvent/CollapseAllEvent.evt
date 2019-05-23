@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION" description="TreeCollapseEvent">
+    <aura:attribute name="childClass" type="String" access="global" description="Tree node/leaf position"/>
+    <!--<aura:attribute name="allItems" type="List" access="global" description="All Tree node/leaf items"/>-->
+</aura:event>

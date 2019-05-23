@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Client</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Clients</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Access</value>
+        </caseValues>
+        <name>account_access</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Access Level</value>
+        </caseValues>
+        <name>account_access_level</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Contact Role</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Client Contact Roles</value>
+        </caseValues>
+        <name>account_contact_role</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Creator</value>
+        </caseValues>
+        <name>account_creator</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Currency</value>
+        </caseValues>
+        <name>account_currency</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Description</value>
+        </caseValues>
+        <name>account_description</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Detail Page</value>
+        </caseValues>
+        <name>account_detail_page</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Division</value>
+        </caseValues>
+        <name>account_division</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Edit</value>
+        </caseValues>
+        <name>account_edit</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Fax</value>
+        </caseValues>
+        <name>account_fax</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Field</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Client Fields</value>
+        </caseValues>
+        <name>account_field</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client General</value>
+        </caseValues>
+        <name>account_general</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Hierarchy</value>
+        </caseValues>
+        <name>account_hierarchy</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client History</value>
+        </caseValues>
+        <name>account_history</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client History Report</value>
+        </caseValues>
+        <name>account_history_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client ID</value>
+        </caseValues>
+        <name>account_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Information</value>
+        </caseValues>
+        <name>account_information</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Name</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Client Names</value>
+        </caseValues>
+        <name>account_name</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Number</value>
+        </caseValues>
+        <name>account_number</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Owner</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Client Owners</value>
+        </caseValues>
+        <name>account_owner</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Owner Alias</value>
+        </caseValues>
+        <name>account_owner_alias</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Owner Report</value>
+        </caseValues>
+        <name>account_owner_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Owner Role</value>
+        </caseValues>
+        <name>account_owner_role</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Ownership</value>
+        </caseValues>
+        <name>account_ownership</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Phone</value>
+        </caseValues>
+        <name>account_phone</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Rating</value>
+        </caseValues>
+        <name>account_rating</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Record</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Client Records</value>
+        </caseValues>
+        <name>account_record</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Record Type</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Client Record Types</value>
+        </caseValues>
+        <name>account_record_type</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Report</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Client Reports</value>
+        </caseValues>
+        <name>account_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Sharing</value>
+        </caseValues>
+        <name>account_sharing</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Site</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Client Sites</value>
+        </caseValues>
+        <name>account_site</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Source</value>
+        </caseValues>
+        <name>account_source</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Stage ID</value>
+        </caseValues>
+        <name>account_stage_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Team</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Client Teams</value>
+        </caseValues>
+        <name>account_team</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Team Member</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Client Team Members</value>
+        </caseValues>
+        <name>account_team_member</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Team Member ID</value>
+        </caseValues>
+        <name>account_team_member_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Team Report</value>
+        </caseValues>
+        <name>account_team_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Territory</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Client Territories</value>
+        </caseValues>
+        <name>account_territory</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Tool</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Client Tools</value>
+        </caseValues>
+        <name>account_tool</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Type</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Client Types</value>
+        </caseValues>
+        <name>account_type</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client View</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Client Views</value>
+        </caseValues>
+        <name>account_view</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Business Client</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Business Clients</value>
+        </caseValues>
+        <name>business_account</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Parent Client</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Parent Clients</value>
+        </caseValues>
+        <name>parent_account</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Parent Client Division</value>
+        </caseValues>
+        <name>parent_account_division</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Parent Client ID</value>
+        </caseValues>
+        <name>parent_account_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Parent Client Site</value>
+        </caseValues>
+        <name>parent_account_site</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Client</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Person Clients</value>
+        </caseValues>
+        <name>person_account</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Client Record</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Person Client Records</value>
+        </caseValues>
+        <name>person_account_record</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Celebrating Birthday --></label>
+        <name>Celebrating_Birthday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Celebrating a wedding anniversary --></label>
+        <name>Celebrating_a_wedding_anniversary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competition Basket Information --></label>
+        <name>Competition_Basket_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competition Name --></label>
+        <name>Competition_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competition Shared on FB --></label>
+        <name>Competition_Shared_on_FB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of Residence (Master) --></label>
+        <name>Country_of_Residence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Sub Opportunity --></label>
+        <name>Create_Sub_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Status --></label>
+        <name>Credit_Status__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Of Birth --></label>
+        <name>Date_Of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Notes --></label>
+        <name>Delivery_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- DietaryRequirements Text --></label>
+        <name>DietaryRequirements_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- DietaryRequirements --></label>
+        <name>DietaryRequirements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Contact Number --></label>
+        <name>Emergency_Contact_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Contact Person --></label>
+        <name>Emergency_Contact_Person__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency First Name --></label>
+        <name>Emergency_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Last Name --></label>
+        <name>Emergency_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Mobile Phone Number --></label>
+        <name>Emergency_Mobile_Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExistingMobilityIssue --></label>
+        <name>ExistingMobilityIssue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Existing Medical Condition --></label>
+        <name>Existing_Medical_Condition__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please check this box if you need to be reminded to follow up with this Account. --></help>
+        <label><!-- Follow Up Task --></label>
+        <name>Follow_Up_Task__c</name>
+    </fields>
+    <fields>
+        <label><!-- GoogleAccFolderId --></label>
+        <name>GoogleAccFolderId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Google Folder Id --></label>
+        <name>Google_Folder_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiate Forget Id Workflow --></label>
+        <name>Initiate_Forget_Id_Workflow__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Condition --></label>
+        <name>Medical_Condition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Conditions --></label>
+        <name>Medical_Conditions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Information Verified --></label>
+        <name>Medical_Information_Verified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Members Club ID --></label>
+        <name>Members_Club_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Middle Name s --></label>
+        <name>Middle_Name_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Phone --></label>
+        <name>Mobile_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobility Issues --></label>
+        <name>Mobility_Issues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscribe me to newsletter --></label>
+        <name>Newsletter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Passengers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other Occasion --></label>
+        <name>Other_Occasion__c</name>
+    </fields>
+    <fields>
+        <label><!-- PassengerAgeWhenTravelling --></label>
+        <name>PassengerAgeWhenTravelling__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passport Expiry Date --></label>
+        <name>Passport_Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passport Information Verified --></label>
+        <name>Passport_Information_Verified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passport Nationality --></label>
+        <name>Passport_Nationality__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passport Number --></label>
+        <name>Passport_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Policy Emergency Phone Number --></label>
+        <name>Policy_Emergency_Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Account --></label>
+        <name>Primary_Account__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account Override DupeCatcher --></label>
+        <name>SFSSDupeCatcher__Override_DupeCatcher__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Dietary Requirement --></label>
+        <name>Special_Dietary_Requirement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website Origin --></label>
+        <name>Website_Origin_c__c</name>
+    </fields>
+    <fields>
+        <label><!-- hasWonOpp --></label>
+        <name>hasWonOpp__c</name>
+    </fields>
+    <layouts>
+        <layout>Person Account Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Photobook Shipping Details --></label>
+            <section>Photobook Shipping Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create Passenger --></label>
+        <name>Create_Passenger</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Business Account --></label>
+        <name>Business_Account</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Folder_In_Google_Drive --></label>
+        <name>Create_Folder_In_Google_Drive</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Edit --></label>
+        <name>Mass_Edit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update --></label>
+        <name>Mass_Update</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- This account have been created two day ago and this is a reminder to follow up with them!! --></description>
+        <name>Task_Reminder</name>
+        <subject><!-- Task Reminder --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

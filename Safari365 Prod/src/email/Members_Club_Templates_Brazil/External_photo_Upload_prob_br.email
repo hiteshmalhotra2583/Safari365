@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font size="2"><font face="Arial, sans-serif">Olá {!Account.FirstName}, <br><br>Notamos que você iniciou o carregamento de suas fotos para o photobook, porém nosso sistema alertou que o processo não foi finalizado. <br><br>Para finalizá-lo, clique no link abaixo:&nbsp;</font></font><span style="font-family: Arial, sans-serif; font-size: small; background-color: rgb(255, 255, 255);">https://www.safari365.com/mc/?opp={!Opportunity.Id}</span><font size="2"><font face="Arial, sans-serif">&nbsp;<br><br>Caso você esteja com problemas ou dúvidas, nos colocamos à disposição para ajudá-lo. <br><br>Alternativamente, nos informe se preferir enviar as fotos utilizando os serviços do Dropbox ou Google Drive. <br><br>Atenciosamente, <b><br>Equipe Safari365 <br>Departamento de Comunicação</b></font></font>]]></td>
+</tr>
+</table>

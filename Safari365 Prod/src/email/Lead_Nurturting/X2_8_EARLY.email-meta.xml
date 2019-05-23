@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Beach Holidays and Island Escapes</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>2.8 EARLY</name>
+    <style>formalLetter</style>
+    <subject>African Beach Holidays and Island Escapes</subject>
+    <type>html</type>
+</EmailTemplate>

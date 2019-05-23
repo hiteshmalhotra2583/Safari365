@@ -1,0 +1,25 @@
+CRM Id: {!Opportunity.Id} 
+CRM Reference: Salesforce 
+User Name: {!Opportunity.Travel_Logic_UserName__c} 
+Subject: {!Opportunity.Supplier__c} 
+Client Name: {!Opportunity.Lead_Name__c} 
+Phone: {!Lead.Phone} 
+Mobile: {!Lead.MobilePhone} 
+Email: {!Opportunity.Lead_Email__c} 
+Email Opt Out: {!Lead.HasOptedOutOfEmail} 
+Contact Method: {!Opportunity.Contact_Method__c} 
+Country of Residence:{!Opportunity.00ND0000003CykJ} 
+Number of Adults: {!Opportunity.Number_of_Adults__c} 
+Number of Children: {!Lead.Number_of_Children__c} 
+Ages of Children: {!Opportunity.Ages_of_Children__c} 
+Duration: {!Opportunity.Duration__c} 
+Arrival Date: {!Opportunity.Arrival_Date__c} 
+Budget Total: {!Opportunity.Budget_Total__c} 
+International Flight Required?: {!Opportunity.International_Flight_Required__c} 
+Travel Date Options:{!Opportunity.Travel_Date_Options__c} 
+Lead Source: {!Lead.LeadSource} 
+Browser Trial: {!Lead.Browser_Trial__c} 
+Landing Page: {!Lead.Landing_Page_del__c} 
+Client Comments: {!Opportunity.Client_Comments__c} 
+Lead Currency: {!Opportunity.CurrencyIsoCode} 
+Supplier__c: {!Opportunity.Supplier__c}

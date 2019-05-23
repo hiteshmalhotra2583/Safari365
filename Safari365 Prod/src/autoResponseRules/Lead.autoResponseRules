@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Thank You Response</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Website_origin__c</field>
+                <operation>equals</operation>
+                <value>Web: safari365.com,Web: safari365.com.au,Web: southafrica365.com,Web: safari365.com.cn</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.Form_Calculator__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <senderEmail>info@safari365.com</senderEmail>
+            <senderName>Safari365</senderName>
+            <template>Leads/Safari_365_Auto_Respondse_Logo_Quote_Calc</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Website_origin__c</field>
+                <operation>equals</operation>
+                <value>Web:safari365.com.tur.br</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.Form_Calculator__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <senderEmail>infobr@safari365.com</senderEmail>
+            <senderName>Safari365</senderName>
+            <template>Leads/Safari_365_Auto_Respondse_Logo_Quote_Br</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Website_origin__c</field>
+                <operation>equals</operation>
+                <value>Web: safari365.es</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.Form_Calculator__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <senderEmail>info@safari365.com</senderEmail>
+            <senderName>Safari365</senderName>
+            <template>Leads/Auto_Respondse_Logo_Quote_Calc_es</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.LeadSource</field>
+                <operation>equals</operation>
+                <value>Brochure Download</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.Website_origin__c</field>
+                <operation>equals</operation>
+                <value>Web: safari365.com</value>
+            </criteriaItems>
+            <senderEmail>info@safari365.com</senderEmail>
+            <senderName>Safari365</senderName>
+            <template>Leads/Safari_365_BrochureAuto_Respondse_Logo</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Website_origin__c</field>
+                <operation>equals</operation>
+                <value>Web:safari365.com.tur.br</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.Competition_Name__c</field>
+                <operation>equals</operation>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.LeadSource</field>
+                <operation>notEqual</operation>
+                <value>Competition Entry,Newsletter Signup</value>
+            </criteriaItems>
+            <senderEmail>infobr@safari365.com</senderEmail>
+            <senderName>Safari 365 Brasil</senderName>
+            <template>Leads/Safari_365_Brasil_Auto_Respondse_Logo</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Website_origin__c</field>
+                <operation>equals</operation>
+                <value>Web: safari365.com,Web: safari365.es</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.Competition_Name__c</field>
+                <operation>equals</operation>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.LeadSource</field>
+                <operation>notEqual</operation>
+                <value>Competition Entry,Newsletter Signup</value>
+            </criteriaItems>
+            <senderEmail>info@safari365.com</senderEmail>
+            <senderName>Safari365</senderName>
+            <template>Leads/Safari_365_Auto_Response_with_video</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Website_origin__c</field>
+                <operation>equals</operation>
+                <value>Web: safari365.com.cn</value>
+            </criteriaItems>
+            <senderEmail>info@safari365.com</senderEmail>
+            <senderName>Safari 365</senderName>
+            <template>Leads/Safari_365_Auto_Response_China</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Website_origin__c</field>
+                <operation>equals</operation>
+                <value>Web: safari365.de</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.Form_Calculator__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <senderEmail>info@safari365.com</senderEmail>
+            <senderName>Safari365</senderName>
+            <template>Leads/Safari_365_Auto_Respondse_Logo_Quote_Calc_German</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Website_origin__c</field>
+                <operation>equals</operation>
+                <value>Web: safari365.de</value>
+            </criteriaItems>
+            <senderEmail>info@safari365.com</senderEmail>
+            <senderName>Safari365</senderName>
+            <template>Leads/Safari_365_Auto_Respondse_German</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

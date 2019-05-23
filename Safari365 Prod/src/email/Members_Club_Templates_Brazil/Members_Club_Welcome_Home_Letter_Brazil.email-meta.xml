@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Welcome Home Letter (manually sent)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Welcome_Home</letterhead>
+    <name>External: Welcome Home (PhotoBook offered)</name>
+    <style>freeForm</style>
+    <subject>Safari365: Bem-vindo de volta!</subject>
+    <textOnly>Hi {!Account.FirstName},
+
+This is a warm welcome home after what I trust was an incredible African experience! It has been an absolute pleasure helping you throughout the planning and execution of your holiday, and I can only hope that it was everything that you had dreamed it would be.
+
+You should have already received details on how obtain your complimentary photo book and review your trip to Africa. If not, please proceed to your Members Club by clicking www.safari365.com/members/login/{!Opportunity.Members_Club_ID__c}
+
+Also, we love being social, so join our family on Facebook, stay in touch with us on our Blog or share your thoughts and experiences with other travellers on Tripadvisor or Google+. If you discuss your trip with friends and family and they are inspired to follow in your footsteps, I would be very grateful if you would pass on my details.
+
+Thank you again for travelling with us and I hope to welcome you back to Africa soon
+
+Kind regards,
+
+{!User.Name}
+
+{!User.Title}
+
+{!User.Email}</textOnly>
+    <type>html</type>
+</EmailTemplate>

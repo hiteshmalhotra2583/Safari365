@@ -1,0 +1,3042 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>MultiSelectCheckboxForPassengers</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Quotation_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>Quotation_Treasury_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Master</fullName>
+        <fields>Name</fields>
+        <fields>Primary_Client_Name__c</fields>
+        <fields>Opportunity_Name__c</fields>
+        <fields>Quotation_Name__c</fields>
+        <label>Master</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>Quotation_Treasury_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Quote_Exposure__c</fields>
+        <fields>Currency__c</fields>
+        <fields>Quotation_Sale_Total_in_Selected_CC__c</fields>
+        <label>Quotation Treasury Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This the table for quotation, which will be created based on the data from Opportunity and Location Service.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fieldSets>
+        <fullName>WS_GetQuotations</fullName>
+        <description>It is used in WS_GetQuotations webservice</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Currency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Total_Sale_In_USD__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Quotation_Sale__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Quotation_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CurrencyIsoCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Wetu_Identifier__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Valid_Until__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Wetu_Identifier_Key__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>wetu_operator_id__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Quotation_Stage__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Client_Has_Requested_Confirmation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Client_Has_Requested_Requote__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Quotation_Sale_Total_in_CC_AUD__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Quotation_Sale_Total_in_CC_EUR__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Quotation_Sale_Total_in_CC_GBP__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Quotation_Sale_Total_in_CC_USD__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Itinerary_Summary__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>credit_card_sale_total_in_CC_AUD__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Credit_card_sale_total_in_CC_GBP__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Credit_card_sale_total_in_CC_USD__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Credit_card_sale_total_in_CC_EUR__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>WS_GetQuotations</label>
+    </fieldSets>
+    <fields>
+        <fullName>ALL_Quotation_LineItem_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>ALL Quotation LineItem Count</label>
+        <summaryFilterItems>
+            <field>QuotationLineItem__c.QLI_with_SLI__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>QuotationLineItem__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>All_Cancelled_QuotationLineItems__c</fullName>
+        <description>This roll up summary will be used in Quotation validation rule which states as follow 
+
+Quotation status cannot change to &quot;Cancelled&quot; unless all service line stages are equal to: No Booking Required, Cancelled, Not Booked.</description>
+        <externalId>false</externalId>
+        <label>All Cancelled QuotationLineItems</label>
+        <summaryFilterItems>
+            <field>QuotationLineItem__c.All_SLI_Cancelled__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>QuotationLineItem__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>All_Confirmed_QuotationLineItem__c</fullName>
+        <description>A user can only change to &quot;Raised Invoice&quot; If all service line items are at stages &quot;Provisionally Booked, Request Confirmation, Confirmed,  No Booking Required&quot; Example: if any service line item is = to Stage &quot;Not booked&quot; or  &quot;Request Provisional Booking&quot; a consultant should not be able to update the Quotation Object Stage.</description>
+        <externalId>false</externalId>
+        <label>All_Confirmed_QuotationLineItem</label>
+        <summaryFilterItems>
+            <field>QuotationLineItem__c.All_SLI_Confirmed__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>QuotationLineItem__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>All_Funds_Received__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>This box is checked once client has completed all payments in full.</inlineHelpText>
+        <label>All Funds Received</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>All_RaisedInvoice_QuotationLineItem__c</fullName>
+        <externalId>false</externalId>
+        <label>All_RaisedInvoice_QuotationLineItem</label>
+        <summaryFilterItems>
+            <field>QuotationLineItem__c.All_SLI_Raised_Invoice__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>QuotationLineItem__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Approval_Status__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Details where the Quotation is in the Finance Handover protocol</inlineHelpText>
+        <label>Approval Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Finance Approval Pending</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Finance Approved</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Finance Rejected</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Approval_from_FX_Treasury_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Approval from FX Treasury Required</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Balance_Currency_Received__c</fullName>
+        <externalId>false</externalId>
+        <label>Balance Currency Received</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Exchange_Currency</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Balance_Due_Amount_EUR__c</fullName>
+        <externalId>false</externalId>
+        <formula>Sale_in_EUR__c-Deposite_Due_Amount_EUR__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>EUR portion of balance for booking.</inlineHelpText>
+        <label>Balance Due Amount EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Balance_Due_Amount_USD__c</fullName>
+        <externalId>false</externalId>
+        <formula>Total_Sale_In_USD__c-Deposite_Due_Amount_USD__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>USD portion of balance for booking.</inlineHelpText>
+        <label>Balance Due Amount USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Balance_Due_Amount_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <formula>Total_Sale_In_Zar__c-Deposite_Due_Amount_ZAR__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>ZAR portion of balance for booking.</inlineHelpText>
+        <label>Balance Due Amount ZAR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Balance_Due_Amount__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Balance to be paid by client in their selected currency.</inlineHelpText>
+        <label>Client Currency Balance Due Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Balance_Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Balance Due Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Balance_Received_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Balance Received Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Balance_Value_Received_nett__c</fullName>
+        <externalId>false</externalId>
+        <label>Balance Value Received (nett)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_ROE_for_EUR_in_AUD__c</fullName>
+        <externalId>false</externalId>
+        <label>CC ROE for EUR to AUD</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_ROE_for_EUR_in_EUR__c</fullName>
+        <externalId>false</externalId>
+        <label>CC ROE for EUR to EUR</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_ROE_for_EUR_in_GPB__c</fullName>
+        <externalId>false</externalId>
+        <label>CC ROE for EUR to GPB</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_ROE_for_EUR_in_USD__c</fullName>
+        <externalId>false</externalId>
+        <label>CC ROE for EUR to USD</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_ROE_for_USD_in_AUD__c</fullName>
+        <externalId>false</externalId>
+        <label>CC ROE for USD to AUD</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_ROE_for_USD_in_EUR__c</fullName>
+        <externalId>false</externalId>
+        <label>CC ROE for USD to EUR</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_ROE_for_USD_in_GPB__c</fullName>
+        <externalId>false</externalId>
+        <label>CC ROE for USD to GPB</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_ROE_for_USD_in_USD__c</fullName>
+        <externalId>false</externalId>
+        <label>CC ROE for USD to USD</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_ROE_for_ZAR_in_AUD__c</fullName>
+        <externalId>false</externalId>
+        <label>CC ROE for ZAR to AUD</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_ROE_for_ZAR_in_EUR__c</fullName>
+        <externalId>false</externalId>
+        <label>CC ROE for ZAR to EUR</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_ROE_for_ZAR_in_GPB__c</fullName>
+        <externalId>false</externalId>
+        <label>CC ROE for ZAR to GPB</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_ROE_for_ZAR_in_USD__c</fullName>
+        <externalId>false</externalId>
+        <label>CC ROE for ZAR to USD</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_Sub_Total_for_EUR_in_AUD__c</fullName>
+        <externalId>false</externalId>
+        <formula>Sale_in_EUR__c *  CC_ROE_for_EUR_in_AUD__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CC Sub Total for EUR in AUD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_Sub_Total_for_EUR_in_EUR__c</fullName>
+        <externalId>false</externalId>
+        <formula>Sale_in_EUR__c *  CC_ROE_for_EUR_in_EUR__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CC Sub Total for EUR in EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_Sub_Total_for_EUR_in_GPB__c</fullName>
+        <externalId>false</externalId>
+        <formula>Sale_in_EUR__c * CC_ROE_for_EUR_in_GPB__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CC Sub Total for EUR in GPB</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_Sub_Total_for_EUR_in_USD__c</fullName>
+        <externalId>false</externalId>
+        <formula>Sale_in_EUR__c *  CC_ROE_for_EUR_in_USD__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CC Sub Total for EUR in USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_Sub_Total_for_USD_in_AUD__c</fullName>
+        <externalId>false</externalId>
+        <formula>Total_Sale_In_USD__c * CC_ROE_for_USD_in_AUD__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CC Sub Total for USD in AUD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_Sub_Total_for_USD_in_EUR__c</fullName>
+        <externalId>false</externalId>
+        <formula>Total_Sale_In_USD__c * CC_ROE_for_USD_in_EUR__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CC Sub Total for USD in EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_Sub_Total_for_USD_in_GPB__c</fullName>
+        <externalId>false</externalId>
+        <formula>Total_Sale_In_USD__c *  CC_ROE_for_USD_in_GPB__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CC Sub Total for USD in GPB</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_Sub_Total_for_USD_in_USD__c</fullName>
+        <externalId>false</externalId>
+        <formula>Total_Sale_In_USD__c * CC_ROE_for_USD_in_USD__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CC Sub Total for USD in USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_Sub_Total_for_ZAR_in_AUD__c</fullName>
+        <externalId>false</externalId>
+        <formula>Total_Sale_In_Zar__c * CC_ROE_for_ZAR_in_AUD__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CC Sub Total for ZAR in AUD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_Sub_Total_for_ZAR_in_EUR__c</fullName>
+        <externalId>false</externalId>
+        <formula>Total_Sale_In_Zar__c * CC_ROE_for_ZAR_in_EUR__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CC Sub Total for ZAR in EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_Sub_Total_for_ZAR_in_GPB__c</fullName>
+        <externalId>false</externalId>
+        <formula>Total_Sale_In_Zar__c * CC_ROE_for_ZAR_in_GPB__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CC Sub Total for ZAR in GPB</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_Sub_Total_for_ZAR_in_USD__c</fullName>
+        <externalId>false</externalId>
+        <formula>Total_Sale_In_Zar__c * CC_ROE_for_ZAR_in_USD__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CC Sub Total for ZAR in USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>COS_in_EUR__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Cos in EUR</label>
+        <summarizedField>QuotationLineItem__c.Nett_Cost_in_EUR__c</summarizedField>
+        <summaryForeignKey>QuotationLineItem__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>COS_in_USD__c</fullName>
+        <externalId>false</externalId>
+        <label>COS in USD</label>
+        <summarizedField>QuotationLineItem__c.Nett_Cost_in_USD__c</summarizedField>
+        <summaryForeignKey>QuotationLineItem__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>COS_in_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <label>COS in ZAR</label>
+        <summarizedField>QuotationLineItem__c.Net_Cost__c</summarizedField>
+        <summaryForeignKey>QuotationLineItem__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Charge_Photobooks_and_Insurance_in__c</fullName>
+        <description>Select the currency that you would like to include the photobooks and insurance in, if this is a mostly a USD booking charge in USD and vice versa</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the currency that you would like to include the Photobooks and Emergency Evacuation in, if this is a mostly a USD booking charge in USD and vice versa</inlineHelpText>
+        <label>Select Photobook &amp; Evac Cover Currency</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>USD</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>ZAR</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Client_Currency_Balance_Due_Amount_Calc__c</fullName>
+        <externalId>false</externalId>
+        <formula>Quotation_Sale_Total_in_Selected_CC__c - Deposit_Due_Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Client Currency Balance Due Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Currency_Locked__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Client_Currency_Locked__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Once Quote stage  = Raised Booking Confirmation, the Client Currency Locks</inlineHelpText>
+        <label>Client Currency Locked</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Client_Fund_Recieved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>This box is checked when any payment has been received from the client. If a payment has already been received this boxed must been unchecked and checked again. This checkbox being true enables consultants to move to &apos;Confirmed&apos;</inlineHelpText>
+        <label>Deposit Received</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Client_Has_Requested_Confirmation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>In the Members Club, the client has clicked the &quot;Book This&quot; button. Please proceed within 3 days (maximum) to raise a Booking Confirmation ( there is FX exposure if you delay on this stage)</inlineHelpText>
+        <label>Client Has Requested Confirmation</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Client_Has_Requested_Requote__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The quote you had sent the client has expired ( it if no longer valid due to FX exposure) and your client has requested a re-quote on the same itinerary.</inlineHelpText>
+        <label>Client Has Requested Requote</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Confirmed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>This field restricts a user editing a quotation that has already been paid or quoted in FX to Booking Confirmation. Please seek administrator authorization should you need to edit this confirmed quotation</inlineHelpText>
+        <label>Untick to Edit Confirmed Quote</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Consultant_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Owner.FirstName + &quot; &quot; + Opportunity__r.Owner.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Consultant Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Credit_card_sale_total_in_CC_EUR__c</fullName>
+        <externalId>false</externalId>
+        <formula>Quotation_Sale_Total_in_CC_EUR__c +  $CustomMetadata.Credit_Card_Markup__mdt.Credit_Card_Markup_EUR.Markup_value__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Credit card sale total in CC EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Credit_card_sale_total_in_CC_GBP__c</fullName>
+        <externalId>false</externalId>
+        <formula>Quotation_Sale_Total_in_CC_GBP__c + $CustomMetadata.Credit_Card_Markup__mdt.Credit_Card_Markup_GBP.Markup_value__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Credit card sale total in CC GBP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Credit_card_sale_total_in_CC_USD__c</fullName>
+        <externalId>false</externalId>
+        <formula>Quotation_Sale_Total_in_CC_USD__c +  $CustomMetadata.Credit_Card_Markup__mdt.Credit_Card_Markup_USD.Markup_value__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Credit card sale total in CC USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Currency__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(  Opportunity__r.Client_Display_Currency__c  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>On the Opportunity level, choose the most likely Client Display Currency (one of the supported Global Currencies)  Your client is able to change their preferred currency in the Members Club, you will need to raise Booking Confirmation in this Currency.</inlineHelpText>
+        <label>Client Display Currency</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date_Client_Requested_Confirmation__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Client Requested Confirmation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Deposit_Currency_Received__c</fullName>
+        <externalId>false</externalId>
+        <label>Deposit Currency Received</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Exchange_Currency</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Deposit_Due_Amount__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Deposit to be paid by client in their selected currency.</inlineHelpText>
+        <label>Client Currency Deposit Due Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deposit_Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Deposit Due Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Deposit_Received_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Deposit Received Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Deposit_Value_Override_By_Consultant__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The Consultant has amended the standard (30%) deposit requitrements to recieve a greater or lesser booking deposit.</inlineHelpText>
+        <label>Deposit Value Override By Consultant</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Deposit_Value_Received_nett__c</fullName>
+        <externalId>false</externalId>
+        <label>Deposit Value Received (nett)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deposite_Due_Amount_EUR__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>EUR portion of deposit for booking.</inlineHelpText>
+        <label>Deposit Due Amount EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deposite_Due_Amount_USD__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>USD portion of deposit for booking.</inlineHelpText>
+        <label>Deposit Due Amount USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deposite_Due_Amount_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>ZAR portion of deposit for booking.</inlineHelpText>
+        <label>Deposit Due Amount ZAR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Do_not_include_Photobooks__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Do_Not_Send_Phptpbook_Offer__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Do Not Include Photobooks</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Do_not_include_insurance__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Include_Travel_Insurance__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Do Not Include Passenger Emergency Evac</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>EFT_Expected__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>EFT Expected</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Exchange_Values_Override_By_Finance__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>This checkbox disables the FX rate lookup. Only to be used by FX Manager when FX rates must be manually overridden.</inlineHelpText>
+        <label>Disable FX Rate Refresh</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Foreign_Exchange_Profit__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Displays gross profit for the quotation</inlineHelpText>
+        <label>Foreign Exchange Profit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Forward_CC_Buy_Rate_EUR__c</fullName>
+        <externalId>false</externalId>
+        <label>Forward CC Buy Rate EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Forward_CC_Buy_Rate_USD__c</fullName>
+        <externalId>false</externalId>
+        <label>Forward CC Buy Rate USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Forward_CC_Buy_Rate_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <label>Forward CC Buy Rate ZAR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Forward_Contract_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Checked once forward contract has been completed and funds paid out from FX broker.</inlineHelpText>
+        <label>Forward Contract Completed</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Forward_Contract_Currency_Committed_Buy__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date when forward contract was locked in with FX broker.</inlineHelpText>
+        <label>Forward Contract Buy Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Forward_Contract_Mature_Date_Calc__c</fullName>
+        <externalId>false</externalId>
+        <formula>Balance_Due_Date__c + 8</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>End date that the forward contract for this quote must be booked to. This is set later than the balance due date to allow for some time for the client payment to settle in our bank account.</inlineHelpText>
+        <label>Forward Contract Mature Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Forward_Contract_Mature_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date at which forward contract is set to mature. All client funds must have been received before this date.</inlineHelpText>
+        <label>Forward Contract Mature Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Forward_Contracts_Confirmed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Checked once forward contract has been locked in with FX broker.</inlineHelpText>
+        <label>Forward Contract Confirmed</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Funds_Received_To_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Value of all received payments for this quote in the selected client currency.</inlineHelpText>
+        <label>Funds Received To Date</label>
+        <summarizedField>Payment__c.Amount__c</summarizedField>
+        <summaryForeignKey>Payment__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Include_Passenger_Insurance_USD__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Include Passenger Emergency Evac in USD</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Include_Passenger_Insurance_ZAR__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Include Passenger Emergency Evac in ZAR</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Include_Photobooks_USD__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Include Photobooks in USD</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Include_Photobooks_ZAR__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Include Photobooks in ZAR</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Include_insurance_for_passengers__c</fullName>
+        <externalId>false</externalId>
+        <formula>Total_Adult_Passengers__c + Total_Child_and_Infant_Travellers__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Number of PAX Emerg Evac included for</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Insurance_Cos_in_USD_New__c</fullName>
+        <externalId>false</externalId>
+        <formula>Insurance_Sale_in_USD__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Emergency medical evacuation Cos in USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Insurance_Cos_in_ZAR_New__c</fullName>
+        <externalId>false</externalId>
+        <formula>Insurance_Sale_in_ZAR__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Emergency medical evacuation Cos in ZAR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Insurance_Sale_in_USD__c</fullName>
+        <externalId>false</externalId>
+        <label>Emergency medical evacuation Sale in USD</label>
+        <summarizedField>QuotationLineItem__c.Insurance_Sale_in_USD__c</summarizedField>
+        <summaryForeignKey>QuotationLineItem__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Insurance_Sale_in_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <label>Emergency medical evacuation Sale in ZAR</label>
+        <summarizedField>QuotationLineItem__c.Insurance_Sale_in_ZAR__c</summarizedField>
+        <summaryForeignKey>QuotationLineItem__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Internal_Documents_have_been_Added_to_SF__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Please ensure all of the supporting documents have been added to the &quot;Internal Documentation and Traveling Files&quot; folders. 
+
+This includes the Google Sheets client Booking Confirmation and all supplier invoices for confirmed services.</inlineHelpText>
+        <label>Internal Documents have been Added to SF</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Internal_FX_Management_Notes__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is used to capture any important information around FX values. e.g. reason FX rates refresh is disabled, method used for new blended manual FX rate calc, etc. If rates have decreased in value, then profit margin has decreased against quote.</inlineHelpText>
+        <label>Internal FX Management Notes</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Internal_Payment_Notes__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is used to capture any information around incoming payments. e.g. Partial deposit amounts received if clients paying parts, under payments due to SWIFT fees, etc.</inlineHelpText>
+        <label>Internal Payment Notes</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Iternary_Language__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the correct language to display in the Members Club and for the Itinerary Document</inlineHelpText>
+        <label>Itinerary Language</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>En</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>De</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Pt</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Itinerary_Summary__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the intro text that will show on this quotation in the Members Club (and also to be used on your covering email) Make sure this is specific to the quotation you are offering and adding value and insight.</inlineHelpText>
+        <label>Quotation Intro Note to Customer</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Members_Club_Itinerary_Link__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;https://www.safari365.com/mc/itinerary/?id=&quot; + Quotation_ID__c + &quot;&amp;opp=&quot;+Opportunity__r.OpportunityId__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This is the URL to the exact section in the Members Club where the Client can view this Itinerary</inlineHelpText>
+        <label>Members Club Itinerary Link</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_of_PhotoBook__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Number_of_Photo_Books_Owed__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Number of PhotoBooks Owed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Quotations</relationshipLabel>
+        <relationshipName>Quotations</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Passenger_Site_URL__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;https://www.safari365.com/mc/passengers/?id=&quot; + Quotation_ID__c + &quot;&amp;opp=&quot;+Opportunity__r.OpportunityId__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Passenger Details Form</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payment_Link__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;https://www.safari365.com/mc/pay/?id=&quot; + Quotation_ID__c + &quot;&amp;opp=&quot;+Opportunity__r.OpportunityId__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This is the URL to the exact section in the Members Club where the Client can proceed to pay</inlineHelpText>
+        <label>Members Club Payment Link</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Photobooks_Cos_in_USD_new__c</fullName>
+        <externalId>false</externalId>
+        <formula>Photobooks_Sale_in_USD__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Photobooks Cos in USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Photobooks_Cos_in_ZAR_New__c</fullName>
+        <externalId>false</externalId>
+        <formula>Photobooks_Sale_in_ZAR__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Photobooks Cos in ZAR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Photobooks_Sale_in_USD__c</fullName>
+        <externalId>false</externalId>
+        <label>Photobooks Sale in USD</label>
+        <summarizedField>QuotationLineItem__c.Photobooks_Sale_in_USD__c</summarizedField>
+        <summaryForeignKey>QuotationLineItem__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Photobooks_Sale_in_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <label>Photobooks Sale in ZAR</label>
+        <summarizedField>QuotationLineItem__c.Photobooks_Sale_in_ZAR__c</summarizedField>
+        <summaryForeignKey>QuotationLineItem__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Client_First_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Account.FirstName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Primary Client First Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Client_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Account.FirstName + &quot; &quot; + Opportunity__r.Account.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Primary Client Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Quotation__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Newest and/or Primary Quotation</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Primary_by_Consultant__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Checking this box will add this Quotation value ( Sale and Cost) to the main Opportunity value for &quot;Closed Won Deal&quot; Do this if the client is confirming multiple quotations</inlineHelpText>
+        <label>Always Include this Quote in Opp Value</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Profit_Eur__c</fullName>
+        <externalId>false</externalId>
+        <formula>Quotation_Gross_Profit_EUR__c / Sale_in_EUR__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Profit % Eur</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Profit_IN_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <formula>Quotation_Gross_Profit_ZAR__c /Sale_in_Zar__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Profit % IN ZAR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Profit_USD__c</fullName>
+        <externalId>false</externalId>
+        <formula>Quotation_Gross_Profit_USD__c /Sale_In_USD__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Profit % USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Profit__c</fullName>
+        <externalId>false</externalId>
+        <formula>Quotation_Profit__c /Quotation_Sale__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Internal reporting figures only (contributes towards targets and BHAGS) These figures will be rolled-up to to the Opportunity values.</inlineHelpText>
+        <label>Profit % Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Quotation_Approval_Requested__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Quotation Approval Requested</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Quotation_Arrival_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Arrival_Date__c</formula>
+        <label>Quotation Arrival Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Quotation_Cos__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Total_Cos_in_ZAR__c / ROE_ZAR_to_ZAR__c) + (Total_Cos_in_USD__c / ROE_USD_to_ZAR__c)+ (COS_in_EUR__c / ROE_EUR_to_ZAR__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Internal reporting figures only (contributes towards targets and BHAGS) These figures will be rolled-up to to the Opportunity values.</inlineHelpText>
+        <label>Quotation Cost Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Quotation_Gross_Profit_EUR__c</fullName>
+        <externalId>false</externalId>
+        <formula>Sale_in_EUR__c -  COS_in_EUR__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Quotation Gross Profit EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quotation_Gross_Profit_USD__c</fullName>
+        <externalId>false</externalId>
+        <formula>Sale_In_USD__c -  COS_in_USD__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Quotation Gross Profit USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quotation_Gross_Profit_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <formula>Sale_in_Zar__c-COS_in_ZAR__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Quotation Gross Profit ZAR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quotation_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Quotation ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quotation_Name__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Make this descriptive as it displays to the Client in the Members Club</inlineHelpText>
+        <label>Quotation Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quotation_Profit__c</fullName>
+        <externalId>false</externalId>
+        <formula>Quotation_Sale__c - Quotation_Cos__c</formula>
+        <inlineHelpText>Internal reporting figures only (contributes towards targets and BHAGS) These figures will be rolled-up to to the Opportunity values.</inlineHelpText>
+        <label>Quotation Profit Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Quotation_Sale_Total_in_CC_AUD__c</fullName>
+        <externalId>false</externalId>
+        <formula>CEILING(CC_Sub_Total_for_ZAR_in_AUD__c + CC_Sub_Total_for_EUR_in_AUD__c + CC_Sub_Total_for_USD_in_AUD__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Quotation Sale Total in CC AUD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quotation_Sale_Total_in_CC_EUR__c</fullName>
+        <externalId>false</externalId>
+        <formula>CEILING(CC_Sub_Total_for_ZAR_in_EUR__c + CC_Sub_Total_for_EUR_in_EUR__c + CC_Sub_Total_for_USD_in_EUR__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Quotation Sale Total in CC EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quotation_Sale_Total_in_CC_GBP__c</fullName>
+        <externalId>false</externalId>
+        <formula>MCEILING(CC_Sub_Total_for_ZAR_in_GPB__c + CC_Sub_Total_for_EUR_in_GPB__c + CC_Sub_Total_for_USD_in_GPB__c)</formula>
+        <label>Quotation Sale Total in CC GBP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quotation_Sale_Total_in_CC_USD__c</fullName>
+        <externalId>false</externalId>
+        <formula>MCEILING(CC_Sub_Total_for_ZAR_in_USD__c + CC_Sub_Total_for_EUR_in_USD__c + CC_Sub_Total_for_USD_in_USD__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Quotation Sale Total in CC USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quotation_Sale_Total_in_CC__c</fullName>
+        <externalId>false</externalId>
+        <formula>0.1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>OLD FORMULA - JUDD BROKE (Total_Sale_In_Zar__c / ROE_ZAR_to_CC__c) + (Total_Sale_In_USD__c / ROE_USD_to_CC__c)+ (Sale_in_EUR__c / ROE_EUR_to_CC__c )</inlineHelpText>
+        <label>OLD DONT USE SaleTotalinClient Currency</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quotation_Sale_Total_in_Selected_CC__c</fullName>
+        <description>This displays the quote total in the selected client currency</description>
+        <externalId>false</externalId>
+        <formula>IF( Currency__c == &apos;AUD&apos; , Quotation_Sale_Total_in_CC_AUD__c, IF(Currency__c == &apos;USD&apos;, Quotation_Sale_Total_in_CC_USD__c, IF(Currency__c == &apos;EUR&apos;, Quotation_Sale_Total_in_CC_EUR__c, IF(Currency__c == &apos;GBP&apos;, Quotation_Sale_Total_in_CC_GBP__c, 0.0) ) ) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This displays the quote sale total in the selected client currency</inlineHelpText>
+        <label>Quotation Sale Total in Selected CC</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quotation_Sale__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Total_Sale_In_Zar__c / ROE_ZAR_to_ZAR__c) + (Total_Sale_In_USD__c / ROE_USD_to_ZAR__c)+ (Sale_in_EUR__c / ROE_EUR_to_ZAR__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Internal reporting figures only (contributes towards targets and BHAGS) These figures will be rolled-up to to the Opportunity values.</inlineHelpText>
+        <label>Quotation Sale Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Quotation_Sales__c</fullName>
+        <externalId>false</externalId>
+        <label>Quotation Sales</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quotation_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Quotation Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Quoting</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Raised Invoice</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Confirmed</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Quote_Approved_by_Finance__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is not editable by users and is used in the approval by finance process.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is not editable by users and is used in the approval by finance process.</inlineHelpText>
+        <label>Quote Approved by Finance</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Quote_Exposure__c</fullName>
+        <externalId>false</externalId>
+        <label>Quote Exposure</label>
+        <summarizedField>Exposure_ROE__c.Quote_Exposure__c</summarizedField>
+        <summaryForeignKey>Exposure_ROE__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>ROE_EUR_to_CC__c</fullName>
+        <externalId>false</externalId>
+        <label>ROE Euro to Client Currency</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ROE_EUR_to_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <label>ROE EUR to ZAR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ROE_USD_to_CC__c</fullName>
+        <externalId>false</externalId>
+        <label>ROE USD to Client Currency</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ROE_USD_to_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <label>ROE USD to ZAR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ROE_ZAR_to_CC__c</fullName>
+        <externalId>false</externalId>
+        <label>ROE ZAR to Client Currency</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ROE_ZAR_to_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <label>ROE ZAR to ZAR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Raised_Booking_Confirmation_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Raised Booking Confirmation Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Record_Locked__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Record Locked</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sale_In_USD__c</fullName>
+        <externalId>false</externalId>
+        <label>Sale In USD</label>
+        <summarizedField>QuotationLineItem__c.Sale_in_USD__c</summarizedField>
+        <summaryForeignKey>QuotationLineItem__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Sale_in_EUR__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Sale in EUR</label>
+        <summarizedField>QuotationLineItem__c.Sale_in_Eur__c</summarizedField>
+        <summaryForeignKey>QuotationLineItem__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Sale_in_Zar__c</fullName>
+        <externalId>false</externalId>
+        <label>Sale in Zar</label>
+        <summarizedField>QuotationLineItem__c.Sale__c</summarizedField>
+        <summaryForeignKey>QuotationLineItem__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Values_Verified_By_Consultant__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Deposit Values Verified By Consultant</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Selected_Client_Currency_Sell_Rate_EUR__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Currency__c == &apos;AUD&apos; , CC_ROE_for_EUR_in_AUD__c,  IF(Currency__c == &apos;USD&apos;, CC_ROE_for_EUR_in_USD__c,  IF(Currency__c == &apos;EUR&apos;, CC_ROE_for_EUR_in_EUR__c,  IF(Currency__c == &apos;GBP&apos;, CC_ROE_for_EUR_in_GPB__c, 0.0) ) ) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Selected Client Currency Sell Rate  EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Selected_Client_Currency_Sell_Rate_USD__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Currency__c == &apos;AUD&apos; , CC_ROE_for_USD_in_AUD__c,  IF(Currency__c == &apos;USD&apos;, CC_ROE_for_USD_in_USD__c,  IF(Currency__c == &apos;EUR&apos;, CC_ROE_for_USD_in_EUR__c,  IF(Currency__c == &apos;GBP&apos;, CC_ROE_for_USD_in_GPB__c, 0.0) ) ) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Selected Client Currency Sell Rate USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Selected_Client_Currency_Sell_Rate_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Currency__c == &apos;AUD&apos; , CC_ROE_for_ZAR_in_AUD__c,  IF(Currency__c == &apos;USD&apos;, CC_ROE_for_ZAR_in_USD__c,  IF(Currency__c == &apos;EUR&apos;, CC_ROE_for_ZAR_in_EUR__c,  IF(Currency__c == &apos;GBP&apos;, CC_ROE_for_ZAR_in_GPB__c, 0.0) ) ) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Selected Client Currency Sell Rate ZAR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Send_Email_To_Customer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Send Email To Customer</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Special_Itinerary_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Itinerary Doc Customer Note</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Spot_Buy_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Spot Buy Rate (Deposit payment)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Team_Drive_Quotation_Folder_Url__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This is Google Drive folder for ther Internal Docs</inlineHelpText>
+        <label>Team Drive Quotation Folder Url</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Text_for_Booking_Confirmation_Requested__c</fullName>
+        <defaultValue>$Label.Service_Date_Check</defaultValue>
+        <description>Task Triggered to Consultant: 
+Client ‘Booking Confirmation’ Requested</description>
+        <externalId>false</externalId>
+        <label>Text for Booking Confirmation Requested</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TotalQuotationLineItems__c</fullName>
+        <externalId>false</externalId>
+        <label>TotalQuotationLineItems</label>
+        <summaryForeignKey>QuotationLineItem__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Adult_Passengers__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Adult Passengers</label>
+        <summaryFilterItems>
+            <field>PassengerQuotationMapping__c.Adult_Passenger__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>PassengerQuotationMapping__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Child_and_Infant_Travellers__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Child and Infant Travellers</label>
+        <summaryFilterItems>
+            <field>PassengerQuotationMapping__c.Child_Passenger_Type__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>PassengerQuotationMapping__c.Quotation__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Cos_in_USD__c</fullName>
+        <externalId>false</externalId>
+        <formula>COS_in_USD__c +  Photobooks_Cos_in_USD_new__c +   Insurance_Cos_in_USD_New__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Cos in USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Cos_in_ZAR__c</fullName>
+        <externalId>false</externalId>
+        <formula>COS_in_ZAR__c +  Photobooks_Cos_in_ZAR_New__c+  Insurance_Cos_in_ZAR_New__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Cos in ZAR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>TravelEndDate__c - TravelStartDate__c + 1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Funds_Outstanding__c</fullName>
+        <externalId>false</externalId>
+        <formula>Quotation_Sale_Total_in_Selected_CC__c - Funds_Received_To_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Value of all outstanding payments for this quote in the selected client currency.</inlineHelpText>
+        <label>Total Funds Outstanding</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Nights__c</fullName>
+        <externalId>false</externalId>
+        <formula>TravelEndDate__c - TravelStartDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Nights</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Sale_In_USD__c</fullName>
+        <externalId>false</externalId>
+        <formula>Sale_In_USD__c + Photobooks_Sale_in_USD__c +  Insurance_Sale_in_USD__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Sale In USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Sale_In_Zar__c</fullName>
+        <externalId>false</externalId>
+        <formula>Sale_in_Zar__c + Photobooks_Sale_in_ZAR__c + Insurance_Sale_in_ZAR__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Sale In ZAR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TravelEndDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Travel End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TravelStartDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Travel Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Update_CC_ROE_Fields_Date__c</fullName>
+        <description>The date at which the exchange rate updated</description>
+        <externalId>false</externalId>
+        <label>Update CC ROE Fields Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Update_CC_ROE_Fields__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This controls the function whether the system should provide updated Client Currency exchange rates to a Quotation based on a number of factors</description>
+        <externalId>false</externalId>
+        <label>Update CC ROE Fields</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Valid_Until__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The date when the quoted exchange rate for this quote will expire. Rate will be valid until midnight of this date South African time.</inlineHelpText>
+        <label>Quotation FX Rate Valid Until</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>WETU_Edit_Itinerary__c</fullName>
+        <externalId>false</externalId>
+        <formula>&apos;http://wetu.com/Builder/Build/Personal/ItineraryDetails/&apos; + Wetu_Identifier__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Check and Edit this itinerary to make it perfect (certain details may not have mapped through from the Itinerary Builder) The more effort you put in here the better it will look in MC. Note, If you &quot;Update WETU&quot; it will overwrite your changes.</inlineHelpText>
+        <label>Editable Itinerary (WETU)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WETU_Link__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Members_Club__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Provide this link for your Client to access the Members Club (do not hyperlking this link to text in your emails when providing the Client the link, make sure its obvious)</inlineHelpText>
+        <label>Members Club Link</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Wetu_Identifier_Key__c</fullName>
+        <externalId>false</externalId>
+        <label>Wetu Identifier Key</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Wetu_Identifier__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the unique WETU URL string if you want to duplicate this exact Members Club itinerrary display. You can override this field with an updated URL string as required (proceed with caution as the quotes need to be identical)</inlineHelpText>
+        <label>WETU Identifier</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Wetu_Request_Fail__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Wetu Request Fail</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>credit_card_sale_total_in_CC_AUD__c</fullName>
+        <externalId>false</externalId>
+        <formula>Quotation_Sale_Total_in_CC_AUD__c +  $CustomMetadata.Credit_Card_Markup__mdt.Credit_Card_Markup.Markup_value__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Credit card sale total in CC AUD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>email_formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Email__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>email formula</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>isBookingConfStatusOverdue__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>isBookingConfStatusOverdue</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>isClientRequestedConfStatusOverdue__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is a technical field which will be update by a schedular and monitors FX exposure. When True, must send alert to FX manager</description>
+        <externalId>false</externalId>
+        <label>isClientRequestedConfStatusOverdue</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>operator_identity_id__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Operator Identity id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>price_excludes__c</fullName>
+        <externalId>false</externalId>
+        <label>Price Excludes</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>price_includes__c</fullName>
+        <externalId>false</externalId>
+        <label>Price Includes</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>wetu_is_disabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Wetu is Disabled</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>wetu_operator_id__c</fullName>
+        <defaultValue>305</defaultValue>
+        <externalId>false</externalId>
+        <label>Wetu operator id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wetu_operator_theme_id__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Wetu Operator Theme Id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wetu_type__c</fullName>
+        <defaultValue>(&quot;Personal&quot;)</defaultValue>
+        <externalId>false</externalId>
+        <label>Wetu Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Quotation</label>
+    <listViews>
+        <fullName>All_Client_Has_Requested_Conf_Quotes</fullName>
+        <columns>CREATED_DATE</columns>
+        <columns>NAME</columns>
+        <columns>Quotation_Sale__c</columns>
+        <columns>Profit__c</columns>
+        <columns>Quotation_Stage__c</columns>
+        <columns>Primary_Client_Name__c</columns>
+        <columns>Quotation_Name__c</columns>
+        <columns>TravelStartDate__c</columns>
+        <columns>Itinerary_Summary__c</columns>
+        <columns>WETU_Link__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Quotation_Stage__c</field>
+            <operation>equals</operation>
+            <value>Quoting,Raised Invoice</value>
+        </filters>
+        <label>My &quot;Actively Quoting&quot; Quotations</label>
+    </listViews>
+    <listViews>
+        <fullName>FX_Client_Requested_Fund_Yet_to_Clear</fullName>
+        <columns>Consultant_Name__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>NAME</columns>
+        <columns>Quotation_Stage__c</columns>
+        <columns>Quotation_Sale__c</columns>
+        <columns>Profit__c</columns>
+        <columns>Quote_Exposure__c</columns>
+        <columns>Quotation_Name__c</columns>
+        <columns>Primary_Client_Name__c</columns>
+        <columns>TravelStartDate__c</columns>
+        <columns>Valid_Until__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Client_Has_Requested_Confirmation__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Client_Fund_Recieved__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Rqt + Funds Not Received</label>
+        <sharedTo>
+            <role>Finance</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>FX_Fund_Cleared_Not_Confirmed</fullName>
+        <columns>Consultant_Name__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>NAME</columns>
+        <columns>Quotation_Stage__c</columns>
+        <columns>Quotation_Sale__c</columns>
+        <columns>Profit__c</columns>
+        <columns>Quote_Exposure__c</columns>
+        <columns>Quotation_Name__c</columns>
+        <columns>Primary_Client_Name__c</columns>
+        <columns>TravelStartDate__c</columns>
+        <columns>Valid_Until__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Client_Has_Requested_Confirmation__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Client_Fund_Recieved__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Quotation_Stage__c</field>
+            <operation>notEqual</operation>
+            <value>Confirmed</value>
+        </filters>
+        <filters>
+            <field>Approval_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Finance Approval Pending,Finance Approved,Finance Rejected</value>
+        </filters>
+        <label>Rqt+Fund Rcd+Not Conf+Not In Appv Proces</label>
+        <sharedTo>
+            <role>Finance</role>
+            <role>Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Finance_Approval_Pending</fullName>
+        <columns>Consultant_Name__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>NAME</columns>
+        <columns>Quotation_Stage__c</columns>
+        <columns>Quotation_Sale__c</columns>
+        <columns>Profit__c</columns>
+        <columns>Quote_Exposure__c</columns>
+        <columns>Quotation_Name__c</columns>
+        <columns>Primary_Client_Name__c</columns>
+        <columns>TravelStartDate__c</columns>
+        <columns>Valid_Until__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Client_Has_Requested_Confirmation__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Approval_Status__c</field>
+            <operation>equals</operation>
+            <value>Finance Approval Pending</value>
+        </filters>
+        <label>Finance Approval Pending</label>
+        <sharedTo>
+            <role>Finance</role>
+            <role>Management</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Actively_Quoting_Quotations</fullName>
+        <columns>CREATED_DATE</columns>
+        <columns>NAME</columns>
+        <columns>Quotation_Sale__c</columns>
+        <columns>Profit__c</columns>
+        <columns>Quotation_Stage__c</columns>
+        <columns>Primary_Client_Name__c</columns>
+        <columns>Quotation_Name__c</columns>
+        <columns>TravelStartDate__c</columns>
+        <columns>Itinerary_Summary__c</columns>
+        <columns>WETU_Link__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Quotation_Stage__c</field>
+            <operation>equals</operation>
+            <value>Cancelled</value>
+        </filters>
+        <label>My &quot;Cancelled&quot; Quotations</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Confirmed_Quotations</fullName>
+        <columns>CREATED_DATE</columns>
+        <columns>NAME</columns>
+        <columns>Quotation_Sale__c</columns>
+        <columns>Profit__c</columns>
+        <columns>Quotation_Stage__c</columns>
+        <columns>Primary_Client_Name__c</columns>
+        <columns>Quotation_Name__c</columns>
+        <columns>TravelStartDate__c</columns>
+        <columns>Itinerary_Summary__c</columns>
+        <columns>WETU_Link__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Quotation_Stage__c</field>
+            <operation>equals</operation>
+            <value>Confirmed</value>
+        </filters>
+        <label>My &quot;Confirmed&quot; Quotations</label>
+    </listViews>
+    <listViews>
+        <fullName>Rqt_Fund_Rcd_Not_Conf_In_Appv_Proces</fullName>
+        <columns>Consultant_Name__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>NAME</columns>
+        <columns>Quotation_Stage__c</columns>
+        <columns>Quotation_Sale__c</columns>
+        <columns>Profit__c</columns>
+        <columns>Quote_Exposure__c</columns>
+        <columns>Quotation_Name__c</columns>
+        <columns>Primary_Client_Name__c</columns>
+        <columns>TravelStartDate__c</columns>
+        <columns>Valid_Until__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Client_Has_Requested_Confirmation__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Client_Fund_Recieved__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Quotation_Stage__c</field>
+            <operation>notEqual</operation>
+            <value>Confirmed,Cancelled</value>
+        </filters>
+        <filters>
+            <field>Approval_Status__c</field>
+            <operation>equals</operation>
+            <value>Finance Approval Pending,Finance Approved,Finance Rejected</value>
+        </filters>
+        <label>Rqt+Fund Rcd+Not Conf+ In Appv Proces</label>
+        <sharedTo>
+            <role>Finance</role>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>SAF-{00000}</displayFormat>
+        <label>Quote Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Quotations</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Quotation_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Quotation_Stage__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Consultant_Name__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Quotation_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>TravelStartDate__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Quotation_Stage__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Consultant_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Quotation_Sale__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Quotation_Name__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Primary_Client_Name__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Quotation_Stage__c</searchFilterFields>
+        <searchFilterFields>Consultant_Name__c</searchFilterFields>
+        <searchResultsAdditionalFields>Quotation_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Quotation_Stage__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Consultant_Name__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Approval_from_FX_Treasury_before_RBC</fullName>
+        <active>true</active>
+        <description>IF “Approval from FX Treasury Required” = True, a consultant cannot change Quotation Stage to Raised Booking Confirmation ( or cant create Booking Confirmation doc)</description>
+        <errorConditionFormula>AND(ISCHANGED(Quotation_Stage__c), ISPICKVAL(Quotation_Stage__c,&quot;Raised Invoice&quot;), Approval_from_FX_Treasury_Required__c == true,NOT($User.ByPassValidation__c))</errorConditionFormula>
+        <errorMessage>Quote status cannot change stage to Raised Booking Confirmation as approval from FX Manager required.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Approval_from_Finance_Required</fullName>
+        <active>true</active>
+        <description>A User cannot update to Confirmed unless Fiance has approved the Quotation</description>
+        <errorConditionFormula>AND(ISCHANGED(Quotation_Stage__c),
+Confirmed__c == TRUE,
+ISPICKVAL(Quotation_Stage__c,&quot;Confirmed&quot;),
+Quotation_Approval_Requested__c == false, 
+NOT($User.ByPassValidation__c))</errorConditionFormula>
+        <errorMessage>Quote stage cannot change to &apos;Confirmed&apos; before &apos;Fiance has approved the Quotation values&apos;. Please ensure all documents have been added and the is submitted for approval.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_Status_Cancelled</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(NOT($User.ByPassValidation__c),ISCHANGED(Quotation_Stage__c), ISPICKVAL(Quotation_Stage__c,&quot;Cancelled&quot;), ALL_Quotation_LineItem_Count__c &lt;All_Cancelled_QuotationLineItems__c)</errorConditionFormula>
+        <errorMessage>A User cannot update to Cancelled status unless all service lines are Stage:  No Booking Required, Cancelled, Not Booked</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_Status_Confirmed</fullName>
+        <active>false</active>
+        <description>A User cannot update to Confirmed unless all service lines are Stage:  Confirmed or No Booking Required.</description>
+        <errorConditionFormula>AND(ISCHANGED(Quotation_Stage__c),
+Confirmed__c == True,
+ISPICKVAL(Quotation_Stage__c,&quot;Confirmed&quot;), All_Confirmed_QuotationLineItem__c&lt;ALL_Quotation_LineItem_Count__c,
+NOT($User.ByPassValidation__c))</errorConditionFormula>
+        <errorMessage>Quote stage cannot change to Confirmed unless all service lines are Stage:  Confirmed or No Booking Required.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_Status_ConfirmedInternalDocuments</fullName>
+        <active>true</active>
+        <description>A User cannot update to Confirmed unless Internal Documents Added to SF</description>
+        <errorConditionFormula>AND(ISCHANGED(Quotation_Stage__c),
+Confirmed__c == TRUE,
+ISPICKVAL(Quotation_Stage__c,&quot;Confirmed&quot;),
+Internal_Documents_have_been_Added_to_SF__c == false, 
+NOT($User.ByPassValidation__c))</errorConditionFormula>
+        <errorMessage>Quote stage cannot change to &apos;Confirmed&apos; before &apos;Internal Documents Added To SF&apos; has been checked. Please ensure all documents have been added and the box is checked to proceed.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_Status_Raised_Invoice</fullName>
+        <active>true</active>
+        <description>AND(Sales_Values_Verified_By_Consultant__c = TRUE,ISCHANGED(Quotation_Stage__c), ISPICKVAL(Quotation_Stage__c,&quot;Raised Invoice&quot;), 
+All_RaisedInvoice_QuotationLineItem__c&lt;ALL_Quotation_LineItem_Count__c)</description>
+        <errorConditionFormula>AND(Sales_Values_Verified_By_Consultant__c = FALSE,
+NOT($User.ByPassValidation__c),
+ISCHANGED(Quotation_Stage__c), ISPICKVAL(Quotation_Stage__c,&quot;Raised Invoice&quot;))</errorConditionFormula>
+        <errorMessage>Quote stage cannot change to &apos;Raised Booking Confirmation&apos; until deposit values have been calculated</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_Status_Raised_Invoice_AllConfirmed</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND (ISCHANGED(Quotation_Stage__c),
+NOT($User.ByPassValidation__c),  
+ISPICKVAL(Quotation_Stage__c,&quot;Raised Invoice&quot;), 
+All_RaisedInvoice_QuotationLineItem__c&lt;ALL_Quotation_LineItem_Count__c)</errorConditionFormula>
+        <errorMessage>The QuotationStage can only be Raise confirmation before all the Quotation line item is confirmed</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Quotation_Stage_Cannot_be_Changed</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(ISCHANGED(Quotation_Stage__c), isBookingConfStatusOverdue__c == true,NOT($User.ByPassValidation__c))</errorConditionFormula>
+        <errorMessage>Quote stage cannot be changed as booking confirmation status is overdue.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validate_Book_this_is_True</fullName>
+        <active>true</active>
+        <description>You need to click the &quot;Book This&quot; function in the members club before you can raised a booking confirmation.  If Book this is unavailable, please contact the FX user.</description>
+        <errorConditionFormula>AND(ISCHANGED(Quotation_Stage__c), ISPICKVAL(Quotation_Stage__c,&quot;Raised Invoice&quot;), Client_Has_Requested_Confirmation__c == false,NOT($User.ByPassValidation__c))</errorConditionFormula>
+        <errorMessage>You need to click the &quot;Book This&quot; function in the members club before you can raise a booking confirmation.  If &quot;Book This&quot; is unavailable, please get approval from FX Manager to proceed.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validate_Confirmed_When_Funds_Received</fullName>
+        <active>true</active>
+        <description>User can only proceed to &apos;Confirmed&apos; when &apos;Deposit Received&apos; field is True.</description>
+        <errorConditionFormula>AND(ISCHANGED(Quotation_Stage__c), ISPICKVAL(Quotation_Stage__c,&quot;Confirmed&quot;), Client_Fund_Recieved__c == false,NOT($User.ByPassValidation__c))</errorConditionFormula>
+        <errorMessage>Quote stage cannot change to &apos;Confirmed&apos; before a deposit has been marked as received by the FX Manager. Please ensure your client has paid for their booking before contacting the FX Manager.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Create_Manual_Wetu</fullName>
+        <availability>online</availability>
+        <description>If the main Wetu button fails</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Create Blank WETU (on Error)</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)}
+var errorFlag =  new Boolean(false);
+if({!Quotations__c.Wetu_Request_Fail__c}==false)
+{
+alert(&quot;Wetu request process before successfully!&quot;);
+errorFlag = false;
+}else{
+errorFlag = true;
+}
+if(errorFlag == true)
+{
+sforce.apex.execute(&quot;CreateManualWetuService&quot;,&quot;processRequest&quot;,
+{quotationId:&quot;{!Quotations__c.Id}&quot;,
+userId:&quot;{!User.Id}&quot;,
+opportunityId:&quot;{!Opportunity.Id}&quot;,
+isTestRunning:false
+});
+alert(&quot;Wetu request send manually successfully!&quot;);
+location.reload();
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Delete</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Delete</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/9.0/connection.js&quot;)} 
+
+var records = {!GETRECORDIDS( $ObjectType.Event )}; 
+var taskRecords = {!GETRECORDIDS( $ObjectType.Task)}; 
+records = records.concat(taskRecords); 
+
+
+if (records[0] == null) { 
+alert(&quot;Please select at least one record.&quot;) } 
+else { 
+
+var errors = []; 
+var result = sforce.connection.deleteIds(records); 
+if (result &amp;&amp; result.length){ 
+var numFailed = 0; 
+var numSucceeded = 0; 
+for (var i = 0; i &lt; result.length; i++){ 
+var res = result[i]; 
+if (res &amp;&amp; res.success == &apos;true&apos;){ 
+numSucceeded++; 
+} else { 
+var es = res.getArray(&quot;errors&quot;); 
+if (es.length &gt; 0) { 
+errors.push(es[0].message); 
+} 
+numFailed++; 
+} 
+} 
+if (numFailed &gt; 0){ 
+alert(&quot;Failed: &quot; + numFailed + &quot;\nSucceeded: &quot; + numSucceeded + &quot; \n Due to: &quot; + errors.join(&quot;\n&quot;)); 
+} else { 
+alert(&quot;Number of records deleted: &quot; + numSucceeded); 
+} 
+} 
+window.location.reload(); 
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Get_Pricing_Info</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>page</linkType>
+        <masterLabel>Create Deposit Information</masterLabel>
+        <openType>newWindow</openType>
+        <page>QuotationPricingInfo</page>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+    </webLinks>
+    <webLinks>
+        <fullName>Quotation_Booking_Confirm_Doc_On_Google_Drive</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Create Booking Confirmation</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/apex.js&quot;)} 
+var result = sforce.apex.execute(&quot;QuotationBookingConfirmDocOnGD&quot;,&quot;createOrNotQuotationBookingConfirmDocOnGD&quot;,{&quot;quotationId&quot;:&quot;{!Quotations__c.Id}&quot;});
+if(result==&quot;true&quot;){
+alert(&quot;Quotation Booking Confirmation Doc Created In Google Drive Successfully.&quot;);
+}
+else{
+alert(result);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Quotation_Itinerary_Doc_On_Google_Drive</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Create Itinerary (Classic Only)</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/apex.js&quot;)} 
+var result = sforce.apex.execute(&quot;QuotationItineraryDocOnGD&quot;,&quot;createOrNotQuotationItineraryDocOnGD&quot;,{&quot;quotationId&quot;:&quot;{!Quotations__c.Id}&quot;});
+
+if(result==&quot;true&quot;){
+alert(&quot;Quotation Itinerary Doc Created In Google Drive Successfully.&quot;);
+}else{
+alert(result);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Quotation_Voucher_Doc_On_Google_Drive</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Create Vouchers</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/apex.js&quot;)} 
+var result = sforce.apex.execute(&quot;QuotationVoucherDocOnGD&quot;,&quot;createOrNotQuotationVoucherDocOnGD&quot;,{&quot;quotationId&quot;:&quot;{!Quotations__c.Id}&quot;});
+if(result==&quot;true&quot;){
+alert(&quot;Quotation Voucher Doc Created In Google Drive Successfully.&quot;);
+}else{
+alert(result);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Request_Balance_Payment</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Request Balance</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/_ui/core/email/author/EmailAuthor?
+retURL=/{!Quotations__c.Quotation_ID__c}&amp;
+p3_lkid={!Quotations__c.Quotation_ID__c}&amp;
+p2_lkid={!Contact.Id}&amp;
+template_id=00X4G000002DjKw&amp;
+p24={!Opportunity.OwnerEmail }&amp;
+p26=paid@safari365.com&amp;
+p5=</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Request_Passenger_Details_via_Email</fullName>
+        <availability>online</availability>
+        <description>Send an email to Request Passenger Details</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Request Passenger Details via Email</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/_ui/core/email/author/EmailAuthor?
+retURL=/{!Quotations__c.Quotation_ID__c}&amp;
+p3_lkid={!Quotations__c.Quotation_ID__c}&amp;
+rtype=003&amp;
+p2_lkid={!Contact.Id}&amp;
+template_id=00X0C000000Rn9d&amp;
+p24={!User.Email}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Send_StatementButton</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Send Statement</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/_ui/core/email/author/EmailAuthor?
+retURL=/{!Quotations__c.Quotation_ID__c}&amp;
+p3_lkid={!Quotations__c.Quotation_ID__c}&amp;
+p2_lkid={!Contact.Id}&amp;
+template_id=00XD0000001w7VX&amp;
+p24={!Opportunity.OwnerEmail }&amp;
+p26=paid@safari365.com&amp;
+p5=</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Send_request_to_Wetu</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Create WETU Itinerary</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)}
+var errorFlag =  new Boolean(false);
+
+if((&quot;{!Quotations__c.Do_not_include_Photobooks__c}&quot; == false) &amp;&amp; (&quot;{!Quotations__c.Include_Photobooks_USD__c}&quot; == false) &amp;&amp;
+(&quot;{!Quotations__c.Include_Photobooks_ZAR__c}&quot; == false))
+{
+alert(&quot;{!$Label.Photobooks_not_included_for_wetu}&quot;);
+errorFlag=true;
+}
+
+if((&quot;{!Quotations__c.Include_Passenger_Insurance_USD__c}&quot; == false) &amp;&amp; (&quot;{!Quotations__c.Include_Passenger_Insurance_ZAR__c}&quot; == false) &amp;&amp;
+(&quot;{!Quotations__c.Do_not_include_insurance__c}&quot; == false)
+&amp;&amp; (errorFlag== false))
+{
+alert(&quot;{!$Label.Passenger_Insurance_not_included_for_wetu}&quot;);
+errorFlag = true;
+}
+if(errorFlag == false)
+{
+sforce.apex.execute(&quot;WetuService&quot;,&quot;processRequest&quot;,
+{quotationId:&quot;{!Quotations__c.Id}&quot;,
+userId:&quot;{!User.Id}&quot;,
+opportunityId:&quot;{!Opportunity.Id}&quot;,
+isTestRunning:false
+});
+location.reload();
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Update_CC_ROE_Fields</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Refresh FX Rates</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/apex.js&quot;)} 
+var result = sforce.apex.execute(&quot;QuotationCCROEFieldsUpdateController&quot;,&quot;updateAllCCROIFieldsClassic&quot;,{&quot;quotationId&quot;:&quot;{!Quotations__c.Id}&quot;});
+
+if(result==&quot;success&quot;){
+alert(&quot;Quotation CC ROE Fields Updated Successfully.&quot;);
+}else{
+alert(result);
+}</url>
+    </webLinks>
+</CustomObject>

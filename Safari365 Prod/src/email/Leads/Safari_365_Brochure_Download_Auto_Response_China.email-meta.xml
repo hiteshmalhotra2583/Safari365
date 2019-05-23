@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Safari 365 Brochure Download Auto Response China</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>Safari 365 Brochure Download Auto Response China</name>
+    <style>freeForm</style>
+    <subject>Safari365: 感谢下载我们的旅行指南</subject>
+    <textOnly>尊敬的{!Lead.FirstName}，
+
+
+您好！
+
+感谢您联系Safari365，并下载我们的旅行指南{!Lead.Basket_Information__c}
+
+
+作为非洲领先的旅游公司之一，我们致力于与客人分享我们对这片令人难以置信的大陆的激情。如果您想获得更多的免费旅行指南，请点击这里查看完整列表。
+
+Safari365成立于2004年，目前每年有超过1500个的国际高端客户选择与我们携手出行。我们是南非旅游服务协会（SATSA）的成员，有着正确行业隶属的关系和信誉，以确保您无后顾之忧。我们专注非洲高端定制旅行，并根据亲身考察经历为客人推荐性价比最高的住宿及原汁原味的路线。请点击这里查看我们客人的反馈信息。
+
+因为客人是直接和我们打交道，省去了所有的中间环节，我们可以为客人提供同等产品或路线下最优惠的价格。
+
+我们的中文旅行顾问将会尽快与您联系。您也可以发邮件至info@safari365.com或拨打南非总部电话+27 21 418 1325告诉我们您的具体想法及要求。
+
+诚挚的问候，
+Safari 365
+
+Get to know us better! Read our blog
+_______________________________________________________________________________________________
+
+Safari365.com &amp; South Africa 365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK  080 823 44485  USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325  Fax: 086 658 1713
+www.safari365.com &amp; www.southafrica365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

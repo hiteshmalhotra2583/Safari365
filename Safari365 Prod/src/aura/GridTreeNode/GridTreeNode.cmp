@@ -1,0 +1,173 @@
+<aura:component description="TreeNode">
+    <aura:attribute name="item" type="Object" required="true" />
+    <aura:attribute name="level" type="Integer" required="true" />
+    <aura:attribute name="config" type="Map" default="{}" />
+    <aura:attribute name="isInnerNode" type="Boolean" default="False"/>
+    <aura:attribute name="itemPosition" type="String" />
+    <aura:attribute name="parentClass" type="String" />
+    
+    <aura:attribute name="refreshItem" type="String" default="" />
+    <aura:attribute name="filterTree" type="String" default="" />
+    <aura:attribute name="showLink" type="Boolean" default="false"/>
+	<aura:attribute name="serviceLineStatus" type="List"/>
+    
+    <aura:attribute name="label" type="String" access="private" />
+    <aura:attribute name="buttonName" type="String" access="private" />
+    <aura:attribute name="data" type="List" access="private" />
+    <aura:attribute name="id" type="String" access="private" />
+    <aura:attribute name="children" type="List" access="private" />
+    <aura:attribute name="hasChildren" type="Boolean" access="private" />
+    <aura:attribute name="hasButton" type="Boolean" access="private" />
+    <aura:attribute name="toggleExpandIcon" type="String" access="private" default="utility:chevronright"/>
+    <aura:attribute name="isSelected" type="Boolean" access="private" default="false" />
+    <aura:attribute name="onToggleExpand" type="Aura.Action" access="private" default="{!c.onToggleExpand}" />
+    <aura:attribute name="onSelectNode" type="Aura.Action" access="private" default="{!c.onSelectNode}" />
+    <aura:attribute name="onShowModelEvent" type="Aura.Action" access="private" default="{!c.onShowModelEvent}" />
+    <aura:attribute name="ondeleteItemCheckboxEvent" type="Aura.Action" access="private" default="{!c.ondeleteItemCheckboxEvent}" />
+    <aura:attribute name="onUpdateItems" type="Aura.Action" access="private" default="{!c.onUpdateItemsEvent}" />
+    <aura:attribute name="onShowCrmEvent" type="Aura.Action" access="private" default="{!c.onShowCrmEvent}" />
+    
+    <aura:attribute name="columns" type="List" access="private"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler name="change" value="{!v.refreshItem}" action="{!c.itemChange}"/>
+	<!--<aura:handler name="collapseAllEvent" event="c:CollapseAllEvent" action="{!c.handleCollapseAllEvent}"/>-->
+	<aura:handler event="c:CollapseAllEvent" action="{!c.handleCollapseAllEvent}"/> 
+    
+    <aura:registerEvent name="treeSelectionEvent" type="c:TreeSelectionEvent"/>
+    <aura:registerEvent name="treeExpansionEvent" type="c:TreeExpansionEvent"/>
+	<aura:registerEvent name="showModelEvent" type="c:ShowModelEvent"/>
+    <aura:registerEvent name="deleteItemCheckboxEvent" type="c:DeleteItemCheckboxEvent"/>
+    <aura:registerEvent name="showCrmEvent" type="c:ShowCrmEvent"/>
+    <aura:registerEvent name="updateItemsEvent" type="c:UpdateItemsEvent"/>
+    <tr class="{!'slds-hint-parent '+v.parentClass}" aria-level="{!v.level}" >
+        <!-- Node/leaf Need to add code for adding the plus sign here -->
+        <th scope="col">
+            <aura:if isTrue="{!v.hasButton}">
+                    <!--Add Button-->
+                    <div class="slds-button-group">
+                        <aura:if isTrue="{!v.buttonName=='Add'}">
+							<button class="slds-button slds-button--neutral" onclick="{!v.onShowModelEvent}">{!v.buttonName}</button>
+                         		<aura:set attribute="else">
+                                    <aura:if isTrue="{!v.buttonName=='Edit'}">
+                                     <input type="hidden" style="display:none" value="{!v.item.ServiceLineItem.Id}"/>
+                                     <ui:inputSelect aura:id="ActionSelector" class="slds-select" change="{!c.onShowModelEvent}" multiple="false">
+                                         <ui:inputSelectOption text="Action" label="Action" value="true"/>
+                                         <ui:inputSelectOption text="Edit" label="Edit"/>
+                                         <ui:inputSelectOption text="Delete" label="Delete"/>
+                                         <ui:inputSelectOption text="Up" label="Up"/>
+                                         <ui:inputSelectOption text="Down" label="Down"/>
+                                     </ui:inputSelect> 
+                                       
+                                    </aura:if>
+                            	</aura:set>
+                        </aura:if>
+					</div>
+                </aura:if>
+        </th>
+        <aura:iteration items="{!v.data}" var="column" indexVar="col">
+            <aura:if isTrue="{!col==0}">
+                <th scope="row" class="slds-tree__item">
+					<span style="vertical-align: bottom;">
+                       <ui:inputCheckbox aura:id="deleteItemCheckbox"  class="dynamic" change="{!v.ondeleteItemCheckboxEvent}"/>
+                    </span>
+                    <div class="slds-tree__item">
+                        <aura:if isTrue="{!v.hasChildren}">
+                            
+                            <button class="slds-button slds-m-right--x-small" id="{!'tree-'+v.itemPosition}" onclick="{!v.onToggleExpand}">
+                                <lightning:icon iconName="{!v.toggleExpandIcon}" size="xx-small"  />
+                            </button>
+                            <aura:set attribute="else">
+                                <span class="spacer"></span>
+                            </aura:set>
+                        </aura:if>
+                        <span role="presentation" class="slds-truncate">
+                            <aura:if isTrue="{!v.showLink}">
+                                <a onclick="{!c.navigateToRecord}">{!column}</a>
+                                <aura:set attribute="else">
+                                    {!column}
+                                </aura:set>
+                            </aura:if>
+                        </span>
+                    </div>
+                </th>
+                <aura:set attribute="else">
+                    <td >
+                        <aura:if isTrue="{!col==1}">{!column}
+                            <!--<a onclick="{!c.navigateToRecord}">{!column}</a>-->
+                            <aura:set attribute="else">
+                                <aura:if isTrue="{!col==9}">
+                                    <a onclick="{!c.onShowCrmEvent}">{!column}</a>
+                                    <aura:set attribute="else">
+                                        <aura:if isTrue="{!col==6}">
+                                            <aura:if isTrue="{!v.hasChildren}">
+                                                <span class="slds-truncate">{!column} </span>
+                                                <aura:set attribute="else">
+                                                    <ui:inputText change="{!c.onUpdateItemsEvent}"
+                                                                  class="inputText" 
+                                                                  value="{!column}" 
+                                                                  aura:id="InputMarkup" />
+                                                    
+                                                </aura:set>
+                                            </aura:if>
+                                            <aura:set attribute="else">
+                                                <aura:if isTrue="{!col==5}">
+                                                    <aura:if isTrue="{!v.hasChildren}">
+                                                        <span class="slds-truncate">{!column} </span>
+                                                        <aura:set attribute="else">
+                                                            <ui:inputText class="inputText" 
+                                                                          value="{!column}" 
+                                                                          aura:id="InputNett" 
+                                                                          change="{!c.onUpdateItemsEvent}"/>
+                                                        </aura:set>
+                                                    </aura:if>
+                                                    <aura:set attribute="else">
+                                                        <aura:if isTrue="{!col==10}">
+                                                            <aura:if isTrue="{!v.buttonName=='Edit'}">
+                                                                <ui:inputText class="longInputText" 
+                                                                              value="{!column}" 
+                                                                              aura:id="InputClientNotes" 
+                                                                              change="{!c.onUpdateItemsEvent}" />
+                                                                <aura:set attribute="else">
+                                                                	<span class="slds-truncate">{!column} </span>    
+                                                                </aura:set>
+                                                            </aura:if>
+                                                            <aura:set attribute="else">
+                                                                <aura:if isTrue="{!col==8}">
+                                                            <aura:if isTrue="{!v.buttonName=='Edit'}">
+                                                                <ui:inputSelect options="{!v.serviceLineStatus}"
+                                                                                value="{!column}"
+                                                                                class="dynamic" 
+                                                                                aura:id="ServiceLineStatus" 
+                                                                                change="{!c.onUpdateItemsEvent}"/>
+                                                                <aura:set attribute="else">
+                                                                    <span class="slds-truncate">{!column} </span>
+                                                                </aura:set>
+                                                            </aura:if>
+                                                            <aura:set attribute="else">
+                                                                <span class="slds-truncate">{!column} </span>
+                                                            </aura:set>
+                                                        </aura:if>
+                                                            </aura:set>
+                                                        </aura:if>
+                                                    </aura:set>
+                                                </aura:if>
+                                            </aura:set>
+                                        </aura:if> 	
+                                    </aura:set>
+                                </aura:if>
+                            </aura:set>
+                        </aura:if>
+                    </td>
+                </aura:set>
+            </aura:if>
+        </aura:iteration>
+    </tr>
+    <!-- Sub tree -->
+    <aura:if isTrue="{!!empty(v.children)}">
+        <aura:iteration items="{!v.children}" var="childItem" indexVar="pos">
+            <c:GridTreeNode item="{!childItem}" level="{!v.level +1}" config="{!v.config}" isInnerNode="True" itemPosition="{!v.itemPosition+'-'+pos}" parentClass="{!v.parentClass+' tree-'+v.itemPosition}" refreshItem="{!v.refreshItem}" filterTree="{!v.filterTree}" showLink="true"/>
+        </aura:iteration>
+    </aura:if>
+
+</aura:component>

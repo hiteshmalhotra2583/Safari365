@@ -1,0 +1,21 @@
+( DO WE COINCIDE THIS WITH A GIFT DELIVERY -  5 DAYS AFTER TRAVEL??)
+
+{!Opportunity.Name}
+Arrival Date: {!Opportunity.Arrival_Date__c}
+{!Account.Name}
+{!Account.Id}
+{!Account.PersonEmail}
+{!Account.Country_of_Residence__c}
+
+Send via the correct Social Media Channel based on
+{!Account.Website_Origin_c__c} 
+
+Hi XX,
+
+Welcome to Africa!! We hope that you are enyoying XX lodge and YY and ZZ to come (CHECK IN TL AND SEE WHERE THEY ARE) 
+
+Would love to hear from you on your trip, please feel free to share any amazing experiences you have with us at Safari365 using the hashtag 'Safari365"
+
+{!Opportunity.OwnerFirstName} and the entire team at Safari365 wish you the most incredible trip
+
+Safari365 (SENT AS A PERSONAL MESSAGE??)

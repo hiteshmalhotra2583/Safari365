@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>2015 August Newsletter (English)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 August Newsletter (English)</name>
+    <style>none</style>
+    <subject>Holiday Season is coming - Safari365 August Newsletter</subject>
+    <textOnly>African Summer 2015 is here – Join us this season
+
+Dear [fname],
+
+Time flies when you’re having fun. 2015 has been no different. And with that, end of year celebrations are once again upon us.
+
+If you are still undecided as to what to do for your end-of year holidays, why not visit us in Africa? ( with the South African Rand at an all-time low, great value is to be has in South Africa) Here are a couple of cherry-picked list of last-minute packages to whet your appetite (which we can customize to your liking, of course):
+
+Safari365
+Old Marine Dr Foreshore,
+Cape Town, 8000, South Africa
+
+Safari365.com
+View in browser</textOnly>
+    <type>custom</type>
+</EmailTemplate>

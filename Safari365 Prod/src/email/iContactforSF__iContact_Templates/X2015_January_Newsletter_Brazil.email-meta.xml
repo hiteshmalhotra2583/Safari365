@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2015 January Newsletter (Brazil)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 January Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Safari365 - Ano Novo, Novos Horizontes</subject>
+    <textOnly>Newsletter – Fevereiro 2015 
+
+
+New Year, New Horizon  Ano Novo, Novos Horizontes
+Queridos clientes,
+O tempo voa quando estamos nos divertindo! Iniciamos 2015 com foco em um novo destino, as Cataratas Vitória, que vem se mostrando cada dia mais atraente – principalmente com as notícias anunciadas pelo Zimbábue. 
+Confira abaixo todas as nossas novidades e promoções que irão satisfazer seu wanderlust (o ‘desejo de viajar’). Estamos ansiosos para levá-los para novas aventuras neste novo ano. Desejamos ótimas viagens a todos! 
+
+Marcus Brain, fundador da Safari365
+
+
+Qual lado das Cataratas Vitória é melhor: Zâmbia vs Zimbábue
+Deseja visitar as Cataratas Vitória? Está na dúvida qual lado visitar, Zâmbia ou Zimbábue? Ambos os países possuem prós e contras na hora de visitar as Cataratas Vitória.
+Para aqueles que não estão familiarizados com a geografia local, o Rio Zambezi - que origina as Cataratas Vitória - divide estes dois belos países africanos.
+Para quem deseja viajar para a região, resta apenas a difícil tarefa de escolher qual lado visitar (e por que não os dois?)
+Descubra tudo o que você precisa saber sobre as diferenças entre os lados com o nosso infográfico, desfrute também de dicas e curiosidades. 
+
+
+O novo UNIVISA economizará seu tempo e dinheiro
+O Zimbábue está em ascensão! 
+O novo visto UNIVISA abre as fronteiras do Zimbábue, economizando tempo e dinheiro daqueles que desejam visitar a região. 
+E para melhorar, um projeto de reforma de US$150 milhões no Aeroporto Internacional Victoria Falls promete abrir o Zimbábue para o resto do mundo, além de proporcionar maior flexibilidade para aqueles que desejam explorar o continente.
+
+
+Promoções Especiais
+Safári Selvagem 
+O melhor de Botsuana
+Onde: Botsuana
+Desfrute o melhor de Botsuana em 1 destes 4 lodges renomados: Jao, com vistas deslumbrantes do Okavango Delta; Kings Pool, com vista para a lagoa da Reserva Linyati; Vumbura South, o refúgio romântico ideal; e Abu Camp, no coração do país dos elefantes. 
+Preço: US$ 3.990 por pessoa/apto duplo (estadia mínima de 6 noites)
+Economia: US$ 3.462
+Período limite para reserva: Por ser uma promoção sazonal, é válida apenas até o fim de Março/2015.
+
+
+Promoções Especiais
+3 dias especiais nas Cataratas Vitória
+Onde: Cataratas Vitória, Zimbábue
+Descubra as maravilhas da Mãe Natureza com uma estadia 4 estrelas na ‘Capital da Aventura’
+Este pacote inclui: a escolha de 1 dentre 3 acomodações sugeridas; 2 tours complementares, nos quais você se aventurará em exuberantes florestas tropicais para observar a maior queda d’água do mundo! 
+Preço: a partir de US$ 749 por pessoa/apto duplo (2 noites/exclui taxas de aeroporto)</textOnly>
+    <type>custom</type>
+</EmailTemplate>

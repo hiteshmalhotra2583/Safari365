@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2015 July Newsletter (Brazil)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 July Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Safari365: Botsuana, um conto de fadas!</subject>
+    <textOnly>Botsuana, um conto de fadas
+
+Olá [fname],
+
+Deltas, lagos, parques nacionais e salinas intermináveis...Botsuana é sem dúvida um conto de fadas. E este mês exploraremos tudo o que o país tem a oferecer!
+
+Estive recentemente por lá em uma jornada de tirar o fôlego. Por isso, é com muita alegria que divido com você fotos, vídeos e muitas informações sobre este incrível destino africano. Tudo isso e mais um pouco em nosso blog - que, por sinal, está em forte expansão.
+
+Trago também novidades de roteiros e férias na nossa amada África!
+
+No mais, estou feliz em anunciar que o verão se aproxima e já conseguimos avistar a famosa alta temporada sul-africana. Espero que nosso boletim informativo inspire e divirta você!
+
+Nos vemos aqui na África.
+
+~  Marcus Brain, fundador Safari365 ~
+
+Safari365
+Old Marine Dr Foreshore,
+Cape Town, 8000, South Africa
+
+Safari365.com/pt
+View in browser
+[webversionurl]</textOnly>
+    <type>custom</type>
+</EmailTemplate>

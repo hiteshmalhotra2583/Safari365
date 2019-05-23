@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification sent to client and when a payment from their booking has been received</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Safari_365_Letterhead</letterhead>
+    <name>External: Client Funds Received</name>
+    <style>freeForm</style>
+    <subject>Thank you for your payment to Safari365</subject>
+    <textOnly>Dear {!Quotations__c.Primary_Client_First_Name__c},
+
+We can confirm that a payment has been received for your holiday, {!Quotations__c.Opportunity__c}-{!Quotations__c.Quotation_Name__c}. Your consultant, {!Opportunity.OwnerFullName}, will be available should you have any further queries about your booking.
+
+
+Please see your payments summary below:
+
+Booking Total {!Quotations__c.Currency__c} {!Quotations__c.Quotation_Sale_Total_in_Selected_CC__c}
+Funds Received {!Quotations__c.Currency__c} {!Quotations__c.Funds_Received_To_Date__c}
+Balance Due {!Quotations__c.Currency__c} {!Quotations__c.Total_Funds_Outstanding__c}
+
+
+Thank you for entrusting your holiday with Safari365, we appreciate your support and have no doubt you will have a memorable trip.
+
+Kind regards,
+Safari365 Payments.</textOnly>
+    <type>html</type>
+</EmailTemplate>

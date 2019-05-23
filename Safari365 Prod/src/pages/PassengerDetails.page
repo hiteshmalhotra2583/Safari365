@@ -1,0 +1,370 @@
+<apex:page showHeader="false" sidebar="false" Controller="PassengerDetailsController" docType="html-5.0" >
+
+    <apex:slds />
+    
+    <apex:form >
+      <div class="slds-text-heading_large" style="padding-left:25px;">Edit Passenger Details</div>
+        <div style="background-color:#F7F5F5;width:100%">
+	        <div style="width:50%;margin: 0 auto;"><apex:commandButton disabled="{!SaveDisabled}" action="{!Save}" value="Save" rerender="main" status="ajaxStatus" styleClass="slds-button" /></div>
+          
+        </div>
+            <apex:actionStatus id="ajaxStatus" startText="Updating passenger details...">
+            <apex:facet name="stop">
+                <apex:outputPanel id="main" >
+                    <table>
+                        
+                        <!--<apex:repeat value="{!PassengerWs}" var="p">-->
+                            <tr>
+                                <td >
+                                    <div class="slds-section__title" style="padding-left:25px;">
+                                        Select Passenger to update the details:
+                                        </div>
+                                    <div style="padding-left:25px;padding-bottom:15px;padding-top:10px;width=300;">
+                                        <apex:selectList multiselect="false" size="1" value="{!SelectedOption}"  required="false" >
+                                            <apex:actionSupport event="onchange" action="{!onPassengerListChange}" />
+                                            <apex:selectOptions value="{!PassengerSelectOptions}"></apex:selectOptions>
+                                        </apex:selectList>
+                                    </div>  
+                                    <!--<div class="slds-page-header__title" style="Margin:25px;">Passenger {!p.counter}:</div>-->
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <table >
+                                                    <tr>
+                                                    	<td class="slds-section__title" style="padding-left:25px;">Passport Information</td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td>
+                                                            <div class="slds-grid slds-wrap">
+                                                                <apex:repeat value="{!$ObjectType.Passenger__c.FieldSets.PassportInformation}" var="field">
+                                                                    <div class="slds-col slds-size--1-of-1 slds-medium-size--6-of-12">
+                                                                        <div class="slds-form-element slds-p-around--medium">
+                                                                            <table>
+                                                                                <tr >
+                                                                                    <td style="width:250px;padding-left:20px;">
+                                                                                        <label class="slds-form-element__label">
+                                                                                            {!field.label}
+                                                                                        </label>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <div class="slds-form-element__control">
+                                                                                            <apex:inputField value="{!SelectedPassenger[field]}" ></apex:inputField>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </apex:repeat>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr height="20px;"><td></td></tr>
+                                        <tr>
+                                            <td>
+                                                <table >
+                                                    <tr>
+                                                    	<td class="slds-section__title" style="padding-left:25px;">Contact Information</td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td>
+                                                                <div class="slds-grid slds-wrap">
+                                                                    <apex:repeat value="{!$ObjectType.Passenger__c.FieldSets.ContactInformation}" var="field">
+                                                                        <div class="slds-col slds-size--1-of-1 slds-medium-size--6-of-12">
+                                                                            <div class="slds-form-element slds-p-around--medium">
+                                                                                <table>
+                                                                                    <tr>
+                                                                                        <td style="width:250px;padding-left:20px;">
+                                                                                            <label class="slds-form-element__label">
+                                                                                                {!field.label}
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <div class="slds-form-element__control">
+                                                                                                <apex:inputField value="{!SelectedPassenger[field]}" ></apex:inputField>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
+                                                                    </apex:repeat>
+                                                                </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td>
+                                            </td>    
+                                        </tr>
+                                        <tr height="20px;"><td></td></tr>
+                                        <tr>
+                                            <td>
+                                                <table >
+                                                    <tr>
+                                                    	<td class="slds-section__title" style="padding-left:25px;">Emergency Contact Information</td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td>
+                                                             <div class="slds-grid slds-wrap">
+                                                                    <apex:repeat value="{!$ObjectType.Passenger__c.FieldSets.EmergencyContactInformation}" var="field">
+                                                                        <div class="slds-col slds-size--1-of-1 slds-medium-size--6-of-12">
+                                                                            <div class="slds-form-element slds-p-around--medium">
+                                                                                <table>
+                                                                                    <tr>
+                                                                                        <td style="width:250px;padding-left:20px;">
+                                                                                            <label class="slds-form-element__label">
+                                                                                                {!field.label}
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <div class="slds-form-element__control">
+                                                                                                <apex:inputField value="{!SelectedPassenger[field]}" ></apex:inputField>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
+                                                                    </apex:repeat>
+                                                                </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td>
+                                            </td>    
+                                        </tr>
+                                        <tr height="20px;"><td></td></tr>
+                                        <tr>
+                                            <td>
+                                                <table >
+                                                    <tr>
+                                                    	<td class="slds-section__title" style="padding-left:25px;">Allergies and Dietary Restrictions</td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td>
+                                                            <div class="slds-grid slds-wrap">
+                                                                    <apex:repeat value="{!$ObjectType.Passenger__c.FieldSets.DietaryRestrictions}" var="field">
+                                                                        <div class="slds-col slds-size--1-of-1 slds-medium-size--6-of-12">
+                                                                            <div class="slds-form-element slds-p-around--medium">
+                                                                                <table>
+                                                                                    <tr>
+                                                                                        <td style="width:250px;padding-left:20px;">
+                                                                                            <label class="slds-form-element__label">
+                                                                                                {!field.label}
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <div class="slds-form-element__control">
+                                                                                                <apex:inputField value="{!SelectedPassenger[field]}" ></apex:inputField>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
+                                                                    </apex:repeat>
+                                                                </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr height="20px;"><td></td></tr>
+                                        <tr>
+                                            <td>
+                                                <table >
+                                                    <tr>
+                                                    	<td class="slds-section__title" style="padding-left:25px;">Medical Information</td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td>
+                                                            <div class="slds-grid slds-wrap">
+                                                                    <apex:repeat value="{!$ObjectType.Passenger__c.FieldSets.MedicalInformation}" var="field">
+                                                                        <div class="slds-col slds-size--1-of-1 slds-medium-size--6-of-12">
+                                                                            <div class="slds-form-element slds-p-around--medium">
+                                                                                <table>
+                                                                                    <tr>
+                                                                                        <td style="width:250px;padding-left:20px;">
+                                                                                            <label class="slds-form-element__label">
+                                                                                                {!field.label}
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <div class="slds-form-element__control">
+                                                                                                <apex:inputField value="{!SelectedPassenger[field]}" ></apex:inputField>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
+                                                                    </apex:repeat>
+                                                                </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr height="20px;"><td></td></tr>
+                                        <tr>
+                                        <td>
+                                            <table >
+                                                    <tr>
+                                                    	<td class="slds-section__title" style="padding-left:25px;">The Fun Stuff</td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td>
+                                                             <div class="slds-grid slds-wrap">
+                                                                    <apex:repeat value="{!$ObjectType.Passenger__c.FieldSets.FunStuff}" var="field">
+                                                                        <div class="slds-col slds-size--1-of-1 slds-medium-size--6-of-12">
+                                                                            <div class="slds-form-element slds-p-around--medium">
+                                                                                <table>
+                                                                                    <tr>
+                                                                                        <td style="width:250px;padding-left:20px;">
+                                                                                            <label class="slds-form-element__label">
+                                                                                                {!field.label}
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <div class="slds-form-element__control">
+                                                                                                <apex:inputField value="{!SelectedPassenger[field]}" ></apex:inputField>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
+                                                                    </apex:repeat>
+                                                                </div>
+                                                        </td>
+                                                </tr>
+                                            </table>
+                                            </td>
+                                        <td></td>    
+                                        </tr>
+                                        <tr height="20px;"><td></td></tr>
+                                        <tr>
+                                        <td>
+                                             <table >
+                                                    <tr>
+                                                    	<td class="slds-section__title" style="padding-left:25px;">Insurance Information</td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td>
+                                                           <div class="slds-grid slds-wrap">
+                                                                    <apex:repeat value="{!$ObjectType.Passenger__c.FieldSets.InsuranceInformation}" var="field">
+                                                                        <div class="slds-col slds-size--1-of-1 slds-medium-size--6-of-12">
+                                                                            <div class="slds-form-element slds-p-around--medium">
+                                                                               <table>
+                                                                                    <tr>
+                                                                                        <td style="width:250px;padding-left:20px;">
+                                                                                            <label class="slds-form-element__label">
+                                                                                                {!field.label}
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <div class="slds-form-element__control">
+                                                                                                <apex:inputField value="{!SelectedPassenger[field]}" ></apex:inputField>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
+                                                                    </apex:repeat>
+                                                                </div>
+                                                        </td>
+                                                 </tr>
+                                            </table>
+                                            </td>
+                                        </tr>
+                                        <tr height="20px;"><td></td></tr>
+                                        <tr>
+                                        <td>
+                                            <table >
+                                                    <tr>
+                                                    	<td class="slds-section__title" style="padding-left:25px;">Flight Information</td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td>
+                                                                <div class="slds-grid slds-wrap">
+                                                                    <apex:repeat value="{!$ObjectType.Passenger__c.FieldSets.FlightInformation}" var="field">
+                                                                        <div class="slds-col slds-size--1-of-1 slds-medium-size--6-of-12">
+                                                                            <div class="slds-form-element slds-p-around--medium">
+                                                                                <table>
+                                                                                    <tr>
+                                                                                        <td style="width:250px;padding-left:20px;">
+                                                                                            <label class="slds-form-element__label">
+                                                                                                {!field.label}
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <div class="slds-form-element__control">
+                                                                                                <apex:inputField value="{!SelectedPassenger[field]}" ></apex:inputField>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
+                                                                    </apex:repeat>
+                                                                </div>
+                                                        </td>
+                                                </tr>
+                                            </table>
+                                                        
+                                            </td>
+                                        </tr>
+                                        <tr height="20px;"><td></td></tr>
+                                        <tr>
+                                        <td>
+                                            <table >
+                                                    <tr>
+                                                    	<td class="slds-section__title" style="padding-left:25px;">Waiver Of Liability</td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td>
+                                            				<div class="slds-grid slds-wrap">
+                                                                <apex:repeat value="{!$ObjectType.Passenger__c.FieldSets.WaiverOfLiability}" var="field">
+                                                                    <div class="slds-col slds-size--1-of-1 slds-medium-size--6-of-12">
+                                                                        <div class="slds-form-element slds-p-around--medium">
+                                                                            <table>
+                                                                                <tr>
+                                                                                    <td style="width:250px;padding-left:20px;">
+                                                                                        <label class="slds-form-element__label">
+                                                                                            {!field.label}
+                                                                                        </label>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <div class="slds-form-element__control">
+                                                                                            <apex:inputField value="{!SelectedPassenger[field]}" ></apex:inputField>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </apex:repeat>
+                                                            </div>
+                                                        </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td></td>    
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr height="50px;"><td></td></tr>
+                        <!--</apex:repeat>-->
+                    </table>
+              </apex:outputPanel>
+            </apex:facet>
+        </apex:actionStatus>
+    </apex:form>
+</apex:page>

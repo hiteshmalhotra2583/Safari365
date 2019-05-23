@@ -1,0 +1,4 @@
+<aura:event type="COMPONENT" description="Event thrown when a delete item chckbox is clicked">
+    <aura:attribute name="selection" type="Object" access="global" description="Data associated with the selected tree node/leaf"/>
+    <aura:attribute name="isChecked" type="Boolean" access="global" description="Checkbox selection value"/>
+</aura:event>

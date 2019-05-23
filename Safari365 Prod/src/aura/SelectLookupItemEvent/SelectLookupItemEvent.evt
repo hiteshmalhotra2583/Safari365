@@ -1,0 +1,3 @@
+<aura:event type="APPLICATION" description="When an item is selected in Autocomplete textbox">
+    <aura:attribute name="SelectedLookupText" type="String" access="global" description="Selected Item text"/>
+</aura:event>

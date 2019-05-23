@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2015 November Newsletter (Brazil)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2015 November Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Safari365: Dias ensolarados e noites quentes na África!</subject>
+    <textOnly>Se não conseguir visualizar clique aqui
+
+Dias de Sol, noites de Lua!
+
+Olá [fname],
+
+Chegamos novamente a mais um final de ano. Aquele momento em que mal podemos esperar pelas datas comemorativas para estarmos perto dos amigos e da família, encerrando mais um ciclo de 365 dias.
+
+Para mim, esta é a melhor época do ano! Acordo todos os dias olhando para a Table Mountain iluminada pelo sol e vou dormir com luares que enchem meu coração de sonhos. Como fundador de uma operadora de viagens, o que mais poderia querer? Se me surpreendo com a beleza deste continente, imagino nossos clientes que estão vendo tudo o que vejo.
+
+Da bela Cidade do Cabo aos espetaculares safáris em Botsuana, trazemos neste boletim informativo as melhores oportunidades para você visitar a Mama África em 2016, além de curiosidades e informações que você precisa saber - inspiração é o que não falta para você se aventurar em uma jornada inesquecível por aqui.
+
+Desejo a todos um excelente final de ano!
+
+~  Marcus Brain, fundador Safari365  ~</textOnly>
+    <type>custom</type>
+</EmailTemplate>

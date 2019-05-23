@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>No response (client gone quiet)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>No_Banner</letterhead>
+    <name>2.2. STAGE = IN DIALOGUE</name>
+    <style>formalLetter</style>
+    <subject>{!User.Division} - {!Account.Name}: Follow-up de sua viagem à África</subject>
+    <textOnly>Dear {!Account.Name},
+Hello again from Cape Town.
+
+I am just following up to ensure that you successfully received my last emails regarding your proposed trip?
+
+I am very keen to make this trip a reality for you; please let me know if you are still interested in travelling to Africa before I close your file.
+
+Kind regards,
+
+{!User.Name}
+{!User.Title}
+{!User.Email}
+
+PS – I am available for a quick call if you prefer, I often find this is easier to hash out the detail :)
+
+Visit Your Members Club: www.safari365.com/members/login/{!Opportunity.Members_Club_ID__c}
+
+Get to know us better! Read our blog
+_______________________________________________________________________________________________
+
+Safari365.com &amp; South Africa 365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK 080 823 44485 USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325 Fax: 086 658 1713
+www.safari365.com &amp; www.southafrica365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

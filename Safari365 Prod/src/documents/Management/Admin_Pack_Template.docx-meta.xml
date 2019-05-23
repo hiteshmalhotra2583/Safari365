@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Lodge / Hotel details template</description>
+    <internalUseOnly>true</internalUseOnly>
+    <name>Educational Admin Pack Template</name>
+    <public>false</public>
+</Document>

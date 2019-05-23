@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ODT</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ODTs</value>
+    </caseValues>
+    <fields>
+        <label><!-- EX1 --></label>
+        <name>EX1__c</name>
+    </fields>
+    <fields>
+        <label><!-- EX2 --></label>
+        <name>EX2__c</name>
+    </fields>
+    <fields>
+        <label><!-- EX3 --></label>
+        <name>EX3__c</name>
+    </fields>
+    <fields>
+        <label><!-- EX4 --></label>
+        <name>EX4__c</name>
+    </fields>
+    <fields>
+        <label><!-- EX5 --></label>
+        <name>EX5__c</name>
+    </fields>
+    <fields>
+        <label><!-- OPT --></label>
+        <name>OPT__c</name>
+    </fields>
+    <fields>
+        <label><!-- OSR_id --></label>
+        <name>OSR_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- QR --></label>
+        <name>QR__c</name>
+    </fields>
+    <fields>
+        <label><!-- SS --></label>
+        <name>SS__c</name>
+    </fields>
+    <fields>
+        <label><!-- TAX --></label>
+        <name>TAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- TR --></label>
+        <name>TR__c</name>
+    </fields>
+    <fields>
+        <label><!-- TW --></label>
+        <name>TW__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

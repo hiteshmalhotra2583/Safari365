@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Festive Wishes</name>
+    <style>none</style>
+    <subject>Festive Season Wishes from 365 Tours &amp; Safaris</subject>
+    <textOnly>Wishing you a wonderful festive season and a prosperous 2012,
+
+Yours in travel,
+365 Tours &amp; Safaris team</textOnly>
+    <type>custom</type>
+</EmailTemplate>

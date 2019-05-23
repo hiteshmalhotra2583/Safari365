@@ -1,0 +1,4 @@
+<aura:event type="COMPONENT" description="Event thrown when a delete item chckbox is clicked">
+    <aura:attribute name="selection" type="Object" access="global" description="Data associated with the selected tree node/leaf"/>
+    <aura:attribute name="markupValue" type="Boolean" access="global" description="new markup value"/>
+</aura:event>

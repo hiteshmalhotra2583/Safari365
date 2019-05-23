@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Welcome Home Letter (manually sent)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Welcome_Home</letterhead>
+    <name>External: Welcome Home ( NO PhotoBook offered)</name>
+    <style>freeForm</style>
+    <subject>Welcome Home from Safari365</subject>
+    <textOnly>Hi {!Account.FirstName},
+
+This is a warm welcome home after what I trust was an incredible African experience! It has been an absolute pleasure helping you throughout the planning and execution of your holiday, and I can only hope that it was everything that you had dreamed it would be.
+
+Once you’re settled and back in the swing of things, I would very much like to hear your feedback from your trip, both the good or the bad, as this is the best way for us to improve our service and help future travellers. Please provide your opinion if you have a moment, including an overview of the trip and who best it would suit, feedback on the various hotels/lodges and where you think we could improve (at all times we will respect your privacy).
+
+Also, in the name of social interaction, please feel free to join our family on Facebook, stay in touch with our Blog or share your thoughts and experiences with other travellers on Tripadvisor or Google+.
+
+If you happen to discuss your trip with friends and family, and I would be very grateful if you would pass my details onto anybody that is inspired to follow your footsteps.
+
+Thank you again for travelling with us and I hope to welcome you back to Africa soon
+
+Kind regards,
+
+{!User.Name}
+
+{!User.Title}
+
+{!User.Email}
+
+
+PS - Let us know if you object to us using your feedback on our websites, we never give personal details, merely first names and country of origin.</textOnly>
+    <type>html</type>
+</EmailTemplate>

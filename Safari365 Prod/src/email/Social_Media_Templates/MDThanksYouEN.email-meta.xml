@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>MD Sending Repeart and referral template  - Thank You for business</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Leopard_Banner</letterhead>
+    <name>Repeart and referral MD Thank You_ EN</name>
+    <style>freeForm</style>
+    <subject>Thank you from Safari365</subject>
+    <textOnly>Dear {!Account.FirstName},
+
+I just wanted to write you a quick note, expressing our appreciation for you recommending XXXX for their upcoming trip to Africa. I have been working on a very special experience for them, and I think the itinerary planned will get them to have an incredible African experience.
+
+As a thank you, we would like to send you a small gift of appreciation. Without giving the surprise away, would you prefer:
+
+Something liquid that has been fermented?
+A coffee table book featuring Africa’s best photographs?
+A memento that holds your travel documents for a future trip?
+
+Please let me know, and please provide me with your full residential address ( together with any delivery instructions I should tell the courier company)
+
+Yours in Safari,
+
+{!User.Name}
+
+{!User.Title}
+
+{!User.Email}
+
+
+
+See our latest travel inspirations! Read our blog
+_______________________________________________________________________________________________
+
+Safari365.com
+3 Old Marine Drive, Cape Town, South Africa. PO Box 189, Cape Town, 8000.
+Registration Number 2005/114443/23 VAT Number: 4190227480
+Toll Free: UK 080 823 44485 USA 1877 843 1621 AUS 180 000 4296
+SA +27 (0)21 418 1325 Fax: 086 658 1713
+www.safari365.com
+__________________________________________________________________________</textOnly>
+    <type>html</type>
+</EmailTemplate>

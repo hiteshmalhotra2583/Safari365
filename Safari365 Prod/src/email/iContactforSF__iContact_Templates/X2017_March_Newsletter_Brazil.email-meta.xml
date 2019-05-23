@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2017 March Newsletter (Brazil)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2017 March Newsletter (Brazil)</name>
+    <style>none</style>
+    <subject>Descubra as vinícolas de Constantia | Safari365</subject>
+    <textOnly>Descubra as vinícolas de Constantia, na Cidade do Cabo
+
+Olá [fname],
+
+O outono oficialmente começou no hemisfério sul e a Cidade do Cabo já vivencia dias mais curtos e noites mais frias. Esta estação também marca o fim da colheita das uvas na região vinícola de Cape Winelands. Isto significa que as fazendas estão ocupadas com a preparação da próxima safra de vinhos - o que nos inspirou a separar o mês de abril para falar um pouco mais sobre Constantia Winelands, a região vinícola mais antiga da África do Sul.
+
+Constantia é um pacote completo de história, cultura, vistas espetaculares, clima inspirador, gastronomia, aventura e vinhos de altíssima qualidade (até Napoleão Bonaparte aprovou). Não mais distante do que 30 minutos da cidade, Constantia irá supreender você com a quantidade e variedade de vinícolas que possui. Aqui, todos visitantes são mais que bem-vindos a sentarem e desfrutarem de uma degustação de vinho.
+
+Como complemento, separamos uma matéria especial com a lista das acomodações recomendadas pela National Geographic. Isso mesmo, um reforço desta renomada revista aos conselhos que damos aos nossos clientes sedentos por aventura, conhecimento, conforto e luxo no continente africano.
+
+Espero que desfrute de sua leitura e nos vemos do outro lado do Atlântico!
+
+Fundador Safari365
+
+Descubra as vinícolas de Constantia, na Cidade do Cabo</textOnly>
+    <type>custom</type>
+</EmailTemplate>
